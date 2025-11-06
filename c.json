@@ -1,0 +1,1354 @@
+{
+  "question": [
+    {
+      "question_number": 1,
+      "question": "Hiến chương Liên hợp quốc chính thức có hiệu lực vào thời gian nào?",
+      "answeroption": [
+        {
+          "text": "Tháng 02/1945",
+          "rationale": "Sai. Đây là thời điểm Hội nghị I-an-ta họp và ra quyết định thành lập Liên hợp quốc.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tháng 6/1945",
+          "rationale": "Sai. Đây là thời điểm Hội nghị Xan Phran-xi-xcô thông qua Hiến chương, chứ Hiến chương chưa có hiệu lực.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ngày 24/10/1945",
+          "rationale": "Đúng. Ngày 24/10/1945, Hiến chương được Quốc hội các nước thành viên phê chuẩn, Liên hợp quốc chính thức được thành lập.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ngày 01/01/1942",
+          "rationale": "Sai. Đây là ngày 26 nước Đồng minh ký Tuyên bố Liên hợp quốc, cam kết thành lập một tổ chức quốc tế.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sự kiện này đánh dấu ngày thành lập chính thức của Liên hợp quốc."
+    },
+    {
+      "question_number": 2,
+      "question": "Cơ quan nào của Liên hợp quốc chịu trách nhiệm chính trong việc duy trì hoà bình và an ninh quốc tế?",
+      "answeroption": [
+        {
+          "text": "Đại hội đồng",
+          "rationale": "Sai. Đại hội đồng là cơ quan chính gồm tất cả thành viên, nhưng Hội đồng Bảo an mới là cơ quan chịu trách nhiệm *chính* về hòa bình và an ninh.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hội đồng Bảo an",
+          "rationale": "Đúng. Hội đồng Bảo an gồm 15 nước thành viên (trong đó có 5 Ủy viên thường trực) có quyền quyết định các vấn đề trọng đại của thế giới.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hội đồng Kinh tế và Xã hội",
+          "rationale": "Sai. Cơ quan này tập trung vào vai trò thúc đẩy phát triển kinh tế, xã hội, văn hóa.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tòa án Công lý Quốc tế",
+          "rationale": "Sai. Đây là cơ quan tư pháp chính của LHQ.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Cơ quan này bao gồm 5 nước Ủy viên thường trực (Nhóm P5)."
+    },
+    {
+      "question_number": 3,
+      "question": "Theo quyết định của Hội nghị I-an-ta (02/1945), khu vực Đông Nam Á thuộc phạm vi ảnh hưởng của lực lượng nào?",
+      "answeroption": [
+        {
+          "text": "Liên Xô",
+          "rationale": "Sai. Phạm vi ảnh hưởng của Liên Xô ở châu Á chủ yếu là Mông Cổ, Bắc Triều Tiên, Nam Xa-kha-lin.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mỹ",
+          "rationale": "Sai. Phạm vi ảnh hưởng của Mỹ ở châu Á là Nhật Bản và Nam Triều Tiên.",
+          "isCorrect": false
+        },
+        {
+          "text": "Các nước phương Tây",
+          "rationale": "Đúng. Các vùng còn lại của châu Á (Đông Nam Á, Nam Á, Tây Á) vẫn thuộc phạm vi ảnh hưởng của các nước phương Tây.",
+          "isCorrect": true
+        },
+        {
+          "text": "Trung Quốc",
+          "rationale": "Sai. Quyết định của hội nghị là Trung Quốc cần trở thành quốc gia thống nhất và dân chủ.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Quyết định này là một bất lợi cho cách mạng Việt Nam sau năm 1945, tạo điều kiện cho Pháp quay lại xâm lược."
+    },
+    {
+      "question_number": 4,
+      "question": "Hai khối quân sự đối đầu, tiêu biểu cho Trật tự thế giới hai cực I-an-ta trong Chiến tranh lạnh là:",
+      "answeroption": [
+        {
+          "text": "SEV và Kế hoạch Mác-san",
+          "rationale": "Sai. Đây là các tổ chức/kế hoạch về kinh tế. SEV là Hội đồng tương trợ kinh tế , Kế hoạch Mác-san là Kế hoạch phục hưng châu Âu.",
+          "isCorrect": false
+        },
+        {
+          "text": "NATO và Vác-sa-va",
+          "rationale": "Đúng. NATO (Tổ chức Hiệp ước Bắc Đại Tây Dương) do Mỹ và phương Tây thành lập (1949). Tổ chức Hiệp ước Vác-sa-va do Liên Xô và Đông Âu thành lập (1955).",
+          "isCorrect": true
+        },
+        {
+          "text": "NATO và SEV",
+          "rationale": "Sai. NATO là quân sự , nhưng SEV là kinh tế.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vác-sa-va và Kế hoạch Mác-san",
+          "rationale": "Sai. Vác-sa-va là quân sự , nhưng Kế hoạch Mác-san là kinh tế.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Một khối thành lập năm 1949, khối còn lại thành lập năm 1955."
+    },
+    {
+      "question_number": 5,
+      "question": "Sau Chiến tranh lạnh, các quốc gia trên thế giới đều điều chỉnh chiến lược phát triển, tập trung vào lĩnh vực nào?",
+      "answeroption": [
+        {
+          "text": "Quân sự và chạy đua vũ trang",
+          "rationale": "Sai. Đây là đặc trưng của thời kỳ Chiến tranh lạnh. Sau đó, xu thế là giảm chạy đua vũ trang.",
+          "isCorrect": false
+        },
+        {
+          "text": "Văn hóa và hệ tư tưởng",
+          "rationale": "Sai. Mặc dù văn hóa quan trọng, nhưng không phải là trọng tâm chính trong chiến lược phát triển quốc gia.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kinh tế",
+          "rationale": "Đúng. Sau Chiến tranh lạnh, các quốc gia đều điều chỉnh chiến lược phát triển, lấy kinh tế làm trọng tâm, xây dựng sức mạnh tổng hợp của mỗi quốc gia.",
+          "isCorrect": true
+        },
+        {
+          "text": "Đối đầu và xung đột khu vực",
+          "rationale": "Sai. Xu thế chính sau Chiến tranh lạnh là hòa hoãn, đối thoại và hợp tác.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đây được coi là trọng tâm để xây dựng sức mạnh tổng hợp quốc gia."
+    },
+    {
+      "question_number": 6,
+      "question": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập vào ngày tháng năm nào, tại đâu?",
+      "answeroption": [
+        {
+          "text": "08/8/1967, tại Băng Cốc (Thái Lan)",
+          "rationale": "Đúng. Ngày 08/8/1967, tại Băng Cốc (Thái Lan), ngoại trưởng 5 nước đã ký Tuyên bố ASEAN (Tuyên bố Băng Cốc).",
+          "isCorrect": true
+        },
+        {
+          "text": "Tháng 7/1961, tại Cu-a-la Lăm-pơ (Ma-lai-xi-a)",
+          "rationale": "Sai. Đây là thời điểm thành lập Hiệp hội Đông Nam Á (ASA), một tổ chức tiền thân của ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tháng 02/1976, tại Ba-li (In-đô-nê-xi-a)",
+          "rationale": "Sai. Đây là thời điểm diễn ra Hội nghị Thượng đỉnh lần thứ nhất, ký Hiệp ước Thân thiện và Hợp tác (TAC).",
+          "isCorrect": false
+        },
+        {
+          "text": "Tháng 12/2007, tại Xin-ga-po",
+          "rationale": "Sai. Đây là thời điểm Hiến chương ASEAN được thông qua.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sự kiện này gắn liền với 'Tuyên bố Băng Cốc'."
+    },
+    {
+      "question_number": 7,
+      "question": "Việt Nam chính thức gia nhập ASEAN vào năm nào?",
+      "answeroption": [
+        {
+          "text": "1967",
+          "rationale": "Sai. Đây là năm ASEAN được thành lập với 5 quốc gia sáng lập.",
+          "isCorrect": false
+        },
+        {
+          "text": "1984",
+          "rationale": "Sai. Đây là năm Bru-nây gia nhập ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "1995",
+          "rationale": "Đúng. Ngày 28/7/1995, tại Hội nghị Bộ trưởng Ngoại giao ASEAN lần thứ 28 (AMM-28) ở Bru-nây, Việt Nam chính thức gia nhập ASEAN.",
+          "isCorrect": true
+        },
+        {
+          "text": "1999",
+          "rationale": "Sai. Đây là năm Cam-pu-chia gia nhập ASEAN, hoàn tất ASEAN 10.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Việt Nam là thành viên thứ 7 của tổ chức này."
+    },
+    {
+      "question_number": 8,
+      "question": "Đâu KHÔNG PHẢI là một trong ba trụ cột của Cộng đồng ASEAN?",
+      "answeroption": [
+        {
+          "text": "Cộng đồng Chính trị - An ninh (APSC)",
+          "rationale": "Sai. Đây là trụ cột thứ nhất của Cộng đồng ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cộng đồng Kinh tế (AEC)",
+          "rationale": "Sai. Đây là trụ cột thứ hai của Cộng đồng ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cộng đồng Văn hóa - Xã hội (ASCC)",
+          "rationale": "Sai. Đây là trụ cột thứ ba của Cộng đồng ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cộng đồng Quốc phòng - Quân sự (ADMC)",
+          "rationale": "Đúng. Đây không phải là một trong ba trụ cột chính. Các vấn đề quốc phòng, an ninh được xử lý trong khuôn khổ APSC.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Ba trụ cột được thông qua trong Lộ trình xây dựng Cộng đồng năm 2009."
+    },
+    {
+      "question_number": 9,
+      "question": "Mục tiêu của Cộng đồng Kinh tế ASEAN (AEC) là gì?",
+      "answeroption": [
+        {
+          "text": "Tạo ra một thị trường chung và cơ sở sản xuất thống nhất",
+          "rationale": "Đúng. AEC hướng đến tạo dựng một khu vực kinh tế ổn định, cạnh tranh cao... nội dung chính bao gồm tạo ra một thị trường chung và cơ sở sản xuất thống nhất.",
+          "isCorrect": true
+        },
+        {
+          "text": "Giải quyết các xung đột chính trị và tranh chấp lãnh thổ",
+          "rationale": "Sai. Đây là mục tiêu thuộc về Cộng đồng Chính trị - An ninh (APSC).",
+          "isCorrect": false
+        },
+        {
+          "text": "Xây dựng bản sắc ASEAN và lấy con người làm trung tâm",
+          "rationale": "Sai. Đây là mục tiêu thuộc về Cộng đồng Văn hóa - Xã hội (ASCC).",
+          "isCorrect": false
+        },
+        {
+          "text": "Thành lập một liên minh quân sự chung để phòng thủ",
+          "rationale": "Sai. ASEAN là một tổ chức hợp tác liên chính phủ, không phải là một liên minh quân sự.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Trụ cột này tập trung vào việc di chuyển tự do của hàng hóa, dịch vụ và đầu tư."
+    },
+    {
+      "question_number": 10,
+      "question": "Một trong những thách thức lớn nhất mà Cộng đồng ASEAN phải đối mặt hiện nay là:",
+      "answeroption": [
+        {
+          "text": "Sự chênh lệch về trình độ phát triển kinh tế",
+          "rationale": "Đúng. Sự chênh lệch về trình độ phát triển kinh tế, khoa học công nghệ giữa các quốc gia ASEAN gây khó khăn cho các nước trong quá trình hợp tác.",
+          "isCorrect": true
+        },
+        {
+          "text": "Thiếu hụt tài nguyên thiên nhiên",
+          "rationale": "Sai. Khu vực Đông Nam Á giàu tài nguyên. Thách thức là việc khai thác và các vấn đề an ninh phi truyền thống liên quan, không phải thiếu hụt.",
+          "isCorrect": false
+        },
+        {
+          "text": "Xung đột tôn giáo lan rộng",
+          "rationale": "Sai. Mặc dù có khác biệt về văn hóa, chính trị, nhưng xung đột tôn giáo lan rộng không phải là thách thức chính được nêu trong bài.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự tan rã của các tổ chức khu vực khác",
+          "rationale": "Sai. Đây không phải là một thách thức trực tiếp đối với nội bộ ASEAN.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Thách thức này liên quan đến sự khác biệt về GDP và công nghệ giữa các thành viên."
+    },
+    {
+      "question_number": 11,
+      "question": "Một trong những nguyên tắc hoạt động cơ bản của Liên hợp quốc là gì?",
+      "answeroption": [
+        {
+          "text": "Giải quyết các tranh chấp quốc tế bằng biện pháp hoà bình",
+          "rationale": "Đúng. Đây là một trong những nguyên tắc hoạt động cơ bản được thể hiện trong Hiến chương Liên hợp quốc.",
+          "isCorrect": true
+        },
+        {
+          "text": "Thúc đẩy hợp tác kinh tế giữa các nước tư bản chủ nghĩa",
+          "rationale": "Sai. Mục tiêu của LHQ là thúc đẩy hợp tác quốc tế cho *tất cả* mọi người, không phân biệt chế độ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Duy trì trật tự thế giới đơn cực do Mỹ đứng đầu",
+          "rationale": "Sai. Nguyên tắc của LHQ là 'Bình đẳng chủ quyền của tất cả các quốc gia thành viên'.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hình thành liên minh quân sự để chống xung đột",
+          "rationale": "Sai. Nguyên tắc của LHQ là 'Cấm đe dọa sử dụng vũ lực hoặc sử dụng vũ lực trong quan hệ quốc tế'.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nguyên tắc này được quy định tại Điều 2 của Hiến chương Liên hợp quốc."
+    },
+    {
+      "question_number": 12,
+      "question": "Đâu là một trong những nguyên nhân dẫn đến sự sụp đổ của Trật tự thế giới hai cực I-an-ta?",
+      "answeroption": [
+        {
+          "text": "Sự thành công của Kế hoạch Mác-san (Mỹ)",
+          "rationale": "Sai. Kế hoạch Mác-san (1947) là một biểu hiện của sự *xác lập* trật tự hai cực, không phải nguyên nhân sụp đổ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự ra đời của tổ chức NATO (1949)",
+          "rationale": "Sai. Sự ra đời của NATO (1949) là một biểu hiện của sự *phát triển* trật tự hai cực, không phải nguyên nhân sụp đổ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cuộc chạy đua vũ trang kéo dài làm suy giảm thế mạnh của Mỹ và Liên Xô",
+          "rationale": "Đúng. Cuộc chạy đua vũ trang kéo dài hơn bốn thập kỉ đã làm suy giảm thế mạnh của cả Mỹ và Liên Xô, buộc hai bên phải từng bước hạn chế căng thẳng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Thắng lợi của cuộc chiến tranh Triều Tiên (1950-1953)",
+          "rationale": "Sai. Cuộc chiến tranh Triều Tiên là một cuộc chiến tranh cục bộ trong thời kỳ Chiến tranh lạnh, không phải nguyên nhân làm sụp đổ trật tự I-an-ta.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nguyên nhân này liên quan đến sự tốn kém về kinh tế và quân sự của cả hai phe."
+    },
+    {
+      "question_number": 13,
+      "question": "Sự kiện nào sau đây được coi là khởi đầu cho cuộc Chiến tranh lạnh giữa hai phe?",
+      "answeroption": [
+        {
+          "text": "Sự ra đời của Học thuyết Tru-man (1947)",
+          "rationale": "Đúng. Chiến tranh lạnh (Cold War) bắt đầu từ năm 1947 với sự ra đời của Học thuyết Tru-man.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hội nghị I-an-ta (tháng 02/1945)",
+          "rationale": "Sai. Hội nghị I-an-ta là sự kiện *hình thành* trật tự hai cực, nhưng Chiến tranh lạnh bắt đầu sau đó.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự thành lập Liên hợp quốc (tháng 10/1945)",
+          "rationale": "Sai. LHQ được thành lập để duy trì hòa bình, không phải để bắt đầu Chiến tranh lạnh.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự tan rã của Liên Xô (1991)",
+          "rationale": "Sai. Sự kiện này *kết thúc* Chiến tranh lạnh.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sự kiện này diễn ra vào năm 1947, gắn liền với 'chính sách đối đầu' của Mỹ."
+    },
+    {
+      "question_number": 14,
+      "question": "Thuật ngữ 'Đa cực' trong quan hệ quốc tế sau Chiến tranh lạnh dùng để chỉ điều gì?",
+      "answeroption": [
+        {
+          "text": "Một trật tự thế giới chỉ có hai cường quốc Mỹ và Liên Xô chi phối.",
+          "rationale": "Sai. Đây là đặc điểm của trật tự 'hai cực' (lưỡng cực) thời Chiến tranh lạnh.",
+          "isCorrect": false
+        },
+        {
+          "text": "Một trật tự thế giới có sự tham gia của nhiều nước, nhiều trung tâm, không chủ thể nào áp đảo",
+          "rationale": "Đúng. Đa cực là một thuật ngữ trong quan hệ quốc tế, dùng để chỉ một trật tự thế giới có sự tham gia của nhiều nước, nhiều trung tâm, trong đó không một chủ thể nào áp đảo cũng như chi phối sự phát triển của thế giới.",
+          "isCorrect": true
+        },
+        {
+          "text": "Một trật tự thế giới chỉ do duy nhất Mỹ chi phối và áp đảo.",
+          "rationale": "Sai. Đây là khái niệm 'đơn cực', là điều Mỹ muốn hướng tới nhưng không thành công.",
+          "isCorrect": false
+        },
+        {
+          "text": "Một trật tự thế giới không có quốc gia nào giữ vai trò lãnh đạo.",
+          "rationale": "Sai. Trật tự đa cực vẫn có các cường quốc (như Mỹ, Trung Quốc...) có tầm ảnh hưởng lớn , nhưng không một ai có thể *áp đảo* hay *chi phối* hoàn toàn.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Khái niệm này đối lập với 'hai cực' (Chiến tranh lạnh) và 'đơn cực'."
+    },
+    {
+      "question_number": 15,
+      "question": "Sự kiện nào được xem là đã dẫn đến những biến động to lớn trong quan hệ quốc tế sau Chiến tranh lạnh, làm dấy lên lo ngại về chủ nghĩa khủng bố?",
+      "answeroption": [
+        {
+          "text": "Cuộc tấn công khủng bố vào nước Mỹ ngày 11/9/2001",
+          "rationale": "Đúng. Cuộc tấn công khủng bố vào nước Mỹ ngày 11/9/2001 đã dẫn đến những biến động to lớn trong quan hệ quốc tế kéo dài hơn hai thập kỉ qua.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hội nghị thượng đỉnh G20 (2009)",
+          "rationale": "Sai. Sự kiện G20 (2009) đánh dấu sự phát triển của kỉ nguyên đa cực, không liên quan đến chủ nghĩa khủng bố.",
+          "isCorrect": false
+        },
+        {
+          "text": "Liên Xô tan rã (1991)",
+          "rationale": "Sai. Sự kiện này kết thúc Chiến tranh lạnh và trật tự hai cực I-an-ta.",
+          "isCorrect": false
+        },
+        {
+          "text": "Việt Nam gia nhập WTO (2007)",
+          "rationale": "Sai. Đây là một biểu hiện của xu thế toàn cầu hóa và hội nhập.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sự kiện này diễn ra vào đầu thế kỷ 21 tại Niu Oóc, Mỹ."
+    },
+    {
+      "question_number": 16,
+      "question": "Mục đích ban đầu khi thành lập ASEAN (1967) được nêu trong Tuyên bố Băng Cốc là gì?",
+      "answeroption": [
+        {
+          "text": "Thúc đẩy tăng trưởng kinh tế, tiến bộ xã hội và hòa bình khu vực",
+          "rationale": "Đúng. Mục đích của ASEAN là tăng cường hợp tác kinh tế, văn hóa, xã hội, hướng đến thúc đẩy phát triển và nỗ lực phát triển khu vực hòa bình, thịnh vượng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Xây dựng một thị trường chung và cơ sở sản xuất thống nhất",
+          "rationale": "Sai. Đây là mục tiêu của Cộng đồng Kinh tế ASEAN (AEC), một giai đoạn phát triển rất xa sau này.",
+          "isCorrect": false
+        },
+        {
+          "text": "Giải quyết vấn đề Cam-pu-chia và chống lại sự can thiệp của Mỹ",
+          "rationale": "Sai. Vấn đề Cam-pu-chia diễn ra sau khi ASEAN thành lập. ASEAN thành lập trong bối cảnh các cường quốc can dự vào khu vực, nhưng mục tiêu chính là hợp tác phát triển.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hình thành liên minh quân sự để phòng thủ chung",
+          "rationale": "Sai. ASEAN không phải là một tổ chức quân sự, mục tiêu là hợp tác kinh tế, văn hóa, xã hội.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Mục tiêu này tập trung vào 'kinh tế, xã hội, văn hóa' và 'hòa bình, ổn định'."
+    },
+    {
+      "question_number": 17,
+      "question": "Văn kiện nào được ký kết năm 1976, đánh dấu bước phát triển mới của ASEAN, tạo cơ sở cho sự phát triển và hợp tác kinh tế giữa các thành viên?",
+      "answeroption": [
+        {
+          "text": "Tuyên bố Băng Cốc (Tuyên bố ASEAN)",
+          "rationale": "Sai. Tuyên bố Băng Cốc (1967) là văn kiện *thành lập* ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hiệp ước Thân thiện và Hợp tác ở Đông Nam Á (TAC)",
+          "rationale": "Đúng. Năm 1976, ASEAN ký Hiệp ước Thân thiện và Hợp tác ở Đông Nam Á (TAC) tạo cơ sở cho sự phát triển và hợp tác kinh tế giữa các thành viên.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tuyên bố về Khu vực Hòa bình, Tự do và Trung lập (ZOPFAN)",
+          "rationale": "Sai. Tuyên bố ZOPFAN diễn ra vào tháng 11/1971.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hiến chương ASEAN",
+          "rationale": "Sai. Hiến chương ASEAN được thông qua năm 2007.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Văn kiện này được ký cùng với Tuyên bố về sự Hoà hợp ASEAN I (Tuyên bố Ba-li)."
+    },
+    {
+      "question_number": 18,
+      "question": "Quốc gia nào gia nhập ASEAN cuối cùng (năm 1999), hoàn thành quá trình mở rộng từ ASEAN 5 thành ASEAN 10?",
+      "answeroption": [
+        {
+          "text": "Việt Nam",
+          "rationale": "Sai. Việt Nam gia nhập năm 1995, là thành viên thứ 7.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lào",
+          "rationale": "Sai. Lào gia nhập năm 1997, cùng với Mi-an-ma.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bru-nây",
+          "rationale": "Sai. Bru-nây gia nhập năm 1984, là thành viên thứ 6.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cam-pu-chia",
+          "rationale": "Đúng. Cam-pu-chia gia nhập ngày 30/4/1999, là thành viên thứ 10.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Quốc gia này là thành viên thứ 10 của ASEAN."
+    },
+    {
+      "question_number": 19,
+      "question": "Cộng đồng ASEAN chính thức được thành lập vào mốc thời gian nào?",
+      "answeroption": [
+        {
+          "text": "Ngày 08/8/1967",
+          "rationale": "Sai. Đây là ngày thành lập Hiệp hội ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tháng 10/2003",
+          "rationale": "Sai. Đây là thời điểm ký Tuyên bố Ba-li II, đặt nền móng cho sự hình thành Cộng đồng ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tháng 01/2007",
+          "rationale": "Sai. Đây là thời điểm ASEAN quyết định đẩy nhanh tiến trình liên kết, thống nhất mục tiêu hình thành Cộng đồng vào 2015.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ngày 31/12/2015",
+          "rationale": "Đúng. Sau Tuyên bố Cu-a-la Lăm-pơ (21/11/2015), ASEAN quyết định chọn ngày 31/12/2015 làm mốc thành lập Cộng đồng ASEAN.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Đây là ngày cuối cùng của năm 2015."
+    },
+    {
+      "question_number": 20,
+      "question": "Trụ cột nào của Cộng đồng ASEAN hướng đến xây dựng một cộng đồng lấy con người làm trung tâm, thúc đẩy trao đổi văn hóa và đề cao nguyên tắc 'thống nhất trong đa dạng'?",
+      "answeroption": [
+        {
+          "text": "Cộng đồng Kinh tế (AEC)",
+          "rationale": "Sai. AEC tập trung vào thị trường chung và cơ sở sản xuất thống nhất.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cộng đồng Văn hóa - Xã hội (ASCC)",
+          "rationale": "Đúng. ASCC hướng đến xây dựng một cộng đồng lấy con người làm trung tâm, chú trọng gìn giữ giá trị văn hóa, thúc đẩy trao đổi văn hóa, đề cao nguyên tắc thống nhất trong đa dạng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cộng đồng Chính trị - An ninh (APSC)",
+          "rationale": "Sai. APSC tập trung tạo dựng môi trường hòa bình và an ninh khu vực.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cộng đồng Đối ngoại ASEAN (AEC)",
+          "rationale": "Sai. Không có trụ cột nào tên là Cộng đồng Đối ngoại ASEAN.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Trụ cột này tập trung vào 'con người' và 'bản sắc ASEAN'."
+    },
+    {
+      "question_number": 21,
+      "question": "Tổ chức Giáo dục, Khoa học và Văn hoá Liên hợp quốc (UNESCO) là một cơ quan chuyên môn của LHQ, hoạt động trong lĩnh vực nào?",
+      "answeroption": [
+        {
+          "text": "Giải quyết xung đột quân sự và duy trì hòa bình",
+          "rationale": "Sai. Đây là nhiệm vụ chính của Hội đồng Bảo an.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thắt chặt hợp tác về giáo dục, khoa học, văn hoá, xã hội",
+          "rationale": "Đúng. UNESCO (cùng với WHO, ILO...) đã góp phần thắt chặt sự hợp tác về giáo dục, khoa học, văn hoá, xã hội giữa các quốc gia thành viên.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cung cấp hỗ trợ tài chính và vốn vay cho các nước đang phát triển",
+          "rationale": "Sai. Đây là vai trò của các tổ chức khác như Ngân hàng Thế giới (WB) hay Quỹ Tiền tệ Quốc tế (IMF) (được suy luận từ vai trò của LHQ trong lĩnh vực phát triển ).",
+          "isCorrect": false
+        },
+        {
+          "text": "Giải quyết các vấn đề về lao động và việc làm toàn cầu",
+          "rationale": "Sai. Đây là vai trò chính của Tổ chức Lao động quốc tế (ILO).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tên viết tắt của tổ chức này là UNESCO."
+    },
+    {
+      "question_number": 22,
+      "question": "Theo thỏa thuận tại Hội nghị I-an-ta, quân đội của Liên Xô sẽ đóng quân ở đâu tại nước Đức?",
+      "answeroption": [
+        {
+          "text": "Miền Tây nước Đức và Tây Béc-lin",
+          "rationale": "Sai. Khu vực này thuộc về quân đội Mỹ, Anh, Pháp.",
+          "isCorrect": false
+        },
+        {
+          "text": "Toàn bộ nước Đức và toàn bộ Béc-lin",
+          "rationale": "Sai. Nước Đức và Béc-lin bị chia thành các khu vực chiếm đóng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Miền Đông nước Đức và Đông Béc-lin",
+          "rationale": "Đúng. Ở châu Âu, quân đội Liên Xô sẽ đóng quân ở miền Đông nước Đức, Đông Béc-lin và các nước Đông Âu.",
+          "isCorrect": true
+        },
+        {
+          "text": "Chỉ ở Đông Béc-lin",
+          "rationale": "Sai. Phạm vi của Liên Xô bao gồm cả miền Đông nước Đức.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Phạm vi ảnh hưởng của Liên Xô ở châu Âu là khu vực phía Đông."
+    },
+    {
+      "question_number": 23,
+      "question": "Sự vươn lên của các cường quốc như Nhật Bản, Liên minh châu Âu (EU), Trung Quốc... sau Chiến tranh lạnh đã tác động như thế nào đến trật tự thế giới?",
+      "answeroption": [
+        {
+          "text": "Củng cố trật tự thế giới hai cực I-an-ta",
+          "rationale": "Sai. Trật tự I-an-ta đã sụp đổ. Sự vươn lên của các nước này góp phần hình thành trật tự mới.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hình thành trật tự thế giới 'đơn cực' do Mỹ chi phối",
+          "rationale": "Sai. Sự vươn lên của các trung tâm này đã cạnh tranh với Mỹ, làm cho trật tự đơn cực không thể xác lập.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thúc đẩy sự hình thành trật tự thế giới đa cực, đa trung tâm",
+          "rationale": "Đúng. Sau Chiến tranh lạnh, trật tự thế giới mới đang hình thành theo xu hướng đa cực, đa trung tâm với sự cạnh tranh giữa Mỹ, Trung Quốc, Liên bang Nga, EU, Nhật Bản.....",
+          "isCorrect": true
+        },
+        {
+          "text": "Dẫn đến một cuộc Chiến tranh lạnh mới",
+          "rationale": "Sai. Xu thế chủ đạo sau Chiến tranh lạnh là hòa hoãn, đối thoại và hợp tác.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sự trỗi dậy của nhiều trung tâm quyền lực làm thế giới không còn bị chi phối bởi 1 hoặc 2 cực."
+    },
+    {
+      "question_number": 24,
+      "question": "Một trong những mục đích thành lập ASEAN (1967) là nhằm hạn chế ảnh hưởng của các cường quốc bên ngoài, trong bối cảnh nào?",
+      "answeroption": [
+        {
+          "text": "Chiến tranh thế giới thứ hai bùng nổ",
+          "rationale": "Sai. ASEAN thành lập năm 1967, rất lâu sau khi CTTG II kết thúc.",
+          "isCorrect": false
+        },
+        {
+          "text": "Các cường quốc bên ngoài can dự vào khu vực Đông Nam Á",
+          "rationale": "Đúng. Sau Chiến tranh thế giới thứ hai, các cường quốc bên ngoài đã có sự can dự vào khu vực Đông Nam Á, đây là một trong những cơ sở để thành lập một tổ chức hợp tác.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tất cả các nước Đông Nam Á đã trở thành các nước công nghiệp mới (NICs)",
+          "rationale": "Sai. Các nước Đông Nam Á khi đó vừa giành độc lập, bước vào thời kỳ phát triển kinh tế, chưa phải là NICs.",
+          "isCorrect": false
+        },
+        {
+          "text": "Xu thế toàn cầu hóa bắt đầu",
+          "rationale": "Sai. Xu thế toàn cầu hóa diễn ra mạnh mẽ từ những năm 80 của thế kỉ XX. Bối cảnh của ASEAN (1967) là xu thế khu vực hóa.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Bối cảnh này liên quan đến sự 'can dự' của các nước lớn vào khu vực."
+    },
+    {
+      "question_number": 25,
+      "question": "Cộng đồng ASEAN tiếp tục phát huy đặc trưng 'thống nhất trong đa dạng', điều này thể hiện thách thức nào của tổ chức?",
+      "answeroption": [
+        {
+          "text": "Sự cạnh tranh chiến lược của các nước lớn",
+          "rationale": "Sai. Đây là thách thức từ bên ngoài (an ninh), không liên quan trực tiếp đến tính 'đa dạng' nội khối.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự khác biệt về chế độ chính trị, văn hoá, trình độ phát triển",
+          "rationale": "Đúng. ASEAN với 10 quốc gia thành viên có sự đa dạng về chế độ chính trị, văn hoá, ngôn ngữ, trình độ phát triển. Sự khác biệt này là một thách thức, đòi hỏi phải 'thống nhất trong đa dạng'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Các vấn đề an ninh phi truyền thống như dịch bệnh, biến đổi khí hậu",
+          "rationale": "Sai. Đây là các thách thức chung toàn cầu, không phải là biểu hiện của sự 'đa dạng' nội khối.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự phát triển nhanh chóng của khoa học - công nghệ",
+          "rationale": "Sai. Đây là một cơ hội và cũng là thách thức chung, không phải là biểu hiện của sự 'đa dạng' nội khối.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đặc trưng này thể hiện sự khác biệt về nhiều mặt (chính trị, kinh tế, văn hóa) giữa 10 nước thành viên."
+    },
+    {
+      "question_number": 26,
+      "question": "Một trong những vai trò của Liên hợp quốc trong lĩnh vực phát triển kinh tế là gì?",
+      "answeroption": [
+        {
+          "text": "Tạo môi trường kinh tế quốc tế bình đẳng, hỗ trợ nước kém phát triển",
+          "rationale": "Đúng. Liên hợp quốc ưu tiên việc tạo môi trường kinh tế quốc tế bình đẳng, hỗ trợ các nền kinh tế kém phát triển.",
+          "isCorrect": true
+        },
+        {
+          "text": "Xóa bỏ hoàn toàn chủ nghĩa thực dân trên phạm vi toàn cầu",
+          "rationale": "Sai. Đây là vai trò trong lĩnh vực duy trì hòa bình, an ninh quốc tế.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thông qua Tuyên ngôn Nhân quyền (1948)",
+          "rationale": "Sai. Đây là vai trò trong lĩnh vực quyền con người.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thành lập khối quân sự NATO để bảo vệ các nước thành viên",
+          "rationale": "Sai. NATO không phải là tổ chức của Liên hợp quốc.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Vai trò này liên quan đến việc hỗ trợ các nền kinh tế và tạo sự bình đẳng."
+    },
+    {
+      "question_number": 27,
+      "question": "Tuyên ngôn Nhân quyền, khẳng định những quyền cơ bản của con người, được Đại hội đồng Liên hợp quốc thông qua vào năm nào?",
+      "answeroption": [
+        {
+          "text": "1945",
+          "rationale": "Sai. Năm 1945 là năm thành lập Liên hợp quốc.",
+          "isCorrect": false
+        },
+        {
+          "text": "1948",
+          "rationale": "Đúng. Năm 1948, Đại hội đồng Liên hợp quốc thông qua Tuyên ngôn Nhân quyền, khẳng định những quyền cơ bản của con người.",
+          "isCorrect": true
+        },
+        {
+          "text": "1960",
+          "rationale": "Sai. Năm 1960, Đại hội đồng LHQ đề ra các chiến lược phát triển cho từng thập kỉ.",
+          "isCorrect": false
+        },
+        {
+          "text": "1972",
+          "rationale": "Sai. Năm 1972 là thời điểm diễn ra xu thế hòa hoãn Đông - Tây.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Văn kiện này được thông qua 3 năm sau khi LHQ thành lập."
+    },
+    {
+      "question_number": 28,
+      "question": "Việt Nam đã hai lần được bầu làm Ủy viên không thường trực Hội đồng Bảo an Liên hợp quốc vào các nhiệm kì nào?",
+      "answeroption": [
+        {
+          "text": "2000-2001 và 2010-2011",
+          "rationale": "Sai. Đây không phải là các nhiệm kì Việt Nam tham gia.",
+          "isCorrect": false
+        },
+        {
+          "text": "2008-2009 và 2020-2021",
+          "rationale": "Đúng. Việt Nam đã được bầu làm Ủy viên không thường trực Hội đồng Bảo an Liên hợp quốc ở nhiệm kì 2008-2009 và nhiệm kì 2020-2021.",
+          "isCorrect": true
+        },
+        {
+          "text": "1995-1996 và 2015-2016",
+          "rationale": "Sai. 1995 là năm Việt Nam gia nhập ASEAN , 2015 là năm thành lập Cộng đồng ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "2007-2008 và 2019-2020",
+          "rationale": "Sai. Đây không phải là các nhiệm kì chính xác.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nhiệm kì đầu tiên diễn ra cuối thập niên 2000 và nhiệm kì thứ hai vào đầu thập niên 2020."
+    },
+    {
+      "question_number": 29,
+      "question": "Trật tự thế giới hai cực I-an-ta sụp đổ hoàn toàn gắn liền với sự kiện nào?",
+      "answeroption": [
+        {
+          "text": "Mỹ tuyên bố chấm dứt Chiến tranh lạnh tại Man-ta (1989)",
+          "rationale": "Sai. Đây là tuyên bố chấm dứt Chiến tranh lạnh, nhưng trật tự I-an-ta chỉ sụp đổ hoàn toàn sau đó.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự sụp đổ của chủ nghĩa xã hội ở Đông Âu và sự tan rã của Liên Xô (1991)",
+          "rationale": "Đúng. Sự sụp đổ của chủ nghĩa xã hội ở Đông Âu và sự tan rã của Liên Xô (1991) đã chấm dứt Trật tự thế giới hai cực I-an-ta.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sự ra đời của Cộng đồng Kinh tế châu Âu (EEC)",
+          "rationale": "Sai. EEC ra đời sớm hơn và là nhân tố làm *suy yếu* trật tự I-an-ta, không phải sự kiện sụp đổ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự kiện 11/9/2001 tại Mỹ",
+          "rationale": "Sai. Sự kiện này diễn ra sau khi trật tự I-an-ta đã sụp đổ.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sự kiện này liên quan đến sự tan rã của một trong hai cực."
+    },
+    {
+      "question_number": 30,
+      "question": "Tại Hội nghị I-an-ta (02/1945), hai quốc gia nào ở châu Âu được hưởng quy chế trung lập?",
+      "answeroption": [
+        {
+          "text": "Đức và Ý",
+          "rationale": "Sai. Đức bị phân chia chiếm đóng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Áo và Phần Lan",
+          "rationale": "Đúng. Riêng Áo và Phần Lan được hưởng quy chế trung lập.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ba Lan và Tiệp Khắc",
+          "rationale": "Sai. Các nước này thuộc phạm vi ảnh hưởng của Liên Xô (Đông Âu).",
+          "isCorrect": false
+        },
+        {
+          "text": "Pháp và Anh",
+          "rationale": "Sai. Đây là hai trong ba nước lớn tham dự hội nghị và chiếm đóng Tây Đức.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đây là hai quốc gia không thuộc phạm vi ảnh hưởng trực tiếp của Đông Âu hay Tây Âu theo thỏa thuận."
+    },
+    {
+      "question_number": 31,
+      "question": "Kế hoạch phục hưng châu Âu (Kế hoạch Mác-san) do Mỹ thực hiện (1947) nhằm mục đích gì?",
+      "answeroption": [
+        {
+          "text": "Viện trợ cho các nước Tây Âu khôi phục kinh tế",
+          "rationale": "Đúng. Tháng 6/1947, Mỹ thực hiện Kế hoạch phục hưng châu Âu (Kế hoạch Mác-san), nhằm viện trợ cho các nước Tây Âu khôi phục kinh tế.",
+          "isCorrect": true
+        },
+        {
+          "text": "Thành lập khối quân sự NATO",
+          "rationale": "Sai. Kế hoạch Mác-san là về kinh tế. NATO được thành lập năm 1949.",
+          "isCorrect": false
+        },
+        {
+          "text": "Giúp đỡ Liên Xô và các nước Đông Âu phát triển",
+          "rationale": "Sai. Kế hoạch này nhằm vào Tây Âu. Liên Xô và Đông Âu thành lập SEV.",
+          "isCorrect": false
+        },
+        {
+          "text": "Giải quyết cuộc khủng hoảng tên lửa ở Cu-ba",
+          "rationale": "Sai. Khủng hoảng tên lửa Cu-ba diễn ra năm 1962.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Kế hoạch này là một trong những biểu hiện đầu tiên của Chiến tranh lạnh về kinh tế."
+    },
+    {
+      "question_number": 32,
+      "question": "Nguyên nhân nào sau đây KHÔNG PHẢI là nguyên nhân sụp đổ của Trật tự hai cực I-an-ta?",
+      "answeroption": [
+        {
+          "text": "Cuộc chạy đua vũ trang kéo dài làm suy giảm cả Mỹ và Liên Xô ",
+          "rationale": "Sai. Đây là một nguyên nhân quan trọng dẫn đến sụp đổ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự vươn lên mạnh mẽ của các nước Tây Âu, Nhật Bản ",
+          "rationale": "Sai. Sự vươn lên này làm thay đổi cán cân kinh tế thế giới, là một nguyên nhân sụp đổ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự khủng hoảng và sai lầm trong cải tổ ở Liên Xô và Đông Âu ",
+          "rationale": "Sai. Đây là nguyên nhân trực tiếp dẫn đến sự tan rã của cực Xã hội chủ nghĩa.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự thành lập của NATO (1949) và Tổ chức Hiệp ước Vác-sa-va (1955) ",
+          "rationale": "Đúng. Sự thành lập của hai khối quân sự này là biểu hiện của việc *hình thành và phát triển* Trật tự hai cực, không phải là nguyên nhân làm nó sụp đổ.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Tìm sự kiện thuộc về giai đoạn *hình thành* của Trật tự I-an-ta."
+    },
+    {
+      "question_number": 33,
+      "question": "Sự kiện nào đánh dấu Chiến tranh lạnh chấm dứt về mặt tuyên bố giữa Mỹ và Liên Xô?",
+      "answeroption": [
+        {
+          "text": "Cuộc gặp không chính thức tại đảo Man-ta (Địa Trung Hải) tháng 12/1989",
+          "rationale": "Đúng. Tháng 12/1989, trong cuộc gặp không chính thức tại đảo Man-ta, lãnh đạo Mỹ và Liên Xô đã tuyên bố chấm dứt Chiến tranh lạnh.",
+          "isCorrect": true
+        },
+        {
+          "text": "Liên Xô và Mỹ ký thỏa thuận hạn chế vũ khí chiến lược (1972)",
+          "rationale": "Sai. Sự kiện năm 1972 đánh dấu xu thế *hòa hoãn* bắt đầu, chứ chưa chấm dứt.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự sụp đổ của Bức tường Béc-lin (1989)",
+          "rationale": "Sai. Đây là một biểu tượng của sự sụp đổ chủ nghĩa xã hội ở Đông Âu, diễn ra trước tuyên bố chấm dứt Chiến tranh lạnh một chút.",
+          "isCorrect": false
+        },
+        {
+          "text": "Liên Xô tan rã (1991)",
+          "rationale": "Sai. Sự kiện này đánh dấu Trật tự I-an-ta sụp đổ hoàn toàn, Chiến tranh lạnh đã chấm dứt trước đó.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sự kiện này diễn ra tại một hòn đảo ở Địa Trung Hải."
+    },
+    {
+      "question_number": 34,
+      "question": "Khái niệm nào dùng để chỉ các vấn đề mang tính toàn cầu như ô nhiễm môi trường, biến đổi khí hậu, dịch bệnh, tội phạm xuyên quốc gia?",
+      "answeroption": [
+        {
+          "text": "An ninh phi truyền thống",
+          "rationale": "Đúng. Các quốc gia trên thế giới đều chịu tác động của những vấn đề toàn cầu và an ninh phi truyền thống (như động đất, dịch bệnh, biến đổi khí hậu...).",
+          "isCorrect": true
+        },
+        {
+          "text": "An ninh truyền thống",
+          "rationale": "Sai. An ninh truyền thống thường liên quan đến xung đột quân sự, chiến tranh, lãnh thổ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Xu thế đa cực",
+          "rationale": "Sai. Đây là một xu thế về trật tự thế giới, không phải tên gọi các vấn đề cụ thể.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chủ nghĩa khủng bố",
+          "rationale": "Sai. Chủ nghĩa khủng bố là một phần của các vấn đề an ninh, nhưng 'an ninh phi truyền thống' là thuật ngữ bao quát hơn cho các vấn đề được liệt kê.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đây là những thách thức an ninh *không* liên quan trực tiếp đến quân sự."
+    },
+    {
+      "question_number": 35,
+      "question": "Việt Nam tham gia Diễn đàn hợp tác kinh tế châu Á – Thái Bình Dương (APEC) vào năm nào?",
+      "answeroption": [
+        {
+          "text": "1989",
+          "rationale": "Sai. Đây là năm APEC được thành lập.",
+          "isCorrect": false
+        },
+        {
+          "text": "1995",
+          "rationale": "Sai. Đây là năm Việt Nam gia nhập ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "1998",
+          "rationale": "Đúng. Việt Nam được kết nạp vào APEC từ năm 1998.",
+          "isCorrect": true
+        },
+        {
+          "text": "2007",
+          "rationale": "Sai. Đây là năm Việt Nam gia nhập WTO (Tổ chức Thương mại Thế giới).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Việt Nam gia nhập tổ chức này 3 năm sau khi gia nhập ASEAN."
+    },
+    {
+      "question_number": 36,
+      "question": "Sự kiện Hội nghị Thượng đỉnh G20 (2009) thống nhất đưa G20 trở thành diễn đàn kinh tế lớn nhất thế giới đã đánh dấu sự phát triển của xu thế nào?",
+      "answeroption": [
+        {
+          "text": "Kỉ nguyên đa cực trong quan hệ quốc tế",
+          "rationale": "Đúng. Hợp tác của G20 năm 2009 đã đánh dấu sự phát triển của kỉ nguyên đa cực trong quan hệ quốc tế.",
+          "isCorrect": true
+        },
+        {
+          "text": "Toàn cầu hóa",
+          "rationale": "Sai. Toàn cầu hóa là một xu thế lớn, nhưng G20 thể hiện rõ nét sự trỗi dậy của nhiều trung tâm (đa cực).",
+          "isCorrect": false
+        },
+        {
+          "text": "Kết thúc Chiến tranh lạnh",
+          "rationale": "Sai. Chiến tranh lạnh đã kết thúc từ năm 1989/1991.",
+          "isCorrect": false
+        },
+        {
+          "text": "Trật tự đơn cực",
+          "rationale": "Sai. G20 cho thấy vai trò của nhiều nền kinh tế lớn, trái ngược với trật tự đơn cực.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sự kiện này diễn ra tại Pít-xbớc (Mỹ) và khẳng định vai trò của nhóm 20 nền kinh tế lớn."
+    },
+    {
+      "question_number": 37,
+      "question": "Một trong những biểu hiện của xu thế toàn cầu hóa sau Chiến tranh lạnh là gì?",
+      "answeroption": [
+        {
+          "text": "Sự phát triển nhanh chóng của thương mại thế giới và vai trò của các công ty xuyên quốc gia",
+          "rationale": "Đúng. Toàn cầu hóa biểu hiện là sự phát triển nhanh chóng của nền thương mại thế giới, với vai trò ngày càng lớn của các công ty xuyên quốc gia.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sự sụp đổ của chủ nghĩa xã hội ở Liên Xô và Đông Âu",
+          "rationale": "Sai. Đây là sự kiện kết thúc Chiến tranh lạnh, tạo điều kiện cho toàn cầu hóa phát triển mạnh hơn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự ra đời của Liên hợp quốc",
+          "rationale": "Sai. LHQ ra đời ngay sau CTTG II (1945), trước khi xu thế toàn cầu hóa diễn ra mạnh mẽ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự hình thành hai khối quân sự đối lập NATO và Vác-sa-va",
+          "rationale": "Sai. Đây là biểu hiện của Chiến tranh lạnh, đối lập với xu thế toàn cầu hóa (hợp tác).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xu thế này liên quan đến 'thương mại' và 'các công ty xuyên quốc gia'."
+    },
+    {
+      "question_number": 38,
+      "question": "Biểu tượng 'bó lúa' trên lá cờ của ASEAN tượng trưng cho điều gì?",
+      "answeroption": [
+        {
+          "text": "Nền nông nghiệp lúa nước là chủ đạo của khu vực",
+          "rationale": "Sai. Mặc dù nông nghiệp quan trọng, nhưng ý nghĩa biểu tượng của bó lúa là về sự đoàn kết.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ước mơ về một ASEAN bao gồm tất cả các nước, gắn bó trong hữu nghị và đoàn kết",
+          "rationale": "Đúng. Hình ảnh bó lúa tượng trưng cho ước mơ của các thành viên sáng lập về một ASEAN bao gồm tất cả các nước ở Đông Nam Á, gắn bó với nhau trong tình hữu nghị và đoàn kết.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sự thịnh vượng về kinh tế và tài chính",
+          "rationale": "Sai. Màu vàng mới là biểu tượng cho sự thịnh vượng. Bó lúa là biểu tượng cho sự đoàn kết.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự năng động và lòng can đảm của các quốc gia",
+          "rationale": "Sai. Đây là ý nghĩa của màu đỏ trên lá cờ.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Ý nghĩa này liên quan đến ước mơ của các nhà sáng lập về một ASEAN thống nhất."
+    },
+    {
+      "question_number": 39,
+      "question": "Trước khi ASEAN ra đời (1967), tổ chức liên kết nào sau đây đã được thành lập ở Đông Nam Á nhưng nhanh chóng tan rã?",
+      "answeroption": [
+        {
+          "text": "APEC",
+          "rationale": "Sai. APEC (1989) là diễn đàn hợp tác kinh tế châu Á - Thái Bình Dương, thành lập sau ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "SEV",
+          "rationale": "Sai. SEV (1949) là Hội đồng tương trợ kinh tế của Liên Xô và các nước Đông Âu.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hiệp hội Đông Nam Á (ASA)",
+          "rationale": "Đúng. Tháng 7/1961, Ma-lai-xi-a, Phi-líp-pin và Thái Lan thành lập Hiệp hội Đông Nam Á (ASA), nhưng đã nhanh chóng tan rã.",
+          "isCorrect": true
+        },
+        {
+          "text": "NATO",
+          "rationale": "Sai. NATO (1949) là khối quân sự của Mỹ và phương Tây.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tổ chức này được thành lập năm 1961, gồm 3 nước: Ma-lai-xi-a, Phi-líp-pin và Thái Lan."
+    },
+    {
+      "question_number": 40,
+      "question": "Tuyên bố về Khu vực Hoà bình, Tự do và Trung lập (ZOPFAN) được ASEAN đưa ra vào năm nào?",
+      "answeroption": [
+        {
+          "text": "1967",
+          "rationale": "Sai. Đây là năm thành lập ASEAN.",
+          "isCorrect": false
+        },
+        {
+          "text": "1971",
+          "rationale": "Đúng. Tháng 11/1971, ASEAN ra Tuyên bố về Khu vực Hoà bình, Tự do và Trung lập (ZOPFAN).",
+          "isCorrect": true
+        },
+        {
+          "text": "1976",
+          "rationale": "Sai. Đây là năm ký Hiệp ước TAC và Tuyên bố Ba-li I.",
+          "isCorrect": false
+        },
+        {
+          "text": "1995",
+          "rationale": "Sai. Đây là năm Việt Nam gia nhập ASEAN.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tuyên bố này ra đời trong giai đoạn phát triển đầu tiên của ASEAN (1967-1976)."
+    },
+    {
+      "question_number": 41,
+      "question": "Quá trình phát triển của ASEAN từ 1967 đến 1976 tập trung vào nội dung gì?",
+      "answeroption": [
+        {
+          "text": "Phát triển cơ cấu tổ chức, hoàn thiện nguyên tắc hoạt động",
+          "rationale": "Đúng. Giai đoạn 1967 - 1976, ASEAN tập trung phát triển cơ cấu tổ chức, hoàn thiện nguyên tắc hoạt động.",
+          "isCorrect": true
+        },
+        {
+          "text": "Mở rộng thành viên từ ASEAN 5 lên ASEAN 10",
+          "rationale": "Sai. Việc mở rộng thành viên chủ yếu diễn ra trong giai đoạn 1976-1999 (Việt Nam, Lào, Mi-an-ma, Cam-pu-chia).",
+          "isCorrect": false
+        },
+        {
+          "text": "Thành lập Cộng đồng ASEAN dựa trên 3 trụ cột",
+          "rationale": "Sai. Việc này diễn ra trong giai đoạn 1999-2015.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ký kết Hiệp ước Thân thiện và Hợp tác (TAC)",
+          "rationale": "Sai. Hiệp ước TAC được ký năm 1976, đánh dấu sự khởi đầu của giai đoạn phát triển thứ hai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đây là giai đoạn 'khởi đầu' của ASEAN."
+    },
+    {
+      "question_number": 42,
+      "question": "Văn kiện nào được thông qua năm 2007, tạo cơ sở pháp lý cho quá trình liên kết nội khối của ASEAN?",
+      "answeroption": [
+        {
+          "text": "Tuyên bố Ba-li I",
+          "rationale": "Sai. Tuyên bố Ba-li I (1976) góp phần phát triển hệ thống tổ chức, nhưng cơ sở pháp lý là Hiến chương.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tuyên bố Ba-li II",
+          "rationale": "Sai. Tuyên bố Ba-li II (2003) đặt nền móng cho ý tưởng hình thành Cộng đồng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tầm nhìn ASEAN 2020",
+          "rationale": "Sai. Tầm nhìn 2020 (1997) là văn kiện xác định mục tiêu.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hiến chương ASEAN",
+          "rationale": "Đúng. Sau khi thông qua Hiến chương ASEAN (2007), ASEAN thông qua lộ trình xây dựng Cộng đồng ASEAN. Đây là cơ sở pháp lý cho sự liên kết nội khối.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Văn kiện này được xem là 'hiến pháp' của ASEAN."
+    },
+    {
+      "question_number": 43,
+      "question": "Ý tưởng về một 'cộng đồng thịnh vượng và hoà bình ở Đông Nam Á' xuất hiện lần đầu tiên trong văn kiện nào?",
+      "answeroption": [
+        {
+          "text": "Tuyên bố ASEAN (năm 1967)",
+          "rationale": "Đúng. Ngay khi ra Tuyên bố ASEAN (năm 1967), ASEAN đã mong muốn: 'xây dựng một cộng đồng thịnh vượng và hoà bình ở Đông Nam Á'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tầm nhìn ASEAN 2020 (năm 1997)",
+          "rationale": "Sai. Tầm nhìn 2020 (1997) xác định mục tiêu đưa ASEAN trở thành một 'cộng đồng các xã hội đùm bọc lẫn nhau'.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tuyên bố Ba-li II (năm 2003)",
+          "rationale": "Sai. Tuyên bố Ba-li II (2003) đặt nền móng cho sự hình thành Cộng đồng dựa trên 3 trụ cột.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hiến chương ASEAN (năm 2007)",
+          "rationale": "Sai. Hiến chương (2007) là cơ sở pháp lý để thực hiện ý tưởng cộng đồng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Ý tưởng này xuất hiện ngay tại văn kiện khai sinh ra ASEAN."
+    },
+    {
+      "question_number": 44,
+      "question": "Tầm nhìn ASEAN 2020 (1997) xác định mục tiêu đưa ASEAN trở thành một nhóm hài hòa các dân tộc Đông Nam Á gắn bó trong một...",
+      "answeroption": [
+        {
+          "text": "liên minh quân sự vững chắc.",
+          "rationale": "Sai. ASEAN không phải là liên minh quân sự.",
+          "isCorrect": false
+        },
+        {
+          "text": "cộng đồng các xã hội đùm bọc lẫn nhau.",
+          "rationale": "Đúng. Văn kiện Tầm nhìn ASEAN 2020 xác định mục tiêu đưa ASEAN trở thành một nhóm hài hoà các dân tộc Đông Nam Á gắn bó trong một cộng đồng các xã hội đùm bọc lẫn nhau.",
+          "isCorrect": true
+        },
+        {
+          "text": "thị trường kinh tế chung.",
+          "rationale": "Sai. Đây là mục tiêu của AEC, một phần của Cộng đồng sau này.",
+          "isCorrect": false
+        },
+        {
+          "text": "nhà nước liên bang thống nhất.",
+          "rationale": "Sai. ASEAN là tổ chức hợp tác liên chính phủ, không phải nhà nước liên bang.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Mục tiêu này nhấn mạnh đến tính 'xã hội' và 'sự đùm bọc'."
+    },
+    {
+      "question_number": 45,
+      "question": "Tuyên bố Ba-li II (Tuyên bố về sự Hoà hợp ASEAN II) năm 2003 đã đặt nền móng cho sự hình thành Cộng đồng ASEAN dựa trên mấy trụ cột?",
+      "answeroption": [
+        {
+          "text": "Một trụ cột (Kinh tế)",
+          "rationale": "Sai. Tuyên bố này đã đề ra 3 trụ cột.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hai trụ cột (Kinh tế và Chính trị)",
+          "rationale": "Sai. Tuyên bố này đã đề ra 3 trụ cột.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ba trụ cột (Chính trị - An ninh, Kinh tế, Văn hóa - Xã hội)",
+          "rationale": "Đúng. Tháng 10/2003, ASEAN ký Tuyên bố Ba-li II, đặt nền móng cho sự hình thành Cộng đồng ASEAN với ba trụ cột: Cộng đồng An ninh, Cộng đồng Kinh tế và Cộng đồng Văn hoá - Xã hội.",
+          "isCorrect": true
+        },
+        {
+          "text": "Bốn trụ cột",
+          "rationale": "Sai. Chỉ có 3 trụ cột chính được xác định.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Con số này tương ứng với số lượng trụ cột của Cộng đồng ASEAN hiện nay."
+    },
+    {
+      "question_number": 46,
+      "question": "Mục tiêu tổng quát của Cộng đồng ASEAN là xây dựng hiệp hội thành một tổ chức hợp tác liên Chính phủ...",
+      "answeroption": [
+        {
+          "text": "hoạt động theo luật lệ và hướng tới người dân.",
+          "rationale": "Đúng. Mục tiêu tổng quát là xây dựng hiệp hội... liên kết sâu rộng hơn và ràng buộc hơn trên cơ sở pháp lí là Hiến chương ASEAN;... hoạt động theo luật lệ và hướng tới người dân.",
+          "isCorrect": true
+        },
+        {
+          "text": "chỉ tập trung vào phát triển kinh tế.",
+          "rationale": "Sai. Mục tiêu là toàn diện trên cả 3 trụ cột, bao gồm chính trị, an ninh, văn hóa, xã hội.",
+          "isCorrect": false
+        },
+        {
+          "text": "thay thế hoàn toàn vai trò của Liên hợp quốc tại khu vực.",
+          "rationale": "Sai. ASEAN hợp tác rộng mở với bên ngoài và giữ vai trò trung tâm ở khu vực, không thay thế LHQ.",
+          "isCorrect": false
+        },
+        {
+          "text": "trở thành một liên minh quân sự kiểu NATO.",
+          "rationale": "Sai. ASEAN là tổ chức hợp tác liên Chính phủ, không phải liên minh quân sự.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Mục tiêu này nhấn mạnh tính 'pháp lý' (luật lệ) và 'con người'."
+    },
+    {
+      "question_number": 47,
+      "question": "Nội dung nào sau đây KHÔNG thuộc về trụ cột Cộng đồng Kinh tế ASEAN (AEC)?",
+      "answeroption": [
+        {
+          "text": "Tạo ra một thị trường chung và cơ sở sản xuất thống nhất ",
+          "rationale": "Sai. Đây là nội dung chính của AEC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Xây dựng một khu vực có sức cạnh tranh, phát triển đồng đều ",
+          "rationale": "Sai. Đây là nội dung của AEC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hội nhập vào nền kinh tế toàn cầu ",
+          "rationale": "Sai. Đây là nội dung của AEC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Xây dựng một khu vực năng động, quan hệ rộng mở với bên ngoài ",
+          "rationale": "Đúng. Đây là nội dung chính thuộc về trụ cột Cộng đồng Chính trị - An ninh (APSC).",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Tìm nội dung liên quan đến 'Chính trị - An ninh'."
+    },
+    {
+      "question_number": 48,
+      "question": "Tầm nhìn Cộng đồng ASEAN 2025 được thông qua tại Hội nghị Thượng đỉnh ASEAN 27 ở đâu?",
+      "answeroption": [
+        {
+          "text": "Hà Nội (Việt Nam)",
+          "rationale": "Sai. Hà Nội là nơi diễn ra Hội nghị cấp cao ASEAN lần thứ 37 (2020), triển khai soạn thảo Tầm nhìn sau 2025.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cu-a-la Lăm-pơ (Ma-lai-xi-a)",
+          "rationale": "Đúng. Ngày 21/11/2015, tại Hội nghị Thượng đỉnh ASEAN 27 ở Cu-a-la Lăm-pơ (Ma-lai-xi-a), ASEAN thông qua Tầm nhìn Cộng đồng ASEAN 2025.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ba-li (In-đô-nê-xi-a)",
+          "rationale": "Sai. Ba-li là nơi ký Tuyên bố Ba-li I (1976) và Ba-li II (2003).",
+          "isCorrect": false
+        },
+        {
+          "text": "Băng Cốc (Thái Lan)",
+          "rationale": "Sai. Băng Cốc là nơi thành lập ASEAN (1967).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Địa điểm này cũng là nơi thông qua Tuyên bố về việc thành lập Cộng đồng ASEAN năm 2015."
+    },
+    {
+      "question_number": 49,
+      "question": "Một trong những triển vọng của Cộng đồng ASEAN sau năm 2015 là gì?",
+      "answeroption": [
+        {
+          "text": "Giải quyết dứt điểm mọi tranh chấp lãnh thổ trên Biển Đông",
+          "rationale": "Sai. Đây là một thách thức an ninh lớn, chưa thể giải quyết dứt điểm và không phải là một triển vọng chắc chắn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Xóa bỏ hoàn toàn sự chênh lệch về trình độ phát triển",
+          "rationale": "Sai. Sự chênh lệch này là một thách thức lớn, khó có thể xóa bỏ hoàn toàn trong thời gian ngắn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tiếp tục phát huy đặc trưng 'thống nhất trong đa dạng'",
+          "rationale": "Đúng. Cộng đồng ASEAN là một tổ chức liên Chính phủ, tiếp tục phát huy đặc trưng 'thống nhất trong đa dạng', tạo dựng sự đoàn kết, tự cường.",
+          "isCorrect": true
+        },
+        {
+          "text": "Thay thế Mỹ trở thành cường quốc số một thế giới",
+          "rationale": "Sai. Đây không phải là mục tiêu hay triển vọng của ASEAN.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Triển vọng này liên quan đến đặc trưng cơ bản trong phương thức hoạt động của ASEAN."
+    },
+    {
+      "question_number": 50,
+      "question": "Thách thức nào của ASEAN được xem là lớn nhất, liên quan đến cạnh tranh chiến lược giữa các nước lớn tại khu vực Ấn Độ Dương - Thái Bình Dương?",
+      "answeroption": [
+        {
+          "text": "Sự chênh lệch về trình độ phát triển kinh tế ",
+          "rationale": "Sai. Đây là thách thức nội khối, nhưng thách thức lớn nhất được nêu là an ninh.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự khác biệt trong hệ thống chính trị ",
+          "rationale": "Sai. Đây là một thách thức nội khối, nhưng thách thức lớn nhất được nêu là an ninh.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vấn đề an ninh",
+          "rationale": "Đúng. Vấn đề an ninh được xem là thách thức lớn nhất mà Cộng đồng ASEAN phải đối mặt, đặc biệt là sự cạnh tranh chiến lược giữa các nước lớn tại không gian chiến lược Ấn Độ Dương – Thái Bình Dương.",
+          "isCorrect": true
+        },
+        {
+          "text": "Các vấn đề an ninh phi truyền thống ",
+          "rationale": "Sai. Đây là những thách thức gia tăng, nhưng thách thức *lớn nhất* được nhấn mạnh là cạnh tranh chiến lược của các nước lớn (an ninh truyền thống).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Thách thức này liên quan đến sự cạnh tranh của các nước lớn tại khu vực."
+    }
+  ]
+}

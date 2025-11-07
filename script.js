@@ -2,6 +2,83 @@
 const $ = (sel) => document.querySelector(sel);
 const fmt = (n) => new Intl.NumberFormat('vi-VN').format(n);
 
+// ===== Analytics Module =====
+const Analytics = {
+  // Track custom events
+  track(eventName, params = {}) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', eventName, params);
+    }
+    console.log('📊 Analytics:', eventName, params);
+  },
+  
+  // Track page view
+  pageView(pageName) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'page_view', {
+        page_title: pageName,
+        page_location: window.location.href
+      });
+    }
+  },
+  
+  // Track quiz events
+  startQuiz(subject, totalQuestions) {
+    this.track('quiz_start', {
+      subject: subject,
+      total_questions: totalQuestions,
+      timestamp: new Date().toISOString()
+    });
+  },
+  
+  answerQuestion(subject, questionNum, isCorrect, timeSpent) {
+    this.track('answer_question', {
+      subject: subject,
+      question_number: questionNum,
+      is_correct: isCorrect,
+      time_spent_seconds: timeSpent
+    });
+  },
+  
+  completeQuiz(subject, stats) {
+    this.track('quiz_complete', {
+      subject: subject,
+      total_questions: stats.total,
+      answered: stats.answered,
+      correct: stats.correct,
+      accuracy: stats.accuracy,
+      time_spent: stats.timeSpent
+    });
+  },
+  
+  useHint(subject, questionNum) {
+    this.track('use_hint', {
+      subject: subject,
+      question_number: questionNum
+    });
+  },
+  
+  addBookmark(subject, questionNum) {
+    this.track('add_bookmark', {
+      subject: subject,
+      question_number: questionNum
+    });
+  },
+  
+  switchSubject(fromSubject, toSubject) {
+    this.track('switch_subject', {
+      from: fromSubject,
+      to: toSubject
+    });
+  },
+  
+  toggleDarkMode(isEnabled) {
+    this.track('toggle_dark_mode', {
+      enabled: isEnabled
+    });
+  }
+};
+
 const els = {
   btnRestart: $('#btnRestart'),
   btnRestart2: $('#btnRestart2'),
@@ -106,6 +183,7 @@ function toggleBookmark() {
   } else {
     bookmarks.push(index);
     els.btnBookmark.classList.add('active');
+    Analytics.addBookmark(currentFile, index + 1);
   }
   saveBookmarks();
 }
@@ -183,6 +261,8 @@ function toggleDarkMode() {
   document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
   els.darkModeToggle.classList.toggle('active', isDarkMode);
   localStorage.setItem('darkMode', isDarkMode ? 'true' : 'false');
+  
+  Analytics.toggleDarkMode(isDarkMode);
 }
 
 function loadDarkMode() {
@@ -488,6 +568,10 @@ function onPick(i) {
     const isCorrect = i === correctIdx;
     answered[index] = { picked: i, correctIndex: correctIdx, isCorrect };
     if (isCorrect) score++;
+    
+    const timeSpent = getElapsedTime();
+    Analytics.answerQuestion(currentFile, index + 1, isCorrect, timeSpent);
+    
     saveState();
   }
   
@@ -519,6 +603,14 @@ function next() {
     
     drawPieChart(right, wrong, unanswered);
     saveHistory();
+    
+    Analytics.completeQuiz(currentFile, {
+      total: data.length,
+      answered: answered_count,
+      correct: right,
+      accuracy: Math.round(right*100/answered_count || 0),
+      timeSpent: elapsed
+    });
     
     els.summary.classList.remove('hidden');
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
@@ -643,7 +735,10 @@ function revealAnswer() {
 }
 
 async function switchSubject(fileName, title, desc) {
+  const previousSubject = currentFile;
   currentFile = fileName;
+  
+  Analytics.switchSubject(previousSubject, currentFile);
   
   try {
     originalData = await loadFromUrl(currentFile);
@@ -729,7 +824,12 @@ function attachEvents() {
   els.btnRestart.addEventListener('click', restart);
   els.btnRestart2.addEventListener('click', restart);
   els.btnReviewWrong.addEventListener('click', reviewWrong);
-  els.btnHint.addEventListener('click', () => els.hintText.classList.toggle('hidden'));
+  els.btnHint.addEventListener('click', () => {
+    els.hintText.classList.toggle('hidden');
+    if (!els.hintText.classList.contains('hidden')) {
+      Analytics.useHint(currentFile, index + 1);
+    }
+  });
   els.btnReveal.addEventListener('click', revealAnswer);
   els.btnBookmark.addEventListener('click', toggleBookmark);
   
@@ -821,6 +921,7 @@ function attachEvents() {
     } else {
       shuffleQuestions();
       startTime = new Date();
+      Analytics.startQuiz(currentFile, originalData.length);
     }
 
     markAsViewed(index);

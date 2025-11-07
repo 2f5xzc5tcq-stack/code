@@ -118,6 +118,8 @@ const els = {
   mobileOverlay: $('#mobileOverlay'),
   btnBookmarks: $('#btnBookmarks'),
   btnHistory: $('#btnHistory'),
+  disclaimerModal: $('#disclaimerModal'),
+  disclaimerButton: $('#disclaimerButton'),
   historyModal: $('#historyModal'),
   closeHistoryModal: $('#closeHistoryModal'),
   historyContent: $('#historyContent'),
@@ -270,6 +272,47 @@ function loadDarkMode() {
   isDarkMode = saved === null ? true : saved === 'true';
   document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
   els.darkModeToggle.classList.toggle('active', isDarkMode);
+}
+
+function checkDisclaimer() {
+  const disclaimerData = localStorage.getItem('quiz_disclaimer');
+  
+  if (!disclaimerData) {
+    showDisclaimer();
+    return;
+  }
+  
+  try {
+    const data = JSON.parse(disclaimerData);
+    const now = new Date().getTime();
+    const diff = now - data.timestamp;
+    const hours12 = 12 * 60 * 60 * 1000;
+    
+    if (diff >= hours12) {
+      showDisclaimer();
+    } else {
+      hideDisclaimer();
+    }
+  } catch (e) {
+    showDisclaimer();
+  }
+}
+
+function showDisclaimer() {
+  if (els.disclaimerModal) {
+    els.disclaimerModal.style.display = 'flex';
+  }
+}
+
+function hideDisclaimer() {
+  if (els.disclaimerModal) {
+    els.disclaimerModal.style.display = 'none';
+  }
+  const data = {
+    timestamp: new Date().getTime(),
+    accepted: true
+  };
+  localStorage.setItem('quiz_disclaimer', JSON.stringify(data));
 }
 
 function saveHistory() {
@@ -833,6 +876,8 @@ function attachEvents() {
   els.btnReveal.addEventListener('click', revealAnswer);
   els.btnBookmark.addEventListener('click', toggleBookmark);
   
+  els.disclaimerButton.addEventListener('click', hideDisclaimer);
+  
   els.darkModeToggle.addEventListener('click', toggleDarkMode);
   els.btnBookmarks.addEventListener('click', showBookmarksModal);
   els.btnHistory.addEventListener('click', showHistoryModal);
@@ -887,6 +932,7 @@ function attachEvents() {
 (async function init() {
   attachEvents();
   loadDarkMode();
+  checkDisclaimer();
   
   try {
     originalData = await loadFromUrl(currentFile);

@@ -2,6 +2,72 @@
 const $ = (sel) => document.querySelector(sel);
 const fmt = (n) => new Intl.NumberFormat('vi-VN').format(n);
 
+// ===== Online Users Module =====
+const OnlineUsers = {
+  database: null,
+  userRef: null,
+  onlineRef: null,
+  userId: null,
+  
+  init() {
+    try {
+      this.database = firebase.database();
+      this.userId = this.generateUserId();
+      this.onlineRef = this.database.ref('online');
+      this.userRef = this.database.ref(`online/${this.userId}`);
+      
+      this.setupPresence();
+      this.listenToOnlineCount();
+    } catch (error) {
+      console.error('Firebase init error:', error);
+      $('#onlineCount').textContent = '??';
+    }
+  },
+  
+  generateUserId() {
+    let userId = localStorage.getItem('quiz_user_id');
+    if (!userId) {
+      userId = 'user_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+      localStorage.setItem('quiz_user_id', userId);
+    }
+    return userId;
+  },
+  
+  setupPresence() {
+    const connectedRef = this.database.ref('.info/connected');
+    
+    connectedRef.on('value', (snapshot) => {
+      if (snapshot.val() === true) {
+        this.userRef.onDisconnect().remove();
+        
+        this.userRef.set({
+          timestamp: firebase.database.ServerValue.TIMESTAMP,
+          userId: this.userId
+        });
+      }
+    });
+    
+    window.addEventListener('beforeunload', () => {
+      this.userRef.remove();
+    });
+  },
+  
+  listenToOnlineCount() {
+    this.onlineRef.on('value', (snapshot) => {
+      const count = snapshot.numChildren();
+      const countEl = $('#onlineCount');
+      if (countEl) {
+        countEl.textContent = count;
+        
+        countEl.style.transform = 'scale(1.2)';
+        setTimeout(() => {
+          countEl.style.transform = 'scale(1)';
+        }, 200);
+      }
+    });
+  }
+};
+
 // ===== Analytics Module =====
 const Analytics = {
   // Track custom events
@@ -936,6 +1002,7 @@ function attachEvents() {
   attachEvents();
   loadDarkMode();
   checkDisclaimer();
+  OnlineUsers.init();
   
   try {
     originalData = await loadFromUrl(currentFile);

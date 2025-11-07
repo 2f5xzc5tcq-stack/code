@@ -134,7 +134,7 @@ let index = 0;
 let score = 0;
 let answered = [];
 let viewed = [];
-let currentFile = 'c.json';
+let currentFile = localStorage.getItem('quiz_current_subject') || 'c.json';
 let key = 'quiz_state_azota';
 let bookmarks = [];
 let startTime = null;
@@ -781,6 +781,9 @@ async function switchSubject(fileName, title, desc) {
   const previousSubject = currentFile;
   currentFile = fileName;
   
+  // Lưu môn học hiện tại vào localStorage
+  localStorage.setItem('quiz_current_subject', currentFile);
+  
   Analytics.switchSubject(previousSubject, currentFile);
   
   try {
@@ -974,8 +977,29 @@ function attachEvents() {
     renderQuestion();
     startTimer();
     
+    // Update UI với thông tin subject hiện tại
     if (els.currentFile) {
       els.currentFile.textContent = currentFile;
+    }
+    
+    // Tìm và update title/desc từ button tương ứng
+    const activeBtn = document.querySelector(`[data-file="${currentFile}"]`);
+    if (activeBtn) {
+      const title = activeBtn.dataset.title;
+      const desc = activeBtn.dataset.desc;
+      
+      if (els.subjectTitle && title) {
+        els.subjectTitle.textContent = title;
+      }
+      if (els.subjectDesc && desc) {
+        els.subjectDesc.textContent = desc;
+      }
+      
+      // Set active state cho button
+      document.querySelectorAll('.subject-nav-item').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      activeBtn.classList.add('active');
     }
   } catch (err) {
     els.questionText.textContent = `Không tải được dữ liệu. Hãy kiểm tra file ${currentFile}.`;

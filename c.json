@@ -1675,33 +1675,6 @@
       "hint": "Đặc trưng 'thống nhất trong đa dạng' đặt ra yêu cầu điều phối tốt."
     },
     {
-      "question_number": 66,
-      "question": "Triển vọng nào thể hiện vai trò trung tâm của ASEAN trong cấu trúc khu vực?",
-      "answeroption": [
-        {
-          "text": "Dẫn dắt các cơ chế như ARF, EAS, ADMM+ và ASEAN+3",
-          "rationale": "Đúng. Đây là nền tảng 'ASEAN centrality'.",
-          "isCorrect": true
-        },
-        {
-          "text": "Hạn chế đối tác đối thoại xuống còn 1 nước",
-          "rationale": "Sai.",
-          "isCorrect": false
-        },
-        {
-          "text": "Rút khỏi các diễn đàn khu vực",
-          "rationale": "Sai.",
-          "isCorrect": false
-        },
-        {
-          "text": "Tập trung nội khối, đình chỉ đối thoại quốc phòng",
-          "rationale": "Sai.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "ASEAN giữ vai trò điều phối nhiều cơ chế đối thoại khu vực."
-    },
-    {
       "question_number": 67,
       "question": "Từ viết tắt nào chỉ Cộng đồng Văn hoá – Xã hội ASEAN?",
       "answeroption": [

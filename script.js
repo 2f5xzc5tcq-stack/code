@@ -50,6 +50,7 @@ const els = {
 };
 
 let data = [];
+let originalData = [];
 let index = 0;
 let score = 0;
 let answered = [];
@@ -60,6 +61,7 @@ let bookmarks = [];
 let startTime = null;
 let timerInterval = null;
 let isDarkMode = false;
+let questionOrder = [];
 
 function saveState() {
   const state = { 
@@ -68,7 +70,8 @@ function saveState() {
     answered, 
     viewed, 
     length: data.length,
-    startTime: startTime ? startTime.getTime() : null
+    startTime: startTime ? startTime.getTime() : null,
+    questionOrder
   };
   const stateKey = `${key}_${currentFile}`;
   localStorage.setItem(stateKey, JSON.stringify(state));
@@ -149,6 +152,20 @@ function formatTime(seconds) {
   const minutes = Math.floor(seconds / 60);
   const secs = seconds % 60;
   return `${minutes}:${String(secs).padStart(2, '0')}`;
+}
+
+function shuffleArray(array) {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+}
+
+function shuffleQuestions() {
+  questionOrder = shuffleArray([...Array(originalData.length).keys()]);
+  data = questionOrder.map(i => originalData[i]);
 }
 
 function toggleDarkMode() {
@@ -345,7 +362,7 @@ function renderQuestion() {
   updateBookmarkButton();
 
   const displayNo = index + 1;
-  els.questionText.textContent = `(${displayNo}) ${q.question || '(Không có nội dung câu hỏi)'}`;
+  els.questionText.textContent = `${q.question || '(Không có nội dung câu hỏi)'}`;
 
   if (q.hint && String(q.hint).trim()) {
     els.hintWrap.classList.remove('hidden');
@@ -573,6 +590,9 @@ function restart() {
   viewed = [];
   startTime = new Date();
   els.summary.classList.add('hidden');
+  
+  shuffleQuestions();
+  
   renderQuestion();
   saveState();
   startTimer();
@@ -612,8 +632,8 @@ async function switchSubject(fileName, title, desc) {
   currentFile = fileName;
   
   try {
-    data = await loadFromUrl(currentFile);
-    if (!data.length) throw new Error('Không có câu hỏi trong JSON');
+    originalData = await loadFromUrl(currentFile);
+    if (!originalData.length) throw new Error('Không có câu hỏi trong JSON');
     
     index = 0;
     score = 0;
@@ -625,7 +645,11 @@ async function switchSubject(fileName, title, desc) {
     bookmarks = loadBookmarks();
     
     const state = loadState();
-    if (state && state.length === data.length) {
+    if (state && state.length === originalData.length && state.questionOrder && state.questionOrder.length === originalData.length) {
+      // Restore shuffled order from saved state
+      questionOrder = state.questionOrder;
+      data = questionOrder.map(i => originalData[i]);
+      
       index = Math.min(state.index ?? 0, data.length - 1);
       score = state.score ?? 0;
       answered = Array.isArray(state.answered) ? state.answered : [];
@@ -633,6 +657,9 @@ async function switchSubject(fileName, title, desc) {
       if (state.startTime) {
         startTime = new Date(state.startTime);
       }
+    } else {
+      // New session or expired - shuffle questions
+      shuffleQuestions();
     }
     
     markAsViewed(index);
@@ -740,13 +767,17 @@ function attachEvents() {
   loadDarkMode();
   
   try {
-    data = await loadFromUrl(currentFile);
-    if (!data.length) throw new Error('Không có câu hỏi trong JSON');
+    originalData = await loadFromUrl(currentFile);
+    if (!originalData.length) throw new Error('Không có câu hỏi trong JSON');
 
     bookmarks = loadBookmarks();
 
     const state = loadState();
-    if (state && state.length === data.length) {
+    if (state && state.length === originalData.length && state.questionOrder && state.questionOrder.length === originalData.length) {
+      // Restore shuffled order from saved state
+      questionOrder = state.questionOrder;
+      data = questionOrder.map(i => originalData[i]);
+      
       index = Math.min(state.index ?? 0, data.length - 1);
       score = state.score ?? 0;
       answered = Array.isArray(state.answered) ? state.answered : [];
@@ -757,6 +788,8 @@ function attachEvents() {
         startTime = new Date();
       }
     } else {
+      // New session or expired - shuffle questions
+      shuffleQuestions();
       startTime = new Date();
     }
 

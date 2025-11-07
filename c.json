@@ -1349,6 +1349,654 @@
         }
       ],
       "hint": "Thách thức này liên quan đến sự cạnh tranh của các nước lớn tại khu vực."
+    },
+    {
+      "question_number": 51,
+      "question": "Ngay khi ra Tuyên bố ASEAN (1967), khát vọng trọng tâm của các nước là gì?",
+      "answeroption": [
+        {
+          "text": "Xây dựng một cộng đồng thịnh vượng và hoà bình ở Đông Nam Á",
+          "rationale": "Đúng. Đây là mong muốn nêu ngay từ 1967.",
+          "isCorrect": true
+        },
+        {
+          "text": "Thành lập một liên minh phòng thủ chung",
+          "rationale": "Sai. ASEAN không phải liên minh quân sự.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hình thành đồng tiền chung ASEAN",
+          "rationale": "Sai. Không được nêu trong Tuyên bố 1967.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thống nhất chính trị thành một nhà nước liên bang",
+          "rationale": "Sai. ASEAN là hợp tác liên chính phủ.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Khát vọng khai mở xuất hiện ngay trong Tuyên bố thành lập 1967."
+    },
+    {
+      "question_number": 52,
+      "question": "Tầm nhìn ASEAN 2020 (1997) hướng đến mục tiêu gì cho ASEAN?",
+      "answeroption": [
+        {
+          "text": "Trở thành một cộng đồng các xã hội đùm bọc lẫn nhau",
+          "rationale": "Đúng. Mục tiêu trọng tâm của Tầm nhìn 2020.",
+          "isCorrect": true
+        },
+        {
+          "text": "Xây dựng liên minh quân sự khu vực",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thành lập Liên minh ASEAN (AU) theo mô hình EU",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tạo lập đồng tiền chung ASEAN",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Văn kiện năm 1997 xác định hình ảnh cộng đồng gắn bó về xã hội."
+    },
+    {
+      "question_number": 53,
+      "question": "Tuyên bố Ba-li II (2003) đặt nền móng cho Cộng đồng ASEAN với mấy trụ cột?",
+      "answeroption": [
+        {
+          "text": "Ba trụ cột: Chính trị–An ninh; Kinh tế; Văn hoá–Xã hội",
+          "rationale": "Đúng. Đây là bước ngoặt từ ý tưởng sang thiết kế cộng đồng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hai trụ cột: Kinh tế và Văn hoá–Xã hội",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Một trụ cột: Kinh tế",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bốn trụ cột: Chính trị; An ninh; Kinh tế; Văn hoá–Xã hội",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tuyên bố Ba-li II năm 2003."
+    },
+    {
+      "question_number": 54,
+      "question": "Hiến chương ASEAN (2007) có vai trò chính nào trong tiến trình xây dựng Cộng đồng?",
+      "answeroption": [
+        {
+          "text": "Cơ sở pháp lí cho liên kết nội khối và hoạt động theo luật lệ",
+          "rationale": "Đúng. Hiến chương như 'hiến pháp' của ASEAN.",
+          "isCorrect": true
+        },
+        {
+          "text": "Văn kiện thiết lập thị trường chung",
+          "rationale": "Sai. Nội dung này thuộc AEC, không riêng Hiến chương.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tuyên bố chấm dứt tranh chấp biển đảo",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Văn kiện kết nạp tất cả 10 nước",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hiến chương là bước hợp hiến hoá ASEAN."
+    },
+    {
+      "question_number": 55,
+      "question": "ASEAN thông qua lộ trình xây dựng Cộng đồng và ba trụ cột vào thời gian nào?",
+      "answeroption": [
+        {
+          "text": "Tháng 02/2009",
+          "rationale": "Đúng. Lộ trình 2009 cho giai đoạn 2009–2015.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tháng 11/2015",
+          "rationale": "Sai. Đây là mốc tuyên bố thành lập Cộng đồng cuối 2015.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tháng 10/2003",
+          "rationale": "Sai. Ba-li II là ý tưởng trụ cột, chưa phải lộ trình 2009.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tháng 01/2007",
+          "rationale": "Sai. Thông qua Hiến chương.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Lộ trình 2009 là bản kế hoạch đến mốc 31/12/2015."
+    },
+    {
+      "question_number": 56,
+      "question": "Nội dung nào là trọng tâm của Cộng đồng Chính trị–An ninh ASEAN (APSC)?",
+      "answeroption": [
+        {
+          "text": "Xây dựng môi trường hoà bình, ổn định, an ninh toàn diện",
+          "rationale": "Đúng. Kết hợp đối thoại, xây dựng lòng tin, dựa trên luật lệ.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tự do lưu chuyển hàng hoá, dịch vụ, đầu tư",
+          "rationale": "Sai. Thuộc AEC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nâng cao an sinh, phúc lợi và bản sắc ASEAN",
+          "rationale": "Sai. Thuộc ASCC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thiết lập đồng tiền chung",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "APSC chú trọng đối thoại, chuẩn mực, ngoại giao phòng ngừa."
+    },
+    {
+      "question_number": 57,
+      "question": "Biện pháp nào KHÔNG thuộc phương thức của APSC?",
+      "answeroption": [
+        {
+          "text": "Xây dựng lòng tin, ngoại giao phòng ngừa",
+          "rationale": "Sai. Đây là phương thức APSC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tuân thủ luật pháp quốc tế và các chuẩn mực ứng xử",
+          "rationale": "Sai. Đây là phương thức APSC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Giải quyết tranh chấp bằng vũ lực trước tiên",
+          "rationale": "Đúng. APSC đề cao biện pháp hoà bình, không khuyến khích dùng vũ lực.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tăng cường hợp tác quốc phòng mang tính minh bạch",
+          "rationale": "Sai. Là nội dung của APSC.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "APSC ưu tiên biện pháp hoà bình."
+    },
+    {
+      "question_number": 58,
+      "question": "Trong AEC, 'thị trường chung và cơ sở sản xuất thống nhất' bao gồm nội dung nào sau đây?",
+      "answeroption": [
+        {
+          "text": "Tự do lưu chuyển hàng hoá, dịch vụ, đầu tư, vốn và lao động có tay nghề",
+          "rationale": "Đúng. Đây là các tự do kinh tế chủ chốt của AEC.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tự do di chuyển quân đội giữa các nước",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Miễn thị thực mọi đối tượng du lịch",
+          "rationale": "Sai. Không phải cam kết cốt lõi của AEC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thống nhất thuế thu nhập cá nhân",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Năm dòng chảy chính của AEC."
+    },
+    {
+      "question_number": 59,
+      "question": "Nội dung 'phát triển đồng đều' của AEC nhấn mạnh điều gì?",
+      "answeroption": [
+        {
+          "text": "Thu hẹp khoảng cách phát triển giữa các nước ASEAN",
+          "rationale": "Đúng. Thông qua IAI, SME, kết nối khu vực...",
+          "isCorrect": true
+        },
+        {
+          "text": "Tăng rào cản phi thuế quan",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ưu tiên độc quyền nhà nước",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Giảm cạnh tranh nội khối",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "IAI (Sáng kiến liên kết ASEAN) hỗ trợ CLMV."
+    },
+    {
+      "question_number": 60,
+      "question": "ASCC hướng tới mục tiêu nào?",
+      "answeroption": [
+        {
+          "text": "Cộng đồng lấy con người làm trung tâm, gắn kết và bền vững",
+          "rationale": "Đúng. Đề cao phúc lợi, công bằng xã hội, môi trường.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tăng cường sức mạnh quân sự chung",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thiết lập liên minh thuế quan",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hoàn tất đồng tiền chung",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "ASCC nhấn mạnh phúc lợi, môi trường, văn hoá và bản sắc."
+    },
+    {
+      "question_number": 61,
+      "question": "Chính sách nào nằm trong phạm vi ASCC?",
+      "answeroption": [
+        {
+          "text": "Bảo vệ môi trường và ứng phó biến đổi khí hậu",
+          "rationale": "Đúng. Thuộc văn hoá–xã hội.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hài hoà tiêu chuẩn quốc phòng",
+          "rationale": "Sai. Nghiêng về APSC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Xoá bỏ thuế nội khối",
+          "rationale": "Sai. Thuộc AEC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tự do hoá thị trường vốn",
+          "rationale": "Sai. Thuộc AEC.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "ASCC tập trung con người và bền vững."
+    },
+    {
+      "question_number": 62,
+      "question": "Ngày 21/11/2015, ASEAN tuyên bố điều gì tại Cu-a-la Lăm-pơ?",
+      "answeroption": [
+        {
+          "text": "Việc thành lập Cộng đồng ASEAN vào 31/12/2015",
+          "rationale": "Đúng. Tuyên bố Cuala Lumpur về thành lập Cộng đồng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Thông qua Hiến chương ASEAN",
+          "rationale": "Sai. Năm 2007.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kết nạp thành viên thứ 11",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Giải thể APSC để gộp vào AEC",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tuyên bố Cu-a-la Lăm-pơ 2015."
+    },
+    {
+      "question_number": 63,
+      "question": "Tầm nhìn Cộng đồng ASEAN 2025 coi trọng những yếu tố nào?",
+      "answeroption": [
+        {
+          "text": "Gắn kết trên cơ sở pháp lí, lấy người dân làm trung tâm, năng động và sáng tạo",
+          "rationale": "Đúng. Nhấn mạnh đoàn kết, pháp quyền, bao trùm và bền vững.",
+          "isCorrect": true
+        },
+        {
+          "text": "Đơn cực hoá hệ thống khu vực",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tập trung quân sự hoá Biển Đông",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Đóng cửa với đối tác ngoài khu vực",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tầm nhìn 2025 hướng tới bao trùm và bền vững."
+    },
+    {
+      "question_number": 64,
+      "question": "Khó khăn nào bắt nguồn từ 'đa dạng' trong ASEAN?",
+      "answeroption": [
+        {
+          "text": "Khác biệt chế độ chính trị, văn hoá, trình độ phát triển và ngôn ngữ",
+          "rationale": "Đúng. Đây vừa là nét đặc trưng vừa là thách thức.",
+          "isCorrect": true
+        },
+        {
+          "text": "Diện tích lãnh thổ quá nhỏ",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Không có biển",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Dân số giảm mạnh",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đặc trưng 'thống nhất trong đa dạng' đặt ra yêu cầu điều phối tốt."
+    },
+    {
+      "question_number": 65,
+      "question": "Thách thức bên ngoài nổi bật đối với APSC là gì?",
+      "answeroption": [
+        {
+          "text": "Cạnh tranh chiến lược giữa các nước lớn tại khu vực",
+          "rationale": "Đúng. Tác động đến môi trường an ninh khu vực.",
+          "isCorrect": true
+        },
+        {
+          "text": "Thiếu tài nguyên nước ngọt trên toàn khu vực",
+          "rationale": "Sai. Không phải điểm nêu trọng tâm trong bài.",
+          "isCorrect": false
+        },
+        {
+          "text": "Suy giảm dân số vàng",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Giáo dục đại học không phát triển",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Cạnh tranh Mỹ–Trung và các nước lớn làm phức tạp an ninh khu vực."
+    },
+    {
+      "question_number": 66,
+      "question": "Triển vọng nào thể hiện vai trò trung tâm của ASEAN trong cấu trúc khu vực?",
+      "answeroption": [
+        {
+          "text": "Dẫn dắt các cơ chế như ARF, EAS, ADMM+ và ASEAN+3",
+          "rationale": "Đúng. Đây là nền tảng 'ASEAN centrality'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hạn chế đối tác đối thoại xuống còn 1 nước",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Rút khỏi các diễn đàn khu vực",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tập trung nội khối, đình chỉ đối thoại quốc phòng",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "ASEAN giữ vai trò điều phối nhiều cơ chế đối thoại khu vực."
+    },
+    {
+      "question_number": 67,
+      "question": "Từ viết tắt nào chỉ Cộng đồng Văn hoá – Xã hội ASEAN?",
+      "answeroption": [
+        {
+          "text": "ASCC",
+          "rationale": "Đúng. ASEAN Socio-Cultural Community.",
+          "isCorrect": true
+        },
+        {
+          "text": "APSC",
+          "rationale": "Sai. Chính trị–An ninh.",
+          "isCorrect": false
+        },
+        {
+          "text": "AEC",
+          "rationale": "Sai. Kinh tế.",
+          "isCorrect": false
+        },
+        {
+          "text": "AFTA",
+          "rationale": "Sai. Khu vực mậu dịch tự do ASEAN.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Ghi nhớ các viết tắt ba trụ cột."
+    },
+    {
+      "question_number": 68,
+      "question": "Thuật ngữ nào mô tả 'ASEAN là tổ chức hợp tác liên Chính phủ, hoạt động theo luật lệ'?",
+      "answeroption": [
+        {
+          "text": "Pháp quyền (rule of law) trong khu vực",
+          "rationale": "Đúng. Tinh thần của Hiến chương và Cộng đồng 2025.",
+          "isCorrect": true
+        },
+        {
+          "text": "Đơn cực hoá",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Liên bang hoá",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tập quyền hoá",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Bài nhấn mạnh hoạt động theo luật lệ và dựa trên pháp quyền."
+    },
+    {
+      "question_number": 69,
+      "question": "Nếu một chính sách đặt mục tiêu 'giảm phát thải và tăng khả năng chống chịu của cộng đồng', trụ cột phù hợp nhất là:",
+      "answeroption": [
+        {
+          "text": "ASCC",
+          "rationale": "Đúng. Gắn với môi trường, bền vững, con người.",
+          "isCorrect": true
+        },
+        {
+          "text": "APSC",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "AEC",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "ASEAN+1",
+          "rationale": "Sai. Đây là khuôn khổ đối tác, không phải trụ cột.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Gắn kết nội dung chính sách với trụ cột tương ứng."
+    },
+    {
+      "question_number": 70,
+      "question": "Chính sách 'đơn giản hoá thủ tục hải quan, thuận lợi hoá thương mại' thuộc trụ cột nào?",
+      "answeroption": [
+        {
+          "text": "AEC",
+          "rationale": "Đúng. Liên quan thương mại và hàng hoá.",
+          "isCorrect": true
+        },
+        {
+          "text": "APSC",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "ASCC",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Không thuộc trụ cột nào",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "AEC đề cao thuận lợi hoá thương mại."
+    },
+    {
+      "question_number": 71,
+      "question": "Chọn nhận định ĐÚNG về bản chất liên kết của ASEAN:",
+      "answeroption": [
+        {
+          "text": "ASEAN tôn trọng chủ quyền, không can thiệp công việc nội bộ, hợp tác trên cơ sở đồng thuận",
+          "rationale": "Đúng. Nguyên tắc vận hành cốt lõi.",
+          "isCorrect": true
+        },
+        {
+          "text": "ASEAN ra quyết định theo đa số quá bán",
+          "rationale": "Sai. Cơ chế đồng thuận.",
+          "isCorrect": false
+        },
+        {
+          "text": "ASEAN là liên minh quân sự phòng thủ tập thể",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "ASEAN bắt buộc hài hoà hoá toàn bộ luật trong nước",
+          "rationale": "Sai. Không phải mô hình liên bang/siêu quốc gia.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nguyên tắc đồng thuận và không can thiệp là đặc thù."
+    },
+    {
+      "question_number": 72,
+      "question": "Sắp xếp tiến trình sau theo đúng thứ tự thời gian: (1) Ba-li II; (2) Hiến chương ASEAN; (3) Lộ trình xây dựng Cộng đồng; (4) Thành lập Cộng đồng ASEAN.",
+      "answeroption": [
+        {
+          "text": "(1)-(2)-(3)-(4)",
+          "rationale": "Đúng: 2003 → 2007 → 2009 → 2015.",
+          "isCorrect": true
+        },
+        {
+          "text": "(2)-(1)-(3)-(4)",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "(1)-(3)-(2)-(4)",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "(3)-(2)-(1)-(4)",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Ghi nhớ chuỗi mốc: 2003, 2007, 2009, 2015."
+    },
+    {
+      "question_number": 73,
+      "question": "Nguyên tắc 'thống nhất trong đa dạng' của ASEAN chủ yếu phản ánh ở trụ cột nào?",
+      "answeroption": [
+        {
+          "text": "ASCC nhưng lan toả sang cả APSC và AEC",
+          "rationale": "Đúng. Bản sắc – con người – văn hoá là trọng tâm ASCC, đồng thời là phương châm chung.",
+          "isCorrect": true
+        },
+        {
+          "text": "Chỉ thuộc AEC",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chỉ thuộc APSC",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Không thuộc trụ cột nào",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Câu hỏi khái quát bản sắc cộng đồng."
+    },
+    {
+      "question_number": 74,
+      "question": "Cơ chế nào KHÔNG phải do ASEAN dẫn dắt?",
+      "answeroption": [
+        {
+          "text": "NATO",
+          "rationale": "Đúng. NATO là liên minh quân sự do phương Tây dẫn dắt, không liên quan ASEAN.",
+          "isCorrect": true
+        },
+        {
+          "text": "ARF (Diễn đàn Khu vực ASEAN)",
+          "rationale": "Sai. ASEAN chủ trì.",
+          "isCorrect": false
+        },
+        {
+          "text": "EAS (Cấp cao Đông Á)",
+          "rationale": "Sai. Do ASEAN làm trung tâm.",
+          "isCorrect": false
+        },
+        {
+          "text": "ADMM+ (Hội nghị Bộ trưởng Quốc phòng mở rộng)",
+          "rationale": "Sai. ASEAN giữ vai trò nòng cốt.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Kiến thức về 'ASEAN centrality'."
     }
   ]
 }

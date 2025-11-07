@@ -62,6 +62,7 @@ let startTime = null;
 let timerInterval = null;
 let isDarkMode = false;
 let questionOrder = [];
+let answerOrderMap = {};
 
 function saveState() {
   const state = { 
@@ -71,7 +72,8 @@ function saveState() {
     viewed, 
     length: data.length,
     startTime: startTime ? startTime.getTime() : null,
-    questionOrder
+    questionOrder,
+    answerOrderMap
   };
   const stateKey = `${key}_${currentFile}`;
   localStorage.setItem(stateKey, JSON.stringify(state));
@@ -166,6 +168,14 @@ function shuffleArray(array) {
 function shuffleQuestions() {
   questionOrder = shuffleArray([...Array(originalData.length).keys()]);
   data = questionOrder.map(i => originalData[i]);
+  
+  answerOrderMap = {};
+  data.forEach((q, qIdx) => {
+    const options = q.answerOptions || q.answeroption || q.answer_options || [];
+    if (options.length > 0) {
+      answerOrderMap[qIdx] = shuffleArray([...Array(options.length).keys()]);
+    }
+  });
 }
 
 function toggleDarkMode() {
@@ -378,14 +388,18 @@ function renderQuestion() {
   const options = q.answerOptions || q.answeroption || q.answer_options || [];
   const correctIdx = options.findIndex(o => o.isCorrect);
   
-  options.forEach((opt, i) => {
-    const isPicked = chosen === i;
+  const shuffledOrder = answerOrderMap[index] || [...Array(options.length).keys()];
+  const shuffledOptions = shuffledOrder.map(i => ({ ...options[i], originalIndex: i }));
+  
+  shuffledOptions.forEach((opt, displayIdx) => {
+    const originalIdx = opt.originalIndex;
+    const isPicked = chosen === originalIdx;
     const base = 'choice rounded-xl border-2 px-5 py-4 text-sm sm:text-base transition-all cursor-pointer';
     let cls = 'border-slate-200 bg-white hover:border-blue-300 hover:bg-blue-50 shadow-sm hover:shadow-md';
     let badge = '';
     
     if (answered[index]) {
-      if (i === correctIdx) {
+      if (originalIdx === correctIdx) {
         cls = 'border-emerald-400 bg-gradient-to-r from-emerald-100 to-green-100 shadow-md';
         badge = '<span class="inline-block ml-2 px-2 py-0.5 bg-emerald-500 text-white text-xs font-bold rounded">Đúng</span>';
       }
@@ -398,8 +412,8 @@ function renderQuestion() {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = `${base} ${cls} text-left`;
-    btn.innerHTML = `<div class="flex items-start gap-3"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-slate-200 text-slate-800 font-bold text-sm flex-shrink-0">${String.fromCharCode(65 + i)}</span><span class="font-medium text-slate-900 flex-1">${opt.text}${badge}</span></div>`;
-    btn.addEventListener('click', () => onPick(i));
+    btn.innerHTML = `<div class="flex items-start gap-3"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-slate-200 text-slate-800 font-bold text-sm flex-shrink-0">${String.fromCharCode(65 + displayIdx)}</span><span class="font-medium text-slate-900 flex-1">${opt.text}${badge}</span></div>`;
+    btn.addEventListener('click', () => onPick(originalIdx));
     els.choices.appendChild(btn);
   });
 
@@ -646,9 +660,18 @@ async function switchSubject(fileName, title, desc) {
     
     const state = loadState();
     if (state && state.length === originalData.length && state.questionOrder && state.questionOrder.length === originalData.length) {
-      // Restore shuffled order from saved state
       questionOrder = state.questionOrder;
       data = questionOrder.map(i => originalData[i]);
+      answerOrderMap = state.answerOrderMap || {};
+      
+      if (Object.keys(answerOrderMap).length === 0) {
+        data.forEach((q, qIdx) => {
+          const options = q.answerOptions || q.answeroption || q.answer_options || [];
+          if (options.length > 0) {
+            answerOrderMap[qIdx] = shuffleArray([...Array(options.length).keys()]);
+          }
+        });
+      }
       
       index = Math.min(state.index ?? 0, data.length - 1);
       score = state.score ?? 0;
@@ -658,7 +681,6 @@ async function switchSubject(fileName, title, desc) {
         startTime = new Date(state.startTime);
       }
     } else {
-      // New session or expired - shuffle questions
       shuffleQuestions();
     }
     
@@ -774,9 +796,18 @@ function attachEvents() {
 
     const state = loadState();
     if (state && state.length === originalData.length && state.questionOrder && state.questionOrder.length === originalData.length) {
-      // Restore shuffled order from saved state
       questionOrder = state.questionOrder;
       data = questionOrder.map(i => originalData[i]);
+      answerOrderMap = state.answerOrderMap || {};
+      
+      if (Object.keys(answerOrderMap).length === 0) {
+        data.forEach((q, qIdx) => {
+          const options = q.answerOptions || q.answeroption || q.answer_options || [];
+          if (options.length > 0) {
+            answerOrderMap[qIdx] = shuffleArray([...Array(options.length).keys()]);
+          }
+        });
+      }
       
       index = Math.min(state.index ?? 0, data.length - 1);
       score = state.score ?? 0;
@@ -788,7 +819,6 @@ function attachEvents() {
         startTime = new Date();
       }
     } else {
-      // New session or expired - shuffle questions
       shuffleQuestions();
       startTime = new Date();
     }

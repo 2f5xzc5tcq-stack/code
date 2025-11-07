@@ -1,0 +1,1489 @@
+{
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "Theo định nghĩa trong SGK, ester được hình thành khi thay nhóm -OH trong nhóm carboxyl của carboxylic acid bằng nhóm nào?",
+      "answer_options": [
+        {
+          "text": "Nhóm OR' (với R' là gốc hydrocarbon)",
+          "rationale": "Đúng. Sách giáo khoa (trang 7) định nghĩa: 'Khi thay nhóm OH trong nhóm carboxyl của carboxylic acid bằng nhóm OR' thì được ester. Trong đó, R' là gốc hydrocarbon'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nhóm OH (hydroxyl)",
+          "rationale": "Sai. Nhóm -OH là nhóm bị thay thế, không phải nhóm thay thế.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhóm CHO (aldehyde)",
+          "rationale": "Sai. Đây là nhóm chức của aldehyde, không phải nhóm tạo ester.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhóm NH₂ (amino)",
+          "rationale": "Sai. Đây là nhóm chức của amine.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem lại khái niệm ester ở Bài 1."
+    },
+    {
+      "question_number": 2,
+      "question": "Tên gọi đúng của ester có công thức CH₃COOC₂H₅ là gì?",
+      "answer_options": [
+        {
+          "text": "Methyl acetate",
+          "rationale": "Sai. Đây là CH₃COOCH₃.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ethyl acetate",
+          "rationale": "Đúng. Tên gọi ester = Tên gốc R' (ethyl) + Tên gốc acid RCOO (acetate).",
+          "isCorrect": true
+        },
+        {
+          "text": "Propyl formate",
+          "rationale": "Sai. Đây là HCOOC₃H₇.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ethyl propionate",
+          "rationale": "Sai. Đây là C₂H₅COOC₂H₅.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Quy tắc gọi tên ester là: Tên gốc R' + Tên gốc acid RCOO."
+    },
+    {
+      "question_number": 3,
+      "question": "Tại sao ester thường có nhiệt độ sôi thấp hơn alcohol và carboxylic acid có cùng số nguyên tử carbon?",
+      "answer_options": [
+        {
+          "text": "Vì ester có khối lượng phân tử lớn hơn.",
+          "rationale": "Sai. Khối lượng phân tử tương đương nhưng nhiệt độ sôi vẫn thấp hơn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì ester không có liên kết hydrogen giữa các phân tử.",
+          "rationale": "Đúng. Sách giáo khoa (trang 8) ghi rõ: 'Do không có liên kết hydrogen giữa các phân tử, ester có nhiệt độ sôi thấp hơn...'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Vì ester rất ít tan trong nước.",
+          "rationale": "Sai. Tính tan và nhiệt độ sôi là hai tính chất khác nhau, mặc dù cả hai đều liên quan đến liên kết hydrogen.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì ester có mùi thơm dễ chịu.",
+          "rationale": "Sai. Mùi thơm không phải là yếu tố quyết định nhiệt độ sôi.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "So sánh khả năng tạo liên kết hydrogen của ester so với alcohol và acid."
+    },
+    {
+      "question_number": 4,
+      "question": "Phản ứng thuỷ phân ester trong môi trường acid (ví dụ H₂SO₄) có đặc điểm gì?",
+      "answer_options": [
+        {
+          "text": "Là phản ứng thuận nghịch.",
+          "rationale": "Đúng. Phản ứng thuỷ phân ester trong môi trường acid... thường là phản ứng thuận nghịch.",
+          "isCorrect": true
+        },
+        {
+          "text": "Là phản ứng một chiều.",
+          "rationale": "Sai. Đây là đặc điểm của phản ứng xà phòng hoá (thuỷ phân trong môi trường kiềm).",
+          "isCorrect": false
+        },
+        {
+          "text": "Tạo ra muối và alcohol.",
+          "rationale": "Sai. Phản ứng này tạo ra carboxylic acid và alcohol.",
+          "isCorrect": false
+        },
+        {
+          "text": "Không cần đun nóng.",
+          "rationale": "Sai. Phản ứng ester hoá và thuỷ phân acid đều cần đun nóng (t°).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem lại tính chất hoá học của ester, phần phản ứng thuỷ phân."
+    },
+    {
+      "question_number": 5,
+      "question": "Phản ứng xà phòng hoá là gì?",
+      "answer_options": [
+        {
+          "text": "Phản ứng của ester với nước trong môi trường acid.",
+          "rationale": "Sai. Đây là phản ứng thuỷ phân trong môi trường acid.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phản ứng của ester khi đun nóng với dung dịch kiềm.",
+          "rationale": "Đúng. 'Ester cũng bị thuỷ phân khi đun nóng với dung dịch kiềm... Phản ứng này được gọi là phản ứng xà phòng hoá'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Phản ứng điều chế ester từ acid và alcohol.",
+          "rationale": "Sai. Đây là phản ứng ester hoá.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phản ứng cộng hydrogen vào ester không no.",
+          "rationale": "Sai. Đây là phản ứng hydrogenation, thường dùng cho chất béo lỏng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Phản ứng xà phòng hoá là một loại phản ứng thuỷ phân đặc biệt của ester."
+    },
+    {
+      "question_number": 6,
+      "question": "Chất nào sau đây được dùng làm dung môi để tách caffeine khỏi cà phê?",
+      "answer_options": [
+        {
+          "text": "Methyl methacrylate",
+          "rationale": "Sai. Chất này dùng để điều chế poly(methyl methacrylate) làm răng giả, kính áp tròng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Isoamyl acetate",
+          "rationale": "Sai. Chất này có mùi chuối chín, dùng làm hương liệu.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ethyl acetate",
+          "rationale": "Đúng. Sách giáo khoa (trang 9) nêu rõ: 'ethyl acetate được sử dụng để tách caffeine khỏi cà phê'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ethyl butyrate",
+          "rationale": "Sai. Chất này có mùi dứa chín, dùng làm hương liệu.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem phần ứng dụng của ester ở Bài 1."
+    },
+    {
+      "question_number": 7,
+      "question": "Về mặt cấu tạo, chất béo (triglyceride) là gì?",
+      "answer_options": [
+        {
+          "text": "Polyester của glycerol và acid béo.",
+          "rationale": "Sai. Chất béo là triester, không phải polyester (polymer).",
+          "isCorrect": false
+        },
+        {
+          "text": "Triester của glycerol với các acid béo.",
+          "rationale": "Đúng. 'Chất béo là triester của glycerol với các acid béo'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Triester của ethylene glycol với các acid béo.",
+          "rationale": "Sai. Chất béo được tạo từ glycerol (C₃H₅(OH)₃), không phải ethylene glycol (C₂H₄(OH)₂).",
+          "isCorrect": false
+        },
+        {
+          "text": "Muối sodium của acid béo.",
+          "rationale": "Sai. Đây là thành phần chính của xà phòng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem lại khái niệm chất béo ở Bài 1, trang 10."
+    },
+    {
+      "question_number": 8,
+      "question": "Acid béo nào sau đây thuộc nhóm omega-6?",
+      "answer_options": [
+        {
+          "text": "Palmitic acid (C₁₅H₃₁COOH)",
+          "rationale": "Sai. Đây là acid béo no, không có liên kết đôi nên không phân loại omega.",
+          "isCorrect": false
+        },
+        {
+          "text": "Stearic acid (C₁₇H₃₅COOH)",
+          "rationale": "Sai. Đây là acid béo no.",
+          "isCorrect": false
+        },
+        {
+          "text": "Oleic acid (C₁₇H₃₃COOH)",
+          "rationale": "Sai. Acid này có 1 liên kết đôi ở vị trí C9 (tính từ COOH), là omega-9 (không nêu rõ trong bảng nhưng không phải omega-6).",
+          "isCorrect": false
+        },
+        {
+          "text": "Linoleic acid (C₁₇H₃₁COOH)",
+          "rationale": "Đúng. Sách giáo khoa (trang 10, câu hỏi 9) xác nhận acid béo trong Bảng 1.2 thuộc nhóm omega-6 là Linoleic acid.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Omega-n là vị trí liên kết đôi đầu tiên tính từ đuôi CH₃."
+    },
+    {
+      "question_number": 9,
+      "question": "Ở nhiệt độ thường, dầu thực vật ở thể lỏng vì sao?",
+      "answer_options": [
+        {
+          "text": "Chúng chứa nhiều gốc acid béo no.",
+          "rationale": "Sai. Chất béo chứa nhiều gốc no thường ở thể rắn (mỡ động vật).",
+          "isCorrect": false
+        },
+        {
+          "text": "Chúng chứa nhiều gốc acid béo không no.",
+          "rationale": "Đúng. 'chất béo chứa nhiều gốc acid béo không no thường ở thể lỏng (có nhiều trong dầu thực vật)'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Chúng nhẹ hơn nước và không tan trong nước.",
+          "rationale": "Sai. Đây là tính chất chung của cả mỡ rắn và dầu lỏng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chúng có chứa glycerol trong phân tử.",
+          "rationale": "Sai. Cả mỡ rắn và dầu lỏng đều chứa glycerol.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Liên hệ giữa trạng thái (lỏng/rắn) và loại gốc acid béo (no/không no)."
+    },
+    {
+      "question_number": 10,
+      "question": "Phản ứng hydrogenation (hiđro hoá) chất béo lỏng nhằm mục đích gì?",
+      "answer_options": [
+        {
+          "text": "Chuyển chất béo lỏng (chưa no) thành chất béo rắn (no).",
+          "rationale": "Đúng. 'người ta hydrogen hoá chất béo lỏng để được chất béo rắn'. Phản ứng cộng H₂ vào liên kết đôi C=C .",
+          "isCorrect": true
+        },
+        {
+          "text": "Chuyển chất béo rắn (no) thành chất béo lỏng (chưa no).",
+          "rationale": "Sai. Đây là phản ứng ngược lại (dehydrogenation), không phải hydrogenation.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thủy phân chất béo thành glycerol và xà phòng.",
+          "rationale": "Sai. Đây là phản ứng xà phòng hoá.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chống cho dầu mỡ bị ôi thiu.",
+          "rationale": "Sai. Quá trình ôi thiu là do oxi hoá. Hydrogenation loại bỏ liên kết đôi, vô tình cũng làm sản phẩm no bền hơn với oxi hoá, nhưng mục đích chính là chuyển sang thể rắn.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem phản ứng của chất béo ở Bài 1, trang 11."
+    },
+    {
+      "question_number": 11,
+      "question": "Hiện tượng dầu mỡ để lâu bị ôi thiu là do đâu?",
+      "answer_options": [
+        {
+          "text": "Phản ứng thủy phân bởi hơi nước trong không khí.",
+          "rationale": "Sai. Đây không phải nguyên nhân chính gây mùi khó chịu.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phản ứng hydrogen hoá bởi hydrogen trong không khí.",
+          "rationale": "Sai. Không khí không có H₂ để gây phản ứng này.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phản ứng oxi hoá chậm bởi oxygen trong không khí.",
+          "rationale": "Đúng. 'chất béo không no bị oxi hoá chậm bởi oxygen trong không khí tạo ra các chất có mùi khó chịu, làm cho dầu mỡ bị ôi'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Phản ứng lên men bởi vi khuẩn.",
+          "rationale": "Sai. Nguyên nhân hoá học chính là oxi hoá liên kết đôi C=C.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nguyên nhân liên quan đến các liên kết đôi C=C trong chất béo không no."
+    },
+    {
+      "question_number": 12,
+      "question": "Thành phần chính của xà phòng là gì?",
+      "answer_options": [
+        {
+          "text": "Hỗn hợp muối sodium hoặc potassium của các acid béo.",
+          "rationale": "Đúng. 'Xà phòng là hỗn hợp muối sodium hoặc potassium của các acid béo...'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sodium alkylsulfate hoặc sodium alkylbenzenesulfonate.",
+          "rationale": "Sai. Đây là thành phần chính của chất giặt rửa tổng hợp.",
+          "isCorrect": false
+        },
+        {
+          "text": "Triester của glycerol và acid béo.",
+          "rationale": "Sai. Đây là chất béo, nguyên liệu để sản xuất xà phòng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Các chất có trong tự nhiên như bồ hòn, bồ kết.",
+          "rationale": "Sai. Đây là chất giặt rửa tự nhiên, không phải xà phòng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem lại khái niệm xà phòng ở Bài 2, trang 13."
+    },
+    {
+      "question_number": 13,
+      "question": "Đặc điểm cấu tạo chung của phân tử xà phòng và chất giặt rửa tổng hợp là gì?",
+      "answer_options": [
+        {
+          "text": "Chỉ có phần kị nước (ưa dầu).",
+          "rationale": "Sai. Cần cả phần ưa nước để kéo vết bẩn vào nước.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chỉ có phần ưa nước (tan trong nước).",
+          "rationale": "Sai. Cần cả phần kị nước để xâm nhập vào vết bẩn dầu mỡ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Gồm một đầu ưa nước gắn với một đuôi dài kị nước.",
+          "rationale": "Đúng. Đây là đặc điểm cấu tạo chung, giúp chúng 'vừa ưa nước, vừa ưa dầu'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Phân tử có chứa liên kết peptide.",
+          "rationale": "Sai. Liên kết peptide có trong protein.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Cấu trúc này giúp phân tử 'vừa ưa nước, vừa ưa dầu'."
+    },
+    {
+      "question_number": 14,
+      "question": "Tại sao không nên dùng xà phòng để giặt rửa trong nước cứng?",
+      "answer_options": [
+        {
+          "text": "Vì nước cứng làm xà phòng mất mùi thơm.",
+          "rationale": "Sai. Lý do chính là về mặt hóa học.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì xà phòng tạo muối khó tan với ion Ca²⁺ và Mg²⁺ trong nước cứng.",
+          "rationale": "Đúng. 'Không nên dùng xà phòng giặt rửa trong nước cứng... do muối của các kim loại này với các acid béo thường ít tan'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Vì nước cứng làm tăng tính phân hủy sinh học của xà phòng.",
+          "rationale": "Sai. Nước cứng làm giảm tác dụng giặt rửa của xà phòng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì xà phòng không tan trong nước cứng.",
+          "rationale": "Sai. Xà phòng tan, nhưng sau đó ion của nó phản ứng với ion nước cứng tạo kết tủa.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nước cứng chứa nhiều ion Ca²⁺ và Mg²⁺."
+    },
+    {
+      "question_number": 15,
+      "question": "Ưu điểm của chất giặt rửa tổng hợp so với xà phòng là gì?",
+      "answer_options": [
+        {
+          "text": "Có thể sử dụng được với cả nước cứng.",
+          "rationale": "Đúng. 'có thể sử dụng chất giặt rửa tổng hợp với cả nước cứng, do... không tạo muối khó tan với Ca²⁺, Mg²⁺'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Dễ bị phân huỷ sinh học hơn xà phòng.",
+          "rationale": "Sai. Ngược lại, đây là nhược điểm của một số chất giặt rửa tổng hợp.",
+          "isCorrect": false
+        },
+        {
+          "text": "Được sản xuất hoàn toàn từ nguyên liệu tự nhiên.",
+          "rationale": "Sai. Chúng được sản xuất chủ yếu từ các sản phẩm của dầu mỏ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Là hỗn hợp muối của acid béo.",
+          "rationale": "Sai. Đây là định nghĩa của xà phòng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "So sánh cách sử dụng của xà phòng và chất giặt rửa tổng hợp trong nước cứng."
+    },
+    {
+      "question_number": 16,
+      "question": "Carbohydrate được phân loại dựa vào đặc điểm nào?",
+      "answer_options": [
+        {
+          "text": "Khả năng phản ứng với Cu(OH)₂.",
+          "rationale": "Sai. Nhiều loại (polyol, disaccharide) đều phản ứng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mùi vị (ngọt hoặc không ngọt).",
+          "rationale": "Sai. Đây là tính chất, không phải cơ sở phân loại chính (ví dụ tinh bột không ngọt).",
+          "isCorrect": false
+        },
+        {
+          "text": "Phản ứng thuỷ phân.",
+          "rationale": "Đúng. Bảng 3.1 (trang 17) phân loại 3 nhóm: Monosaccharide (không bị thuỷ phân), Disaccharide (thuỷ phân ra 2 phân tử), Polysaccharide (thuỷ phân ra nhiều phân tử).",
+          "isCorrect": true
+        },
+        {
+          "text": "Nguồn gốc (động vật hoặc thực vật).",
+          "rationale": "Sai. Đây không phải cách phân loại hóa học.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem Bảng 3.1 Phân loại carbohydrate."
+    },
+    {
+      "question_number": 17,
+      "question": "Chất nào sau đây thuộc nhóm Disaccharide?",
+      "answer_options": [
+        {
+          "text": "Glucose",
+          "rationale": "Sai. Glucose là monosaccharide.",
+          "isCorrect": false
+        },
+        {
+          "text": "Saccharose",
+          "rationale": "Đúng. Saccharose và maltose là ví dụ về disaccharide.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cellulose",
+          "rationale": "Sai. Cellulose là polysaccharide.",
+          "isCorrect": false
+        },
+        {
+          "text": "Fructose",
+          "rationale": "Sai. Fructose là monosaccharide.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Disaccharide là nhóm carbohydrate khi bị thuỷ phân hoàn toàn tạo thành hai phân tử monosaccharide."
+    },
+    {
+      "question_number": 18,
+      "question": "Trong tự nhiên, fructose có nhiều trong đâu?",
+      "answer_options": [
+        {
+          "text": "Trong máu người.",
+          "rationale": "Sai. Trong máu người chủ yếu là glucose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Trong cây mía.",
+          "rationale": "Sai. Cây mía có nhiều saccharose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Trong mật ong.",
+          "rationale": "Đúng. 'Mật ong chứa trung bình 40% fructose...'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Trong thành tế bào thực vật.",
+          "rationale": "Sai. Thành tế bào thực vật là cellulose.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Fructose có vị ngọt hơn glucose và có nhiều trong một loại thực phẩm tự nhiên."
+    },
+    {
+      "question_number": 19,
+      "question": "Phát biểu nào sau đây là **SAI** về cấu tạo của glucose và fructose?",
+      "answer_options": [
+        {
+          "text": "Cả hai đều có công thức phân tử C₆H₁₂O₆.",
+          "rationale": "Đúng. Đây là phát biểu đúng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ở dạng mạch hở, glucose là aldehyde, fructose là ketone.",
+          "rationale": "Đúng. Glucose có nhóm -CHO , fructose có nhóm C=O ở C2. Đây là phát biểu đúng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Trong dung dịch, cả hai đều chỉ tồn tại ở dạng mạch vòng.",
+          "rationale": "Sai. Chúng tồn tại *chủ yếu* ở dạng mạch vòng, nhưng dạng mạch vòng và mạch hở có thể chuyển hoá lẫn nhau.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cả hai đều là đồng phân cấu tạo của nhau.",
+          "rationale": "Đúng. Chúng có cùng CTPT (C₆H₁₂O₆) nhưng khác CTCT (aldehyde vs ketone). Đây là phát biểu đúng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem lại đặc điểm cấu tạo của glucose và fructose ở Bài 3."
+    },
+    {
+      "question_number": 20,
+      "question": "Phản ứng nào sau đây chứng tỏ glucose (và fructose) có tính chất của polyalcohol?",
+      "answer_options": [
+        {
+          "text": "Phản ứng với thuốc thử Tollens tạo lớp bạc.",
+          "rationale": "Sai. Đây là phản ứng chứng tỏ tính chất của nhóm aldehyde.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phản ứng với Cu(OH)₂ ở nhiệt độ thường tạo dung dịch màu xanh lam.",
+          "rationale": "Đúng. Đây là phản ứng đặc trưng của polyalcohol có các nhóm -OH kề nhau, cả glucose và fructose đều có phản ứng này.",
+          "isCorrect": true
+        },
+        {
+          "text": "Phản ứng lên men rượu tạo C₂H₅OH.",
+          "rationale": "Sai. Đây là phản ứng lên men đặc trưng của glucose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phản ứng với nước bromine làm mất màu nước bromine.",
+          "rationale": "Sai. Đây là phản ứng chứng tỏ tính chất của nhóm aldehyde (chỉ glucose có).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tính chất của polyalcohol liên quan đến các nhóm -OH trong phân tử."
+    },
+    {
+      "question_number": 21,
+      "question": "Tại sao fructose (dạng mạch hở là ketone) vẫn có phản ứng với thuốc thử Tollens (phản ứng tráng bạc)?",
+      "answer_options": [
+        {
+          "text": "Vì trong phân tử fructose có nhóm -OH hemiacetal.",
+          "rationale": "Sai. Fructose có nhóm -OH hemiketal (dạng vòng), không phải hemiacetal.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì thuốc thử Tollens có tính oxi hoá rất mạnh, oxi hoá được cả ketone.",
+          "rationale": "Sai. Thuốc thử Tollens chỉ oxi hoá aldehyde trong điều kiện thường.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì trong môi trường kiềm (của thuốc thử Tollens), fructose chuyển hoá thành glucose.",
+          "rationale": "Đúng. 'Tuy không có nhóm -CHO... nhưng trong môi trường kiềm, fructose chuyển hoá thành glucose, nên có phản ứng...'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Vì fructose bị thủy phân trong dung dịch tạo ra glucose.",
+          "rationale": "Sai. Fructose là monosaccharide, không bị thủy phân.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem giải thích ở trang 20, Bài 3."
+    },
+    {
+      "question_number": 22,
+      "question": "Để phân biệt dung dịch glucose và fructose, ta có thể dùng thuốc thử nào sau đây?",
+      "answer_options": [
+        {
+          "text": "Nước bromine",
+          "rationale": "Đúng. Glucose (aldehyde) làm mất màu nước bromine, fructose (ketone) không phản ứng. Đây là cách phân biệt.",
+          "isCorrect": true
+        },
+        {
+          "text": "Thuốc thử Tollens (AgNO₃/NH₃)",
+          "rationale": "Sai. Cả hai đều phản ứng (do fructose chuyển hóa thành glucose trong môi trường kiềm).",
+          "isCorrect": false
+        },
+        {
+          "text": "Cu(OH)₂ ở nhiệt độ thường",
+          "rationale": "Sai. Cả hai đều là polyol, đều tạo dung dịch xanh lam.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cu(OH)₂/NaOH, đun nóng",
+          "rationale": "Sai. Cả hai đều phản ứng tạo kết tủa đỏ gạch (do fructose chuyển hóa thành glucose trong môi trường kiềm).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Cần một thuốc thử chỉ phản ứng với nhóm -CHO mà không phản ứng với nhóm C=O (ketone) và không ở trong môi trường kiềm."
+    },
+    {
+      "question_number": 23,
+      "question": "Sản phẩm của phản ứng lên men rượu glucose (có xúc tác enzyme) là gì?",
+      "answer_options": [
+        {
+          "text": "Lactic acid (CH₃CH(OH)COOH)",
+          "rationale": "Sai. Đây là sản phẩm của phản ứng lên men lactic.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ethanol (C₂H₅OH) và Carbon dioxide (CO₂)",
+          "rationale": "Đúng. C₆H₁₂O₆ --(enzyme)--> 2C₂H₅OH + 2CO₂.",
+          "isCorrect": true
+        },
+        {
+          "text": "Gluconic acid (CH₂OH[CHOH]₄COOH)",
+          "rationale": "Sai. Đây là sản phẩm khi oxi hoá glucose bằng nước bromine.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ammonium gluconate",
+          "rationale": "Sai. Đây là sản phẩm khi oxi hoá glucose bằng thuốc thử Tollens.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem các phản ứng lên men ở Bài 3, trang 21."
+    },
+    {
+      "question_number": 24,
+      "question": "Phát biểu nào sau đây là **ĐÚNG**?",
+      "answer_options": [
+        {
+          "text": "Glucose và fructose đều là disaccharide.",
+          "rationale": "Sai. Chúng là monosaccharide.",
+          "isCorrect": false
+        },
+        {
+          "text": "Carbohydrate là hợp chất hữu cơ đơn chức.",
+          "rationale": "Sai. Carbohydrate là hợp chất hữu cơ tạp chức (có nhiều loại nhóm chức, ví dụ -OH và -CHO).",
+          "isCorrect": false
+        },
+        {
+          "text": "Có thể phân biệt glucose và fructose bằng thuốc thử Tollens.",
+          "rationale": "Sai. Cả hai đều phản ứng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Glucose và fructose không tham gia phản ứng thuỷ phân.",
+          "rationale": "Đúng. Vì chúng là monosaccharide, nhóm carbohydrate đơn giản nhất.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Xem lại định nghĩa về monosaccharide."
+    },
+    {
+      "question_number": 25,
+      "question": "Trong y học, người ta thường dùng glucose để trị chứng hạ đường huyết vì sao?",
+      "answer_options": [
+        {
+          "text": "Glucose là chất dinh dưỡng có thể hấp thụ trực tiếp vào máu.",
+          "rationale": "Đúng. 'Glucose là chất dinh dưỡng có giá trị... do có thể hấp thụ trực tiếp vào máu'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Glucose có vị ngọt nhất trong các loại đường.",
+          "rationale": "Sai. Fructose ngọt hơn glucose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Glucose có phản ứng tráng bạc.",
+          "rationale": "Sai. Tính chất hóa học này không liên quan đến ứng dụng trị hạ đường huyết.",
+          "isCorrect": false
+        },
+        {
+          "text": "Glucose có thể lên men tạo alcohol.",
+          "rationale": "Sai. Ứng dụng này dùng trong công nghiệp thực phẩm, không phải y tế trị hạ đường huyết.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem phần ứng dụng của glucose ở Bài 3, trang 21."
+    },
+    {
+      "question_number": 26,
+      "question": "Saccharose (đường ăn) có nhiều trong loại thực vật nào?",
+      "answer_options": [
+        {
+          "text": "Mật ong",
+          "rationale": "Sai. Mật ong có nhiều fructose và glucose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ngũ cốc nảy mầm (mạch nha)",
+          "rationale": "Sai. Mạch nha có nhiều maltose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cây mía và củ cải đường",
+          "rationale": "Đúng. 'Saccharose có nhiều trong cây mía, hoa thốt nốt, củ cải đường...'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Quả nho chín",
+          "rationale": "Sai. Trái cây chín (như nho) có nhiều glucose.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Saccharose còn được gọi là đường ăn."
+    },
+    {
+      "question_number": 27,
+      "question": "Về mặt cấu tạo, phân tử saccharose được tạo bởi các đơn vị nào?",
+      "answer_options": [
+        {
+          "text": "Một đơn vị α-glucose và một đơn vị β-fructose.",
+          "rationale": "Đúng. 'Phân tử saccharose được tạo bởi một đơn vị α-glucose và một đơn vị β-fructose'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hai đơn vị α-glucose.",
+          "rationale": "Sai. Đây là cấu tạo của maltose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hai đơn vị β-glucose.",
+          "rationale": "Sai. Đây là cấu tạo của cellulose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Một đơn vị α-glucose và một đơn vị β-galactose.",
+          "rationale": "Sai. Đây là cấu tạo của lactose (không có trong phạm vi bài học).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem Hình 4.1. Phân tử saccharose."
+    },
+    {
+      "question_number": 28,
+      "question": "Phát biểu nào sau đây là **SAI** về saccharose?",
+      "answer_options": [
+        {
+          "text": "Bị thuỷ phân trong môi trường acid tạo glucose và fructose.",
+          "rationale": "Đúng. Đây là tính chất của disaccharide.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phản ứng với Cu(OH)₂ ở nhiệt độ thường tạo dung dịch màu xanh lam.",
+          "rationale": "Đúng. Đây là tính chất của polyalcohol.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phản ứng với thuốc thử Tollens (tráng bạc) khi đun nóng.",
+          "rationale": "Sai. Phân tử saccharose không có nhóm -OH hemiacetal hoặc -OH hemiketal tự do, nên không thể mở vòng tạo nhóm aldehyde . Do đó, nó không có phản ứng tráng bạc.",
+          "isCorrect": true
+        },
+        {
+          "text": "Là một disaccharide có công thức phân tử C₁₂H₂₂O₁₁.",
+          "rationale": "Đúng. Đây là thông tin cơ bản về saccharose.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Phản ứng tráng bạc yêu cầu phải có nhóm -CHO (hoặc khả năng chuyển hóa thành -CHO)."
+    },
+    {
+      "question_number": 29,
+      "question": "Về mặt cấu tạo, phân tử maltose được tạo bởi các đơn vị nào?",
+      "answer_options": [
+        {
+          "text": "Một đơn vị α-glucose và một đơn vị β-fructose.",
+          "rationale": "Sai. Đây là cấu tạo của saccharose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hai đơn vị α-glucose.",
+          "rationale": "Đúng. 'phân tử maltose được tạo bởi hai đơn vị glucose' (cụ thể là α-glucose qua liên kết α-1,4-glycoside).",
+          "isCorrect": true
+        },
+        {
+          "text": "Hai đơn vị β-glucose.",
+          "rationale": "Sai. Đây là cấu tạo của cellulose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hai đơn vị fructose.",
+          "rationale": "Sai. Cấu tạo này không được đề cập.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem Hình 4.2. Phân tử maltose."
+    },
+    {
+      "question_number": 30,
+      "question": "Tại sao maltose có thể mở vòng (và có phản ứng tráng bạc) trong khi saccharose thì không?",
+      "answer_options": [
+        {
+          "text": "Vì maltose có liên kết α-1,4-glycoside, còn saccharose có liên kết α-1,2-glycoside.",
+          "rationale": "Sai. Loại liên kết (1,4 hay 1,2) không phải lý do chính, mà là liên kết đó có sử dụng hết nhóm -OH hemiacetal/hemiketal hay không.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì maltose được tạo từ glucose, còn saccharose được tạo từ fructose.",
+          "rationale": "Sai. Saccharose cũng được tạo từ glucose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì phân tử maltose vẫn còn một nhóm -OH hemiacetal tự do ở một đơn vị glucose.",
+          "rationale": "Đúng. Đơn vị glucose thứ hai trong maltose (liên kết ở C₄) vẫn còn -OH hemiacetal ở C₁ , cho phép nó mở vòng. Saccharose đã dùng cả -OH hemiacetal và -OH hemiketal để liên kết.",
+          "isCorrect": true
+        },
+        {
+          "text": "Vì maltose có trong mạch nha nên có tính khử, saccharose có trong mía nên không có.",
+          "rationale": "Sai. Nguồn gốc không quyết định tính chất hóa học này.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "So sánh cấu tạo của saccharose (Hình 4.1) và maltose (Hình 4.2), chú ý đến nhóm -OH ở C₁ (glucose) và C₂ (fructose)."
+    },
+    {
+      "question_number": 31,
+      "question": "Carbohydrate nào sau đây không có nhóm -OH hemiacetal hoặc nhóm -OH hemiketal (tự do)?",
+      "answer_options": [
+        {
+          "text": "Glucose",
+          "rationale": "Sai. Glucose (dạng vòng) có nhóm -OH hemiacetal.",
+          "isCorrect": false
+        },
+        {
+          "text": "Fructose",
+          "rationale": "Sai. Fructose (dạng vòng) có nhóm -OH hemiketal.",
+          "isCorrect": false
+        },
+        {
+          "text": "Maltose",
+          "rationale": "Sai. Maltose có nhóm -OH hemiacetal tự do.",
+          "isCorrect": false
+        },
+        {
+          "text": "Saccharose",
+          "rationale": "Đúng. Câu hỏi 1 (trang 23) và câu hỏi 1 (trang 25) xác nhận điều này. Liên kết α-1,2-glycoside đã khóa vòng.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Xem lại câu hỏi 1 trong Bài 4, trang 23."
+    },
+    {
+      "question_number": 32,
+      "question": "Chất nào sau đây là thành phần chính của thành tế bào thực vật?",
+      "answer_options": [
+        {
+          "text": "Tinh bột",
+          "rationale": "Sai. Tinh bột có nhiều trong hạt, củ (dự trữ năng lượng).",
+          "isCorrect": false
+        },
+        {
+          "text": "Cellulose",
+          "rationale": "Đúng. 'Cellulose là thành phần chính của thành tế bào thực vật'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Saccharose",
+          "rationale": "Sai. Saccharose có nhiều trong cây mía, củ cải đường.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chất béo",
+          "rationale": "Sai. Chất béo là lipid, không phải thành phần chính của thành tế bào thực vật.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem phần trạng thái tự nhiên của Cellulose ở Bài 5, trang 26."
+    },
+    {
+      "question_number": 33,
+      "question": "Tinh bột là polysaccharide, gồm hai thành phần là:",
+      "answer_options": [
+        {
+          "text": "Glucose và Fructose",
+          "rationale": "Sai. Đây là 2 monosaccharide, cũng là sản phẩm thủy phân của saccharose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Amylose và Amylopectin",
+          "rationale": "Đúng. 'Tinh bột là polysaccharide, gồm amylose và amylopectin'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Saccharose và Maltose",
+          "rationale": "Sai. Đây là các disaccharide.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tinh bột và Cellulose",
+          "rationale": "Sai. Đây là 2 polysaccharide khác nhau.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem cấu tạo của Tinh bột ở Bài 5, trang 27."
+    },
+    {
+      "question_number": 34,
+      "question": "Monomer cấu tạo nên tinh bột (cả amylose và amylopectin) là gì?",
+      "answer_options": [
+        {
+          "text": "α-glucose",
+          "rationale": "Đúng. Amylose  và Amylopectin  đều tạo bởi nhiều đơn vị α-glucose.",
+          "isCorrect": true
+        },
+        {
+          "text": "β-glucose",
+          "rationale": "Sai. β-glucose là monomer cấu tạo nên cellulose.",
+          "isCorrect": false
+        },
+        {
+          "text": "α-fructose",
+          "rationale": "Sai. Fructose là thành phần của saccharose.",
+          "isCorrect": false
+        },
+        {
+          "text": "β-fructose",
+          "rationale": "Sai. Fructose là thành phần của saccharose.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "So sánh monomer của tinh bột  và cellulose."
+    },
+    {
+      "question_number": 35,
+      "question": "Đặc điểm cấu tạo nào khiến Amylopectin có mạch phân nhánh?",
+      "answer_options": [
+        {
+          "text": "Chỉ có liên kết α-1,4-glycoside.",
+          "rationale": "Sai. Đây là liên kết tạo mạch thẳng (giống Amylose).",
+          "isCorrect": false
+        },
+        {
+          "text": "Có thêm liên kết α-1,6-glycoside.",
+          "rationale": "Đúng. 'Do có thêm liên kết α-1,6-glycoside nối giữa các đoạn mạch nên amylopectin có mạch phân nhánh'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Chỉ có liên kết β-1,4-glycoside.",
+          "rationale": "Sai. Đây là liên kết trong cellulose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mạch bị xoắn thành hình lò xo.",
+          "rationale": "Sai. Mạch xoắn lò xo là của Amylose (do liên kết α-1,4-glycoside), không phải nguyên nhân gây phân nhánh.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem Hình 5.2 Phân tử amylopectin."
+    },
+    {
+      "question_number": 36,
+      "question": "Monomer cấu tạo nên cellulose là gì?",
+      "answer_options": [
+        {
+          "text": "α-glucose",
+          "rationale": "Sai. α-glucose là monomer cấu tạo nên tinh bột.",
+          "isCorrect": false
+        },
+        {
+          "text": "β-glucose",
+          "rationale": "Đúng. 'phân tử cellulose tạo bởi nhiều đơn vị β-glucose'.",
+          "isCorrect": true
+        },
+        {
+          "text": "α-fructose",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "β-fructose",
+          "rationale": "Sai. β-fructose là thành phần của saccharose.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem cấu tạo của Cellulose ở Bài 5, trang 28."
+    },
+    {
+      "question_number": 37,
+      "question": "Phản ứng thủy phân hoàn toàn tinh bột hoặc cellulose (trong môi trường acid, t°) đều thu được sản phẩm cuối cùng là gì?",
+      "answer_options": [
+        {
+          "text": "Fructose",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Saccharose",
+          "rationale": "Sai. Saccharose là disaccharide, không phải sản phẩm thủy phân của polysaccharide.",
+          "isCorrect": false
+        },
+        {
+          "text": "Glucose",
+          "rationale": "Đúng. Tinh bột  và Cellulose  khi thủy phân hoàn toàn đều tạo thành glucose.",
+          "isCorrect": true
+        },
+        {
+          "text": "Maltose",
+          "rationale": "Sai. Maltose là sản phẩm thủy phân *không hoàn toàn* (dextrin) của tinh bột.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Cả hai đều là polysaccharide được cấu tạo từ các đơn vị glucose (α hoặc β)."
+    },
+    {
+      "question_number": 38,
+      "question": "Phản ứng đặc trưng dùng để nhận biết tinh bột (hồ tinh bột) là gì?",
+      "answer_options": [
+        {
+          "text": "Phản ứng với Cu(OH)₂ tạo dung dịch xanh lam.",
+          "rationale": "Sai. Đây là phản ứng của polyol (glucose, saccharose...).",
+          "isCorrect": false
+        },
+        {
+          "text": "Phản ứng với dung dịch iodine tạo hợp chất màu xanh tím.",
+          "rationale": "Đúng. 'Tinh bột tác dụng với iodine tạo hợp chất có màu xanh tím. Đây là phản ứng đặc trưng để nhận biết tinh bột'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Phản ứng tráng bạc với thuốc thử Tollens.",
+          "rationale": "Sai. Tinh bột không có nhóm -CHO tự do.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phản ứng thủy phân trong môi trường acid.",
+          "rationale": "Sai. Cellulose và disaccharide cũng bị thủy phân.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Phản ứng này liên quan đến cấu trúc xoắn lò xo của amylose."
+    },
+    {
+      "question_number": 39,
+      "question": "Cellulose trinitrate (thuốc súng không khói) được điều chế bằng phản ứng của cellulose với chất nào?",
+      "answer_options": [
+        {
+          "text": "Dung dịch HNO₃ đặc (xúc tác H₂SO₄ đặc).",
+          "rationale": "Đúng. 'Cellulose tác dụng với hỗn hợp nitric acid đặc và sulfuric acid đặc thường tạo thành... cellulose trinitrate'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Dung dịch iodine.",
+          "rationale": "Sai. Iodine dùng để nhận biết tinh bột.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nước Schweizer (Cu(OH)₂ trong NH₃).",
+          "rationale": "Sai. Cellulose *tan* trong nước Schweizer, không phải tạo cellulose trinitrate.",
+          "isCorrect": false
+        },
+        {
+          "text": "Dung dịch NaOH đặc.",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Phản ứng này dựa trên 3 nhóm -OH trong mỗi mắt xích cellulose."
+    },
+    {
+      "question_number": 40,
+      "question": "Phát biểu nào sau đây là **ĐÚNG**?",
+      "answer_options": [
+        {
+          "text": "Tinh bột và cellulose là đồng phân của nhau.",
+          "rationale": "Sai. Chúng có cùng công thức (C₆H₁₀O₅)n nhưng n (số mắt xích) khác nhau, nên không phải đồng phân.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cellulose có cấu trúc mạch phân nhánh, tinh bột có mạch không phân nhánh.",
+          "rationale": "Sai. Ngược lại, cellulose không phân nhánh , tinh bột có amylopectin phân nhánh.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cơ thể người có thể tiêu hoá được cả tinh bột và cellulose.",
+          "rationale": "Sai. Người tiêu hóa được tinh bột , nhưng không tiêu hóa được cellulose (chỉ động vật nhai lại có enzyme cellulase mới tiêu hóa được).",
+          "isCorrect": false
+        },
+        {
+          "text": "Mắt xích cấu tạo nên tinh bột là α-glucose, còn cellulose là β-glucose.",
+          "rationale": "Đúng. Đây là sự khác biệt cơ bản về cấu tạo giữa chúng.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "So sánh sự khác biệt cơ bản về monomer và liên kết glycoside giữa tinh bột và cellulose."
+    },
+    {
+      "question_number": 41,
+      "question": "Quá trình quang hợp ở cây xanh tạo ra glucose từ những chất nào?",
+      "answer_options": [
+        {
+          "text": "CO₂ và H₂O (với xúc tác chlorophyll, ánh sáng).",
+          "rationale": "Đúng. 6CO₂ + 6H₂O --(asmt, chlorophyll)--> C₆H₁₂O₆ + 6O₂.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tinh bột và H₂O.",
+          "rationale": "Sai. Đây là phản ứng thủy phân tinh bột, ngược lại với quá trình tổng hợp.",
+          "isCorrect": false
+        },
+        {
+          "text": "Saccharose và H₂O.",
+          "rationale": "Sai. Đây là phản ứng thủy phân saccharose.",
+          "isCorrect": false
+        },
+        {
+          "text": "O₂ và H₂O.",
+          "rationale": "Sai. O₂ là sản phẩm, không phải nguyên liệu.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem phương trình quang hợp ở Bài 5, trang 31."
+    },
+    {
+      "question_number": 42,
+      "question": "Khi ăn cơm (chứa tinh bột), enzyme amylase trong nước bọt phân giải tinh bột thành gì?",
+      "answer_options": [
+        {
+          "text": "Glucose (hấp thụ ngay lập tức).",
+          "rationale": "Sai. Glucose là sản phẩm cuối cùng ở ruột. Bước đầu tiên trong miệng là dextrin và maltose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Dextrin và Maltose.",
+          "rationale": "Đúng. 'Khi ăn tinh bột, enzyme trong nước bọt (amylase) phân giải tinh bột thành dextrin, maltose'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cellulose.",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Fructose.",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem sự chuyển hoá tinh bột trong cơ thể, Bài 5, trang 30."
+    },
+    {
+      "question_number": 43,
+      "question": "Công thức nào sau đây biểu diễn cấu tạo của cellulose?",
+      "answer_options": [
+        {
+          "text": "[C₆H₇O₂(OH)₃]n",
+          "rationale": "Đúng. Sách giáo khoa (trang 28, Chú ý) ghi: 'Trong phân tử cellulose, mỗi mắt xích C₆H₁₀O₅ có 3 nhóm OH nên có thể viết là [C₆H₇O₂(OH)₃]n'.",
+          "isCorrect": true
+        },
+        {
+          "text": "C₁₂H₂₂O₁₁",
+          "rationale": "Sai. Đây là công thức của disaccharide (saccharose, maltose).",
+          "isCorrect": false
+        },
+        {
+          "text": "C₆H₁₂O₆",
+          "rationale": "Sai. Đây là công thức của monosaccharide (glucose, fructose).",
+          "isCorrect": false
+        },
+        {
+          "text": "RCOOR'",
+          "rationale": "Sai. Đây là công thức chung của ester.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Công thức này thể hiện mỗi mắt xích (C₆H₁₀O₅) có 3 nhóm -OH tự do."
+    },
+    {
+      "question_number": 44,
+      "question": "Phát biểu nào sau đây là **SAI**?",
+      "answer_options": [
+        {
+          "text": "Chất béo là triester của glycerol với các acid béo.",
+          "rationale": "Đây là phát biểu đúng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chất béo không phải là carbohydrate.",
+          "rationale": "Đây là phát biểu đúng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Carbohydrate là những hợp chất hữu cơ tạp chức.",
+          "rationale": "Đây là phát biểu đúng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tinh bột, saccharose và glucose đều tham gia phản ứng thuỷ phân.",
+          "rationale": "Sai. Tinh bột (polysaccharide)  và saccharose (disaccharide)  bị thuỷ phân, nhưng glucose (monosaccharide) không bị thuỷ phân.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Xem lại định nghĩa phân loại carbohydrate dựa trên phản ứng thuỷ phân."
+    },
+    {
+      "question_number": 45,
+      "question": "Có bao nhiêu ester có công thức phân tử C₃H₆O₂?",
+      "answer_options": [
+        {
+          "text": "2",
+          "rationale": "Đúng. Đó là HCOOC₂H₅ (ethyl formate) và CH₃COOCH₃ (methyl acetate). (Câu hỏi 1, trang 12) .",
+          "isCorrect": true
+        },
+        {
+          "text": "3",
+          "rationale": "Sai..",
+          "isCorrect": false
+        },
+        {
+          "text": "4",
+          "rationale": "Sai..",
+          "isCorrect": false
+        },
+        {
+          "text": "5",
+          "rationale": "Sai..",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Viết các đồng phân ester có thể có của C₃H₆O₂."
+    },
+    {
+      "question_number": 46,
+      "question": "Chất X có CTPT C₄H₈O₂. Cho X tác dụng với NaOH đun nóng, thu được chất Y có CTPT C₃H₅O₂Na. Công thức cấu tạo của X là:",
+      "answer_options": [
+        {
+          "text": "HCOOCH₂CH₂CH₃",
+          "rationale": "Sai. Thủy phân chất này tạo ra HCOONa (C₁H₁O₂Na), không phải C₃H₅O₂Na.",
+          "isCorrect": false
+        },
+        {
+          "text": "CH₃COOC₂H₅",
+          "rationale": "Sai. Thủy phân chất này tạo ra CH₃COONa (C₂H₃O₂Na), không phải C₃H₅O₂Na.",
+          "isCorrect": false
+        },
+        {
+          "text": "HCOOCH(CH₃)₂",
+          "rationale": "Sai. Thủy phân chất này tạo ra HCOONa (C₁H₁O₂Na), không phải C₃H₅O₂Na.",
+          "isCorrect": false
+        },
+        {
+          "text": "C₂H₅COOCH₃",
+          "rationale": "Đúng. X (C₄H₈O₂) là C₂H₅COOCH₃. Khi + NaOH, tạo ra Y (C₂H₅COONa, tức C₃H₅O₂Na) và CH₃OH. (Câu hỏi 2, trang 12) .",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Phân tích công thức muối Y (C₃H₅O₂Na) để tìm ra gốc acid (C₂H₅COO-), từ đó suy ra ester X."
+    },
+    {
+      "question_number": 47,
+      "question": "Chất nào sau đây có thể là thành phần chính của chất giặt rửa tổng hợp?",
+      "answer_options": [
+        {
+          "text": "C₁₇H₃₅COONa (Sodium stearate)",
+          "rationale": "Sai. Đây là xà phòng (muối của acid béo).",
+          "isCorrect": false
+        },
+        {
+          "text": "CH₃[CH₂]₁₀CH₂OSO₃Na (Sodium laurylsulfate)",
+          "rationale": "Đúng. Đây là ví dụ về chất giặt rửa tổng hợp (sodium alkylsulfate).",
+          "isCorrect": true
+        },
+        {
+          "text": "C₁₅H₃₁COOK (Potassium palmitate)",
+          "rationale": "Sai. Đây là xà phòng (muối của acid béo).",
+          "isCorrect": false
+        },
+        {
+          "text": "(C₁₇H₃₅COO)₃C₃H₅ (Tristearin)",
+          "rationale": "Sai. Đây là chất béo, không phải chất giặt rửa.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Chất giặt rửa tổng hợp thường là các muối alkylsulfate hoặc alkylbenzenesulfonate."
+    },
+    {
+      "question_number": 48,
+      "question": "Phát biểu nào sau đây là **SAI**?",
+      "answer_options": [
+        {
+          "text": "Tinh bột tan một phần trong nước nóng tạo hồ tinh bột.",
+          "rationale": "Đây là phát biểu đúng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cellulose là chất rắn, dạng sợi, không tan trong nước.",
+          "rationale": "Đây là phát biểu đúng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Saccharose có nhiều trong cây mía và củ cải đường.",
+          "rationale": "Đây là phát biểu đúng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Glucose và Maltose đều là monosaccharide.",
+          "rationale": "Sai. Glucose là monosaccharide , nhưng Maltose là disaccharide.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Xem lại bảng phân loại carbohydrate ở Bài 3, trang 17."
+    },
+    {
+      "question_number": 49,
+      "question": "Khi đun nước đường (saccharose) có thêm một ít nước chanh (môi trường acid), dung dịch thu được ngọt hơn. Tại sao?",
+      "answer_options": [
+        {
+          "text": "Vì nước chanh làm tăng độ pH của dung dịch.",
+          "rationale": "Sai. Nước chanh (acid) làm giảm độ pH.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì saccharose bị thủy phân trong môi trường acid tạo ra glucose và fructose; fructose ngọt hơn saccharose.",
+          "rationale": "Đúng. Fructose là sản phẩm thủy phân  và có vị ngọt hơn glucose  và saccharose. (Câu hỏi 7, trang 25) .",
+          "isCorrect": true
+        },
+        {
+          "text": "Vì nước chanh phản ứng với saccharose tạo ra chất ngọt hơn.",
+          "rationale": "Sai. Nước chanh đóng vai trò là xúc tác acid cho phản ứng thủy phân.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì saccharose bị oxi hoá bởi không khí tạo ra chất ngọt hơn.",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem phản ứng thủy phân saccharose  và so sánh độ ngọt của các loại đường."
+    },
+    {
+      "question_number": 50,
+      "question": "Trong công nghiệp, xà phòng được sản xuất từ nguyên liệu chính là gì?",
+      "answer_options": [
+        {
+          "text": "Chất béo và kiềm (NaOH hoặc KOH).",
+          "rationale": "Đúng. 'xà phòng được sản xuất từ nguyên liệu chính là chất béo và sodium hydroxide hoặc potassium hydroxide'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Dầu mỏ và acid sulfuric.",
+          "rationale": "Sai. Đây là nguyên liệu sản xuất chất giặt rửa tổng hợp.",
+          "isCorrect": false
+        },
+        {
+          "text": "Glucose và enzyme.",
+          "rationale": "Sai. Đây là phản ứng lên men rượu.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cellulose và acid nitric.",
+          "rationale": "Sai. Đây là phản ứng tạo thuốc súng không khói.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Phản ứng chính để sản xuất xà phòng là phản ứng xà phòng hoá."
+    },
+    {
+      "question_number": 56,
+      "question": "Có tổng cộng bao nhiêu đồng phân ester (đồng phân cấu tạo) ứng với công thức phân tử C₃H₆O₂?",
+      "answer_options": {
+        "1": {
+          "text": "1",
+          "rationale": "Sai. Có nhiều hơn 1 đồng phân.",
+          "isCorrect": false
+        },
+        "2": {
+          "text": "2",
+          "rationale": "Đúng. Gồm: HCOOC₂H₅ (ethyl formate) và CH₃COOCH₃ (methyl acetate).",
+          "isCorrect": true
+        },
+        "3": {
+          "text": "3",
+          "rationale": "Sai. C₃H₆O₂ có 1 đồng phân acid (propionic acid) và 2 đồng phân ester. Tổng là 3, nhưng câu hỏi chỉ hỏi ester.",
+          "isCorrect": false
+        },
+        "4": {
+          "text": "4",
+          "rationale": "Sai. Đây là số đồng phân ester của C₄H₈O₂.",
+          "isCorrect": false
+        }
+      },
+      "hint": "Viết các dạng RCOOR' có tổng 3 carbon."
+    },
+    {
+      "question_number": 57,
+      "question": "Có tổng cộng bao nhiêu đồng phân acid carboxylic (đồng phân cấu tạo) ứng với công thức phân tử C₄H₈O₂?",
+      "answer_options": {
+        "1": {
+          "text": "1",
+          "rationale": "Sai. Có nhiều hơn 1 đồng phân acid.",
+          "isCorrect": false
+        },
+        "2": {
+          "text": "2",
+          "rationale": "Đúng. Gồm: CH₃CH₂CH₂COOH (butyric acid) và (CH₃)₂CHCOOH (isobutyric acid).",
+          "isCorrect": true
+        },
+        "3": {
+          "text": "3",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        "4": {
+          "text": "4",
+          "rationale": "Sai. Đây là số đồng phân ester của C₄H₈O₂.",
+          "isCorrect": false
+        }
+      },
+      "hint": "Viết các dạng R-COOH có tổng 4 carbon, chú ý đồng phân mạch carbon của gốc R."
+    },
+    {
+      "question_number": 58,
+      "question": "Có tổng cộng bao nhiêu đồng phân cấu tạo mạch hở (gồm ester và acid carboxylic) ứng với công thức phân tử C₃H₆O₂?",
+      "answer_options": {
+        "1": {
+          "text": "1",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        "2": {
+          "text": "2",
+          "rationale": "Sai. Đây chỉ là số đồng phân ester.",
+          "isCorrect": false
+        },
+        "3": {
+          "text": "3",
+          "rationale": "Đúng. Gồm 2 ester (HCOOC₂H₅, CH₃COOCH₃) và 1 acid (CH₃CH₂COOH).",
+          "isCorrect": true
+        },
+        "4": {
+          "text": "4",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      },
+      "hint": "Đếm số đồng phân của cả hai loại chức: ester và acid."
+    },
+    {
+      "question_number": 59,
+      "question": "Trong phạm vi chương 2, có bao nhiêu đồng phân monosaccharide (có CTPT C₆H₁₂O₆) được học?",
+      "answer_options": {
+        "1": {
+          "text": "1",
+          "rationale": "Sai. Có 2 chất được học song song.",
+          "isCorrect": false
+        },
+        "2": {
+          "text": "2",
+          "rationale": "Đúng. Đó là Glucose và Fructose (Bài 3).",
+          "isCorrect": true
+        },
+        "3": {
+          "text": "3",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        "4": {
+          "text": "4",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      },
+      "hint": "Xem lại Bài 3: Glucose và Fructose."
+    },
+    {
+      "question_number": 60,
+      "question": "Trong phạm vi chương 2, có bao nhiêu đồng phân disaccharide (có CTPT C₁₂H₂₂O₁₁) được học?",
+      "answer_options": {
+        "1": {
+          "text": "1",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        "2": {
+          "text": "2",
+          "rationale": "Đúng. Đó là Saccharose và Maltose (Bài 4).",
+          "isCorrect": true
+        },
+        "3": {
+          "text": "3",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        "4": {
+          "text": "4",
+          "rationale": "Sai.",
+          "isCorrect": false
+        }
+      },
+      "hint": "Xem lại Bài 4: Saccharose và Maltose."
+    }
+  ]
+}

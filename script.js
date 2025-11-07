@@ -388,11 +388,11 @@ function renderQuestion() {
     
     if (answered[index]) {
       if (i === correctIdx) {
-        cls = 'border-emerald-400 bg-gradient-to-r from-emerald-50 to-green-50 shadow-md';
+        cls = 'border-emerald-400 bg-gradient-to-r from-emerald-100 to-green-100 shadow-md';
         badge = '<span class="inline-block ml-2 px-2 py-0.5 bg-emerald-500 text-white text-xs font-bold rounded">Đúng</span>';
       }
       if (isPicked && chosen !== correctIdx) {
-        cls = 'border-rose-400 bg-gradient-to-r from-rose-50 to-red-50 shadow-md';
+        cls = 'border-rose-400 bg-gradient-to-r from-rose-100 to-red-100 shadow-md';
         badge = '<span class="inline-block ml-2 px-2 py-0.5 bg-rose-500 text-white text-xs font-bold rounded">Sai</span>';
       }
     }
@@ -400,7 +400,7 @@ function renderQuestion() {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = `${base} ${cls} text-left`;
-    btn.innerHTML = `<div class="flex items-start gap-3"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-slate-700 font-bold text-sm flex-shrink-0">${String.fromCharCode(65 + i)}</span><span class="font-medium text-slate-800 flex-1">${opt.text}${badge}</span></div>`;
+    btn.innerHTML = `<div class="flex items-start gap-3"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-slate-200 text-slate-800 font-bold text-sm flex-shrink-0">${String.fromCharCode(65 + i)}</span><span class="font-medium text-slate-900 flex-1">${opt.text}${badge}</span></div>`;
     btn.addEventListener('click', () => onPick(i));
     els.choices.appendChild(btn);
   });
@@ -440,12 +440,12 @@ function showExplain(q, pickedIdx) {
   
   const html = hasRationale
     ? `<div class="mt-3">
-        <button onclick="toggleRationale('${rationaleId}')" class="w-full text-center py-2.5 px-4 rounded-lg bg-blue-100 hover:bg-blue-200 text-blue-700 font-semibold text-sm transition-colors border-2 border-blue-300 hover:border-blue-400">
+        <button onclick="toggleRationale('${rationaleId}')" class="w-full text-center py-2.5 px-4 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold text-sm transition-all shadow-md hover:shadow-lg">
           Xem giải thích chi tiết
         </button>
-        <div id="${rationaleId}" class="hidden mt-3 p-4 rounded-lg bg-blue-50 border-l-4 border-blue-400 shadow-sm">
-          <div class="font-semibold text-blue-900 mb-2 text-sm">Giải thích chi tiết</div>
-          <div class="text-slate-700 leading-relaxed">${rationaleText}</div>
+        <div id="${rationaleId}" class="hidden mt-3 p-4 rounded-lg bg-gradient-to-br from-slate-700 to-slate-800 border-l-4 border-blue-400 shadow-lg">
+          <div class="font-semibold text-blue-300 mb-2 text-sm">💡 Giải thích chi tiết</div>
+          <div class="text-slate-200 leading-relaxed">${rationaleText}</div>
         </div>
       </div>`
     : '';

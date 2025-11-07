@@ -34,7 +34,6 @@ const els = {
   summaryText: $('#summaryText'),
   btnReviewWrong: $('#btnReviewWrong'),
   
-  // New elements
   darkModeToggle: $('#darkModeToggle'),
   openMobileMenu: $('#openMobileMenu'),
   closeMobileMenu: $('#closeMobileMenu'),
@@ -50,19 +49,18 @@ const els = {
   bookmarksContent: $('#bookmarksContent'),
 };
 
-let data = [];              // All questions (no shuffle)
-let index = 0;              // Current question index
+let data = [];
+let index = 0;
 let score = 0;
-let answered = [];          // {picked, correctIndex, isCorrect}
-let viewed = [];            // Track which questions have been viewed
-let currentFile = 'c.json'; // Current data file
+let answered = [];
+let viewed = [];
+let currentFile = 'c.json';
 let key = 'quiz_state_azota';
-let bookmarks = [];         // Bookmarked questions
-let startTime = null;       // Quiz start time
-let timerInterval = null;   // Timer interval
-let isDarkMode = false;     // Dark mode state
+let bookmarks = [];
+let startTime = null;
+let timerInterval = null;
+let isDarkMode = false;
 
-// ===== Load / Save state =====
 function saveState() {
   const state = { 
     index, 
@@ -83,7 +81,6 @@ function loadState() {
   try { return JSON.parse(raw); } catch { return null; }
 }
 
-// ===== Bookmarks =====
 function saveBookmarks() {
   const bookmarkKey = `${key}_bookmarks_${currentFile}`;
   localStorage.setItem(bookmarkKey, JSON.stringify(bookmarks));
@@ -118,7 +115,6 @@ function updateBookmarkButton() {
   }
 }
 
-// ===== Timer =====
 function startTimer() {
   if (!startTime) {
     startTime = new Date();
@@ -155,7 +151,6 @@ function formatTime(seconds) {
   return `${minutes}:${String(secs).padStart(2, '0')}`;
 }
 
-// ===== Dark Mode =====
 function toggleDarkMode() {
   isDarkMode = !isDarkMode;
   document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
@@ -165,13 +160,11 @@ function toggleDarkMode() {
 
 function loadDarkMode() {
   const saved = localStorage.getItem('darkMode');
-  // Default to dark mode if no preference saved
   isDarkMode = saved === null ? true : saved === 'true';
   document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
   els.darkModeToggle.classList.toggle('active', isDarkMode);
 }
 
-// ===== History =====
 function saveHistory() {
   const right = answered.filter(a => a && a.isCorrect).length;
   const answeredCount = answered.filter(a => a).length;
@@ -196,7 +189,6 @@ function saveHistory() {
   } catch {}
   
   history.unshift(historyItem);
-  // Keep only last 50 records
   if (history.length > 50) history = history.slice(0, 50);
   
   localStorage.setItem(historyKey, JSON.stringify(history));
@@ -286,7 +278,6 @@ window.removeBookmark = function(i, event) {
   }
 }
 
-// ===== Sidebar Navigation =====
 function renderSidebar() {
   els.questionNav.innerHTML = '';
   data.forEach((q, i) => {
@@ -294,12 +285,10 @@ function renderSidebar() {
     btn.className = 'question-nav-item';
     btn.textContent = i + 1;
     
-    // Add status classes
     if (i === index) {
       btn.classList.add('active');
     }
     if (answered[i]) {
-      // Check if answer is correct or wrong
       if (answered[i].isCorrect) {
         btn.classList.add('correct');
       } else {
@@ -331,7 +320,6 @@ function markAsViewed(i) {
   }
 }
 
-// ===== Counters & Progress =====
 function updateCounters() {
   const right = answered.filter(a => a && a.isCorrect).length;
   const wrong = answered.filter(a => a && a.isCorrect === false).length;
@@ -348,23 +336,17 @@ function setProgress() {
   updateCounters();
 }
 
-// ===== Rendering =====
 function renderQuestion() {
   const q = data[index];
   els.card.classList.add('fade-in');
   setTimeout(() => els.card.classList.remove('fade-in'), 200);
 
-  // Mark as viewed
   markAsViewed(index);
-  
-  // Update bookmark button
   updateBookmarkButton();
 
-  // Display question
   const displayNo = index + 1;
   els.questionText.textContent = `(${displayNo}) ${q.question || '(Không có nội dung câu hỏi)'}`;
 
-  // hint
   if (q.hint && String(q.hint).trim()) {
     els.hintWrap.classList.remove('hidden');
     els.hintText.classList.add('hidden');
@@ -374,7 +356,6 @@ function renderQuestion() {
     els.hintText.classList.add('hidden');
   }
 
-  // choices
   els.choices.innerHTML = '';
   const chosen = answered[index]?.picked ?? null;
   const options = q.answerOptions || q.answeroption || q.answer_options || [];
@@ -405,7 +386,6 @@ function renderQuestion() {
     els.choices.appendChild(btn);
   });
 
-  // explain
   if (answered[index]) {
     showExplain(q, answered[index].picked);
   } else {
@@ -413,10 +393,8 @@ function renderQuestion() {
     els.explainText.textContent = '';
   }
 
-  // reveal button visibility
   els.btnReveal.classList.toggle('hidden', !!answered[index]);
 
-  // nav buttons
   els.btnPrev.disabled = (index === 0);
   els.btnNext.textContent = (index === data.length - 1) ? 'Kết thúc' : 'Tiếp tục →';
 
@@ -433,7 +411,6 @@ function showExplain(q, pickedIdx) {
 
   const isCorrect = pickedIdx === correctIdx;
   
-  // Get rationale text
   const rationaleText = isCorrect ? correct.rationale : (picked?.rationale || correct.rationale);
   const hasRationale = picked?.rationale || correct?.rationale;
   const rationaleId = `rationale-${index}`;
@@ -454,19 +431,16 @@ function showExplain(q, pickedIdx) {
   els.explainWrap.classList.remove('hidden');
 }
 
-// Toggle rationale visibility
 window.toggleRationale = function(id) {
   const element = document.getElementById(id);
   const button = element.previousElementSibling;
   
   if (element.classList.contains('hidden')) {
-    // Show explanation
     element.classList.remove('hidden');
     button.textContent = 'Ẩn giải thích';
     button.classList.remove('bg-blue-100', 'hover:bg-blue-200');
     button.classList.add('bg-slate-100', 'hover:bg-slate-200');
   } else {
-    // Hide explanation
     element.classList.add('hidden');
     button.textContent = 'Xem giải thích chi tiết';
     button.classList.remove('bg-slate-100', 'hover:bg-slate-200');
@@ -474,7 +448,6 @@ window.toggleRationale = function(id) {
   }
 }
 
-// ===== Handlers =====
 function onPick(i) {
   const q = data[index];
   const options = q.answerOptions || q.answeroption || q.answer_options || [];
@@ -506,7 +479,6 @@ function next() {
     
     els.summaryText.textContent = `Bạn đã làm ${answered_count}/${data.length} câu và trả lời đúng ${right}/${answered_count} câu (${Math.round(right*100/answered_count || 0)}%).`;
     
-    // Update stats
     $('#statCorrect').textContent = right;
     $('#statWrong').textContent = wrong;
     $('#statUnanswered').textContent = unanswered;
@@ -514,10 +486,7 @@ function next() {
     $('#statAvgTime').textContent = answered_count > 0 ? Math.round(elapsed / answered_count) + 's' : '0s';
     $('#chartPercentage').textContent = Math.round(right*100/answered_count || 0) + '%';
     
-    // Draw pie chart
     drawPieChart(right, wrong, unanswered);
-    
-    // Save to history
     saveHistory();
     
     els.summary.classList.remove('hidden');
@@ -525,7 +494,6 @@ function next() {
   }
 }
 
-// ===== Pie Chart =====
 function drawPieChart(correct, wrong, unanswered) {
   const total = correct + wrong + unanswered;
   if (total === 0) return;
@@ -541,29 +509,25 @@ function drawPieChart(correct, wrong, unanswered) {
   const wrongPercent = wrong / total;
   const unansweredPercent = unanswered / total;
   
-  let currentAngle = -90; // Start from top
+  let currentAngle = -90;
   
-  // Draw correct slice
   if (correct > 0) {
     const slice = createSlice(centerX, centerY, radius, currentAngle, correctPercent * 360, '#10b981');
     svg.appendChild(slice);
     currentAngle += correctPercent * 360;
   }
   
-  // Draw wrong slice
   if (wrong > 0) {
     const slice = createSlice(centerX, centerY, radius, currentAngle, wrongPercent * 360, '#f43f5e');
     svg.appendChild(slice);
     currentAngle += wrongPercent * 360;
   }
   
-  // Draw unanswered slice
   if (unanswered > 0) {
     const slice = createSlice(centerX, centerY, radius, currentAngle, unansweredPercent * 360, '#cbd5e1');
     svg.appendChild(slice);
   }
   
-  // Draw white circle in center
   const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
   circle.setAttribute('cx', centerX);
   circle.setAttribute('cy', centerY);
@@ -615,7 +579,6 @@ function restart() {
 }
 
 function reviewWrong() {
-  // Find all wrong answers
   const wrongIndices = [];
   answered.forEach((ans, i) => {
     if (ans && !ans.isCorrect) {
@@ -624,7 +587,6 @@ function reviewWrong() {
   });
   
   if (wrongIndices.length > 0) {
-    // Go to first wrong answer
     index = wrongIndices[0];
     markAsViewed(index);
     els.summary.classList.add('hidden');
@@ -646,16 +608,13 @@ function revealAnswer() {
   renderQuestion();
 }
 
-// ===== Subject switching =====
 async function switchSubject(fileName, title, desc) {
   currentFile = fileName;
   
   try {
-    // Load new data
     data = await loadFromUrl(currentFile);
     if (!data.length) throw new Error('Không có câu hỏi trong JSON');
     
-    // Reset state
     index = 0;
     score = 0;
     answered = [];
@@ -663,10 +622,8 @@ async function switchSubject(fileName, title, desc) {
     startTime = new Date();
     els.summary.classList.add('hidden');
     
-    // Load bookmarks
     bookmarks = loadBookmarks();
     
-    // Load saved state if exists
     const state = loadState();
     if (state && state.length === data.length) {
       index = Math.min(state.index ?? 0, data.length - 1);
@@ -678,12 +635,10 @@ async function switchSubject(fileName, title, desc) {
       }
     }
     
-    // Update UI
     markAsViewed(index);
     renderQuestion();
     startTimer();
     
-    // Update title and description
     if (els.subjectTitle && title) {
       els.subjectTitle.textContent = title;
     }
@@ -694,7 +649,6 @@ async function switchSubject(fileName, title, desc) {
       els.currentFile.textContent = currentFile;
     }
     
-    // Update active subject button
     document.querySelectorAll('.subject-nav-item').forEach(btn => {
       btn.classList.remove('active');
     });
@@ -703,7 +657,6 @@ async function switchSubject(fileName, title, desc) {
       activeBtn.classList.add('active');
     }
     
-    // Close mobile menu
     els.mobileMenu.classList.remove('open');
     els.mobileOverlay.classList.remove('open');
     
@@ -714,12 +667,10 @@ async function switchSubject(fileName, title, desc) {
   }
 }
 
-// ===== Data loading =====
 async function loadFromUrl(url) {
   const res = await fetch(url, { cache: 'no-store' });
   if (!res.ok) throw new Error('Không tải được JSON');
   const json = await res.json();
-  // Support both 'questions' and 'question' keys
   return json.questions || json.question || [];
 }
 
@@ -733,12 +684,10 @@ function attachEvents() {
   els.btnReveal.addEventListener('click', revealAnswer);
   els.btnBookmark.addEventListener('click', toggleBookmark);
   
-  // New buttons
   els.darkModeToggle.addEventListener('click', toggleDarkMode);
   els.btnBookmarks.addEventListener('click', showBookmarksModal);
   els.btnHistory.addEventListener('click', showHistoryModal);
   
-  // Mobile menu
   els.openMobileMenu.addEventListener('click', () => {
     els.mobileMenu.classList.add('open');
     els.mobileOverlay.classList.add('open');
@@ -754,7 +703,6 @@ function attachEvents() {
     els.mobileOverlay.classList.remove('open');
   });
   
-  // Modals
   els.closeHistoryModal.addEventListener('click', () => {
     els.historyModal.classList.remove('open');
   });
@@ -775,7 +723,6 @@ function attachEvents() {
     }
   });
   
-  // Subject switcher
   document.querySelectorAll('.subject-nav-item').forEach(btn => {
     btn.addEventListener('click', () => {
       const file = btn.dataset.file;
@@ -793,14 +740,11 @@ function attachEvents() {
   loadDarkMode();
   
   try {
-    // Load data without shuffling
     data = await loadFromUrl(currentFile);
     if (!data.length) throw new Error('Không có câu hỏi trong JSON');
 
-    // Load bookmarks
     bookmarks = loadBookmarks();
 
-    // Load saved state if exists
     const state = loadState();
     if (state && state.length === data.length) {
       index = Math.min(state.index ?? 0, data.length - 1);
@@ -816,12 +760,10 @@ function attachEvents() {
       startTime = new Date();
     }
 
-    // Initial render
     markAsViewed(index);
     renderQuestion();
     startTimer();
     
-    // Update file name in footer
     if (els.currentFile) {
       els.currentFile.textContent = currentFile;
     }

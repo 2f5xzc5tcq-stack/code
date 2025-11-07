@@ -1353,136 +1353,136 @@
     {
       "question_number": 56,
       "question": "Có tổng cộng bao nhiêu đồng phân ester (đồng phân cấu tạo) ứng với công thức phân tử C₃H₆O₂?",
-      "answer_options": {
-        "1": {
+      "answer_options": [
+        {
           "text": "1",
           "rationale": "Sai. Có nhiều hơn 1 đồng phân.",
           "isCorrect": false
         },
-        "2": {
+        {
           "text": "2",
           "rationale": "Đúng. Gồm: HCOOC₂H₅ (ethyl formate) và CH₃COOCH₃ (methyl acetate).",
           "isCorrect": true
         },
-        "3": {
+        {
           "text": "3",
           "rationale": "Sai. C₃H₆O₂ có 1 đồng phân acid (propionic acid) và 2 đồng phân ester. Tổng là 3, nhưng câu hỏi chỉ hỏi ester.",
           "isCorrect": false
         },
-        "4": {
+        {
           "text": "4",
           "rationale": "Sai. Đây là số đồng phân ester của C₄H₈O₂.",
           "isCorrect": false
         }
-      },
+      ],
       "hint": "Viết các dạng RCOOR' có tổng 3 carbon."
     },
     {
       "question_number": 57,
       "question": "Có tổng cộng bao nhiêu đồng phân acid carboxylic (đồng phân cấu tạo) ứng với công thức phân tử C₄H₈O₂?",
-      "answer_options": {
-        "1": {
+      "answer_options": [
+        {
           "text": "1",
           "rationale": "Sai. Có nhiều hơn 1 đồng phân acid.",
           "isCorrect": false
         },
-        "2": {
+        {
           "text": "2",
           "rationale": "Đúng. Gồm: CH₃CH₂CH₂COOH (butyric acid) và (CH₃)₂CHCOOH (isobutyric acid).",
           "isCorrect": true
         },
-        "3": {
+        {
           "text": "3",
           "rationale": "Sai.",
           "isCorrect": false
         },
-        "4": {
+        {
           "text": "4",
           "rationale": "Sai. Đây là số đồng phân ester của C₄H₈O₂.",
           "isCorrect": false
         }
-      },
+      ],
       "hint": "Viết các dạng R-COOH có tổng 4 carbon, chú ý đồng phân mạch carbon của gốc R."
     },
     {
       "question_number": 58,
       "question": "Có tổng cộng bao nhiêu đồng phân cấu tạo mạch hở (gồm ester và acid carboxylic) ứng với công thức phân tử C₃H₆O₂?",
-      "answer_options": {
-        "1": {
+      "answer_options": [
+        {
           "text": "1",
           "rationale": "Sai.",
           "isCorrect": false
         },
-        "2": {
+        {
           "text": "2",
           "rationale": "Sai. Đây chỉ là số đồng phân ester.",
           "isCorrect": false
         },
-        "3": {
+        {
           "text": "3",
           "rationale": "Đúng. Gồm 2 ester (HCOOC₂H₅, CH₃COOCH₃) và 1 acid (CH₃CH₂COOH).",
           "isCorrect": true
         },
-        "4": {
+        {
           "text": "4",
           "rationale": "Sai.",
           "isCorrect": false
         }
-      },
+      ],
       "hint": "Đếm số đồng phân của cả hai loại chức: ester và acid."
     },
     {
       "question_number": 59,
       "question": "Trong phạm vi chương 2, có bao nhiêu đồng phân monosaccharide (có CTPT C₆H₁₂O₆) được học?",
-      "answer_options": {
-        "1": {
+      "answer_options": [
+        {
           "text": "1",
           "rationale": "Sai. Có 2 chất được học song song.",
           "isCorrect": false
         },
-        "2": {
+        {
           "text": "2",
           "rationale": "Đúng. Đó là Glucose và Fructose (Bài 3).",
           "isCorrect": true
         },
-        "3": {
+        {
           "text": "3",
           "rationale": "Sai.",
           "isCorrect": false
         },
-        "4": {
+        {
           "text": "4",
           "rationale": "Sai.",
           "isCorrect": false
         }
-      },
+      ],
       "hint": "Xem lại Bài 3: Glucose và Fructose."
     },
     {
       "question_number": 60,
       "question": "Trong phạm vi chương 2, có bao nhiêu đồng phân disaccharide (có CTPT C₁₂H₂₂O₁₁) được học?",
-      "answer_options": {
-        "1": {
+      "answer_options": [
+        {
           "text": "1",
           "rationale": "Sai.",
           "isCorrect": false
         },
-        "2": {
+        {
           "text": "2",
           "rationale": "Đúng. Đó là Saccharose và Maltose (Bài 4).",
           "isCorrect": true
         },
-        "3": {
+        {
           "text": "3",
           "rationale": "Sai.",
           "isCorrect": false
         },
-        "4": {
+        {
           "text": "4",
           "rationale": "Sai.",
           "isCorrect": false
         }
-      },
+      ],
       "hint": "Xem lại Bài 4: Saccharose và Maltose."
     }
   ]

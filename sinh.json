@@ -785,33 +785,6 @@
     },
     {
       "question_number": 30,
-      "question": "Dạng đột biến cấu trúc NST nào thường gây hậu quả nghiêm trọng nhất?",
-      "answer_options": [
-        {
-          "text": "Lặp đoạn",
-          "rationale": "Lặp đoạn có thể làm tăng hoạt tính của gene, ít gây chết hơn mất đoạn.",
-          "isCorrect": false
-        },
-        {
-          "text": "Đảo đoạn",
-          "rationale": "Đảo đoạn chỉ thay đổi trật tự gene, thường ít ảnh hưởng đến sức sống.",
-          "isCorrect": false
-        },
-        {
-          "text": "Chuyển đoạn nhỏ",
-          "rationale": "Chuyển đoạn nhỏ có thể ít ảnh hưởng nếu không phá vỡ các gene quan trọng.",
-          "isCorrect": false
-        },
-        {
-          "text": "Mất đoạn",
-          "rationale": "Mất đoạn NST làm mất đi các gene, thường gây ra hậu quả nghiêm trọng, thậm chí gây chết cho thể đột biến. (Trang 35)",
-          "isCorrect": true
-        }
-      ],
-      "hint": "Dạng đột biến nào làm mất đi thông tin di truyền?"
-    },
-    {
-      "question_number": 31,
       "question": "Polysome (hay polyribosome) là hiện tượng:",
       "answer_options": [
         {
@@ -838,7 +811,7 @@
       "hint": "Mục đích của hiện tượng này là tăng hiệu suất của quá trình dịch mã."
     },
     {
-      "question_number": 32,
+      "question_number": 31,
       "question": "Cơ sở phân tử của hiện tượng di truyền là gì?",
       "answer_options": [
         {
@@ -865,7 +838,7 @@
       "hint": "Cơ chế nào đảm bảo vật chất di truyền được sao chép chính xác?"
     },
     {
-      "question_number": 33,
+      "question_number": 32,
       "question": "Trong các bước của kĩ thuật tạo DNA tái tổ hợp, bước nào là đầu tiên?",
       "answer_options": [
         {
@@ -892,7 +865,7 @@
       "hint": "Để lắp ráp một thứ gì đó, bạn cần có các bộ phận của nó trước tiên."
     },
     {
-      "question_number": 34,
+      "question_number": 33,
       "question": "Thể đột biến là gì?",
       "answer_options": [
         {
@@ -919,7 +892,7 @@
       "hint": "Thể đột biến là một cơ thể hoàn chỉnh, không phải chỉ là sự biến đổi vật chất di truyền."
     },
     {
-      "question_number": 35,
+      "question_number": 34,
       "question": "Bệnh thiếu máu hồng cầu hình liềm ở người là do dạng đột biến nào gây ra?",
       "answer_options": [
         {
@@ -946,7 +919,7 @@
       "hint": "Đây là một ví dụ kinh điển về đột biến điểm gây ra bệnh di truyền."
     },
     {
-      "question_number": 36,
+      "question_number": 35,
       "question": "Ý nghĩa của việc sử dụng cồn lạnh (ethanol 70%) trong bước cuối của quy trình tách chiết DNA là gì?",
       "answer_options": [
         {
@@ -973,7 +946,7 @@
       "hint": "DNA tan trong nước nhưng không tan trong cồn."
     },
     {
-      "question_number": 37,
+      "question_number": 36,
       "question": "Sự điều hòa biểu hiện gene ở sinh vật nhân thực phức tạp hơn ở sinh vật nhân sơ vì:",
       "answer_options": [
         {
@@ -1000,7 +973,7 @@
       "hint": "Hãy xem xét các giai đoạn từ DNA đến protein và cấu trúc NST."
     },
     {
-      "question_number": 38,
+      "question_number": 37,
       "question": "Dạng đột biến cấu trúc nhiễm sắc thể có vai trò quan trọng trong việc hình thành loài mới là:",
       "answer_options": [
         {
@@ -1027,7 +1000,7 @@
       "hint": "Dạng đột biến nào có thể dẫn đến cách li di truyền giữa các nhóm cá thể?"
     },
     {
-      "question_number": 39,
+      "question_number": 38,
       "question": "Quá trình nào sau đây chỉ xảy ra trong tế bào chất của tế bào nhân thực?",
       "answer_options": [
         {
@@ -1054,7 +1027,7 @@
       "hint": "Nơi nào có chứa ribosome?"
     },
     {
-      "question_number": 40,
+      "question_number": 39,
       "question": "Cơ chế phát sinh thể lệch bội (ví dụ 2n+1, 2n-1) là do:",
       "answer_options": [
         {
@@ -1081,7 +1054,7 @@
       "hint": "Hãy xem xét quá trình phân chia tế bào để tạo giao tử."
     },
     {
-      "question_number": 41,
+      "question_number": 40,
       "question": "Trong các thành phần của một gene cấu trúc, thành phần nào mang tín hiệu kết thúc phiên mã?",
       "answer_options": [
         {
@@ -1108,7 +1081,7 @@
       "hint": "Tên của vùng này đã nói lên chức năng của nó."
     },
     {
-      "question_number": 42,
+      "question_number": 41,
       "question": "Enzyme giới hạn (restrictase) được sử dụng trong công nghệ gene để làm gì?",
       "answer_options": [
         {
@@ -1135,7 +1108,7 @@
       "hint": "Đây được coi là 'chiếc kéo sinh học'."
     },
     {
-      "question_number": 43,
+      "question_number": 42,
       "question": "Sự kiện trao đổi chéo không cân giữa các chromatid trong cặp NST tương đồng có thể gây ra dạng đột biến nào?",
       "answer_options": [
         {
@@ -1162,7 +1135,7 @@
       "hint": "Hãy tưởng tượng một sự trao đổi không công bằng."
     },
     {
-      "question_number": 44,
+      "question_number": 43,
       "question": "Nguyên tắc bán bảo toàn trong cơ chế tái bản DNA có nghĩa là:",
       "answer_options": [
         {
@@ -1189,31 +1162,1192 @@
       "hint": "'Bán' có nghĩa là một nửa, 'bảo toàn' có nghĩa là giữ lại."
     },
     {
+      "question_number": 44,
+      "question": "Đột biến nào sau đây không làm thay đổi số lượng gen trên một nhiễm sắc thể?",
+      "answer_options": [
+        {
+          "text": "Mất đoạn và lặp đoạn",
+          "rationale": "Mất đoạn làm giảm và lặp đoạn làm tăng số lượng gen.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lặp đoạn và chuyển đoạn",
+          "rationale": "Lặp đoạn làm tăng số lượng gen, chuyển đoạn có thể làm thay đổi số lượng gen trên NST liên quan.",
+          "isCorrect": false
+        },
+        {
+          "text": "Đảo đoạn và chuyển đoạn trên cùng một NST",
+          "rationale": "Đảo đoạn chỉ thay đổi trình tự gen. Chuyển đoạn trên cùng một NST cũng chỉ thay đổi vị trí gen, không làm thay đổi số lượng. (Trang 35)",
+          "isCorrect": true
+        },
+        {
+          "text": "Mất đoạn và đảo đoạn",
+          "rationale": "Mất đoạn làm giảm số lượng gen.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy tìm những dạng đột biến chỉ làm thay đổi vị trí hoặc trật tự của gen."
+    },
+    {
       "question_number": 45,
-      "question": "Loại đột biến nào sau đây không làm thay đổi số lượng gene trên một nhiễm sắc thể?",
+      "question": "Trong cơ chế tái bản DNA, enzyme nào có vai trò tháo xoắn và tách hai mạch của phân tử DNA?",
+      "answer_options": [
+        {
+          "text": "DNA polymerase",
+          "rationale": "DNA polymerase có vai trò tổng hợp mạch mới bằng cách lắp ráp các nucleotide tự do theo nguyên tắc bổ sung với mạch khuôn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Helicase (enzyme tháo xoắn)",
+          "rationale": "Đây là enzyme có chức năng tháo xoắn phân tử DNA, tách hai mạch đơn để lộ ra các mạch khuôn cho quá trình tái bản. (Trang 6)",
+          "isCorrect": true
+        },
+        {
+          "text": "DNA ligase",
+          "rationale": "DNA ligase có vai trò nối các đoạn Okazaki lại với nhau trên mạch được tổng hợp gián đoạn.",
+          "isCorrect": false
+        },
+        {
+          "text": "RNA polymerase",
+          "rationale": "RNA polymerase là enzyme chính trong quá trình phiên mã, tổng hợp RNA từ khuôn DNA.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy nghĩ đến chức năng 'tháo xoắn' của phân tử DNA mẹ."
+    },
+    {
+      "question_number": 46,
+      "question": "Một đoạn của phân tử DNA mang thông tin mã hoá cho một sản phẩm xác định (polypeptide hoặc RNA) được gọi là gì?",
+      "answer_options": [
+        {
+          "text": "Gene",
+          "rationale": "Gene được định nghĩa là một đoạn của phân tử DNA mang thông tin quy định sản phẩm xác định là polypeptide hoặc RNA. (Trang 7)",
+          "isCorrect": true
+        },
+        {
+          "text": "Codon",
+          "rationale": "Codon là một bộ ba nucleotide trên mRNA mã hóa cho một amino acid cụ thể.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nucleosome",
+          "rationale": "Nucleosome là đơn vị cấu trúc cơ bản của nhiễm sắc thể, gồm DNA quấn quanh khối protein histone.",
+          "isCorrect": false
+        },
+        {
+          "text": "Allele",
+          "rationale": "Allele là một trong những trạng thái khác nhau của cùng một gene.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đây là đơn vị chức năng cơ bản của di truyền."
+    },
+    {
+      "question_number": 47,
+      "question": "Đặc điểm nào của mã di truyền cho phép một amino acid có thể được mã hóa bởi nhiều bộ ba khác nhau?",
+      "answer_options": [
+        {
+          "text": "Tính đặc hiệu",
+          "rationale": "Tính đặc hiệu có nghĩa là một bộ ba chỉ mã hóa cho một loại amino acid.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tính thoái hoá",
+          "rationale": "Tính thoái hoá là đặc điểm mà nhiều bộ ba khác nhau có thể cùng mã hóa cho một loại amino acid, trừ AUG và UGG. (Trang 11)",
+          "isCorrect": true
+        },
+        {
+          "text": "Tính phổ biến",
+          "rationale": "Tính phổ biến có nghĩa là hầu hết các loài đều dùng chung một bộ mã di truyền.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tính liên tục",
+          "rationale": "Tính liên tục có nghĩa là mã di truyền được đọc theo từng bộ ba không gối lên nhau.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đặc điểm này giúp giảm thiểu tác hại của đột biến gen."
+    },
+    {
+      "question_number": 48,
+      "question": "Trong thí nghiệm tách chiết DNA từ tế bào thực vật, việc sử dụng nước rửa chén (xà phòng) nhằm mục đích gì?",
+      "answer_options": [
+        {
+          "text": "Làm kết tủa DNA",
+          "rationale": "Cồn lạnh mới có tác dụng làm kết tủa DNA.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phá vỡ thành tế bào",
+          "rationale": "Việc nghiền mẫu vật lý chủ yếu phá vỡ thành tế bào.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phá vỡ màng tế bào và màng nhân",
+          "rationale": "Nước rửa chén chứa các chất hoạt động bề mặt có khả năng hòa tan lớp lipid của màng tế bào và màng nhân, giúp giải phóng DNA ra khỏi tế bào. (Trang 15)",
+          "isCorrect": true
+        },
+        {
+          "text": "Loại bỏ protein histone",
+          "rationale": "Muối ăn (NaCl) thường được dùng để giúp loại bỏ các protein liên kết với DNA.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy nghĩ về thành phần cấu tạo của màng tế bào và tác dụng của xà phòng đối với chất béo."
+    },
+    {
+      "question_number": 49,
+      "question": "Trong cơ chế điều hòa hoạt động của operon Lac ở vi khuẩn E. coli, chất cảm ứng (inducer) là gì?",
+      "answer_options": [
+        {
+          "text": "Glucose",
+          "rationale": "Khi có glucose, operon Lac thường bị ức chế vì vi khuẩn ưu tiên sử dụng glucose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Protein ức chế",
+          "rationale": "Protein ức chế là chất đóng vai trò kìm hãm hoạt động của operon khi không có lactose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lactose",
+          "rationale": "Lactose (hoặc allolactose, một sản phẩm chuyển hóa của lactose) liên kết với protein ức chế, làm thay đổi cấu hình không gian và làm nó bất hoạt, qua đó cho phép operon hoạt động. (Trang 18)",
+          "isCorrect": true
+        },
+        {
+          "text": "RNA polymerase",
+          "rationale": "RNA polymerase là enzyme thực hiện phiên mã, không phải là chất cảm ứng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Chất này là nguồn năng lượng mà operon Lac giúp vi khuẩn chuyển hóa."
+    },
+    {
+      "question_number": 50,
+      "question": "Khi môi trường có lactose, điều gì xảy ra với protein ức chế của operon Lac?",
+      "answer_options": [
+        {
+          "text": "Nó liên kết chặt hơn với vùng vận hành (O).",
+          "rationale": "Nó chỉ liên kết chặt với vùng O khi không có lactose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nó bị phân hủy hoàn toàn.",
+          "rationale": "Nó chỉ bị thay đổi cấu hình và trở nên bất hoạt, không bị phân hủy.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nó liên kết với lactose và không thể bám vào vùng vận hành (O).",
+          "rationale": "Sự liên kết này làm protein ức chế thay đổi cấu hình và mất khả năng liên kết với vùng O, cho phép quá trình phiên mã diễn ra. (Trang 18)",
+          "isCorrect": true
+        },
+        {
+          "text": "Nó liên kết với vùng khởi động (P) để ngăn cản phiên mã.",
+          "rationale": "Protein ức chế liên kết với vùng vận hành (O), còn RNA polymerase liên kết với vùng khởi động (P).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Lactose đóng vai trò là chất cảm ứng làm thay đổi hoạt động của protein ức chế."
+    },
+    {
+      "question_number": 51,
+      "question": "Dạng đột biến gen nào sau đây thường gây ra hậu quả nghiêm trọng nhất do làm thay đổi toàn bộ trình tự amino acid kể từ điểm xảy ra đột biến?",
+      "answer_options": [
+        {
+          "text": "Thay thế một cặp nucleotide",
+          "rationale": "Đột biến thay thế thường chỉ ảnh hưởng đến một amino acid hoặc không ảnh hưởng gì (do tính thoái hóa).",
+          "isCorrect": false
+        },
+        {
+          "text": "Mất hoặc thêm một cặp nucleotide",
+          "rationale": "Việc mất hoặc thêm một cặp nucleotide gây ra đột biến dịch khung (frameshift), làm thay đổi cách đọc các bộ ba từ vị trí đột biến trở đi, dẫn đến thay đổi toàn bộ chuỗi amino acid và thường tạo ra protein mất chức năng. (Trang 25)",
+          "isCorrect": true
+        },
+        {
+          "text": "Đột biến đồng nghĩa (im lặng)",
+          "rationale": "Đột biến đồng nghĩa là sự thay thế nucleotide nhưng tạo ra bộ ba mới cùng mã hóa cho amino acid cũ, không làm thay đổi chuỗi polypeptide.",
+          "isCorrect": false
+        },
+        {
+          "text": "Đảo vị trí hai cặp nucleotide",
+          "rationale": "Đột biến đảo đoạn nhỏ có thể chỉ thay đổi một vài amino acid và thường ít nghiêm trọng hơn đột biến dịch khung.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy nghĩ đến đột biến làm 'lệch' khung đọc mã di truyền."
+    },
+    {
+      "question_number": 52,
+      "question": "Trong công nghệ gen, 'vector chuyển gen' là gì?",
+      "answer_options": [
+        {
+          "text": "Enzyme được sử dụng để cắt DNA.",
+          "rationale": "Đây là vai trò của enzyme cắt giới hạn (restriction enzyme).",
+          "isCorrect": false
+        },
+        {
+          "text": "Một đoạn DNA được chèn vào tế bào nhận.",
+          "rationale": "Đây là gene cần chuyển, không phải là vector.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phân tử DNA dùng để mang gen từ tế bào cho vào tế bào nhận.",
+          "rationale": "Vector, thường là plasmid hoặc virus, có vai trò như một 'phương tiện vận chuyển' để đưa gen mong muốn vào tế bào chủ. (Trang 27)",
+          "isCorrect": true
+        },
+        {
+          "text": "Tế bào nhận DNA tái tổ hợp.",
+          "rationale": "Đây là tế bào chủ (host cell).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nó đóng vai trò như một 'phương tiện vận chuyển' gen."
+    },
+    {
+      "question_number": 53,
+      "question": "Đơn vị cấu trúc cơ bản của nhiễm sắc thể ở sinh vật nhân thực, gồm một đoạn DNA quấn quanh 8 phân tử protein histone, được gọi là gì?",
+      "answer_options": [
+        {
+          "text": "Nucleotide",
+          "rationale": "Nucleotide là đơn phân cấu tạo nên DNA và RNA.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sợi cơ bản (10 nm)",
+          "rationale": "Sợi cơ bản là chuỗi các nucleosome nối với nhau.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nucleosome",
+          "rationale": "Đây chính là định nghĩa về nucleosome, đơn vị 'đóng gói' DNA đầu tiên trong cấu trúc nhiễm sắc thể. (Trang 32)",
+          "isCorrect": true
+        },
+        {
+          "text": "Cromatid",
+          "rationale": "Cromatid là một trong hai bản sao của một nhiễm sắc thể đã nhân đôi, được nối với nhau ở tâm động.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đây là mức độ xoắn đầu tiên của DNA trong nhiễm sắc thể."
+    },
+    {
+      "question_number": 54,
+      "question": "Hội chứng Down ở người là do dạng đột biến nào sau đây gây ra?",
+      "answer_options": [
+        {
+          "text": "Mất một đoạn ở nhiễm sắc thể số 5.",
+          "rationale": "Mất đoạn ở nhiễm sắc thể số 5 gây ra hội chứng Mèo kêu (Cri-du-chat).",
+          "isCorrect": false
+        },
+        {
+          "text": "Lặp một đoạn trên nhiễm sắc thể giới tính X.",
+          "rationale": "Đây là nguyên nhân gây ra một số bệnh di truyền khác liên quan đến NST X.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thừa một nhiễm sắc thể số 21.",
+          "rationale": "Hội chứng Down, hay còn gọi là tam nhiễm 21 (trisomy 21), xảy ra khi có 3 nhiễm sắc thể số 21 trong bộ gen. (Trang 38)",
+          "isCorrect": true
+        },
+        {
+          "text": "Thiếu một nhiễm sắc thể giới tính X (XO).",
+          "rationale": "Bộ nhiễm sắc thể XO gây ra hội chứng Turner ở nữ.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hội chứng này còn có tên gọi khác là Trisomy 21."
+    },
+    {
+      "question_number": 55,
+      "question": "Dạng đột biến cấu trúc nhiễm sắc thể nào làm thay đổi trình tự phân bố các gen nhưng không làm thay đổi số lượng gen trên nhiễm sắc thể đó?",
       "answer_options": [
         {
           "text": "Mất đoạn",
-          "rationale": "Mất đoạn làm giảm số lượng gene.",
+          "rationale": "Mất đoạn làm giảm số lượng gen trên nhiễm sắc thể.",
           "isCorrect": false
         },
         {
           "text": "Lặp đoạn",
-          "rationale": "Lặp đoạn làm tăng số lượng gene (tăng số bản sao của gene).",
+          "rationale": "Lặp đoạn làm tăng số lượng gen trên nhiễm sắc thể.",
           "isCorrect": false
         },
         {
           "text": "Đảo đoạn",
-          "rationale": "Đảo đoạn chỉ làm thay đổi trật tự sắp xếp của các gene trên NST, không làm thay đổi số lượng gene. (Trang 35)",
+          "rationale": "Đảo đoạn là hiện tượng một đoạn nhiễm sắc thể đứt ra, quay 180 độ và nối lại, làm thay đổi trình tự gen nhưng không làm mất gen nào. (Trang 35)",
           "isCorrect": true
         },
         {
           "text": "Chuyển đoạn không tương hỗ",
-          "rationale": "Chuyển đoạn không tương hỗ sẽ làm mất gene ở NST này và thêm gene vào NST khác, làm thay đổi số lượng gene trên cả hai.",
+          "rationale": "Chuyển đoạn không tương hỗ làm mất gen ở một nhiễm sắc thể và thêm gen vào một nhiễm sắc thể khác.",
           "isCorrect": false
         }
       ],
-      "hint": "Hãy tìm dạng đột biến chỉ sắp xếp lại vị trí các gene."
+      "hint": "Hãy nghĩ đến hành động 'đảo ngược' vị trí của một đoạn gen."
+    },
+    {
+      "question_number": 56,
+      "question": "Cơ chế nào là nguyên nhân chính gây ra các đột biến lệch bội (aneuploidy) như hội chứng Down, Turner, Klinefelter?",
+      "answer_options": [
+        {
+          "text": "Sự không phân li của một cặp nhiễm sắc thể trong giảm phân.",
+          "rationale": "Sự không phân li của một cặp nhiễm sắc thể tương đồng trong giảm phân I hoặc của các chromatid trong giảm phân II sẽ tạo ra các giao tử thừa hoặc thiếu nhiễm sắc thể, khi thụ tinh sẽ gây ra thể lệch bội. (Trang 36)",
+          "isCorrect": true
+        },
+        {
+          "text": "Sự trao đổi chéo không đều giữa các chromatid.",
+          "rationale": "Trao đổi chéo không đều gây ra đột biến lặp đoạn và mất đoạn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự tự nhân đôi bất thường của DNA.",
+          "rationale": "Điều này có thể dẫn đến các vấn đề khác nhưng không phải là nguyên nhân trực tiếp của đột biến lệch bội.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tác động của virus làm gãy nhiễm sắc thể.",
+          "rationale": "Việc gãy nhiễm sắc thể thường dẫn đến đột biến cấu trúc hơn là đột biến số lượng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sự kiện này xảy ra trong quá trình hình thành giao tử (tinh trùng hoặc trứng)."
+    },
+    {
+      "question_number": 57,
+      "question": "Thành phần nào không có trong cấu trúc của một nucleotide DNA?",
+      "answer_options": [
+        {
+          "text": "Đường deoxyribose",
+          "rationale": "Đường deoxyribose là loại đường pentose đặc trưng cho DNA.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhóm phosphate",
+          "rationale": "Nhóm phosphate là thành phần không thể thiếu, tạo nên 'xương sống' của chuỗi DNA.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nitrogenous base (A, T, G, C)",
+          "rationale": "Các base nitơ chứa thông tin di truyền.",
+          "isCorrect": false
+        },
+        {
+          "text": "Amino acid",
+          "rationale": "Amino acid là đơn phân cấu tạo nên protein, không phải là thành phần của nucleotide. (Trang 5-6)",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Nucleotide là đơn phân của acid nucleic, trong khi thành phần này là đơn phân của protein."
+    },
+    {
+      "question_number": 58,
+      "question": "Trong operon Lac, khi không có lactose, protein ức chế sẽ bám vào đâu để ngăn cản quá trình phiên mã?",
+      "answer_options": [
+        {
+          "text": "Vùng khởi động (P)",
+          "rationale": "Vùng khởi động là nơi RNA polymerase bám vào để bắt đầu phiên mã.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vùng vận hành (O)",
+          "rationale": "Khi protein ức chế bám vào vùng vận hành, nó hoạt động như một 'chốt chặn', ngăn cản RNA polymerase di chuyển và phiên mã các gen cấu trúc. (Trang 18)",
+          "isCorrect": true
+        },
+        {
+          "text": "Gen điều hòa (lacI)",
+          "rationale": "Gen điều hòa mã hóa cho chính protein ức chế, nhưng không phải là vị trí mà protein ức chế bám vào.",
+          "isCorrect": false
+        },
+        {
+          "text": "Gen cấu trúc Z, Y, A",
+          "rationale": "Đây là các gen cần được phiên mã, không phải là vị trí điều khiển.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Vị trí này nằm ngay sau vùng khởi động và trước các gen cấu trúc."
+    },
+    {
+      "question_number": 59,
+      "question": "Hóa chất 5-bromouracil (5-BU) là một tác nhân gây đột biến gen, nó thường gây ra dạng đột biến nào?",
+      "answer_options": [
+        {
+          "text": "Mất một cặp nucleotide.",
+          "rationale": "5-BU là chất đồng đẳng của base nitơ, nó gây đột biến bằng cách thay thế, không phải gây mất cặp.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thay thế cặp A-T bằng cặp G-X.",
+          "rationale": "5-BU có cấu trúc tương tự Thymine (T), trong quá trình tái bản nó có thể bắt cặp nhầm với Guanine (G) thay vì Adenine (A), dẫn đến việc thay thế cặp A-T bằng G-X. (Trang 26)",
+          "isCorrect": true
+        },
+        {
+          "text": "Thêm một cặp nucleotide.",
+          "rationale": "Các tác nhân như acridine thường gây đột biến thêm hoặc mất cặp.",
+          "isCorrect": false
+        },
+        {
+          "text": "Đảo vị trí các cặp nucleotide.",
+          "rationale": "Đây là một dạng đột biến cấu trúc nhiễm sắc thể hoặc một dạng đột biến gen phức tạp, không phải do 5-BU gây ra.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "5-BU là chất đồng đẳng của Thymine (T) và có thể gây bắt cặp nhầm."
+    },
+    {
+      "question_number": 60,
+      "question": "Quá trình tạo ra DNA tái tổ hợp bao gồm ba bước cơ bản theo thứ tự nào?",
+      "answer_options": [
+        {
+          "text": "Biến nạp -> Tách và tạo DNA tái tổ hợp -> Biểu hiện gen",
+          "rationale": "Thứ tự này không đúng, biến nạp là bước đưa DNA tái tổ hợp vào tế bào chủ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tách và tạo DNA tái tổ hợp -> Biến nạp -> Sản xuất protein",
+          "rationale": "Đây là trình tự chính xác. Đầu tiên cần tạo ra phân tử DNA tái tổ hợp, sau đó đưa nó vào tế bào chủ, và cuối cùng là nuôi cấy để sản xuất sản phẩm. (Trang 27-28)",
+          "isCorrect": true
+        },
+        {
+          "text": "Sản xuất protein -> Biến nạp -> Tách và tạo DNA tái tổ hợp",
+          "rationale": "Sản xuất protein là bước cuối cùng, không phải bước đầu tiên.",
+          "isCorrect": false
+        },
+        {
+          "text": "Biến nạp -> Biểu hiện gen -> Tách và tạo DNA tái tổ hợp",
+          "rationale": "Việc tạo DNA tái tổ hợp phải là bước khởi đầu.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Phải 'tạo' ra sản phẩm trước rồi mới 'đưa' nó vào và 'sử dụng'."
+    },
+    {
+      "question_number": 61,
+      "question": "Hiện tượng bộ nhiễm sắc thể trong tế bào sinh dưỡng tăng lên một số nguyên lần bộ đơn bội (3n, 4n, 5n...) được gọi là gì?",
+      "answer_options": [
+        {
+          "text": "Đột biến lệch bội",
+          "rationale": "Lệch bội là sự thay đổi số lượng ở một hoặc một số cặp nhiễm sắc thể (2n+1, 2n-1).",
+          "isCorrect": false
+        },
+        {
+          "text": "Đột biến đa bội",
+          "rationale": "Đa bội là sự tăng toàn bộ bộ nhiễm sắc thể lên một số nguyên lần n, tạo thành các thể như tam bội (3n), tứ bội (4n). (Trang 38)",
+          "isCorrect": true
+        },
+        {
+          "text": "Đột biến cấu trúc nhiễm sắc thể",
+          "rationale": "Đây là sự thay đổi trong cấu trúc của một nhiễm sắc thể (mất, lặp, đảo, chuyển đoạn).",
+          "isCorrect": false
+        },
+        {
+          "text": "Đột biến gen",
+          "rationale": "Đột biến gen là sự thay đổi trong cấu trúc của một gen.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy chú ý đến sự thay đổi số lượng của 'toàn bộ' bộ nhiễm sắc thể."
+    },
+    {
+      "question_number": 62,
+      "question": "Mạch khuôn dùng cho quá trình phiên mã có chiều như thế nào?",
+      "answer_options": [
+        {
+          "text": "5’ → 3’",
+          "rationale": "Mạch bổ sung với mạch khuôn có chiều 5' → 3'.",
+          "isCorrect": false
+        },
+        {
+          "text": "3’ → 5’",
+          "rationale": "Enzyme RNA polymerase trượt trên mạch khuôn theo chiều 3' → 5' để tổng hợp nên phân tử mRNA có chiều 5' → 3'. (Trang 9)",
+          "isCorrect": true
+        },
+        {
+          "text": "Cả hai mạch đều làm khuôn",
+          "rationale": "Trong phiên mã, chỉ một trong hai mạch của gen được dùng làm khuôn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chiều ngẫu nhiên",
+          "rationale": "Quá trình phiên mã diễn ra theo một chiều xác định.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Enzyme tổng hợp mạch mới luôn theo chiều 5' → 3', vậy nó phải đọc mạch khuôn theo chiều ngược lại."
+    },
+    {
+      "question_number": 63,
+      "question": "Trong thực hành tách chiết DNA, tại sao phải dùng cồn ethanol 70% lạnh để cho vào dung dịch?",
+      "answer_options": [
+        {
+          "text": "Để phá vỡ màng tế bào",
+          "rationale": "Nước rửa chén được dùng để phá vỡ màng tế bào.",
+          "isCorrect": false
+        },
+        {
+          "text": "Để hòa tan các protein",
+          "rationale": "Muối ăn giúp tách protein ra khỏi DNA.",
+          "isCorrect": false
+        },
+        {
+          "text": "Để làm kết tủa DNA",
+          "rationale": "DNA không tan trong cồn, đặc biệt là cồn lạnh. Việc đổ cồn lạnh nhẹ nhàng lên bề mặt dung dịch sẽ làm cho các sợi DNA kết tủa lại thành một đám bông trắng có thể quan sát được. (Trang 16)",
+          "isCorrect": true
+        },
+        {
+          "text": "Để trung hòa điện tích của DNA",
+          "rationale": "Các ion muối (Na+) có tác dụng trung hòa điện tích âm của DNA.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "DNA không tan trong cồn."
+    },
+    {
+      "question_number": 64,
+      "question": "Ý nghĩa của điều hòa biểu hiện gen đối với sinh vật nhân sơ là gì?",
+      "answer_options": [
+        {
+          "text": "Giúp biệt hóa các loại tế bào khác nhau.",
+          "rationale": "Biệt hóa tế bào là đặc trưng của sinh vật đa bào nhân thực, không phải nhân sơ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Giúp tế bào phản ứng và thích nghi với sự thay đổi của môi trường.",
+          "rationale": "Vi khuẩn có thể 'bật' hoặc 'tắt' các gen để tổng hợp các enzyme cần thiết tùy thuộc vào nguồn dinh dưỡng có trong môi trường, giúp chúng tiết kiệm năng lượng và thích ứng hiệu quả. (Trang 19)",
+          "isCorrect": true
+        },
+        {
+          "text": "Luôn giữ cho tất cả các gen hoạt động ở mức tối đa.",
+          "rationale": "Điều này rất lãng phí năng lượng và không hiệu quả.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tạo ra các đột biến có lợi.",
+          "rationale": "Điều hòa gen là một quá trình bình thường, không trực tiếp tạo ra đột biến.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Vi khuẩn cần tiết kiệm năng lượng và chỉ sản xuất những gì cần thiết."
+    },
+    {
+      "question_number": 65,
+      "question": "Đột biến thay thế một cặp nucleotide nhưng lại tạo ra bộ ba mã hóa cho cùng một loại amino acid được gọi là:",
+      "answer_options": [
+        {
+          "text": "Đột biến sai nghĩa",
+          "rationale": "Đột biến sai nghĩa làm thay đổi amino acid trong chuỗi polypeptide.",
+          "isCorrect": false
+        },
+        {
+          "text": "Đột biến vô nghĩa",
+          "rationale": "Đột biến vô nghĩa tạo ra bộ ba kết thúc, làm quá trình dịch mã dừng lại sớm.",
+          "isCorrect": false
+        },
+        {
+          "text": "Đột biến đồng nghĩa (im lặng)",
+          "rationale": "Do tính thoái hóa của mã di truyền, sự thay đổi một nucleotide có thể không làm thay đổi amino acid được mã hóa. Đây là đột biến đồng nghĩa. (Trang 25)",
+          "isCorrect": true
+        },
+        {
+          "text": "Đột biến dịch khung",
+          "rationale": "Đột biến dịch khung xảy ra do mất hoặc thêm 1 hoặc 2 cặp nucleotide.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đặc điểm này liên quan đến tính thoái hóa của mã di truyền."
+    },
+    {
+      "question_number": 66,
+      "question": "Hội chứng nào sau đây ở người do đột biến lệch bội ở cặp nhiễm sắc thể giới tính gây ra, có bộ NST là 47, XXY?",
+      "answer_options": [
+        {
+          "text": "Hội chứng Down",
+          "rationale": "Hội chứng Down là do thừa một NST số 21 (thể ba).",
+          "isCorrect": false
+        },
+        {
+          "text": "Hội chứng Turner",
+          "rationale": "Hội chứng Turner có bộ NST là 45, XO.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hội chứng Klinefelter",
+          "rationale": "Hội chứng Klinefelter xảy ra ở nam giới có thêm một NST giới tính X, bộ NST là 47, XXY. (Trang 38)",
+          "isCorrect": true
+        },
+        {
+          "text": "Hội chứng Mèo kêu",
+          "rationale": "Hội chứng Mèo kêu là do đột biến cấu trúc, mất một đoạn ngắn trên NST số 5.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đây là hội chứng ở nam giới, có thừa một nhiễm sắc thể X."
+    },
+    {
+      "question_number": 67,
+      "question": "Cơ chế di truyền thông tin ở cấp độ phân tử có thể được tóm tắt theo sơ đồ nào?",
+      "answer_options": [
+        {
+          "text": "RNA → DNA → Protein",
+          "rationale": "Đây là sơ đồ của quá trình phiên mã ngược và dịch mã, chỉ xảy ra ở một số virus.",
+          "isCorrect": false
+        },
+        {
+          "text": "DNA → RNA → Protein",
+          "rationale": "Đây là luận điểm trung tâm của sinh học phân tử: thông tin di truyền từ DNA được phiên mã thành RNA và sau đó được dịch mã thành protein. (Trang 14)",
+          "isCorrect": true
+        },
+        {
+          "text": "Protein → DNA → RNA",
+          "rationale": "Thông tin di truyền không đi theo chiều ngược từ protein về acid nucleic.",
+          "isCorrect": false
+        },
+        {
+          "text": "DNA → Protein → RNA",
+          "rationale": "Quá trình phải đi qua trung gian là RNA, không thể từ DNA trực tiếp sang protein.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đây là 'Luận điểm trung tâm' (Central Dogma) của sinh học phân tử."
+    },
+    {
+      "question_number": 68,
+      "question": "Quá trình dịch mã (tổng hợp protein) diễn ra ở bào quan nào sau đây?",
+      "answer_options": [
+        {
+          "text": "Nhân tế bào",
+          "rationale": "Nhân tế bào là nơi diễn ra quá trình tái bản và phiên mã ở sinh vật nhân thực.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ribosome",
+          "rationale": "Ribosome là 'nhà máy' tổng hợp protein của tế bào, nơi các codon trên mRNA được đọc và các amino acid được liên kết lại với nhau. (Trang 12)",
+          "isCorrect": true
+        },
+        {
+          "text": "Ty thể",
+          "rationale": "Ty thể là bào quan chủ yếu chịu trách nhiệm hô hấp tế bào và sản xuất năng lượng ATP.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bộ máy Golgi",
+          "rationale": "Bộ máy Golgi có vai trò sửa đổi, đóng gói và vận chuyển protein sau khi chúng được tổng hợp.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đây là bào quan được mệnh danh là 'nhà máy sản xuất protein'."
+    },
+    {
+      "question_number": 69,
+      "question": "Thành tựu nào sau đây là ứng dụng của công nghệ DNA tái tổ hợp trong sản xuất dược phẩm?",
+      "answer_options": [
+        {
+          "text": "Tạo giống lúa 'gạo vàng' có khả năng tổng hợp β-carotene.",
+          "rationale": "Đây là một thành tựu trong lĩnh vực nông nghiệp.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sản xuất hormone insulin của người từ vi khuẩn E. coli.",
+          "rationale": "Việc chèn gen mã hóa insulin của người vào vi khuẩn E.coli để sản xuất insulin với số lượng lớn là một trong những thành tựu nổi bật của công nghệ DNA tái tổ hợp trong y học. (Trang 29)",
+          "isCorrect": true
+        },
+        {
+          "text": "Tạo ra cừu Dolly bằng phương pháp nhân bản vô tính.",
+          "rationale": "Cừu Dolly được tạo ra bằng kỹ thuật chuyển nhân tế bào soma, không phải công nghệ DNA tái tổ hợp.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tạo giống cây trồng đa bội có năng suất cao.",
+          "rationale": "Đây là ứng dụng của việc gây đột biến đa bội, không phải công nghệ gen.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Công nghệ này giúp sản xuất các protein của người bằng cách sử dụng vi sinh vật."
+    },
+    {
+      "question_number": 70,
+      "question": "Gen ở sinh vật nhân sơ có vùng mã hóa liên tục, trong khi gen ở sinh vật nhân thực có vùng mã hóa không liên tục vì có chứa các đoạn nào?",
+      "answer_options": [
+        {
+          "text": "Codon và anticodon",
+          "rationale": "Đây là các bộ ba trên mRNA và tRNA.",
+          "isCorrect": false
+        },
+        {
+          "text": "Promoter và operator",
+          "rationale": "Đây là các vùng điều hòa, không phải là các đoạn xen kẽ trong vùng mã hóa.",
+          "isCorrect": false
+        },
+        {
+          "text": "Exon và intron",
+          "rationale": "Gen của sinh vật nhân thực có các đoạn exon (mã hóa amino acid) xen kẽ với các đoạn intron (không mã hóa amino acid). Các intron sẽ bị loại bỏ sau phiên mã. (Trang 7)",
+          "isCorrect": true
+        },
+        {
+          "text": "Plasmid và vector",
+          "rationale": "Đây là các khái niệm trong công nghệ gen.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Các đoạn không mã hóa sẽ bị cắt bỏ trong quá trình xử lý RNA."
+    },
+    {
+      "question_number": 71,
+      "question": "Trong quá trình dịch mã, sự kiện nào sau đây diễn ra ở giai đoạn khởi đầu?",
+      "answer_options": [
+        {
+          "text": "Ribosome trượt trên mRNA để đọc các codon.",
+          "rationale": "Đây là hoạt động chính trong giai đoạn kéo dài.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tiểu đơn vị bé của ribosome gắn với mRNA ở vị trí nhận biết đặc hiệu.",
+          "rationale": "Quá trình dịch mã bắt đầu bằng việc tiểu đơn vị bé của ribosome liên kết với mRNA, sau đó phức hợp tRNA-Met tiến vào và cuối cùng tiểu đơn vị lớn lắp vào. (Trang 12)",
+          "isCorrect": true
+        },
+        {
+          "text": "Ribosome gặp bộ ba kết thúc và quá trình dừng lại.",
+          "rationale": "Đây là sự kiện của giai đoạn kết thúc.",
+          "isCorrect": false
+        },
+        {
+          "text": "Liên kết peptide được hình thành giữa hai amino acid.",
+          "rationale": "Liên kết peptide đầu tiên được hình thành ở giai đoạn kéo dài.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đây là bước đầu tiên để ribosome có thể nhận diện được 'bản tin' mRNA."
+    },
+    {
+      "question_number": 72,
+      "question": "Sơ đồ ở hình 3.2 (trang 18) mô tả cơ chế điều hòa operon Lac trong điều kiện môi trường nào?",
+      "answer_options": [
+        {
+          "text": "Có lactose và không có glucose",
+          "rationale": "Khi có lactose, protein ức chế bị bất hoạt và operon hoạt động. Sơ đồ này cho thấy điều ngược lại.",
+          "isCorrect": false
+        },
+        {
+          "text": "Không có lactose",
+          "rationale": "Hình 3.2 cho thấy protein ức chế đang hoạt động, nó bám vào vùng vận hành (operator) và ngăn cản RNA polymerase phiên mã. Điều này xảy ra khi môi trường không có lactose. (Trang 18)",
+          "isCorrect": true
+        },
+        {
+          "text": "Có cả lactose và glucose",
+          "rationale": "Khi có lactose, protein ức chế bị bất hoạt. Sơ đồ này cho thấy điều ngược lại.",
+          "isCorrect": false
+        },
+        {
+          "text": "Không có cả lactose và glucose",
+          "rationale": "Mặc dù không có lactose là đúng, lựa chọn này kém chính xác hơn vì yếu tố chính quyết định sự ức chế trong sơ đồ là sự vắng mặt của lactose.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy quan sát trạng thái của protein ức chế trong sơ đồ."
+    },
+    {
+      "question_number": 73,
+      "question": "Nguyên nhân bên trong gây ra đột biến gen là gì?",
+      "answer_options": [
+        {
+          "text": "Tia tử ngoại (UV)",
+          "rationale": "Tia UV là một tác nhân vật lý từ bên ngoài.",
+          "isCorrect": false
+        },
+        {
+          "text": "Virus viêm gan B",
+          "rationale": "Virus là một tác nhân sinh học từ bên ngoài.",
+          "isCorrect": false
+        },
+        {
+          "text": "Những rối loạn sinh lí, hoá sinh của tế bào",
+          "rationale": "Các sai sót trong quá trình tự nhân đôi DNA hoặc những thay đổi trong quá trình trao đổi chất nội bào là những nguyên nhân phát sinh từ bên trong cơ thể. (Trang 25)",
+          "isCorrect": true
+        },
+        {
+          "text": "Hóa chất 5-bromouracil (5-BU)",
+          "rationale": "5-BU là một tác nhân hóa học từ bên ngoài.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy tìm nguyên nhân phát sinh từ chính các quá trình sinh học bên trong cơ thể."
+    },
+    {
+      "question_number": 74,
+      "question": "Cà độc dược có 2n = 24. Người ta phát hiện một cây có 23 nhiễm sắc thể. Cây này thuộc dạng đột biến nào?",
+      "answer_options": [
+        {
+          "text": "Thể tam bội (3n)",
+          "rationale": "Thể tam bội sẽ có 3n = 36 nhiễm sắc thể.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thể một (2n-1)",
+          "rationale": "Thể một có bộ nhiễm sắc thể là 2n-1. Với 2n=24 thì 2n-1 = 23. Đây là một dạng của đột biến lệch bội. (Trang 36)",
+          "isCorrect": true
+        },
+        {
+          "text": "Thể ba (2n+1)",
+          "rationale": "Thể ba sẽ có 2n+1 = 25 nhiễm sắc thể.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thể tứ bội (4n)",
+          "rationale": "Thể tứ bội sẽ có 4n = 48 nhiễm sắc thể.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy so sánh số lượng nhiễm sắc thể của cây đột biến với cây lưỡng bội bình thường (2n)."
+    },
+    {
+      "question_number": 75,
+      "question": "Trong kĩ thuật tạo DNA tái tổ hợp, enzyme nào được dùng để nối đoạn gen cần chuyển vào thể truyền (vector)?",
+      "answer_options": [
+        {
+          "text": "Helicase",
+          "rationale": "Helicase dùng để tháo xoắn DNA trong quá trình tái bản.",
+          "isCorrect": false
+        },
+        {
+          "text": "Restriction enzyme (enzyme cắt)",
+          "rationale": "Enzyme này dùng để cắt cả gen và vector tại những vị trí xác định, tạo ra các đầu dính.",
+          "isCorrect": false
+        },
+        {
+          "text": "DNA ligase (enzyme nối)",
+          "rationale": "Sau khi gen và vector được cắt, DNA ligase sẽ tạo ra các liên kết phosphodiester để nối chúng lại với nhau, hình thành DNA tái tổ hợp. (Trang 27)",
+          "isCorrect": true
+        },
+        {
+          "text": "DNA polymerase",
+          "rationale": "Enzyme này dùng để tổng hợp DNA trong quá trình tái bản hoặc PCR.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tên của enzyme này có nghĩa là 'nối' hoặc 'kết dính'."
+    },
+    {
+      "question_number": 76,
+      "question": "Hiện tượng di truyền mà gen nằm trong tế bào chất (ở ty thể hoặc lục lạp) quy định được gọi là gì?",
+      "answer_options": [
+        {
+          "text": "Di truyền liên kết giới tính",
+          "rationale": "Di truyền liên kết giới tính là khi gen nằm trên nhiễm sắc thể giới tính.",
+          "isCorrect": false
+        },
+        {
+          "text": "Di truyền ngoài nhân (Di truyền theo dòng mẹ)",
+          "rationale": "Vì tế bào chất của hợp tử chủ yếu do trứng cung cấp, nên các gen trong ty thể và lục lạp được di truyền từ mẹ cho con. (Bài 9, trang 65-66)",
+          "isCorrect": true
+        },
+        {
+          "text": "Tương tác gen",
+          "rationale": "Tương tác gen là sự tác động qua lại giữa các gen để hình thành một kiểu hình.",
+          "isCorrect": false
+        },
+        {
+          "text": "Di truyền đa gen",
+          "rationale": "Di truyền đa gen là khi nhiều gen cùng tham gia quy định một tính trạng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Các gen này không nằm trong nhân tế bào."
+    },
+    {
+      "question_number": 77,
+      "question": "Dựa vào hình 5.4 (trang 35), dạng đột biến cấu trúc nào được minh họa ở hình a?",
+      "answer_options": [
+        {
+          "text": "Mất đoạn",
+          "rationale": "Hình a minh họa một nhiễm sắc thể ban đầu (1) có các gen A-B-C-D-X-E-G-H-I-K-L-M bị mất đi đoạn chứa gen X, tạo thành nhiễm sắc thể (2) N-O-P-Q-R-S-T-X-Y. Đây là mô tả không chính xác. Hình a là mất đoạn D.",
+          "isCorrect": true
+        },
+        {
+          "text": "Lặp đoạn",
+          "rationale": "Hình b minh họa sự lặp lại của đoạn B-C.",
+          "isCorrect": false
+        },
+        {
+          "text": "Đảo đoạn",
+          "rationale": "Hình d minh họa đoạn D-E-G bị đảo thành G-E-D.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chuyển đoạn",
+          "rationale": "Hình e, f, g minh họa các dạng chuyển đoạn.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "So sánh nhiễm sắc thể số 1 và số 2 để xem đoạn gen nào đã bị biến mất."
+    },
+    {
+      "question_number": 78,
+      "question": "Theo mô hình của Jacob và Monod, gen điều hòa (lacI) của operon Lac có vai trò gì?",
+      "answer_options": [
+        {
+          "text": "Tổng hợp enzyme phân giải lactose.",
+          "rationale": "Các gen cấu trúc Z, Y, A mới tổng hợp các enzyme này.",
+          "isCorrect": false
+        },
+        {
+          "text": "Là nơi để RNA polymerase bám vào.",
+          "rationale": "Đây là vai trò của vùng khởi động (P).",
+          "isCorrect": false
+        },
+        {
+          "text": "Tổng hợp protein ức chế.",
+          "rationale": "Gen điều hòa hoạt động độc lập và tổng hợp ra protein ức chế, chất này sẽ kiểm soát hoạt động của operon. (Trang 17-18)",
+          "isCorrect": true
+        },
+        {
+          "text": "Liên kết với chất cảm ứng lactose.",
+          "rationale": "Protein ức chế do gen điều hòa tạo ra sẽ liên kết với lactose, chứ không phải bản thân gen điều hòa.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Gen này kiểm soát operon một cách gián tiếp thông qua một sản phẩm protein."
+    },
+    {
+      "question_number": 79,
+      "question": "Sự kiện nào đánh dấu sự kết thúc của quá trình dịch mã?",
+      "answer_options": [
+        {
+          "text": "Ribosome đến đầu 5' của mRNA.",
+          "rationale": "Đây là nơi quá trình dịch mã bắt đầu.",
+          "isCorrect": false
+        },
+        {
+          "text": "tRNA mang Methionine tiến vào ribosome.",
+          "rationale": "Đây là sự kiện khởi đầu quá trình dịch mã.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ribosome gặp một trong các bộ ba kết thúc (UAA, UAG, UGA) trên mRNA.",
+          "rationale": "Khi gặp bộ ba kết thúc, không có tRNA tương ứng, yếu tố giải phóng sẽ liên kết và làm cho ribosome tách ra, giải phóng chuỗi polypeptide. (Trang 13)",
+          "isCorrect": true
+        },
+        {
+          "text": "Toàn bộ phân tử mRNA được đọc hết.",
+          "rationale": "Quá trình dừng lại ở bộ ba kết thúc, không nhất thiết phải ở cuối cùng của phân tử mRNA.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Quá trình này dừng lại khi ribosome gặp một 'tín hiệu dừng' đặc biệt trên mRNA."
+    },
+    {
+      "question_number": 80,
+      "question": "Trong kĩ thuật tạo sinh vật biến đổi gen ở thực vật, plasmid nào của vi khuẩn thường được sử dụng làm thể truyền?",
+      "answer_options": [
+        {
+          "text": "Plasmid của E. coli",
+          "rationale": "Plasmid của E.coli thường được dùng trong các thí nghiệm với vi khuẩn, nhưng không hiệu quả để chuyển gen vào thực vật.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ti-plasmid của vi khuẩn Agrobacterium tumefaciens",
+          "rationale": "Vi khuẩn này có khả năng tự nhiên là chuyển một đoạn DNA (T-DNA) từ Ti-plasmid của nó vào bộ gen của tế bào thực vật, do đó nó được dùng làm vector chuyển gen hiệu quả ở thực vật. (Trang 29-30)",
+          "isCorrect": true
+        },
+        {
+          "text": "Thực khuẩn thể Lambda",
+          "rationale": "Đây là một loại virus lây nhiễm vi khuẩn, được dùng làm vector cho vi khuẩn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Plasmid của nấm men",
+          "rationale": "Plasmid của nấm men được dùng làm vector cho các tế bào nấm men.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Vi khuẩn này có khả năng gây ra bệnh u khối ở thực vật bằng cách chuyển gen của nó."
+    },
+    {
+      "question_number": 81,
+      "question": "Sự kiện không phân li của toàn bộ bộ nhiễm sắc thể trong giảm phân sẽ dẫn đến kết quả nào?",
+      "answer_options": [
+        {
+          "text": "Tạo ra giao tử (n+1) và (n-1)",
+          "rationale": "Đây là kết quả của sự không phân li của một cặp NST.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tạo ra giao tử lưỡng bội (2n)",
+          "rationale": "Khi toàn bộ bộ NST không phân li trong giảm phân, các giao tử được tạo ra sẽ vẫn giữ nguyên bộ NST lưỡng bội (2n) của tế bào mẹ. (Trang 38)",
+          "isCorrect": true
+        },
+        {
+          "text": "Gây ra các đột biến cấu trúc NST",
+          "rationale": "Đây là kết quả của sự đứt gãy và sắp xếp lại không chính xác của NST.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tạo ra các dòng tế bào khảm",
+          "rationale": "Dòng tế bào khảm thường là kết quả của sự không phân li trong nguyên phân.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nếu không có gì phân li, giao tử sẽ nhận được toàn bộ bộ NST của tế bào mẹ."
+    },
+    {
+      "question_number": 82,
+      "question": "Quá trình sao chép thông tin di truyền từ DNA sang DNA được gọi là gì?",
+      "answer_options": [
+        {
+          "text": "Phiên mã",
+          "rationale": "Phiên mã là quá trình tổng hợp RNA từ khuôn DNA.",
+          "isCorrect": false
+        },
+        {
+          "text": "Dịch mã",
+          "rationale": "Dịch mã là quá trình tổng hợp protein từ khuôn mRNA.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tái bản (Nhân đôi)",
+          "rationale": "Tái bản hay nhân đôi là quá trình mà một phân tử DNA mẹ tạo ra hai phân tử DNA con giống hệt, đảm bảo sự truyền đạt thông tin di truyền qua các thế hệ tế bào. (Trang 6)",
+          "isCorrect": true
+        },
+        {
+          "text": "Điều hòa gen",
+          "rationale": "Điều hòa gen là quá trình kiểm soát sự biểu hiện của gen.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Quá trình này đảm bảo mỗi tế bào con nhận được một bản sao đầy đủ của bộ gen."
+    },
+    {
+      "question_number": 83,
+      "question": "Tại sao đột biến gen thường có hại cho cơ thể sinh vật?",
+      "answer_options": [
+        {
+          "text": "Vì chúng luôn tạo ra các tính trạng mới.",
+          "rationale": "Không phải đột biến nào cũng tạo ra tính trạng mới, nhiều đột biến là im lặng hoặc vô nghĩa.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì chúng phá vỡ sự hài hòa đã được hình thành trong kiểu gen.",
+          "rationale": "Các sinh vật đã trải qua quá trình chọn lọc tự nhiên để hoàn thiện kiểu gen thích nghi với môi trường. Đột biến thường làm thay đổi ngẫu nhiên và phá vỡ sự sắp xếp tối ưu này, dẫn đến các rối loạn chức năng. (Trang 26)",
+          "isCorrect": true
+        },
+        {
+          "text": "Vì chúng luôn làm giảm sức sống của sinh vật.",
+          "rationale": "Một số đột biến có thể là trung tính hoặc thậm chí có lợi trong một số điều kiện môi trường nhất định.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vì chúng luôn di truyền được cho thế hệ sau.",
+          "rationale": "Chỉ có đột biến giao tử mới di truyền được cho thế hệ sau, đột biến soma thì không.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy nghĩ về sự thích nghi của sinh vật với môi trường qua hàng triệu năm tiến hóa."
+    },
+    {
+      "question_number": 84,
+      "question": "Thể đa bội lẻ (ví dụ 3n, 5n) thường có đặc điểm gì?",
+      "answer_options": [
+        {
+          "text": "Kích thước cơ quan lớn và sinh sản hữu tính bình thường.",
+          "rationale": "Chúng thường có kích thước lớn nhưng lại gặp vấn đề trong sinh sản.",
+          "isCorrect": false
+        },
+        {
+          "text": "Rất dễ bị bệnh và có kích thước nhỏ.",
+          "rationale": "Thể đa bội thường có sức sống cao và kích thước lớn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Không có khả năng sinh sản hữu tính (bất thụ).",
+          "rationale": "Do bộ nhiễm sắc thể lẻ, quá trình giảm phân gặp khó khăn trong việc phân chia đều các NST về các giao tử, dẫn đến việc tạo ra các giao tử không cân bằng và gây bất thụ. (Trang 39)",
+          "isCorrect": true
+        },
+        {
+          "text": "Chỉ tồn tại ở động vật, không có ở thực vật.",
+          "rationale": "Thể đa bội rất phổ biến ở thực vật, nhưng hiếm gặp ở động vật.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sự phân li nhiễm sắc thể trong giảm phân sẽ gặp trở ngại."
+    },
+    {
+      "question_number": 85,
+      "question": "Cơ chế phiên mã ngược (tổng hợp DNA từ khuôn RNA) được tìm thấy ở nhóm sinh vật nào?",
+      "answer_options": [
+        {
+          "text": "Tất cả vi khuẩn",
+          "rationale": "Vi khuẩn thực hiện phiên mã và dịch mã thông thường.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thực vật",
+          "rationale": "Thực vật tuân theo luận điểm trung tâm (DNA -> RNA -> Protein).",
+          "isCorrect": false
+        },
+        {
+          "text": "Một số loại virus (ví dụ: Retrovirus như HIV)",
+          "rationale": "Retrovirus có vật chất di truyền là RNA. Khi xâm nhập vào tế bào chủ, chúng sử dụng enzyme phiên mã ngược để tạo ra một bản sao DNA từ RNA của chúng, sau đó chèn DNA này vào bộ gen của tế bào chủ. (Trang 10)",
+          "isCorrect": true
+        },
+        {
+          "text": "Động vật có vú",
+          "rationale": "Động vật có vú thực hiện phiên mã và dịch mã thông thường.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nhóm sinh vật này có vật chất di truyền là RNA."
+    },
+    {
+      "question_number": 86,
+      "question": "Một gen có 3000 nucleotide. Phân tử mRNA trưởng thành được tạo ra từ gen này sau khi đã cắt bỏ các intron chỉ còn 1500 nucleotide. Số lượng amino acid trong chuỗi polypeptide hoàn chỉnh do gen này mã hóa là bao nhiêu (không tính amino acid mở đầu bị cắt bỏ)?",
+      "answer_options": [
+        {
+          "text": "1000",
+          "rationale": "Số amino acid được tính từ mRNA trưởng thành, không phải từ gen ban đầu. 1500 / 3 = 500.",
+          "isCorrect": false
+        },
+        {
+          "text": "500",
+          "rationale": "Mỗi bộ ba mã hóa cho một amino acid. Số amino acid = (Số nucleotide trên mRNA) / 3 = 1500 / 3 = 500. Tuy nhiên, bộ ba kết thúc không mã hóa amino acid.",
+          "isCorrect": false
+        },
+        {
+          "text": "499",
+          "rationale": "Số bộ ba trên mRNA là 1500 / 3 = 500. Trong đó có 1 bộ ba kết thúc không mã hóa amino acid. Vậy số amino acid là 500 - 1 = 499. (Dựa trên kiến thức trang 10-11)",
+          "isCorrect": true
+        },
+        {
+          "text": "999",
+          "rationale": "Tính toán này dựa trên số nucleotide của gen ban đầu và không trừ đi bộ ba kết thúc.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy nhớ rằng mỗi amino acid được mã hóa bởi một bộ ba (3 nucleotide) trên mRNA và phân tử protein kết thúc ở bộ ba kết thúc."
+    },
+    {
+      "question_number": 87,
+      "question": "Việc nhiều ribosome cùng trượt trên một phân tử mRNA để tổng hợp protein được gọi là gì?",
+      "answer_options": [
+        {
+          "text": "Operon",
+          "rationale": "Operon là một cụm các gen cấu trúc có liên quan về chức năng, được điều khiển bởi một nhóm các yếu tố điều hòa chung.",
+          "isCorrect": false
+        },
+        {
+          "text": "Polynucleotide",
+          "rationale": "Đây là một chuỗi gồm nhiều nucleotide, là tên gọi khác của DNA hoặc RNA.",
+          "isCorrect": false
+        },
+        {
+          "text": "Polyribosome (polysome)",
+          "rationale": "Hiện tượng này giúp tế bào có thể tổng hợp được nhiều chuỗi polypeptide cùng loại một cách nhanh chóng từ một phân tử mRNA duy nhất, làm tăng hiệu suất dịch mã. (Trang 13)",
+          "isCorrect": true
+        },
+        {
+          "text": "Polypeptide",
+          "rationale": "Đây là sản phẩm của quá trình dịch mã, là một chuỗi các amino acid.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hiện tượng này giúp tăng hiệu suất của quá trình dịch mã."
     }
   ]
 }

@@ -1162,33 +1162,6 @@
       "hint": "Ý tưởng này xuất hiện ngay tại văn kiện khai sinh ra ASEAN."
     },
     {
-      "question_number": 44,
-      "question": "Tầm nhìn ASEAN 2020 (1997) xác định mục tiêu đưa ASEAN trở thành một nhóm hài hòa các dân tộc Đông Nam Á gắn bó trong một...",
-      "answeroption": [
-        {
-          "text": "liên minh quân sự vững chắc.",
-          "rationale": "Sai. ASEAN không phải là liên minh quân sự.",
-          "isCorrect": false
-        },
-        {
-          "text": "cộng đồng các xã hội đùm bọc lẫn nhau.",
-          "rationale": "Đúng. Văn kiện Tầm nhìn ASEAN 2020 xác định mục tiêu đưa ASEAN trở thành một nhóm hài hoà các dân tộc Đông Nam Á gắn bó trong một cộng đồng các xã hội đùm bọc lẫn nhau.",
-          "isCorrect": true
-        },
-        {
-          "text": "thị trường kinh tế chung.",
-          "rationale": "Sai. Đây là mục tiêu của AEC, một phần của Cộng đồng sau này.",
-          "isCorrect": false
-        },
-        {
-          "text": "nhà nước liên bang thống nhất.",
-          "rationale": "Sai. ASEAN là tổ chức hợp tác liên chính phủ, không phải nhà nước liên bang.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Mục tiêu này nhấn mạnh đến tính 'xã hội' và 'sự đùm bọc'."
-    },
-    {
       "question_number": 45,
       "question": "Tuyên bố Ba-li II (Tuyên bố về sự Hoà hợp ASEAN II) năm 2003 đã đặt nền móng cho sự hình thành Cộng đồng ASEAN dựa trên mấy trụ cột?",
       "answeroption": [
@@ -1567,33 +1540,6 @@
       "hint": "Năm dòng chảy chính của AEC."
     },
     {
-      "question_number": 59,
-      "question": "Nội dung 'phát triển đồng đều' của AEC nhấn mạnh điều gì?",
-      "answeroption": [
-        {
-          "text": "Thu hẹp khoảng cách phát triển giữa các nước ASEAN",
-          "rationale": "Đúng. Thông qua IAI, SME, kết nối khu vực...",
-          "isCorrect": true
-        },
-        {
-          "text": "Tăng rào cản phi thuế quan",
-          "rationale": "Sai.",
-          "isCorrect": false
-        },
-        {
-          "text": "Ưu tiên độc quyền nhà nước",
-          "rationale": "Sai.",
-          "isCorrect": false
-        },
-        {
-          "text": "Giảm cạnh tranh nội khối",
-          "rationale": "Sai.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "IAI (Sáng kiến liên kết ASEAN) hỗ trợ CLMV."
-    },
-    {
       "question_number": 60,
       "question": "ASCC hướng tới mục tiêu nào?",
       "answeroption": [
@@ -1729,33 +1675,6 @@
       "hint": "Đặc trưng 'thống nhất trong đa dạng' đặt ra yêu cầu điều phối tốt."
     },
     {
-      "question_number": 65,
-      "question": "Thách thức bên ngoài nổi bật đối với APSC là gì?",
-      "answeroption": [
-        {
-          "text": "Cạnh tranh chiến lược giữa các nước lớn tại khu vực",
-          "rationale": "Đúng. Tác động đến môi trường an ninh khu vực.",
-          "isCorrect": true
-        },
-        {
-          "text": "Thiếu tài nguyên nước ngọt trên toàn khu vực",
-          "rationale": "Sai. Không phải điểm nêu trọng tâm trong bài.",
-          "isCorrect": false
-        },
-        {
-          "text": "Suy giảm dân số vàng",
-          "rationale": "Sai.",
-          "isCorrect": false
-        },
-        {
-          "text": "Giáo dục đại học không phát triển",
-          "rationale": "Sai.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Cạnh tranh Mỹ–Trung và các nước lớn làm phức tạp an ninh khu vực."
-    },
-    {
       "question_number": 66,
       "question": "Triển vọng nào thể hiện vai trò trung tâm của ASEAN trong cấu trúc khu vực?",
       "answeroption": [
@@ -1808,87 +1727,6 @@
         }
       ],
       "hint": "Ghi nhớ các viết tắt ba trụ cột."
-    },
-    {
-      "question_number": 68,
-      "question": "Thuật ngữ nào mô tả 'ASEAN là tổ chức hợp tác liên Chính phủ, hoạt động theo luật lệ'?",
-      "answeroption": [
-        {
-          "text": "Pháp quyền (rule of law) trong khu vực",
-          "rationale": "Đúng. Tinh thần của Hiến chương và Cộng đồng 2025.",
-          "isCorrect": true
-        },
-        {
-          "text": "Đơn cực hoá",
-          "rationale": "Sai.",
-          "isCorrect": false
-        },
-        {
-          "text": "Liên bang hoá",
-          "rationale": "Sai.",
-          "isCorrect": false
-        },
-        {
-          "text": "Tập quyền hoá",
-          "rationale": "Sai.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Bài nhấn mạnh hoạt động theo luật lệ và dựa trên pháp quyền."
-    },
-    {
-      "question_number": 69,
-      "question": "Nếu một chính sách đặt mục tiêu 'giảm phát thải và tăng khả năng chống chịu của cộng đồng', trụ cột phù hợp nhất là:",
-      "answeroption": [
-        {
-          "text": "ASCC",
-          "rationale": "Đúng. Gắn với môi trường, bền vững, con người.",
-          "isCorrect": true
-        },
-        {
-          "text": "APSC",
-          "rationale": "Sai.",
-          "isCorrect": false
-        },
-        {
-          "text": "AEC",
-          "rationale": "Sai.",
-          "isCorrect": false
-        },
-        {
-          "text": "ASEAN+1",
-          "rationale": "Sai. Đây là khuôn khổ đối tác, không phải trụ cột.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Gắn kết nội dung chính sách với trụ cột tương ứng."
-    },
-    {
-      "question_number": 70,
-      "question": "Chính sách 'đơn giản hoá thủ tục hải quan, thuận lợi hoá thương mại' thuộc trụ cột nào?",
-      "answeroption": [
-        {
-          "text": "AEC",
-          "rationale": "Đúng. Liên quan thương mại và hàng hoá.",
-          "isCorrect": true
-        },
-        {
-          "text": "APSC",
-          "rationale": "Sai.",
-          "isCorrect": false
-        },
-        {
-          "text": "ASCC",
-          "rationale": "Sai.",
-          "isCorrect": false
-        },
-        {
-          "text": "Không thuộc trụ cột nào",
-          "rationale": "Sai.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "AEC đề cao thuận lợi hoá thương mại."
     },
     {
       "question_number": 71,
@@ -1970,33 +1808,6 @@
         }
       ],
       "hint": "Câu hỏi khái quát bản sắc cộng đồng."
-    },
-    {
-      "question_number": 74,
-      "question": "Cơ chế nào KHÔNG phải do ASEAN dẫn dắt?",
-      "answeroption": [
-        {
-          "text": "NATO",
-          "rationale": "Đúng. NATO là liên minh quân sự do phương Tây dẫn dắt, không liên quan ASEAN.",
-          "isCorrect": true
-        },
-        {
-          "text": "ARF (Diễn đàn Khu vực ASEAN)",
-          "rationale": "Sai. ASEAN chủ trì.",
-          "isCorrect": false
-        },
-        {
-          "text": "EAS (Cấp cao Đông Á)",
-          "rationale": "Sai. Do ASEAN làm trung tâm.",
-          "isCorrect": false
-        },
-        {
-          "text": "ADMM+ (Hội nghị Bộ trưởng Quốc phòng mở rộng)",
-          "rationale": "Sai. ASEAN giữ vai trò nòng cốt.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Kiến thức về 'ASEAN centrality'."
     }
   ]
 }

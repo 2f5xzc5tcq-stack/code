@@ -179,9 +179,8 @@
       color: white;
     }
     
-    /* Dark mode styles */
     [data-theme="dark"] body {
-      background: linear-gradient(to bottom right, #0f172a, #1e293b, #0f172a);
+      background: #0f172a;
     }
     
     [data-theme="dark"] .bg-white,
@@ -189,6 +188,11 @@
     [data-theme="dark"] .modal-content {
       background: var(--bg-secondary) !important;
       color: var(--text-primary) !important;
+    }
+    
+    [data-theme="dark"] #card {
+      background: #0f172a !important;
+      border-color: #1e293b !important;
     }
     
     [data-theme="dark"] .text-slate-800,
@@ -247,7 +251,31 @@
       background: #334155 !important;
     }
     
-    /* Mobile menu */
+    [data-theme="dark"] #summary {
+      background: linear-gradient(to bottom right, #1e293b, #1e3a52, #1e293b) !important;
+    }
+    
+    [data-theme="dark"] #summary #summaryText {
+      background: #0f172a !important;
+      color: #e2e8f0 !important;
+      border-color: #334155 !important;
+    }
+    
+    [data-theme="dark"] #statsChart {
+      background: #0f172a !important;
+      border-color: #334155 !important;
+    }
+    
+    [data-theme="dark"] #statsChart h3,
+    [data-theme="dark"] #chartPercentage,
+    [data-theme="dark"] #statsChart span {
+      color: #e2e8f0 !important;
+    }
+    
+    [data-theme="dark"] #statsChart .text-xs {
+      color: #94a3b8 !important;
+    }
+    
     .mobile-menu {
       position: fixed;
       top: 0;
@@ -282,7 +310,6 @@
       pointer-events: all;
     }
     
-    /* Dark mode toggle */
     .dark-mode-toggle {
       position: relative;
       width: 60px;
@@ -313,7 +340,6 @@
       left: 33px;
     }
     
-    /* Modal */
     .modal {
       position: fixed;
       top: 0;
@@ -351,7 +377,6 @@
       transform: scale(1);
     }
     
-    /* Bookmark button */
     .bookmark-btn {
       cursor: pointer;
       transition: transform 0.2s ease;
@@ -366,11 +391,8 @@
     }
   </style>
 </head>
-<body class="bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50 text-slate-900">
-  <!-- Mobile Overlay -->
+<body class="text-slate-900">
   <div id="mobileOverlay" class="mobile-overlay lg:hidden"></div>
-  
-  <!-- Mobile Menu -->
   <div id="mobileMenu" class="mobile-menu lg:hidden">
     <div class="p-6">
       <div class="flex items-center justify-between mb-6">
@@ -409,7 +431,6 @@
   </div>
   
   <div class="flex">
-    <!-- Left Sidebar: Subject Selector -->
     <aside class="hidden lg:block w-20 min-h-screen bg-white border-r border-slate-200 shadow-sm">
       <div class="sticky top-0 py-6 flex flex-col items-center gap-4">
         <div class="mb-4">
@@ -418,7 +439,6 @@
           </div>
         </div>
         
-        <!-- Subject: History -->
         <div id="subject-history" class="subject-nav-item active w-14 h-14 rounded-xl flex flex-col items-center justify-center gap-1 p-2" 
              data-subject="history" 
              data-file="c.json" 
@@ -431,7 +451,6 @@
           <span class="text-xs font-semibold">Sử</span>
         </div>
         
-        <!-- Subject: Biology -->
         <div id="subject-biology" class="subject-nav-item w-14 h-14 rounded-xl flex flex-col items-center justify-center gap-1 p-2" 
              data-subject="biology" 
              data-file="sinh.json"
@@ -439,17 +458,15 @@
              data-desc="Sinh học 12 - Chọn đáp án để xem kết quả và lời giải thích chi tiết."
              title="Sinh học">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-600">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 16a9.065 9.065 0 0 1-6.23-.693L5 15.3m14.8 0 .94.235a2.25 2.25 0 0 1-.659 4.428l-.396-.099A13.505 13.505 0 0 1 12 21c-2.761 0-5.348-.827-7.491-2.247l-.396.099a2.25 2.25 0 0 1-.659-4.428l.94-.235" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c.251.023.501.05.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 16a9.065 9.065 0 0 1-6.23-.693L5 15.3m14.8 0 .94.235a2.25 2.25 0 0 1-.659 4.428l-.396-.099A13.505 13.505 0 0 1 12 21c-2.761 0-5.348-.827-7.491-2.247l-.396.099a2.25 2.25 0 0 1-.659-4.428l.94-.235" />
           </svg>
           <span class="text-xs font-semibold">Sinh</span>
         </div>
       </div>
     </aside>
     
-    <!-- Main Content -->
     <div class="flex-1">
       <div class="mx-auto max-w-7xl px-4 py-6">
-    <!-- Header -->
     <header class="mb-6 text-center">
       <div class="inline-block mb-2 px-4 py-1.5 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-xs font-semibold rounded-full shadow-sm">
         Luyện tập trắc nghiệm
@@ -462,10 +479,8 @@
       </p>
     </header>
 
-    <!-- Control buttons -->
     <section class="mb-6 flex flex-wrap items-center justify-between gap-3">
       <div class="flex flex-wrap items-center gap-3">
-        <!-- Mobile menu button -->
         <button id="openMobileMenu" class="lg:hidden p-2.5 rounded-xl bg-white border-2 border-slate-200 shadow-sm hover:shadow-md transition-all">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -491,15 +506,11 @@
       </div>
     </section>
 
-    <!-- Main Content: Sidebar + Question -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-      <!-- Sidebar: Question Navigator -->
       <aside class="lg:col-span-3">
         <div class="bg-white rounded-2xl p-4 shadow-lg border border-slate-100 sticky top-6">
           <h2 class="font-bold text-slate-800 mb-3 text-sm">Danh sách câu hỏi</h2>
-          <div id="questionNav" class="sidebar grid grid-cols-5 sm:grid-cols-6 lg:grid-cols-4 gap-2">
-            <!-- Questions navigation will be populated here -->
-          </div>
+          <div id="questionNav" class="sidebar grid grid-cols-5 sm:grid-cols-6 lg:grid-cols-4 gap-2"></div>
           <div class="mt-4 pt-4 border-t border-slate-200">
             <div class="flex flex-col gap-2 text-xs">
               <div class="flex items-center gap-1.5">
@@ -523,9 +534,7 @@
         </div>
       </aside>
 
-      <!-- Main Question Area -->
       <main class="lg:col-span-9">
-        <!-- Progress + counters -->
         <section class="mb-6 bg-white rounded-2xl p-5 shadow-md border border-slate-100">
           <div class="flex items-center justify-between text-sm mb-3 flex-wrap gap-3">
             <div id="progressText" class="font-semibold text-slate-800 text-base">Câu 1 / 100</div>
@@ -550,7 +559,6 @@
           </div>
         </section>
 
-        <!-- Question card -->
         <div id="card" class="fade-in rounded-2xl bg-white p-6 sm:p-8 shadow-xl border border-slate-100">
           <div class="flex items-start justify-between mb-4">
             <div id="questionText" class="flex-1 text-xl sm:text-2xl font-bold text-slate-800 leading-relaxed">Đang tải…</div>
@@ -571,7 +579,7 @@
           </div>
 
           <div id="explainWrap" class="mt-5 hidden">
-            <div id="explainText" class="rounded-xl border-2 border-slate-200 bg-gradient-to-br from-slate-50 to-blue-50 p-5 text-sm leading-relaxed shadow-sm"></div>
+            <div id="explainText" class=""></div>
           </div>
 
           <div class="mt-8 flex flex-wrap items-center gap-3">
@@ -587,22 +595,17 @@
           </div>
         </div>
 
-        <!-- Summary -->
         <section id="summary" class="mt-8 hidden rounded-2xl bg-gradient-to-br from-white to-blue-50 p-6 sm:p-8 shadow-xl border-2 border-blue-100">
           <h2 class="mb-4 text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             Kết quả bài làm
           </h2>
           <p id="summaryText" class="text-base text-slate-700 leading-relaxed mb-6 p-4 bg-white rounded-xl border border-slate-200 shadow-sm"></p>
           
-          <!-- Statistics Chart -->
           <div id="statsChart" class="mb-6 p-6 bg-white rounded-xl border border-slate-200 shadow-sm">
             <h3 class="text-lg font-bold text-slate-800 mb-4">Thống kê chi tiết</h3>
             <div class="flex flex-col md:flex-row items-center justify-around gap-6">
-              <!-- Pie Chart -->
               <div class="relative">
-                <svg id="pieChart" width="200" height="200" viewBox="0 0 200 200">
-                  <!-- SVG will be populated by JavaScript -->
-                </svg>
+                <svg id="pieChart" width="200" height="200" viewBox="0 0 200 200"></svg>
                 <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
                   <div class="text-center">
                     <div id="chartPercentage" class="text-3xl font-bold text-slate-800">0%</div>
@@ -611,7 +614,6 @@
                 </div>
               </div>
               
-              <!-- Stats -->
               <div class="flex flex-col gap-3">
                 <div class="flex items-center gap-3">
                   <div class="w-4 h-4 rounded bg-emerald-500"></div>
@@ -658,7 +660,6 @@
     </div>
   </div>
 
-  <!-- History Modal -->
   <div id="historyModal" class="modal">
     <div class="modal-content w-full max-w-4xl">
       <div class="flex items-center justify-between mb-6">
@@ -669,13 +670,10 @@
           </svg>
         </button>
       </div>
-      <div id="historyContent" class="space-y-3 max-h-96 overflow-y-auto">
-        <!-- History items will be populated here -->
-      </div>
+      <div id="historyContent" class="space-y-3 max-h-96 overflow-y-auto"></div>
     </div>
   </div>
 
-  <!-- Bookmarks Modal -->
   <div id="bookmarksModal" class="modal">
     <div class="modal-content w-full max-w-4xl">
       <div class="flex items-center justify-between mb-6">
@@ -686,9 +684,7 @@
           </svg>
         </button>
       </div>
-      <div id="bookmarksContent" class="space-y-3 max-h-96 overflow-y-auto">
-        <!-- Bookmark items will be populated here -->
-      </div>
+      <div id="bookmarksContent" class="space-y-3 max-h-96 overflow-y-auto"></div>
     </div>
   </div>
 

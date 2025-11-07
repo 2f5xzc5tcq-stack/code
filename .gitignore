@@ -1,0 +1,30 @@
+# ===== Firebase Configuration =====
+# File này chứa API keys và credentials nhạy cảm
+# KHÔNG push lên Git để bảo vệ thông tin dự án
+firebase-config.js
+
+# ===== Credentials và Tokens =====
+*.json
+!package.json
+!tsconfig.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1781,6 +1781,600 @@
         }
       ],
       "hint": "Câu hỏi khái quát bản sắc cộng đồng."
+    },
+    {
+      "question_number": 74,
+      "question": "Đầu năm 1945, đâu là vấn đề cấp bách đặt ra cho các nước Đồng minh chống phát xít?",
+      "answerOptions": [
+        {
+          "text": "Phân chia lại thuộc địa của các nước.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Tổ chức lại thế giới sau chiến tranh.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Thiết lập trật tự thế giới mới hai cực.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Phục hồi và phát triển kinh tế thế giới.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Bối cảnh CTTG II sắp kết thúc, cần dàn xếp hậu chiến."
+    },
+    {
+      "question_number": 75,
+      "question": "Ngày 1/1/1942, đại diện của 26 nước đã ký văn kiện nào sau đây?",
+      "answerOptions": [
+        {
+          "text": "Tuyên bố về Liên hợp quốc.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Thành lập khối Liên minh.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Xóa bỏ hệ thống thuộc địa.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Chấm dứt Chiến tranh lạnh.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Văn kiện này đặt nền tảng cho việc hình thành LHQ."
+    },
+    {
+      "question_number": 76,
+      "question": "Năm 1945, bản Hiến chương Liên hợp quốc được thông qua tại đâu?",
+      "answerOptions": [
+        {
+          "text": "Hội nghị Tam cường I-an-ta.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Hội nghị Xan Phran-xi-xcô.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Hội nghị Bàn Môn Điếm.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Hội nghị Véc-xai – Oa-sinh-tơn.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Diễn ra 25/4–26/6/1945, với 50 nước tham dự."
+    },
+    {
+      "question_number": 77,
+      "question": "Một trong những quốc gia Ủy viên thường trực Hội đồng Bảo an Liên hợp quốc là",
+      "answerOptions": [
+        {
+          "text": "Nhật Bản.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Đức.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Anh.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Bỉ.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "P5: Mỹ, Nga, Anh, Pháp, Trung Quốc."
+    },
+    {
+      "question_number": 78,
+      "question": "Quốc gia nào sau đây từng có công dân là Tổng Thư ký Liên hợp quốc?",
+      "answerOptions": [
+        {
+          "text": "Hàn Quốc.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Trung Quốc.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Việt Nam.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhật Bản.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Ông Ban Ki-moon (2007–2016) là người Hàn Quốc."
+    },
+    {
+      "question_number": 79,
+      "question": "Việt Nam gia nhập Liên hợp quốc vào năm nào và là thành viên thứ bao nhiêu?",
+      "answerOptions": [
+        {
+          "text": "Năm 1977, thành viên thứ 149.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Năm 1977, thành viên thứ 159.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Năm 1987, thành viên thứ 149.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Năm 1987, thành viên thứ 159.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "VN gia nhập LHQ ngày 20/9/1977."
+    },
+    {
+      "question_number": 80,
+      "question": "Đâu là một trong các mục tiêu phát triển bền vững (SDGs) đến năm 2030 của Liên hợp quốc?",
+      "answerOptions": [
+        {
+          "text": "Chống nạn thất nghiệp.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Quyền tự do chính trị.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Chống bạo lực gia đình.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Giáo dục có chất lượng.",
+          "rationale": "",
+          "isCorrect": true
+        }
+      ],
+      "hint": "SDG 4: Quality Education."
+    },
+    {
+      "question_number": 81,
+      "question": "Nhận định nào về vị trí, vai trò của Liên hợp quốc trên trường quốc tế là KHÔNG đúng?",
+      "answerOptions": [
+        {
+          "text": "Là diễn đàn quốc tế lớn nhất, vừa hợp tác vừa đấu tranh.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Thúc đẩy mối quan hệ hợp tác hữu nghị giữa các dân tộc.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Là tổ chức liên kết chính trị – kinh tế lớn nhất hành tinh.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Giúp đỡ các quốc gia về y tế, văn hóa, giáo dục.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "LHQ không phải liên minh liên kết kinh tế kiểu EU/ASEAN."
+    },
+    {
+      "question_number": 82,
+      "question": "Bản Hiến chương được đánh giá là văn kiện quan trọng hàng đầu của Liên hợp quốc vì lí do nào sau đây?",
+      "answerOptions": [
+        {
+          "text": "Là cơ sở pháp lí để các nước tham gia Liên hợp quốc.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Nêu rõ các mục đích hoạt động của Liên hợp quốc.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Quy định các tổ chức, cơ chế hoạt động của Liên hợp quốc.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Đề ra các nguyên tắc hoạt động của Liên hợp quốc.",
+          "rationale": "",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Các nguyên tắc (bình đẳng chủ quyền, không can thiệp, hòa bình…) là nền tảng."
+    },
+    {
+      "question_number": 83,
+      "question": "Đâu là nguyên nhân chủ yếu làm số lượng thành viên Liên hợp quốc tăng nhanh giai đoạn 1945–2007?",
+      "answerOptions": [
+        {
+          "text": "Gia nhập LHQ để nhận viện trợ kinh tế.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Tác động của trật tự thế giới hai cực và Chiến tranh lạnh.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiều quốc gia giành được độc lập.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Nhiều vấn đề vượt quá khả năng giải quyết đơn lẻ.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Phong trào giải phóng dân tộc Á–Phi–Mỹ Latinh."
+    },
+    {
+      "question_number": 84,
+      "question": "Ý nghĩa của việc Việt Nam được bầu làm Ủy viên không thường trực HĐBA LHQ (2008–2009) là",
+      "answerOptions": [
+        {
+          "text": "Nền kinh tế Việt Nam phát triển vượt bậc.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Tình hình an ninh – chính trị tương đối ổn định.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Việt Nam đã xóa bỏ tham nhũng.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Vị thế, uy tín Việt Nam được nâng cao.",
+          "rationale": "",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Khẳng định vai trò và trách nhiệm quốc tế của Việt Nam."
+    },
+    {
+      "question_number": 85,
+      "question": "Một điểm giống về mục đích thành lập của LHQ và Hội Quốc Liên là",
+      "answerOptions": [
+        {
+          "text": "Duy trì hòa bình và an ninh thế giới.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Ngăn chặn âm mưu bá chủ của Mỹ.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Thực hiện các quyền tự do dân chủ.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Trao đổi công nghệ và kinh nghiệm.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Cả hai đều hướng tới gìn giữ hòa bình tập thể."
+    },
+    {
+      "question_number": 86,
+      "question": "Việt Nam có thể vận dụng nguyên tắc nào của LHQ để giải quyết vấn đề Biển Đông?",
+      "answerOptions": [
+        {
+          "text": "Giải quyết tranh chấp bằng biện pháp hòa bình.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Sự nhất trí của 5 nước thường trực HĐBA.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Quyền bình đẳng giữa các thành viên.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Không đe dọa dùng vũ lực.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nguyên tắc hòa bình là ưu tiên hàng đầu."
+    },
+    {
+      "question_number": 87,
+      "question": "Cơ sở để LHQ đề ra nguyên tắc 'Giải quyết các tranh chấp quốc tế bằng biện pháp hòa bình' là",
+      "answerOptions": [
+        {
+          "text": "Hòa bình là nguyện vọng, xu thế của các dân tộc.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Hòa bình là điều kiện để duy trì chế độ chính trị.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Mục đích của LHQ là cân bằng lợi ích các nước.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Xung đột xảy ra ở hầu hết các khu vực.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Bài học từ hai cuộc thế chiến."
+    },
+    {
+      "question_number": 88,
+      "question": "Hội nghị I-an-ta (2/1945) được tiến hành trong giai đoạn nào của Chiến tranh thế giới thứ hai?",
+      "answerOptions": [
+        {
+          "text": "Vừa mới kết thúc.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Bùng nổ và lan rộng.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Giai đoạn sắp kết thúc.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Đang diễn ra ác liệt.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Đầu 1945, phe Trục sắp bại trận."
+    },
+    {
+      "question_number": 89,
+      "question": "Hội nghị I-an-ta (2/1945) đã thông qua quyết định nào?",
+      "answerOptions": [
+        {
+          "text": "Phân chia nước Đức thành bốn khu vực chiếm đóng.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Phân công quân Đồng minh giải giáp quân Nhật ở Đông Dương.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Thành lập Hội Quốc Liên.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Phân chia phạm vi ảnh hưởng ở châu Âu, châu Á giữa các nước Đồng minh.",
+          "rationale": "",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Cốt lõi là dàn xếp phạm vi ảnh hưởng sau chiến tranh."
+    },
+    {
+      "question_number": 90,
+      "question": "Để nhanh chóng kết thúc chiến tranh, I-an-ta quyết định",
+      "answerOptions": [
+        {
+          "text": "Anh, Pháp, Mỹ sẽ tham chiến chống Nhật ở châu Âu.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Anh và Liên Xô tiêu diệt lực lượng Nhật tại Trung Quốc.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Liên Xô sẽ đánh Nhật ở châu Á sau khi đánh bại Đức.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Liên Xô không đưa quân chống Nhật ở châu Á.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Điều kiện để Mỹ chia sẻ lợi ích tại châu Á – Thái Bình Dương."
+    },
+    {
+      "question_number": 91,
+      "question": "Một khu vực thuộc phạm vi ảnh hưởng của Liên Xô theo I-an-ta (1945) là",
+      "answerOptions": [
+        {
+          "text": "Tây Âu.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Đông Âu.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Nhật Bản.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Trung Đông.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Liên Xô kiểm soát Đông Âu, Đông Đức, Đông Béc-lin."
+    },
+    {
+      "question_number": 92,
+      "question": "Ranh giới phân chia phạm vi chiếm đóng Triều Tiên của Mỹ và Liên Xô theo I-an-ta là",
+      "answerOptions": [
+        {
+          "text": "Vĩ tuyến 38.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Sông Áp Lục.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Vĩ tuyến 17.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Cảng Incheon.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Miền Bắc do Liên Xô, miền Nam do Mỹ chiếm đóng."
+    },
+    {
+      "question_number": 93,
+      "question": "Trật tự thế giới mới hình thành sau CTTG II (1945) là",
+      "answerOptions": [
+        {
+          "text": "Đơn cực.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "I-an-ta (hai cực).",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Véc-xai.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Đa cực.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hai cực đối lập: Mỹ và Liên Xô."
+    },
+    {
+      "question_number": 94,
+      "question": "Những quốc gia nào tham dự hội nghị I-an-ta (2/1945)?",
+      "answerOptions": [
+        {
+          "text": "Liên Xô, Mỹ, Pháp.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Liên Xô, Mỹ, Anh.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Trung Quốc, Mỹ, Anh.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Liên Xô, Anh, Pháp.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Ba 'Tam cường' Stalin – Roosevelt – Churchill."
+    },
+    {
+      "question_number": 95,
+      "question": "Năm 1989, tại đảo Man-ta, Mỹ và Liên Xô đã",
+      "answerOptions": [
+        {
+          "text": "Tuyên bố chung về vũ khí chiến lược.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Ký nhiều hiệp định thương mại tự do.",
+          "rationale": "",
+          "isCorrect": false
+        },
+        {
+          "text": "Tuyên bố chấm dứt Chiến tranh lạnh.",
+          "rationale": "",
+          "isCorrect": true
+        },
+        {
+          "text": "Cam kết hòa bình vĩnh viễn.",
+          "rationale": "",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Cuộc gặp Bush – Gorbachev tháng 12/1989."
     }
   ]
 }

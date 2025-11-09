@@ -299,13 +299,27 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.6);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
+      background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.98));
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
       z-index: 9999;
       align-items: center;
       justify-content: center;
       animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    
+    .disclaimer-modal::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: 
+        radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.05) 0%, transparent 50%);
+      pointer-events: none;
     }
     
     .disclaimer-content {
@@ -456,6 +470,344 @@
       height: 20px;
     }
     
+    .subject-card {
+      position: relative;
+      padding: 32px;
+      border-radius: 24px;
+      border: 2px solid transparent;
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.95));
+      backdrop-filter: blur(20px);
+      cursor: pointer;
+      transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+      overflow: hidden;
+      box-shadow: 
+        0 10px 40px -10px rgba(0, 0, 0, 0.15),
+        0 4px 12px -4px rgba(0, 0, 0, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    }
+    
+    .subject-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 6px;
+      background: linear-gradient(90deg, var(--subject-color-start), var(--subject-color-end));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+      box-shadow: 0 4px 16px -2px var(--subject-color-start);
+    }
+    
+    .subject-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, var(--subject-color-start) 0%, transparent 80%);
+      opacity: 0;
+      transition: opacity 0.5s ease;
+      pointer-events: none;
+    }
+    
+    .subject-card:hover::before {
+      transform: scaleX(1);
+    }
+    
+    .subject-card:hover::after {
+      opacity: 0.08;
+    }
+    
+    .subject-card:hover {
+      transform: translateY(-12px) scale(1.03);
+      border-color: var(--subject-color-start);
+      box-shadow: 
+        0 30px 60px -15px rgba(0, 0, 0, 0.25),
+        0 20px 40px -10px var(--subject-color-start),
+        0 0 0 2px var(--subject-color-start),
+        inset 0 1px 0 rgba(255, 255, 255, 1);
+    }
+    
+    .subject-card:active {
+      transform: translateY(-6px) scale(1.01);
+    }
+    
+    .subject-card-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, var(--subject-color-start), var(--subject-color-end));
+      color: white;
+      box-shadow: 
+        0 12px 24px -6px var(--subject-color-start),
+        0 0 0 4px rgba(255, 255, 255, 0.5),
+        inset 0 -2px 8px rgba(0, 0, 0, 0.2);
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      animation: float 3s ease-in-out infinite;
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-8px) rotate(2deg); }
+    }
+    
+    .subject-card:hover .subject-card-icon {
+      transform: scale(1.15) rotate(-8deg);
+      box-shadow: 
+        0 20px 40px -8px var(--subject-color-start),
+        0 0 0 6px rgba(255, 255, 255, 0.8),
+        inset 0 -2px 12px rgba(0, 0, 0, 0.3);
+      animation: none;
+    }
+    
+    .subject-card-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+      line-height: 1.3;
+    }
+    
+    .subject-card-desc {
+      font-size: 14px;
+      color: #64748b;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+    
+    .subject-card-button {
+      width: 100%;
+      padding: 16px 24px;
+      background: linear-gradient(135deg, var(--subject-color-start), var(--subject-color-end));
+      color: white;
+      border: none;
+      border-radius: 16px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      box-shadow: 
+        0 8px 20px -4px var(--subject-color-start),
+        0 4px 12px -2px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+      position: relative;
+      overflow: hidden;
+      letter-spacing: 0.02em;
+    }
+    
+    .subject-card-button::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.4);
+      transform: translate(-50%, -50%);
+      transition: width 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), height 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    
+    .subject-card-button:hover::before {
+      width: 300px;
+      height: 300px;
+    }
+    
+    .subject-card-button:hover {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 
+        0 16px 32px -4px var(--subject-color-start),
+        0 8px 20px -2px rgba(0, 0, 0, 0.3),
+        inset 0 2px 0 rgba(255, 255, 255, 0.5);
+    }
+    
+    .subject-card-button:active {
+      transform: translateY(0) scale(0.98);
+    }
+    
+    /* Locked card styles */
+    .subject-card-locked {
+      opacity: 0.7;
+      filter: grayscale(0.3);
+      cursor: not-allowed;
+    }
+    
+    .subject-card-locked:hover {
+      transform: none;
+      border-color: transparent;
+      box-shadow: 
+        0 10px 40px -10px rgba(0, 0, 0, 0.15),
+        0 4px 12px -4px rgba(0, 0, 0, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    }
+    
+    .subject-card-locked::before {
+      display: none;
+    }
+    
+    .subject-card-locked .subject-card-icon {
+      animation: none;
+      opacity: 0.6;
+    }
+    
+    .subject-card-locked:hover .subject-card-icon {
+      transform: none;
+      box-shadow: 
+        0 12px 24px -6px var(--subject-color-start),
+        0 0 0 4px rgba(255, 255, 255, 0.5),
+        inset 0 -2px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .subject-card-locked .subject-card-button {
+      background: linear-gradient(135deg, #94a3b8, #64748b);
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+    
+    .subject-card-locked .subject-card-button:hover {
+      transform: none;
+      box-shadow: 
+        0 8px 20px -4px rgba(100, 116, 139, 0.3),
+        0 4px 12px -2px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    }
+    
+    .subject-card-locked .subject-card-button::before {
+      display: none;
+    }
+    
+    .subject-card-button span {
+      position: relative;
+      z-index: 1;
+    }
+    
+    [data-theme="dark"] .subject-card {
+      background: linear-gradient(145deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.9));
+      border-color: #334155;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    [data-theme="dark"] .subject-card:hover {
+      box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5), 
+                  0 0 0 1px var(--subject-color-start);
+    }
+    
+    [data-theme="dark"] .subject-card-title {
+      color: #f1f5f9;
+    }
+    
+    [data-theme="dark"] .subject-card-desc {
+      color: #94a3b8;
+    }
+    
+    [data-theme="dark"] .subject-card .border-slate-200 {
+      border-color: rgba(255, 255, 255, 0.1) !important;
+    }
+    
+    [data-theme="dark"] .subject-card .bg-slate-200 {
+      background: rgba(255, 255, 255, 0.1) !important;
+    }
+    
+    [data-theme="dark"] .subject-card .text-slate-600,
+    [data-theme="dark"] .subject-card .text-slate-500 {
+      color: #94a3b8 !important;
+    }
+    
+    [data-theme="dark"] .modal-content {
+      background: linear-gradient(145deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.95));
+      box-shadow: 
+        0 25px 60px rgba(0, 0, 0, 0.6),
+        0 0 0 1px rgba(255, 255, 255, 0.05);
+    }
+    
+    [data-theme="dark"] .modal-content::before {
+      background: linear-gradient(180deg, rgba(245, 158, 11, 0.08) 0%, transparent 100%);
+    }
+    
+    [data-theme="dark"] .modal-content h3 {
+      color: #f1f5f9 !important;
+    }
+    
+    [data-theme="dark"] .modal-content p {
+      color: #94a3b8 !important;
+    }
+    
+    [data-theme="dark"] #cancelChangeSubject {
+      background: rgba(30, 41, 59, 0.8);
+      border-color: #475569;
+      color: #e2e8f0;
+    }
+    
+    [data-theme="dark"] #cancelChangeSubject:hover {
+      background: rgba(51, 65, 85, 0.9);
+      border-color: #64748b;
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .subject-card {
+      animation: fadeInUp 0.6s ease-out backwards;
+    }
+    
+    .subject-card:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+    
+    .subject-card:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    
+    .subject-card:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+    
+    .subject-card-icon {
+      animation: float 3s ease-in-out infinite;
+    }
+    
+    .subject-card:nth-child(1) .subject-card-icon {
+      animation-delay: 0s;
+    }
+    
+    .subject-card:nth-child(2) .subject-card-icon {
+      animation-delay: 0.5s;
+    }
+    
+    .subject-card:nth-child(3) .subject-card-icon {
+      animation-delay: 1s;
+    }
+    
+    #subjectSelection h2 {
+      animation: fadeInUp 0.5s ease-out;
+    }
+    
+    #subjectSelection p {
+      animation: fadeInUp 0.6s ease-out 0.1s backwards;
+    }
+    
     .mobile-menu {
       position: fixed;
       top: 0;
@@ -547,7 +899,9 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.5);
+      background: linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.95));
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -557,21 +911,51 @@
       transition: opacity 0.3s ease;
     }
     
+    .modal::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: 
+        radial-gradient(circle at 30% 40%, rgba(245, 158, 11, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 70% 60%, rgba(239, 68, 68, 0.08) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    
     .modal.open {
       opacity: 1;
       pointer-events: all;
     }
     
     .modal-content {
-      background: var(--bg-secondary);
-      border-radius: 16px;
-      padding: 24px;
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.95));
+      backdrop-filter: blur(20px);
+      border-radius: 24px;
+      padding: 32px;
       max-width: 90%;
       max-height: 90vh;
       overflow-y: auto;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      box-shadow: 
+        0 25px 60px rgba(0, 0, 0, 0.3),
+        0 0 0 1px rgba(255, 255, 255, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5);
       transform: scale(0.9);
-      transition: transform 0.3s ease;
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+      position: relative;
+    }
+    
+    .modal-content::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 200px;
+      background: linear-gradient(180deg, rgba(245, 158, 11, 0.05) 0%, transparent 100%);
+      border-radius: 24px 24px 0 0;
+      pointer-events: none;
     }
     
     .modal.open .modal-content {
@@ -590,12 +974,101 @@
     .bookmark-btn.active {
       color: #f59e0b;
     }
+    
+    /* ===== RESPONSIVE MOBILE ===== */
+    @media (max-width: 768px) {
+      #subjectSelection {
+        padding: 24px 16px !important;
+      }
+      
+      #subjectSelection h2 {
+        font-size: 28px !important;
+        margin-bottom: 12px !important;
+      }
+      
+      #subjectSelection p {
+        font-size: 14px !important;
+        margin-bottom: 24px !important;
+      }
+      
+      #subjectCards {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+      }
+      
+      .subject-card {
+        padding: 24px !important;
+        border-radius: 20px !important;
+      }
+      
+      .subject-card-icon {
+        width: 60px !important;
+        height: 60px !important;
+        border-radius: 16px !important;
+        margin-bottom: 16px !important;
+      }
+      
+      .subject-card-icon svg {
+        width: 28px !important;
+        height: 28px !important;
+      }
+      
+      .subject-card-title {
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+      }
+      
+      .subject-card-desc {
+        font-size: 13px !important;
+        margin-bottom: 16px !important;
+      }
+      
+      .subject-card-button {
+        padding: 14px 20px !important;
+        font-size: 15px !important;
+        border-radius: 14px !important;
+      }
+      
+      .subject-card:hover {
+        transform: translateY(-4px) scale(1.01) !important;
+      }
+      
+      .modal-content {
+        max-width: 95% !important;
+        padding: 24px !important;
+        border-radius: 20px !important;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      #subjectSelection h2 {
+        font-size: 24px !important;
+      }
+      
+      .subject-card {
+        padding: 20px !important;
+      }
+      
+      .subject-card-icon {
+        width: 52px !important;
+        height: 52px !important;
+      }
+      
+      .subject-card-title {
+        font-size: 18px !important;
+      }
+      
+      .subject-card-desc {
+        font-size: 12px !important;
+      }
+    }
   </style>
 </head>
 <body class="text-slate-900">
-  <!-- Disclaimer Modal -->
+  <!-- Disclaimer & Subject Selection Modal -->
   <div id="disclaimerModal" class="disclaimer-modal">
-    <div class="disclaimer-content">
+    <!-- Step 1: Disclaimer Info -->
+    <div id="disclaimerInfo" class="disclaimer-content">
       <div class="disclaimer-icon">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
@@ -612,111 +1085,92 @@
 
       <button id="disclaimerButton" class="disclaimer-button">
         <span>Đã hiểu</span>
-        
       </button>
     </div>
+
+    <!-- Step 2: Subject Selection -->
+    <div id="subjectSelection" class="disclaimer-content" style="display: none; max-width: 700px; padding: 48px 32px;">
+      <h2 class="disclaimer-title" style="margin-bottom: 12px;">Chọn môn học</h2>
+      <p class="text-sm text-slate-500 mb-8 text-center">Chọn môn học bạn muốn luyện tập</p>
+      
+      <!-- Subject cards will be populated by JS -->
+      <div id="subjectCards" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></div>
+    </div>
   </div>
 
-
-
-  <div id="mobileOverlay" class="mobile-overlay lg:hidden"></div>
-  <div id="mobileMenu" class="mobile-menu lg:hidden">
-    <div class="p-6">
-      <div class="flex items-center justify-between mb-6">
-        <h2 class="text-xl font-bold text-slate-800">Chọn môn học</h2>
-        <button id="closeMobileMenu" class="p-2 hover:bg-slate-100 rounded-lg">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+  <!-- Change Subject Confirmation Modal -->
+  <div id="changeSubjectModal" class="modal">
+    <div class="modal-content" style="max-width: 480px; width: 90%; position: relative; z-index: 1; padding: 48px 40px;">
+      <div class="text-center mb-8">
+        <div class="mx-auto w-24 h-24 rounded-full flex items-center justify-center mb-6 relative" style="background: linear-gradient(135deg, #fbbf24, #f59e0b); box-shadow: 0 15px 40px rgba(251, 191, 36, 0.5), 0 0 0 6px rgba(251, 191, 36, 0.1); animation: pulse 2s ease-in-out infinite;">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-12 h-12 text-white">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
           </svg>
-        </button>
+        </div>
+        <h3 class="text-3xl font-bold mb-4 text-slate-900">Đổi môn học?</h3>
+        <p class="text-slate-600 text-base leading-relaxed px-4">Bạn có chắc muốn đổi môn học?<br>Tiến độ hiện tại sẽ được lưu lại.</p>
       </div>
       
-      <div class="space-y-3">
-        <div class="subject-nav-item active flex items-center gap-3 p-4 rounded-xl border-2 border-transparent" 
-             data-subject="history" 
-             data-file="c.json" 
-             data-title="Trắc nghiệm Lịch sử"
-             data-desc="Lịch sử Liên hợp quốc & ASEAN - Chọn đáp án để xem kết quả và lời giải thích chi tiết.">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-          </svg>
-          <span class="font-semibold">Lịch sử</span>
-        </div>
-        
-        <div class="subject-nav-item flex items-center gap-3 p-4 rounded-xl border-2 border-transparent" 
-             data-subject="biology" 
-             data-file="sinh.json"
-             data-title="Trắc nghiệm Sinh học"
-             data-desc="Sinh học 12 - Chọn đáp án để xem kết quả và lời giải thích chi tiết.">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-600">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 16a9.065 9.065 0 0 1-6.23-.693L5 15.3m14.8 0 .94.235a2.25 2.25 0 0 1-.659 4.428l-.396-.099A13.505 13.505 0 0 1 12 21c-2.761 0-5.348-.827-7.491-2.247l-.396.099a2.25 2.25 0 0 1-.659-4.428l.94-.235" />
-          </svg>
-          <span class="font-semibold">Sinh học</span>
-        </div>
-        
-        <div class="subject-nav-item flex items-center gap-3 p-4 rounded-xl border-2 border-transparent" 
-             data-subject="chemistry" 
-             data-file="hoa.json"
-             data-title="Trắc nghiệm Hóa học"
-             data-desc="Hóa học 12 - Chọn đáp án để xem kết quả và lời giải thích chi tiết.">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-purple-600">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
-          </svg>
-          <span class="font-semibold">Hóa học</span>
-        </div>
+      <div class="flex gap-4">
+        <button id="cancelChangeSubject" class="flex-1 px-8 py-4 rounded-2xl border-2 border-slate-300 bg-white text-slate-700 font-bold text-lg hover:bg-slate-50 hover:border-slate-400 transition-all duration-200 hover:scale-105 active:scale-100">
+          Hủy bỏ
+        </button>
+        <button id="confirmChangeSubject" class="flex-1 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105 active:scale-100">
+          Xác nhận
+        </button>
       </div>
     </div>
   </div>
-  
-  <div class="flex">
-    <aside class="hidden lg:block w-20 min-h-screen bg-white border-r border-slate-200 shadow-sm">
-      <div class="sticky top-0 py-6 flex flex-col items-center gap-4">
-        <div class="mb-4">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-xl shadow-lg">
-            TN
+
+  <!-- Resume Quiz Confirmation Modal -->
+  <div id="resumeQuizModal" class="modal">
+    <div class="modal-content" style="max-width: 520px; width: 90%; position: relative; z-index: 1; padding: 48px 40px;">
+      <div class="text-center mb-8">
+        <div class="mx-auto w-24 h-24 rounded-full flex items-center justify-center mb-6 relative" style="background: linear-gradient(135deg, #3b82f6, #2563eb); box-shadow: 0 15px 40px rgba(59, 130, 246, 0.5), 0 0 0 6px rgba(59, 130, 246, 0.1);">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-12 h-12 text-white">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+        </div>
+        <h3 class="text-3xl font-bold mb-2 text-slate-900">Tiếp tục làm bài?</h3>
+        <p class="text-lg font-semibold text-blue-600 mb-6" id="resumeSubjectName">Sinh học</p>
+      </div>
+      
+      <div class="bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl p-6 mb-6 border border-slate-200">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="text-center">
+            <div class="text-3xl font-bold text-blue-600 mb-1" id="resumeProgress">45%</div>
+            <div class="text-xs text-slate-600 font-medium">Tiến độ</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold text-emerald-600 mb-1" id="resumeCorrect">12</div>
+            <div class="text-xs text-slate-600 font-medium">Câu đã trả lời</div>
           </div>
         </div>
         
-        <div id="subject-history" class="subject-nav-item active w-14 h-14 rounded-xl flex flex-col items-center justify-center gap-1 p-2" 
-             data-subject="history" 
-             data-file="c.json" 
-             data-title="Trắc nghiệm Lịch sử"
-             data-desc="Lịch sử Liên hợp quốc & ASEAN - Chọn đáp án để xem kết quả và lời giải thích chi tiết."
-             title="Lịch sử">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-          </svg>
-          <span class="text-xs font-semibold">Sử</span>
-        </div>
-        
-        <div id="subject-biology" class="subject-nav-item w-14 h-14 rounded-xl flex flex-col items-center justify-center gap-1 p-2" 
-             data-subject="biology" 
-             data-file="sinh.json"
-             data-title="Trắc nghiệm Sinh học"
-             data-desc="Sinh học 12 - Chọn đáp án để xem kết quả và lời giải thích chi tiết."
-             title="Sinh học">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-600">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c.251.023.501.05.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 16a9.065 9.065 0 0 1-6.23-.693L5 15.3m14.8 0 .94.235a2.25 2.25 0 0 1-.659 4.428l-.396-.099A13.505 13.505 0 0 1 12 21c-2.761 0-5.348-.827-7.491-2.247l-.396.099a2.25 2.25 0 0 1-.659-4.428l.94-.235" />
-          </svg>
-          <span class="text-xs font-semibold">Sinh</span>
-        </div>
-        
-        <div id="subject-chemistry" class="subject-nav-item w-14 h-14 rounded-xl flex flex-col items-center justify-center gap-1 p-2" 
-             data-subject="chemistry" 
-             data-file="hoa.json"
-             data-title="Trắc nghiệm Hóa học"
-             data-desc="Hóa học 12 - Chọn đáp án để xem kết quả và lời giải thích chi tiết."
-             title="Hóa học">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-purple-600">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
-          </svg>
-          <span class="text-xs font-semibold">Hóa</span>
+        <div class="mt-4 pt-4 border-t border-slate-200 flex items-center justify-between text-sm">
+          <div class="flex items-center gap-2 text-slate-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <span id="resumeTime">30 phút trước</span>
+          </div>
+          <div class="font-semibold text-slate-700" id="resumeQuestion">Câu 15/88</div>
         </div>
       </div>
-    </aside>
-    
-    <div class="flex-1">
-      <div class="mx-auto max-w-7xl px-4 py-6">
+      
+      <div class="flex flex-col gap-3">
+        <button id="continueQuizBtn" class="w-full px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105 active:scale-100">
+          Tiếp tục làm bài
+        </button>
+        <button id="restartQuizBtn" class="w-full px-8 py-4 rounded-2xl border-2 border-slate-300 bg-white text-slate-700 font-bold text-lg hover:bg-slate-50 hover:border-slate-400 transition-all duration-200 hover:scale-105 active:scale-100">
+          Làm lại từ đầu
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content (No Sidebar) -->
+  <div class="mx-auto max-w-7xl px-4 py-6" id="quizContainer" style="display: none;">
     <header class="mb-6 text-center">
       <div class="inline-block mb-2 px-4 py-1.5 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-xs font-semibold rounded-full shadow-sm">
         Luyện tập trắc nghiệm
@@ -731,10 +1185,8 @@
 
     <section class="mb-6 flex flex-wrap items-center justify-between gap-3">
       <div class="flex flex-wrap items-center gap-3">
-        <button id="openMobileMenu" class="lg:hidden p-2.5 rounded-xl bg-white border-2 border-slate-200 shadow-sm hover:shadow-md transition-all">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
+        <button id="btnChangeSubject" class="group relative overflow-hidden rounded-xl bg-gradient-to-r from-indigo-500 to-purple-500 px-5 py-2.5 text-white font-medium shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105">
+          <span class="relative z-10">Đổi môn</span>
         </button>
         
         <button id="btnRestart" class="group relative overflow-hidden rounded-xl bg-gradient-to-r from-slate-700 to-slate-900 px-5 py-2.5 text-white font-medium shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105">
@@ -918,9 +1370,8 @@
         </p>
       </div>
     </footer>
-      </div>
-    </div>
   </div>
+  <!-- End Main Content -->
 
   <div id="historyModal" class="modal">
     <div class="modal-content w-full max-w-4xl">

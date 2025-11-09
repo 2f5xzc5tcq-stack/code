@@ -846,7 +846,7 @@ function renderQuestion() {
   els.btnReveal.classList.toggle('hidden', !!answered[index]);
 
   els.btnPrev.disabled = (index === 0);
-  els.btnNext.textContent = (index === data.length - 1) ? 'Kết thúc' : 'Tiếp tục →';
+  els.btnNext.textContent = (index === data.length - 1) ? 'Nộp bài' : 'Tiếp tục →';
 
   setProgress();
   renderSidebar();
@@ -924,6 +924,27 @@ function next() {
     renderQuestion();
     saveState();
   } else {
+    // Check if there are unanswered questions
+    const answered_count = answered.filter(a => a).length;
+    const unanswered = data.length - answered_count;
+    
+    if (unanswered > 0) {
+      // Show warning modal
+      const modal = document.getElementById('submitWarningModal');
+      const unansweredCountEl = document.getElementById('unansweredCount');
+      if (modal && unansweredCountEl) {
+        unansweredCountEl.textContent = unanswered;
+        modal.classList.add('open');
+      }
+      return; // Don't finish quiz yet
+    }
+    
+    // If all questions answered, proceed to finish
+    finishQuiz();
+  }
+}
+
+function finishQuiz() {
     stopTimer();
     const right = answered.filter(a => a && a.isCorrect).length;
     const wrong = answered.filter(a => a && !a.isCorrect).length;
@@ -953,7 +974,6 @@ function next() {
     
     els.summary.classList.remove('hidden');
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-  }
 }
 
 function drawPieChart(correct, wrong, unanswered) {
@@ -1206,6 +1226,32 @@ function attachEvents() {
     changeSubjectModal.addEventListener('click', (e) => {
       if (e.target === changeSubjectModal) {
         hideChangeSubjectModal();
+      }
+    });
+  }
+  
+  // Submit warning modal buttons
+  const cancelSubmit = document.getElementById('cancelSubmit');
+  const confirmSubmit = document.getElementById('confirmSubmit');
+  const submitWarningModal = document.getElementById('submitWarningModal');
+  
+  if (cancelSubmit) {
+    cancelSubmit.addEventListener('click', () => {
+      submitWarningModal.classList.remove('open');
+    });
+  }
+  
+  if (confirmSubmit) {
+    confirmSubmit.addEventListener('click', () => {
+      submitWarningModal.classList.remove('open');
+      finishQuiz();
+    });
+  }
+  
+  if (submitWarningModal) {
+    submitWarningModal.addEventListener('click', (e) => {
+      if (e.target === submitWarningModal) {
+        submitWarningModal.classList.remove('open');
       }
     });
   }

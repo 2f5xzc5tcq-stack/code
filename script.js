@@ -1414,3 +1414,156 @@ function updateActiveTab() {
     console.error(err);
   }
 })();
+
+// ================================
+// LIVE CHAT FUNCTIONALITY
+// ================================
+
+// Set default username to Anonymous with random number if not exists
+if (!localStorage.getItem('username')) {
+  const randomNum = Math.floor(Math.random() * 10000);
+  localStorage.setItem('username', `Anonymous #${randomNum}`);
+}
+
+// Chat state
+let chatState = {
+  userId: localStorage.getItem('user_id'),
+  username: localStorage.getItem('username'),
+  isOpen: false
+};
+
+// Initialize chat when page loads
+function initializeChat() {
+  const chatToggleBtn = document.getElementById('chatToggleBtn');
+  const chatContainer = document.getElementById('chatContainer');
+  const chatCloseBtn = document.getElementById('chatCloseBtn');
+  const chatInput = document.getElementById('chatInput');
+  const chatSendBtn = document.getElementById('chatSendBtn');
+  const chatMessages = document.getElementById('chatMessages');
+  const chatOnlineCount = document.getElementById('chatOnlineCount');
+
+  if (!chatToggleBtn || !chatContainer) return;
+
+  // Toggle chat
+  chatToggleBtn.addEventListener('click', () => {
+    chatState.isOpen = !chatState.isOpen;
+    if (chatState.isOpen) {
+      chatContainer.style.display = 'flex';
+      chatInput.focus();
+    } else {
+      chatContainer.style.display = 'none';
+    }
+  });
+
+  if (chatCloseBtn) {
+    chatCloseBtn.addEventListener('click', () => {
+      chatState.isOpen = false;
+      chatContainer.style.display = 'none';
+    });
+  }
+
+  // Send message
+  function sendMessage() {
+    const message = chatInput.value.trim();
+    if (!message) return;
+
+    const messageData = {
+      userId: chatState.userId,
+      username: chatState.username,
+      message: message,
+      timestamp: Date.now()
+    };
+
+    // Push to Firebase
+    firebase.database().ref('chat/messages').push(messageData);
+    
+    chatInput.value = '';
+  }
+
+  chatSendBtn.addEventListener('click', sendMessage);
+  chatInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage();
+    }
+  });
+
+  // Listen for new messages
+  const messagesRef = firebase.database().ref('chat/messages');
+  messagesRef.limitToLast(50).on('child_added', (snapshot) => {
+    const data = snapshot.val();
+    displayChatMessage(data);
+  });
+
+  // Track online users
+  const onlineRef = firebase.database().ref('chat/online/' + chatState.userId);
+  onlineRef.set({
+    username: chatState.username,
+    timestamp: Date.now()
+  });
+
+  // Remove user when disconnecting
+  onlineRef.onDisconnect().remove();
+
+  // Update online count
+  firebase.database().ref('chat/online').on('value', (snapshot) => {
+    const count = snapshot.numChildren();
+    if (chatOnlineCount) {
+      chatOnlineCount.textContent = count;
+    }
+  });
+}
+
+// Display chat message
+function displayChatMessage(data) {
+  const chatMessages = document.getElementById('chatMessages');
+  if (!chatMessages) return;
+
+  const messageDiv = document.createElement('div');
+  const isOwn = data.userId === chatState.userId;
+  
+  messageDiv.className = `chat-message ${isOwn ? 'chat-message-own' : 'chat-message-other'}`;
+  
+  const time = new Date(data.timestamp).toLocaleTimeString('vi-VN', { 
+    hour: '2-digit', 
+    minute: '2-digit' 
+  });
+  
+  // Add verified badge for Anonymous users
+  const isAnonymous = data.username.startsWith('Anonymous');
+  const verifiedBadge = isAnonymous 
+    ? `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#1DA1F2" class="inline-block w-4 h-4 ml-1">
+        <path d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>`
+    : '';
+  
+  messageDiv.innerHTML = `
+    <div class="chat-message-header">
+      <span class="chat-message-user">${data.username}${verifiedBadge}</span>
+      <span class="chat-message-time">${time}</span>
+    </div>
+    <div class="chat-message-text">${escapeHtml(data.message)}</div>
+  `;
+  
+  chatMessages.appendChild(messageDiv);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+
+  // Keep only last 50 messages in DOM
+  while (chatMessages.children.length > 50) {
+    chatMessages.removeChild(chatMessages.firstChild);
+  }
+}
+
+// Escape HTML to prevent XSS
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+// Initialize chat when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeChat);
+} else {
+  initializeChat();
+}

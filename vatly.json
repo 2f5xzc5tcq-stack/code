@@ -406,33 +406,6 @@
       "hint": "Định luật này liên hệ độ biến thiên nội năng với công và nhiệt lượng trao đổi."
     },
     {
-      "question_number": 17,
-      "question": "Chọn phát biểu ĐÚNG về quy ước dấu trong công thức ΔU = A + Q.",
-      "answer_options": [
-        {
-          "text": "Q > 0 khi hệ truyền nhiệt; A > 0 khi hệ thực hiện công.",
-          "rationale": "Cả hai đều sai. Q > 0 khi hệ nhận nhiệt; A > 0 khi hệ nhận công.",
-          "isCorrect": false
-        },
-        {
-          "text": "Q < 0 khi hệ nhận nhiệt; A < 0 khi hệ nhận công.",
-          "rationale": "Cả hai đều sai. Q < 0 khi hệ truyền nhiệt; A < 0 khi hệ thực hiện công.",
-          "isCorrect": false
-        },
-        {
-          "text": "Q > 0 khi hệ nhận nhiệt; A > 0 khi hệ nhận công.",
-          "rationale": "Đây là quy ước chuẩn. Những gì hệ 'nhận' vào (làm tăng nội năng) đều mang dấu dương.",
-          "isCorrect": true
-        },
-        {
-          "text": "Q < 0 khi hệ truyền nhiệt; A > 0 khi hệ thực hiện công.",
-          "rationale": "A > 0 khi hệ nhận công, không phải thực hiện công.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Hãy nhớ quy ước: 'Nhận vào' mang dấu (+), 'Cho đi' (thực hiện, truyền ra) mang dấu (-)."
-    },
-    {
       "question_number": 19,
       "question": "Trường hợp nào sau đây nội năng của vật thay đổi chủ yếu do truyền nhiệt?",
       "answer_options": [
@@ -731,7 +704,7 @@
     },
     {
       "question_number": 30,
-      "question": "Nhiệt độ 500 K tương ứng với bao nhiêu °C? (Dùng công thức làm tròn t(C) = T(K) - 273)",
+      "question": "Nhiệt độ 500 K tương ứng với bao nhiêu °C?",
       "answer_options": [
         {
           "text": "773 °C",
@@ -758,7 +731,7 @@
     },
     {
       "question_number": 31,
-      "question": "Nhiệt độ của cơ thể người là 37 °C. Giá trị này tương ứng với bao nhiêu K? (Dùng công thức làm tròn T(K) = t(C) + 273)",
+      "question": "Nhiệt độ của cơ thể người là 37 °C. Giá trị này tương ứng với bao nhiêu K?",
       "answer_options": [
         {
           "text": "310 K",

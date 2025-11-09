@@ -556,6 +556,28 @@
     </div>
   </div>
 
+  <!-- Submit Warning Modal -->
+  <div id="submitWarningModal" class="modal">
+    <div class="modal-content" style="max-width: 480px; width: 90%; position: relative; z-index: 1; padding: 48px 40px;">
+      <div class="text-center mb-8">
+        <div class="mx-auto w-24 h-24 rounded-full flex items-center justify-center mb-6 relative" style="background: linear-gradient(135deg, #f59e0b, #dc2626); box-shadow: 0 15px 40px rgba(245, 158, 11, 0.5), 0 0 0 6px rgba(245, 158, 11, 0.1); animation: pulse 2s ease-in-out infinite;">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-12 h-12 text-white">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+          </svg>
+        </div>
+        <h3 class="text-3xl font-bold mb-4 text-slate-900">Cảnh báo</h3>
+        <p class="text-slate-600 text-base leading-relaxed px-4">
+          Bạn còn <span id="unansweredCount" class="font-bold text-orange-600">0</span> câu chưa trả lời.<br>
+          Bạn có chắc muốn nộp bài?
+        </p>
+      </div>
+      <div class="flex gap-4">
+        <button id="cancelSubmit" class="flex-1 px-8 py-4 rounded-2xl border-2 border-slate-300 bg-white text-slate-700 font-bold text-lg hover:bg-slate-50 hover:border-slate-400 transition-all duration-200 hover:scale-105 active:scale-100">Hủy bỏ</button>
+        <button id="confirmSubmit" class="flex-1 px-8 py-4 rounded-2xl bg-gradient-to-r from-orange-500 to-red-600 text-white font-bold text-lg hover:from-orange-600 hover:to-red-700 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105 active:scale-100">Vẫn nộp</button>
+      </div>
+    </div>
+  </div>
+
   <div class="mx-auto max-w-7xl px-4 py-6" id="quizContainer" style="display: none;">
     <header class="mb-6 text-center">
       <div class="inline-block mb-2 px-4 py-1.5 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-xs font-semibold rounded-full shadow-sm">Luyện tập trắc nghiệm</div>

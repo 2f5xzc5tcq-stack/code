@@ -1945,33 +1945,6 @@
       "hint": "Hệ cô lập: không có Q, không có A ⇒ ΔU = 0."
     },
     {
-      "question_number": 76,
-      "question": "Quá trình đoạn nhiệt lý tưởng có đặc điểm nào?",
-      "answer_options": [
-        {
-          "text": "Q = 0",
-          "rationale": "Đúng: đoạn nhiệt nghĩa là không trao đổi nhiệt với môi trường.",
-          "isCorrect": true
-        },
-        {
-          "text": "A = 0",
-          "rationale": "Đây là đẳng tích (thể tích không đổi).",
-          "isCorrect": false
-        },
-        {
-          "text": "ΔU = 0",
-          "rationale": "ΔU thay đổi theo công thực hiện: ΔU = A.",
-          "isCorrect": false
-        },
-        {
-          "text": "T không đổi",
-          "rationale": "Nhiệt độ có thể thay đổi đáng kể trong đoạn nhiệt.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Áp dụng ΔU = A + Q với Q = 0."
-    },
-    {
       "question_number": 77,
       "question": "Trong quá trình đẳng tích của một hệ, phát biểu nào đúng?",
       "answer_options": [
@@ -2459,3 +2432,4 @@
     }
   ]
 }
+

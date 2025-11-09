@@ -473,6 +473,16 @@
       bottom: 10px;
       right: 10px;
     }
+    
+    /* Hide floating chat button on mobile, use header button instead */
+    #chatToggleBtn {
+      display: none !important;
+    }
+    
+    #chatToggleBtn svg {
+      width: 20px !important;
+      height: 20px !important;
+    }
   }
 
 
@@ -559,6 +569,7 @@
         <button id="btnRestart" class="group relative overflow-hidden rounded-xl bg-gradient-to-r from-slate-700 to-slate-900 px-5 py-2.5 text-white font-medium shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105"><span class="relative z-10">Làm lại</span></button>
         <button id="btnBookmarks" class="group relative overflow-hidden rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 px-5 py-2.5 text-white font-medium shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105"><span class="relative z-10">Câu đã đánh dấu</span></button>
         <button id="btnHistory" class="group relative overflow-hidden rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 px-5 py-2.5 text-white font-medium shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105"><span class="relative z-10">Lịch sử</span></button>
+        <button id="btnOpenChatMobile" class="md:hidden group relative overflow-hidden rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 px-5 py-2.5 text-white font-medium shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105"><span class="relative z-10">Mở Chat</span></button>
       </div>
       <div class="flex items-center gap-4">
         <div id="onlineCounter" class="flex items-center gap-2 px-3 py-1.5 bg-gradient-to-r from-emerald-50 to-green-50 rounded-full border border-emerald-200">
@@ -617,10 +628,12 @@
             <div id="hintText" class="mt-3 hidden rounded-xl bg-gradient-to-r from-slate-700 to-slate-800 border-l-4 border-amber-500 p-4 text-sm text-amber-200 shadow-sm"></div>
           </div>
           <div id="explainWrap" class="mt-5 hidden"><div id="explainText" class=""></div></div>
-          <div class="mt-8 flex flex-wrap items-center gap-3">
-            <button id="btnPrev" class="rounded-xl bg-white border-2 border-slate-300 px-5 py-2.5 font-semibold text-slate-700 hover:bg-slate-50 hover:border-slate-400 disabled:opacity-40 disabled:cursor-not-allowed transition-all duration-200 shadow-sm">Trước</button>
-            <button id="btnNext" class="rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-2.5 text-white font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-md hover:shadow-lg hover:scale-105">Tiếp tục</button>
-            <button id="btnReveal" class="ml-auto hidden rounded-xl border-2 border-blue-300 bg-blue-50 px-5 py-2.5 font-semibold text-blue-700 hover:bg-blue-100 hover:border-blue-400 transition-all duration-200 shadow-sm">Xem đáp án</button>
+          <div class="mt-8">
+            <div class="flex items-center gap-3 mb-3 flex-wrap">
+              <button id="btnPrev" class="rounded-xl bg-white border-2 border-slate-300 px-5 py-2.5 font-semibold text-slate-700 hover:bg-slate-50 hover:border-slate-400 disabled:opacity-40 disabled:cursor-not-allowed transition-all duration-200 shadow-sm">Trước</button>
+              <button id="btnNext" class="rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-2.5 text-white font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-md hover:shadow-lg hover:scale-105">Tiếp tục</button>
+              <button id="btnReveal" class="hidden rounded-xl border-2 border-blue-300 bg-blue-50 px-5 py-2.5 font-semibold text-blue-700 hover:bg-blue-100 hover:border-blue-400 transition-all duration-200 shadow-sm">Xem đáp án</button>
+            </div>
           </div>
         </div>
 

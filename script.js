@@ -456,6 +456,8 @@ let timerInterval = null;
 let isDarkMode = false;
 let questionOrder = [];
 let answerOrderMap = {};
+let isReviewingWrong = false; // Track if we're reviewing wrong answers
+let isQuizSubmitted = false; // Track if quiz has been submitted
 
 function saveState() {
   const state = { 
@@ -753,6 +755,12 @@ function goToQuestion(i) {
     renderQuestion();
     saveState();
     renderSidebar();
+    
+    // If quiz is submitted, keep summary visible when navigating
+    if (!isQuizSubmitted) {
+      els.summary.classList.add('hidden');
+    }
+    
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }
@@ -832,7 +840,15 @@ function renderQuestion() {
     btn.type = 'button';
     btn.className = `${base} ${cls} text-left`;
     btn.innerHTML = `<div class="flex items-start gap-3"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-slate-200 text-slate-800 font-bold text-sm flex-shrink-0">${String.fromCharCode(65 + displayIdx)}</span><span class="font-medium text-slate-900 flex-1">${opt.text}${badge}</span></div>`;
-    btn.addEventListener('click', () => onPick(originalIdx));
+    
+    // Disable clicking if quiz is submitted
+    if (!isQuizSubmitted) {
+      btn.addEventListener('click', () => onPick(originalIdx));
+    } else {
+      btn.style.cursor = 'default';
+      btn.style.opacity = '0.8';
+    }
+    
     els.choices.appendChild(btn);
   });
 
@@ -899,6 +915,11 @@ window.toggleRationale = function(id) {
 }
 
 function onPick(i) {
+  // Prevent answering if quiz is already submitted
+  if (isQuizSubmitted) {
+    return;
+  }
+  
   const q = data[index];
   const options = q.answerOptions || q.answeroption || q.answer_options || [];
   const correctIdx = options.findIndex(o => o.isCorrect);
@@ -918,6 +939,34 @@ function onPick(i) {
 }
 
 function next() {
+  // If reviewing wrong answers, jump to next wrong answer
+  if (isReviewingWrong) {
+    const wrongIndices = [];
+    answered.forEach((ans, i) => {
+      if (ans && !ans.isCorrect) {
+        wrongIndices.push(i);
+      }
+    });
+    
+    // Find next wrong answer after current index
+    const nextWrongIndex = wrongIndices.find(i => i > index);
+    
+    if (nextWrongIndex !== undefined) {
+      index = nextWrongIndex;
+      markAsViewed(index);
+      renderQuestion();
+      saveState();
+      return;
+    } else {
+      // No more wrong answers, exit review mode
+      isReviewingWrong = false;
+      // Show summary again
+      els.summary.classList.remove('hidden');
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+      return;
+    }
+  }
+  
   if (index < data.length - 1) {
     index++;
     markAsViewed(index);
@@ -946,6 +995,9 @@ function next() {
 
 function finishQuiz() {
     stopTimer();
+    isQuizSubmitted = true; // Mark quiz as submitted
+    isReviewingWrong = false; // Exit review mode if in it
+    
     const right = answered.filter(a => a && a.isCorrect).length;
     const wrong = answered.filter(a => a && !a.isCorrect).length;
     const answered_count = answered.filter(a => a).length;
@@ -971,6 +1023,10 @@ function finishQuiz() {
       accuracy: Math.round(right*100/answered_count || 0),
       timeSpent: elapsed
     });
+    
+    // Save score to leaderboard
+    const username = localStorage.getItem('username') || 'Anonymous';
+    Leaderboard.saveScore(username, currentFile, right, wrong, data.length, elapsed);
     
     els.summary.classList.remove('hidden');
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
@@ -1054,6 +1110,8 @@ function restart() {
   answered = [];
   viewed = [];
   startTime = new Date();
+  isQuizSubmitted = false; // Reset submission flag
+  isReviewingWrong = false; // Reset review flag
   els.summary.classList.add('hidden');
   
   shuffleQuestions();
@@ -1072,9 +1130,10 @@ function reviewWrong() {
   });
   
   if (wrongIndices.length > 0) {
+    isReviewingWrong = true; // Enable review mode
     index = wrongIndices[0];
     markAsViewed(index);
-    els.summary.classList.add('hidden');
+    // Don't hide summary - we'll show it alongside the question
     renderQuestion();
     saveState();
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1111,6 +1170,8 @@ async function switchSubject(fileName, title, desc) {
     answered = [];
     viewed = [];
     startTime = new Date();
+    isQuizSubmitted = false; // Reset submission flag initially
+    isReviewingWrong = false; // Reset review flag
     els.summary.classList.add('hidden');
     
     bookmarks = loadBookmarks();
@@ -1136,6 +1197,31 @@ async function switchSubject(fileName, title, desc) {
       viewed = Array.isArray(state.viewed) ? state.viewed : [];
       if (state.startTime) {
         startTime = new Date(state.startTime);
+      }
+      
+      // Check if quiz was previously completed (all questions answered)
+      const answeredCount = answered.filter(a => a).length;
+      if (answeredCount === data.length) {
+        isQuizSubmitted = true;
+        stopTimer();
+        // Show summary if quiz was completed
+        const right = answered.filter(a => a && a.isCorrect).length;
+        const wrong = answered.filter(a => a && !a.isCorrect).length;
+        const unanswered = data.length - answeredCount;
+        
+        els.summaryText.textContent = `Bạn đã làm ${answeredCount}/${data.length} câu và trả lời đúng ${right}/${answeredCount} câu (${Math.round(right*100/answeredCount || 0)}%).`;
+        
+        $('#statCorrect').textContent = right;
+        $('#statWrong').textContent = wrong;
+        $('#statUnanswered').textContent = unanswered;
+        
+        const elapsed = state.startTime ? Math.floor((Date.now() - state.startTime) / 1000) : 0;
+        $('#statTime').textContent = formatTime(elapsed);
+        $('#statAvgTime').textContent = answeredCount > 0 ? Math.round(elapsed / answeredCount) + 's' : '0s';
+        $('#chartPercentage').textContent = Math.round(right*100/answeredCount || 0) + '%';
+        
+        drawPieChart(right, wrong, unanswered);
+        els.summary.classList.remove('hidden');
       }
     } else {
       shuffleQuestions();
@@ -1195,6 +1281,29 @@ function attachEvents() {
   });
   els.btnReveal.addEventListener('click', revealAnswer);
   els.btnBookmark.addEventListener('click', toggleBookmark);
+  
+  // Submit quiz button
+  const btnSubmitQuiz = document.getElementById('btnSubmitQuiz');
+  if (btnSubmitQuiz) {
+    btnSubmitQuiz.addEventListener('click', () => {
+      // Check if there are unanswered questions
+      const answered_count = answered.filter(a => a).length;
+      const unanswered = data.length - answered_count;
+      
+      if (unanswered > 0) {
+        // Show warning modal
+        const modal = document.getElementById('submitWarningModal');
+        const unansweredCountEl = document.getElementById('unansweredCount');
+        if (modal && unansweredCountEl) {
+          unansweredCountEl.textContent = unanswered;
+          modal.classList.add('open');
+        }
+      } else {
+        // All questions answered, finish directly
+        finishQuiz();
+      }
+    });
+  }
   
   // New disclaimer flow
   els.disclaimerButton.addEventListener('click', () => {
@@ -1468,6 +1577,250 @@ function updateActiveTab() {
     console.error(err);
   }
 })();
+
+// ================================
+// LEADERBOARD FUNCTIONALITY
+// ================================
+
+const Leaderboard = {
+  currentTab: 'week',
+  
+  init() {
+    const btnLeaderboard = document.getElementById('btnLeaderboard');
+    const closeLeaderboard = document.getElementById('closeLeaderboardModal');
+    const leaderboardModal = document.getElementById('leaderboardModal');
+    
+    if (btnLeaderboard) {
+      btnLeaderboard.addEventListener('click', () => {
+        this.show();
+      });
+    }
+    
+    if (closeLeaderboard) {
+      closeLeaderboard.addEventListener('click', () => {
+        leaderboardModal.classList.remove('open');
+      });
+    }
+    
+    if (leaderboardModal) {
+      leaderboardModal.addEventListener('click', (e) => {
+        if (e.target === leaderboardModal) {
+          leaderboardModal.classList.remove('open');
+        }
+      });
+    }
+    
+    // Tab switching
+    document.querySelectorAll('.leaderboard-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.leaderboard-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        this.currentTab = tab.dataset.tab;
+        this.loadData();
+      });
+    });
+  },
+  
+  show() {
+    const modal = document.getElementById('leaderboardModal');
+    if (modal) {
+      modal.classList.add('open');
+      this.loadData();
+    }
+  },
+  
+  async loadData() {
+    const loadingEl = document.getElementById('leaderboardLoading');
+    const emptyEl = document.getElementById('leaderboardEmpty');
+    const podiumEl = document.getElementById('leaderboardPodium');
+    const listEl = document.getElementById('leaderboardList');
+    
+    // Show loading
+    if (loadingEl) loadingEl.classList.remove('hidden');
+    if (emptyEl) emptyEl.classList.add('hidden');
+    if (podiumEl) podiumEl.style.display = 'block';
+    if (listEl) listEl.innerHTML = '';
+    
+    try {
+      const leaderboardRef = firebase.database().ref('leaderboard');
+      const snapshot = await leaderboardRef.once('value');
+      const data = snapshot.val();
+      
+      if (!data) {
+        this.showEmpty();
+        return;
+      }
+      
+      // Convert to array and filter by tab
+      let entries = Object.entries(data).map(([userId, userData]) => ({
+        userId,
+        ...userData
+      }));
+      
+      // Filter by tab
+      const now = Date.now();
+      const oneWeek = 7 * 24 * 60 * 60 * 1000;
+      
+      if (this.currentTab === 'week') {
+        entries = entries.filter(e => e.timestamp && (now - e.timestamp) < oneWeek);
+      } else if (this.currentTab === 'subject') {
+        entries = entries.filter(e => e.subject === currentFile);
+      }
+      
+      // Sort by score (correct answers), then by accuracy
+      entries.sort((a, b) => {
+        if (b.correct !== a.correct) return b.correct - a.correct;
+        const accA = a.total > 0 ? (a.correct / a.total) * 100 : 0;
+        const accB = b.total > 0 ? (b.correct / b.total) * 100 : 0;
+        return accB - accA;
+      });
+      
+      if (entries.length === 0) {
+        this.showEmpty();
+        return;
+      }
+      
+      // Hide loading
+      if (loadingEl) loadingEl.classList.add('hidden');
+      
+      // Display top 3 in podium
+      this.displayPodium(entries.slice(0, 3));
+      
+      // Display rest in list
+      this.displayList(entries.slice(3));
+      
+    } catch (error) {
+      console.error('Error loading leaderboard:', error);
+      this.showEmpty();
+    }
+  },
+  
+  displayPodium(entries) {
+    const ranks = ['1', '2', '3'];
+    
+    ranks.forEach((rank, idx) => {
+      const entry = entries[idx];
+      const nameEl = document.getElementById(`rank${rank}Name`);
+      const scoreEl = document.getElementById(`rank${rank}Score`);
+      const correctEl = document.getElementById(`rank${rank}Correct`);
+      const wrongEl = document.getElementById(`rank${rank}Wrong`);
+      const accuracyEl = document.getElementById(`rank${rank}Accuracy`);
+      
+      if (entry) {
+        const accuracy = entry.total > 0 ? Math.round((entry.correct / entry.total) * 100) : 0;
+        
+        if (nameEl) nameEl.textContent = entry.username || 'Unknown';
+        if (scoreEl) scoreEl.textContent = `${entry.correct} điểm`;
+        if (correctEl) correctEl.textContent = entry.correct || 0;
+        if (wrongEl) wrongEl.textContent = entry.wrong || 0;
+        if (accuracyEl) accuracyEl.textContent = `${accuracy}%`;
+      } else {
+        // No entry for this rank
+        if (nameEl) nameEl.textContent = '---';
+        if (scoreEl) scoreEl.textContent = '0 điểm';
+        if (correctEl) correctEl.textContent = '0';
+        if (wrongEl) wrongEl.textContent = '0';
+        if (accuracyEl && accuracyEl) accuracyEl.textContent = '0%';
+      }
+    });
+  },
+  
+  displayList(entries) {
+    const listEl = document.getElementById('leaderboardList');
+    if (!listEl) return;
+    
+    listEl.innerHTML = entries.map((entry, idx) => {
+      const rank = idx + 4; // Starting from 4th place
+      const accuracy = entry.total > 0 ? Math.round((entry.correct / entry.total) * 100) : 0;
+      const initial = (entry.username || 'U')[0].toUpperCase();
+      
+      // Color for avatar based on rank
+      const avatarColors = [
+        'from-blue-500 to-indigo-600',
+        'from-purple-500 to-pink-600',
+        'from-green-500 to-emerald-600',
+        'from-orange-500 to-red-600',
+        'from-cyan-500 to-blue-600'
+      ];
+      const colorClass = avatarColors[(idx) % avatarColors.length];
+      
+      return `
+        <div class="leaderboard-item" style="animation-delay: ${idx * 0.05}s;">
+          <div class="leaderboard-rank">${rank}</div>
+          <div class="leaderboard-avatar" style="background: linear-gradient(135deg, var(--tw-gradient-stops)); --tw-gradient-stops: ${colorClass.replace('from-', '').replace('to-', ', ')};">
+            ${initial}
+          </div>
+          <div class="leaderboard-info">
+            <div class="leaderboard-name">
+              ${entry.username || 'Unknown'}
+              ${entry.username && entry.username.startsWith('Anonymous') ? '<span class="verified-badge">Verified</span>' : ''}
+            </div>
+            <div class="leaderboard-stats">
+              <span>✓ ${entry.correct} đúng</span>
+              <span>✗ ${entry.wrong} sai</span>
+              <span>📊 ${accuracy}% chính xác</span>
+              ${entry.subject ? `<span>📚 ${entry.subject}</span>` : ''}
+            </div>
+          </div>
+          <div class="leaderboard-score">${entry.correct}</div>
+        </div>
+      `;
+    }).join('');
+  },
+  
+  showEmpty() {
+    const loadingEl = document.getElementById('leaderboardLoading');
+    const emptyEl = document.getElementById('leaderboardEmpty');
+    const podiumEl = document.getElementById('leaderboardPodium');
+    const listEl = document.getElementById('leaderboardList');
+    
+    if (loadingEl) loadingEl.classList.add('hidden');
+    if (emptyEl) emptyEl.classList.remove('hidden');
+    if (podiumEl) podiumEl.style.display = 'none';
+    if (listEl) listEl.innerHTML = '';
+  },
+  
+  async saveScore(username, subject, correct, wrong, total, timeSpent) {
+    try {
+      const userId = OnlineUsers.userId || localStorage.getItem('quiz_user_id');
+      if (!userId) return;
+      
+      const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+      
+      const scoreData = {
+        username: username || 'Anonymous',
+        subject: subject,
+        correct: correct,
+        wrong: wrong,
+        total: total,
+        accuracy: accuracy,
+        timeSpent: timeSpent,
+        timestamp: Date.now()
+      };
+      
+      // Save to Firebase - update if better score
+      const userRef = firebase.database().ref(`leaderboard/${userId}`);
+      const snapshot = await userRef.once('value');
+      const existingData = snapshot.val();
+      
+      // Only update if new score is better (more correct answers)
+      if (!existingData || correct > (existingData.correct || 0)) {
+        await userRef.set(scoreData);
+        console.log('Score saved to leaderboard!', scoreData);
+      }
+      
+    } catch (error) {
+      console.error('Error saving score to leaderboard:', error);
+    }
+  }
+};
+
+// Initialize leaderboard when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => Leaderboard.init());
+} else {
+  Leaderboard.init();
+}
 
 // ================================
 // LIVE CHAT FUNCTIONALITY

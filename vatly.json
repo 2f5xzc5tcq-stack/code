@@ -241,7 +241,7 @@
           "isCorrect": false
         }
       ],
-      "hint": "Ví dụ của quá trình này là băng khô (CO<sub>2</sub> rắn) 'bốc khói' trong không khí."
+      "hint": "Ví dụ của quá trình này là băng khô (CO₂ rắn) 'bốc khói' trong không khí."
     },
     {
       "question_number": 10,
@@ -323,33 +323,6 @@
         }
       ],
       "hint": "Hiện tượng các chất tự lan truyền vào nhau gọi là khuếch tán. Nguyên nhân của khuếch tán là gì?"
-    },
-    {
-      "question_number": 13,
-      "question": "Nội năng của một vật là:",
-      "answer_options": [
-        {
-          "text": "Tổng động năng và thế năng của vật.",
-          "rationale": "Đây là cơ năng (năng lượng vĩ mô), không phải nội năng (năng lượng vi mô).",
-          "isCorrect": false
-        },
-        {
-          "text": "Tổng động năng và thế năng của các phân tử cấu tạo nên vật.",
-          "rationale": "Theo định nghĩa, nội năng (U) là tổng năng lượng vi mô, bao gồm động năng chuyển động nhiệt và thế năng tương tác giữa các phân tử.",
-          "isCorrect": true
-        },
-        {
-          "text": "Chỉ là tổng động năng của các phân tử cấu tạo nên vật.",
-          "rationale": "Định nghĩa này thiếu thế năng tương tác (trừ trường hợp đặc biệt là khí lí tưởng).",
-          "isCorrect": false
-        },
-        {
-          "text": "Nhiệt lượng mà vật đang chứa.",
-          "rationale": "Nội năng là năng lượng 'chứa' bên trong. Nhiệt lượng là 'dòng' năng lượng trao đổi, không phải thứ chứa bên trong.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Nội năng liên quan đến năng lượng ở cấp độ phân tử."
     },
     {
       "question_number": 14,
@@ -458,33 +431,6 @@
         }
       ],
       "hint": "Hãy nhớ quy ước: 'Nhận vào' mang dấu (+), 'Cho đi' (thực hiện, truyền ra) mang dấu (-)."
-    },
-    {
-      "question_number": 18,
-      "question": "Nội năng của khí lí tưởng phụ thuộc vào thông số nào?",
-      "answer_options": [
-        {
-          "text": "Chỉ phụ thuộc vào nhiệt độ.",
-          "rationale": "Đối với khí lí tưởng, ta bỏ qua thế năng tương tác. Nội năng chỉ còn là tổng động năng của các phân tử, mà động năng này chỉ phụ thuộc vào nhiệt độ.",
-          "isCorrect": true
-        },
-        {
-          "text": "Chỉ phụ thuộc vào thể tích.",
-          "rationale": "Nội năng khí lí tưởng không phụ thuộc thể tích vì ta coi như không có thế năng tương tác.",
-          "isCorrect": false
-        },
-        {
-          "text": "Phụ thuộc vào cả nhiệt độ và thể tích.",
-          "rationale": "Đây là đặc điểm của khí thực (vật chất nói chung). Khí lí tưởng là trường hợp đặc biệt.",
-          "isCorrect": false
-        },
-        {
-          "text": "Phụ thuộc vào cả nhiệt độ, thể tích và áp suất.",
-          "rationale": "Đối với khí lí tưởng, nội năng chỉ phụ thuộc vào nhiệt độ.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Khí lí tưởng là mô hình bỏ qua yếu tố nào trong định nghĩa nội năng?"
     },
     {
       "question_number": 19,
@@ -623,11 +569,11 @@
     },
     {
       "question_number": 24,
-      "question": "Một vật 500g rơi từ độ cao 20m xuống đất. Lấy g = 10 m/s<sup>2</sup>. Giả sử toàn bộ cơ năng của vật khi rơi chuyển thành nội năng của vật và đất. Độ biến thiên nội năng tổng cộng là:",
+      "question": "Một vật 500g rơi từ độ cao 20m xuống đất. Lấy g = 10 m/s². Giả sử toàn bộ cơ năng của vật khi rơi chuyển thành nội năng của vật và đất. Độ biến thiên nội năng tổng cộng là:",
       "answer_options": [
         {
           "text": "100 J",
-          "rationale": "Cơ năng ban đầu (thế năng) là Wt = m*g*h = 0.5 kg·10 m/s<sup>2</sup>·20 m = 100 J. Khi vật dừng lại (W<sub>sau</sub> = 0), toàn bộ cơ năng này đã chuyển thành nội năng.",
+          "rationale": "Cơ năng ban đầu (thế năng) là Wt = m*g*h = 0.5 kg·10 m/s²·20 m = 100 J. Khi vật dừng lại (W<sub>sau</sub> = 0), toàn bộ cơ năng này đã chuyển thành nội năng.",
           "isCorrect": true
         },
         {
@@ -974,7 +920,7 @@
     },
     {
       "question_number": 37,
-      "question": "Công thức tính nhiệt lượng Q mà vật thu vào để tăng nhiệt độ từ t<sub>1</sub> lên t<sub>2</sub> là:",
+      "question": "Công thức tính nhiệt lượng Q mà vật thu vào để tăng nhiệt độ từ t₁ lên t₂ là:",
       "answer_options": [
         {
           "text": "Q = m·c",
@@ -982,17 +928,17 @@
           "isCorrect": false
         },
         {
-          "text": "Q = m·c·(t<sub>1</sub> - t<sub>2</sub>)",
-          "rationale": "Nếu t<sub>2</sub> > t<sub>1</sub> (thu nhiệt) thì (t<sub>1</sub> - t<sub>2</sub>) sẽ âm, dẫn đến Q âm, mâu thuẫn.",
+          "text": "Q = m·c·(t₁ - t₂)",
+          "rationale": "Nếu t₂ > t₁ (thu nhiệt) thì (t₁ - t₂) sẽ âm, dẫn đến Q âm, mâu thuẫn.",
           "isCorrect": false
         },
         {
-          "text": "Q = m·c·(t<sub>2</sub> - t<sub>1</sub>)",
+          "text": "Q = m·c·(t₂ - t₁)",
           "rationale": "Công thức này đúng, Q = m·c·ΔT, với ΔT = nhiệt độ sau - nhiệt độ trước.",
           "isCorrect": true
         },
         {
-          "text": "Q = c·(t<sub>2</sub> - t<sub>1</sub>)",
+          "text": "Q = c·(t₂ - t₁)",
           "rationale": "Thiếu khối lượng (m) của vật.",
           "isCorrect": false
         }
@@ -1167,7 +1113,7 @@
       "answer_options": [
         {
           "text": "50 °C",
-          "rationale": "Q<sub>tỏa</sub> = m<sub>1</sub>*c<sub>1</sub>*(t<sub>1</sub>-t<sub>cb</sub>) = 1*880*(80-t<sub>cb</sub>). Q<sub>thu</sub> = m<sub>2</sub>*c<sub>2</sub>*(t<sub>cb</sub>-t<sub>2</sub>) = 1*4200*(t<sub>cb</sub>-20). 880*(80-t<sub>cb</sub>) = 4200*(t<sub>cb</sub>-20) → 70400 - 880*t<sub>cb</sub> = 4200*t<sub>cb</sub> - 84000 → 154400 = 5080*t<sub>cb</sub> → t<sub>cb</sub> = 30.4 °C.",
+          "rationale": "Q<sub>tỏa</sub> = m₁*c₁*(t₁-t<sub>cb</sub>) = 1*880*(80-t<sub>cb</sub>). Q<sub>thu</sub> = m₂*c₂*(t<sub>cb</sub>-t₂) = 1*4200*(t<sub>cb</sub>-20). 880*(80-t<sub>cb</sub>) = 4200*(t<sub>cb</sub>-20) → 70400 - 880*t<sub>cb</sub> = 4200*t<sub>cb</sub> - 84000 → 154400 = 5080*t<sub>cb</sub> → t<sub>cb</sub> = 30.4 °C.",
           "isCorrect": false
         },
         {
@@ -1186,7 +1132,7 @@
           "isCorrect": false
         }
       ],
-      "hint": "Áp dụng phương trình cân bằng nhiệt: Q<sub>tỏa</sub> = Q<sub>thu</sub>. m<sub>1</sub>*c<sub>1</sub>*(t<sub>1</sub> - t<sub>cb</sub>) = m<sub>2</sub>*c<sub>2</sub>*(t<sub>cb</sub> - t<sub>2</sub>)."
+      "hint": "Áp dụng phương trình cân bằng nhiệt: Q<sub>tỏa</sub> = Q<sub>thu</sub>. m₁*c₁*(t₁ - t<sub>cb</sub>) = m₂*c₂*(t<sub>cb</sub> - t₂)."
     },
     {
       "question_number": 45,
@@ -1406,16 +1352,16 @@
     },
     {
       "question_number": 53,
-      "question": "Tính nhiệt lượng cần cung cấp để làm nóng chảy hoàn toàn 200g nước đá ở 0 °C. Biết λ (nước đá) = 3.34·10<sup>5</sup> J/kg.",
+      "question": "Tính nhiệt lượng cần cung cấp để làm nóng chảy hoàn toàn 200g nước đá ở 0 °C. Biết λ (nước đá) = 3.34·10⁵ J/kg.",
       "answer_options": [
         {
           "text": "66800 J",
-          "rationale": "Q = λ·m = (3.34·10<sup>5</sup> J/kg)·0.2 kg = 0.668·10<sup>5</sup> J = 66800 J.",
+          "rationale": "Q = λ·m = (3.34·10⁵ J/kg)·0.2 kg = 0.668·10⁵ J = 66800 J.",
           "isCorrect": true
         },
         {
           "text": "668 J",
-          "rationale": "Bạn đã quên nhân với 10<sup>5</sup> hoặc sai đơn vị. Phép tính là 0.2·3.34·10<sup>5</sup>.",
+          "rationale": "Bạn đã quên nhân với 10⁵ hoặc sai đơn vị. Phép tính là 0.2·3.34·10⁵.",
           "isCorrect": false
         },
         {
@@ -1425,7 +1371,7 @@
         },
         {
           "text": "1670 J",
-          "rationale": "Bạn đã chia 3.34·10<sup>5</sup> cho 200, thay vì nhân với 0.2.",
+          "rationale": "Bạn đã chia 3.34·10⁵ cho 200, thay vì nhân với 0.2.",
           "isCorrect": false
         }
       ],
@@ -1433,11 +1379,11 @@
     },
     {
       "question_number": 54,
-      "question": "Cần một nhiệt lượng 9750 J để làm nóng chảy hoàn toàn một thỏi đồng ở nhiệt độ nóng chảy. Biết nhiệt nóng chảy riêng của đồng là 1.8·10<sup>5</sup> J/kg. Khối lượng thỏi đồng là:",
+      "question": "Cần một nhiệt lượng 9750 J để làm nóng chảy hoàn toàn một thỏi đồng ở nhiệt độ nóng chảy. Biết nhiệt nóng chảy riêng của đồng là 1.8·10⁵ J/kg. Khối lượng thỏi đồng là:",
       "answer_options": [
         {
           "text": "54 g",
-          "rationale": "Từ Q = λ·m, suy ra m = Q/λ = 9750/(1.8·10<sup>5</sup>) = 0.05416 kg = 54.16 g.",
+          "rationale": "Từ Q = λ·m, suy ra m = Q/λ = 9750/(1.8·10⁵) = 0.05416 kg = 54.16 g.",
           "isCorrect": true
         },
         {
@@ -1447,11 +1393,11 @@
         },
         {
           "text": "18.4 g",
-          "rationale": "Bạn đã chia 1.8·10<sup>5</sup> cho 9750, thay vì ngược lại.",
+          "rationale": "Bạn đã chia 1.8·10⁵ cho 9750, thay vì ngược lại.",
           "isCorrect": false
         },
         {
-          "text": "1.755·10<sup>9</sup> g",
+          "text": "1.755·10⁹ g",
           "rationale": "Bạn đã nhân Q với λ, thay vì chia.",
           "isCorrect": false
         }
@@ -1460,11 +1406,11 @@
     },
     {
       "question_number": 55,
-      "question": "Một lò nung điện có công suất 500 W. Giả sử toàn bộ nhiệt lượng dùng để làm nóng chảy chì. Thời gian để làm nóng chảy hoàn toàn 100g chì ở nhiệt độ nóng chảy là bao nhiêu giây? Biết λ (chì) = 0.25·10<sup>5</sup> J/kg.",
+      "question": "Một lò nung điện có công suất 500 W. Giả sử toàn bộ nhiệt lượng dùng để làm nóng chảy chì. Thời gian để làm nóng chảy hoàn toàn 100g chì ở nhiệt độ nóng chảy là bao nhiêu giây? Biết λ (chì) = 0.25·10⁵ J/kg.",
       "answer_options": [
         {
           "text": "5 s",
-          "rationale": "Nhiệt lượng cần: Q = λ·m = (0.25·10<sup>5</sup>)·0.1 kg = 2500 J. Nhiệt lượng lò cung cấp: Q = P·t. Vậy t = Q/P = 2500 J/500 W = 5 s.",
+          "rationale": "Nhiệt lượng cần: Q = λ·m = (0.25·10⁵)·0.1 kg = 2500 J. Nhiệt lượng lò cung cấp: Q = P·t. Vậy t = Q/P = 2500 J/500 W = 5 s.",
           "isCorrect": true
         },
         {
@@ -1487,7 +1433,7 @@
     },
     {
       "question_number": 56,
-      "question": "Tính tổng nhiệt lượng cần cung cấp để làm 2 kg nước đá ở -5 °C chuyển hoàn toàn thành nước ở 0 °C. Biết c (nước đá) = 2100 J/(kg·K) và λ (nước đá) = 3.34·10<sup>5</sup> J/kg.",
+      "question": "Tính tổng nhiệt lượng cần cung cấp để làm 2 kg nước đá ở -5 °C chuyển hoàn toàn thành nước ở 0 °C. Biết c (nước đá) = 2100 J/(kg·K) và λ (nước đá) = 3.34·10⁵ J/kg.",
       "answer_options": [
         {
           "text": "668000 J",
@@ -1501,7 +1447,7 @@
         },
         {
           "text": "689000 J",
-          "rationale": "Q1 (tăng nhiệt) = m*c<sub>đá</sub>*ΔT = 2·2100·(0 - (-5)) = 21000 J. Q2 (nóng chảy) = m·λ = 2·3.34·10<sup>5</sup> = 668000 J. Q<sub>total</sub> = Q1 + Q2 = 21000 + 668000 = 689000 J.",
+          "rationale": "Q1 (tăng nhiệt) = m*c<sub>đá</sub>*ΔT = 2·2100·(0 - (-5)) = 21000 J. Q2 (nóng chảy) = m·λ = 2·3.34·10⁵ = 668000 J. Q<sub>total</sub> = Q1 + Q2 = 21000 + 668000 = 689000 J.",
           "isCorrect": true
         },
         {
@@ -1757,26 +1703,26 @@
     },
     {
       "question_number": 66,
-      "question": "Tính nhiệt lượng cần cung cấp để làm 2 kg nước ở 100 °C hoá hơi hoàn toàn. Biết L (nước) = 2.26·10<sup>6</sup> J/kg.",
+      "question": "Tính nhiệt lượng cần cung cấp để làm 2 kg nước ở 100 °C hoá hơi hoàn toàn. Biết L (nước) = 2.26·10⁶ J/kg.",
       "answer_options": [
         {
-          "text": "4.52·10<sup>6</sup> J",
-          "rationale": "Q = L·m = (2.26·10<sup>6</sup> J/kg)·2 kg = 4.52·10<sup>6</sup> J.",
+          "text": "4.52·10⁶ J",
+          "rationale": "Q = L·m = (2.26·10⁶ J/kg)·2 kg = 4.52·10⁶ J.",
           "isCorrect": true
         },
         {
-          "text": "2.26·10<sup>6</sup> J",
+          "text": "2.26·10⁶ J",
           "rationale": "Đây là nhiệt lượng cho 1 kg, không phải 2 kg.",
           "isCorrect": false
         },
         {
-          "text": "1.13·10<sup>6</sup> J",
+          "text": "1.13·10⁶ J",
           "rationale": "Bạn đã chia L cho 2 (tức m=0.5kg) thay vì nhân 2.",
           "isCorrect": false
         },
         {
-          "text": "4.52·10<sup>5</sup> J",
-          "rationale": "Sai số 10 lần. Phép tính là (2.26·2)·10<sup>6</sup>.",
+          "text": "4.52·10⁵ J",
+          "rationale": "Sai số 10 lần. Phép tính là (2.26·2)·10⁶.",
           "isCorrect": false
         }
       ],
@@ -1784,11 +1730,11 @@
     },
     {
       "question_number": 67,
-      "question": "Một bếp điện có công suất 2000 W được dùng để làm hoá hơi nước ở 100 °C. Trong 5 phút, lượng nước hoá hơi được là bao nhiêu? Giả sử hiệu suất là 100%. (L(nước) = 2.26·10<sup>6</sup> J/kg)",
+      "question": "Một bếp điện có công suất 2000 W được dùng để làm hoá hơi nước ở 100 °C. Trong 5 phút, lượng nước hoá hơi được là bao nhiêu? Giả sử hiệu suất là 100%. (L(nước) = 2.26·10⁶ J/kg)",
       "answer_options": [
         {
           "text": "0.265 kg",
-          "rationale": "Năng lượng bếp cung cấp: Q = P·t = 2000 W·(5·60 s) = 600000 J. Năng lượng này dùng để hoá hơi: Q = L·m. Vậy m = Q/L = 600000/(2.26·10<sup>6</sup>) = 0.265 kg.",
+          "rationale": "Năng lượng bếp cung cấp: Q = P·t = 2000 W·(5·60 s) = 600000 J. Năng lượng này dùng để hoá hơi: Q = L·m. Vậy m = Q/L = 600000/(2.26·10⁶) = 0.265 kg.",
           "isCorrect": true
         },
         {
@@ -1811,16 +1757,16 @@
     },
     {
       "question_number": 68,
-      "question": "Tính nhiệt lượng (theo kJ) toả ra khi 100g hơi nước ở 100 °C ngưng tụ hoàn toàn thành nước ở 100 °C. (L(nước) = 2.26·10<sup>6</sup> J/kg)",
+      "question": "Tính nhiệt lượng (theo kJ) toả ra khi 100g hơi nước ở 100 °C ngưng tụ hoàn toàn thành nước ở 100 °C. (L(nước) = 2.26·10⁶ J/kg)",
       "answer_options": [
         {
           "text": "226 kJ",
-          "rationale": "Q<sub>tỏa</sub> = L·m = (2.26·10<sup>6</sup> J/kg)·0.1 kg = 0.226·10<sup>6</sup> J = 226000 J = 226 kJ.",
+          "rationale": "Q<sub>tỏa</sub> = L·m = (2.26·10⁶ J/kg)·0.1 kg = 0.226·10⁶ J = 226000 J = 226 kJ.",
           "isCorrect": true
         },
         {
           "text": "22.6 kJ",
-          "rationale": "Sai số 10 lần. Phép tính là (2.26·0.1)·10<sup>6</sup> J.",
+          "rationale": "Sai số 10 lần. Phép tính là (2.26·0.1)·10⁶ J.",
           "isCorrect": false
         },
         {
@@ -1838,7 +1784,7 @@
     },
     {
       "question_number": 69,
-      "question": "Tính tổng nhiệt lượng (kJ) cần cung cấp để 0.5 kg nước ở 20 °C hoá hơi hoàn toàn ở 100 °C. Biết c(nước) = 4200 J/(kg·K) và L(nước) = 2.26·10<sup>6</sup> J/kg.",
+      "question": "Tính tổng nhiệt lượng (kJ) cần cung cấp để 0.5 kg nước ở 20 °C hoá hơi hoàn toàn ở 100 °C. Biết c(nước) = 4200 J/(kg·K) và L(nước) = 2.26·10⁶ J/kg.",
       "answer_options": [
         {
           "text": "168 kJ",
@@ -1847,7 +1793,7 @@
         },
         {
           "text": "1130 kJ",
-          "rationale": "Đây chỉ là nhiệt lượng Q2 (hoá hơi). Q2 = 0.5·2.26·10<sup>6</sup> = 1130000 J = 1130 kJ.",
+          "rationale": "Đây chỉ là nhiệt lượng Q2 (hoá hơi). Q2 = 0.5·2.26·10⁶ = 1130000 J = 1130 kJ.",
           "isCorrect": false
         },
         {
@@ -1955,7 +1901,7 @@
         },
         {
           "text": "Nhiệt độ thấp và/hoặc áp suất thấp.",
-          "rationale": "Đúng: băng khô (CO<sub>2</sub> rắn) ở áp suất thường dễ thăng hoa.",
+          "rationale": "Đúng: băng khô (CO₂ rắn) ở áp suất thường dễ thăng hoa.",
           "isCorrect": true
         },
         {
@@ -1969,7 +1915,7 @@
           "isCorrect": false
         }
       ],
-      "hint": "Liên hệ băng khô CO<sub>2</sub>, i-ốt rắn, long não."
+      "hint": "Liên hệ băng khô CO₂, i-ốt rắn, long não."
     },
     {
       "question_number": 74,

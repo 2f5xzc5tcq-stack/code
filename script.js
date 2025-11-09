@@ -57,7 +57,9 @@ function renderSubjectCards() {
     
     let progressHTML = '';
     if (hasProgress && !isLocked) {
-      const progress = Math.round((savedState.index / savedState.length) * 100);
+      // Calculate progress based on ANSWERED questions, not current index
+      const answeredCount = savedState.answered ? savedState.answered.filter(a => a).length : 0;
+      const progress = Math.round((answeredCount / savedState.length) * 100);
       const timeElapsed = getTimeElapsed(savedState.startTime);
       
       progressHTML = `
@@ -75,7 +77,7 @@ function renderSubjectCards() {
             </svg>
             <span>${timeElapsed}</span>
             <span class="mx-1">•</span>
-            <span>Câu ${savedState.index + 1}/${savedState.length}</span>
+            <span>Đã làm ${answeredCount}/${savedState.length}</span>
           </div>
         </div>
       `;
@@ -751,8 +753,9 @@ function updateCounters() {
 }
 
 function setProgress() {
-  els.progressText.textContent = `Câu ${index + 1} / ${data.length}`;
+  // Show answered count, not current question index (to avoid confusion)
   const answeredCount = answered.filter(a => a).length;
+  els.progressText.textContent = `Đã làm ${answeredCount} / ${data.length} câu`;
   const w = Math.round((answeredCount / data.length) * 100);
   els.progressBar.style.width = `${w}%`;
   els.scoreText.textContent = `Điểm: ${fmt(score)}`;

@@ -459,6 +459,7 @@ let answerOrderMap = {};
 
 function saveState() {
   const state = { 
+    version: 2, // Version tracking for future updates
     index, 
     score, 
     answered, 
@@ -466,7 +467,8 @@ function saveState() {
     length: data.length,
     startTime: startTime ? startTime.getTime() : null,
     questionOrder,
-    answerOrderMap
+    answerOrderMap,
+    lastSaved: Date.now() // Track when state was saved
   };
   const stateKey = `${key}_${currentFile}`;
   localStorage.setItem(stateKey, JSON.stringify(state));
@@ -478,10 +480,16 @@ function loadState() {
   if (!raw) return null;
   try {
     const state = JSON.parse(raw);
+    // If question count changed, preserve user progress but adjust to new length
     if (state.length !== data.length) {
-      console.log(`Question count changed: ${state.length} → ${data.length}. Resetting state.`);
-      localStorage.removeItem(stateKey);
-      return null;
+      console.log(`Question count changed: ${state.length} → ${data.length}. Adjusting state.`);
+      // Keep answers for questions that still exist
+      if (state.index >= data.length) {
+        state.index = data.length - 1;
+      }
+      // Update length to match new data
+      state.length = data.length;
+      // Preserve answered, viewed, and score - they're still valid for existing questions
     }
     return state;
   } catch {
@@ -1437,10 +1445,12 @@ function initializeChat() {
   const chatToggleBtn = document.getElementById('chatToggleBtn');
   const chatContainer = document.getElementById('chatContainer');
   const chatCloseBtn = document.getElementById('chatCloseBtn');
+  const chatMinimizeBtn = document.getElementById('chatMinimizeBtn');
   const chatInput = document.getElementById('chatInput');
   const chatSendBtn = document.getElementById('chatSendBtn');
   const chatMessages = document.getElementById('chatMessages');
   const chatOnlineCount = document.getElementById('chatOnlineCount');
+  const btnOpenChatMobile = document.getElementById('btnOpenChatMobile');
 
   if (!chatToggleBtn || !chatContainer) return;
 
@@ -1455,8 +1465,24 @@ function initializeChat() {
     }
   });
 
+  // Mobile chat button
+  if (btnOpenChatMobile) {
+    btnOpenChatMobile.addEventListener('click', () => {
+      chatState.isOpen = true;
+      chatContainer.style.display = 'flex';
+      chatInput.focus();
+    });
+  }
+
   if (chatCloseBtn) {
     chatCloseBtn.addEventListener('click', () => {
+      chatState.isOpen = false;
+      chatContainer.style.display = 'none';
+    });
+  }
+
+  if (chatMinimizeBtn) {
+    chatMinimizeBtn.addEventListener('click', () => {
       chatState.isOpen = false;
       chatContainer.style.display = 'none';
     });

@@ -476,7 +476,17 @@ function loadState() {
   const stateKey = `${key}_${currentFile}`;
   const raw = localStorage.getItem(stateKey);
   if (!raw) return null;
-  try { return JSON.parse(raw); } catch { return null; }
+  try {
+    const state = JSON.parse(raw);
+    if (state.length !== data.length) {
+      console.log(`Question count changed: ${state.length} → ${data.length}. Resetting state.`);
+      localStorage.removeItem(stateKey);
+      return null;
+    }
+    return state;
+  } catch {
+    return null;
+  }
 }
 
 function saveBookmarks() {
@@ -771,12 +781,14 @@ function renderQuestion() {
   updateBookmarkButton();
 
   const displayNo = index + 1;
-  els.questionText.textContent = `${q.question || '(Không có nội dung câu hỏi)'}`;
+  // Use innerHTML to support HTML tags like <sub>, <sup>, <b>, etc.
+  els.questionText.innerHTML = `${q.question || '(Không có nội dung câu hỏi)'}`;
 
   if (q.hint && String(q.hint).trim()) {
     els.hintWrap.classList.remove('hidden');
     els.hintText.classList.add('hidden');
-    els.hintText.textContent = String(q.hint).trim();
+    // Use innerHTML to support HTML tags in hints
+    els.hintText.innerHTML = String(q.hint).trim();
   } else {
     els.hintWrap.classList.add('hidden');
     els.hintText.classList.add('hidden');

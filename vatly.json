@@ -1,0 +1,1894 @@
+{
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "Theo Mô hình động học phân tử, các phân tử cấu tạo nên vật chất có đặc điểm nào?",
+      "answer_options": [
+        {
+          "text": "Luôn đứng yên.",
+          "rationale": "Mô hình động học phân tử khẳng định các phân tử luôn chuyển động hỗn loạn, không ngừng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chuyển động không ngừng.",
+          "rationale": "Đây là một trong ba nội dung cơ bản của mô hình động học phân tử.",
+          "isCorrect": true
+        },
+        {
+          "text": "Chỉ chuyển động khi có nhiệt độ cao.",
+          "rationale": "Các phân tử chuyển động ở mọi nhiệt độ trên 0 K (độ không tuyệt đối).",
+          "isCorrect": false
+        },
+        {
+          "text": "Không tương tác với nhau.",
+          "rationale": "Các phân tử luôn tương tác với nhau bằng lực hút và lực đẩy (lực liên kết phân tử).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy nhớ lại 3 luận điểm chính của mô hình động học phân tử."
+    },
+    {
+      "question_number": 2,
+      "question": "Đặc điểm nào sau đây là của vật chất ở thể rắn (kết tinh)?",
+      "answer_options": [
+        {
+          "text": "Lực liên kết phân tử rất yếu, chuyển động hỗn loạn.",
+          "rationale": "Đây là đặc điểm của thể khí.",
+          "isCorrect": false
+        },
+        {
+          "text": "Có hình dạng và thể tích riêng xác định.",
+          "rationale": "Do các phân tử liên kết mạnh và dao động quanh vị trí cân bằng cố định nên chất rắn có hình dạng và thể tích riêng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Không có hình dạng riêng, có thể tích riêng.",
+          "rationale": "Đây là đặc điểm của thể lỏng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Rất dễ bị nén.",
+          "rationale": "Chất rắn (và lỏng) rất khó nén, chỉ có chất khí là dễ nén.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "So sánh khả năng giữ hình dạng và thể tích của đá, nước và không khí."
+    },
+    {
+      "question_number": 3,
+      "question": "Đặc điểm nào sau đây là của vật chất ở thể lỏng?",
+      "answer_options": [
+        {
+          "text": "Không có hình dạng riêng và không có thể tích riêng.",
+          "rationale": "Đây là đặc điểm của thể khí. Chất lỏng có thể tích riêng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lực liên kết phân tử mạnh, dao động quanh vị trí cân bằng cố định.",
+          "rationale": "Đây là đặc điểm của thể rắn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Có hình dạng riêng và thể tích riêng.",
+          "rationale": "Đây là đặc điểm của thể rắn. Chất lỏng không có hình dạng riêng (lấy hình dạng của vật chứa).",
+          "isCorrect": false
+        },
+        {
+          "text": "Có thể tích riêng xác định, không có hình dạng riêng.",
+          "rationale": "Chất lỏng có thể tích xác định (ví dụ 1 lít nước) nhưng lại lấy hình dạng của bình chứa nó.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Nghĩ về một cốc nước. Nó có thể tích 200ml (xác định) nhưng có hình dạng của cái cốc."
+    },
+    {
+      "question_number": 4,
+      "question": "Đặc điểm nào sau đây là của vật chất ở thể khí?",
+      "answer_options": [
+        {
+          "text": "Lực liên kết phân tử rất yếu, chuyển động hỗn loạn, không có thể tích riêng.",
+          "rationale": "Đây là mô tả chính xác về thể khí: lực liên kết yếu, chuyển động tự do và chiếm toàn bộ thể tích bình chứa.",
+          "isCorrect": true
+        },
+        {
+          "text": "Lực liên kết phân tử mạnh, có thể tích riêng.",
+          "rationale": "Lực liên kết mạnh là của thể rắn. Lực liên kết khí rất yếu.",
+          "isCorrect": false
+        },
+        {
+          "text": "Rất khó nén.",
+          "rationale": "Chất khí rất dễ nén do khoảng cách giữa các phân tử lớn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Có hình dạng riêng.",
+          "rationale": "Chất khí (và lỏng) không có hình dạng riêng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "So sánh không khí trong một quả bóng bay với một cục nước đá."
+    },
+    {
+      "question_number": 5,
+      "question": "Quá trình chuyển từ thể rắn sang thể lỏng gọi là gì?",
+      "answer_options": [
+        {
+          "text": "Sự hoá hơi",
+          "rationale": "Hoá hơi là quá trình chuyển từ lỏng sang khí.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự ngưng tụ",
+          "rationale": "Ngưng tụ là quá trình chuyển từ khí sang lỏng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự nóng chảy",
+          "rationale": "Nóng chảy là quá trình chất rắn (ví dụ: nước đá) chuyển thành chất lỏng (ví dụ: nước).",
+          "isCorrect": true
+        },
+        {
+          "text": "Sự đông đặc",
+          "rationale": "Đông đặc là quá trình ngược lại, từ lỏng sang rắn.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nghĩ về điều gì xảy ra với một que kem vào ngày hè nóng nực."
+    },
+    {
+      "question_number": 6,
+      "question": "Quá trình chuyển từ thể lỏng sang thể rắn gọi là gì?",
+      "answer_options": [
+        {
+          "text": "Sự nóng chảy",
+          "rationale": "Nóng chảy là quá trình chuyển từ rắn sang lỏng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự thăng hoa",
+          "rationale": "Thăng hoa là quá trình chuyển từ rắn sang khí.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự đông đặc",
+          "rationale": "Đông đặc là quá trình chất lỏng (ví dụ: nước) chuyển thành chất rắn (ví dụ: nước đá).",
+          "isCorrect": true
+        },
+        {
+          "text": "Sự hoá hơi",
+          "rationale": "Hoá hơi là quá trình chuyển từ lỏng sang khí.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nghĩ về điều gì xảy ra khi bạn đặt nước vào ngăn đá của tủ lạnh."
+    },
+    {
+      "question_number": 7,
+      "question": "Quá trình chuyển từ thể lỏng sang thể khí (hơi) gọi là gì?",
+      "answer_options": [
+        {
+          "text": "Sự hoá hơi",
+          "rationale": "Hoá hơi là tên gọi chung cho quá trình lỏng chuyển sang khí (bao gồm cả bay hơi và sôi).",
+          "isCorrect": true
+        },
+        {
+          "text": "Sự ngưng tụ",
+          "rationale": "Ngưng tụ là quá trình ngược lại, từ khí sang lỏng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự đông đặc",
+          "rationale": "Đông đặc là quá trình chuyển từ lỏng sang rắn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự nóng chảy",
+          "rationale": "Nóng chảy là quá trình chuyển từ rắn sang lỏng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nghĩ về điều gì xảy ra khi bạn đun một ấm nước."
+    },
+    {
+      "question_number": 8,
+      "question": "Quá trình chuyển từ thể khí (hơi) sang thể lỏng gọi là gì?",
+      "answer_options": [
+        {
+          "text": "Sự hoá hơi",
+          "rationale": "Hoá hơi là quá trình chuyển từ lỏng sang khí.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự ngưng tụ",
+          "rationale": "Ngưng tụ là quá trình hơi (ví dụ: hơi nước) chuyển thành lỏng (ví dụ: giọt sương).",
+          "isCorrect": true
+        },
+        {
+          "text": "Sự thăng hoa",
+          "rationale": "Thăng hoa là quá trình chuyển từ rắn sang khí.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự nóng chảy",
+          "rationale": "Nóng chảy là quá trình chuyển từ rắn sang lỏng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nghĩ về các giọt nước đọng bên ngoài một cốc nước đá lạnh."
+    },
+    {
+      "question_number": 9,
+      "question": "Quá trình chuyển trực tiếp từ thể rắn sang thể khí (bỏ qua thể lỏng) gọi là gì?",
+      "answer_options": [
+        {
+          "text": "Sự sôi",
+          "rationale": "Sôi là một dạng hoá hơi (lỏng sang khí).",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự ngưng kết",
+          "rationale": "Ngưng kết là quá trình ngược lại (khí sang rắn).",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự thăng hoa",
+          "rationale": "Thăng hoa là định nghĩa của quá trình rắn chuyển trực tiếp sang khí, ví dụ như băng khô.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sự hoá hơi",
+          "rationale": "Hoá hơi là quá trình chuyển từ lỏng sang khí.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Ví dụ của quá trình này là băng khô (CO₂ rắn) 'bốc khói' trong không khí."
+    },
+    {
+      "question_number": 10,
+      "question": "Chọn phát biểu ĐÚNG khi phân biệt sự bay hơi và sự sôi.",
+      "answer_options": [
+        {
+          "text": "Sự bay hơi xảy ra ở nhiệt độ xác định, còn sự sôi xảy ra ở mọi nhiệt độ.",
+          "rationale": "Phát biểu này bị ngược. Sự sôi xảy ra ở nhiệt độ sôi xác định, còn bay hơi xảy ra ở mọi nhiệt độ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự bay hơi chỉ xảy ra trên bề mặt chất lỏng, còn sự sôi xảy ra cả bên trong và trên bề mặt.",
+          "rationale": "Đây là điểm khác biệt mấu chốt. Bay hơi là sự thoát hơi ở bề mặt, sôi là sự hình thành bọt khí trong toàn bộ khối chất lỏng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sự bay hơi là quá trình toả nhiệt, còn sự sôi là quá trình thu nhiệt.",
+          "rationale": "Cả hai đều là quá trình thu nhiệt (cần năng lượng để phá vỡ liên kết lỏng thành khí).",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự sôi chỉ xảy ra với nước, còn sự bay hơi xảy ra với mọi chất lỏng.",
+          "rationale": "Mọi chất lỏng đều có thể sôi (ví dụ: cồn sôi ở 78 °C) và bay hơi.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nghĩ về một vũng nước cạn dần (bay hơi) và một ấm nước đang sôi (sôi)."
+    },
+    {
+      "question_number": 11,
+      "question": "Đồ thị biểu diễn sự thay đổi nhiệt độ theo thời gian của một chất rắn kết tinh khi được cung cấp nhiệt lượng liên tục. Giai đoạn nóng chảy của chất được biểu diễn bằng đoạn nào?",
+      "answer_options": [
+        {
+          "text": "Đoạn dốc lên, nhiệt độ tăng.",
+          "rationale": "Đoạn dốc lên tương ứng với quá trình chất đang tăng nhiệt độ (ở thể rắn hoặc lỏng).",
+          "isCorrect": false
+        },
+        {
+          "text": "Đoạn nằm ngang.",
+          "rationale": "Trong suốt quá trình nóng chảy (chuyển thể), chất rắn kết tinh thu nhiệt nhưng nhiệt độ không đổi (nhiệt độ nóng chảy).",
+          "isCorrect": true
+        },
+        {
+          "text": "Đoạn dốc xuống, nhiệt độ giảm.",
+          "rationale": "Đoạn dốc xuống tương ứng với quá trình vật đang nguội đi (toả nhiệt).",
+          "isCorrect": false
+        },
+        {
+          "text": "Toàn bộ đồ thị.",
+          "rationale": "Đồ thị bao gồm cả giai đoạn tăng nhiệt độ thể rắn, nóng chảy, và tăng nhiệt độ thể lỏng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Khi một cục nước đá đang tan, nhiệt độ của nó là bao nhiêu?"
+    },
+    {
+      "question_number": 12,
+      "question": "Khi mở lọ nước hoa, ta có thể ngửi thấy mùi thơm ở xa. Hiện tượng này thể hiện tính chất nào của các phân tử ở thể khí?",
+      "answer_options": [
+        {
+          "text": "Các phân tử khí có kích thước rất nhỏ.",
+          "rationale": "Kích thước nhỏ có liên quan, nhưng chưa giải thích được việc mùi lan truyền đi xa.",
+          "isCorrect": false
+        },
+        {
+          "text": "Các phân tử khí luôn chuyển động hỗn loạn không ngừng.",
+          "rationale": "Do chuyển động hỗn loạn, các phân tử nước hoa (thể khí) tự lan truyền (khuếch tán) trong không khí và bay đến mũi ta.",
+          "isCorrect": true
+        },
+        {
+          "text": "Các phân tử khí tương tác yếu.",
+          "rationale": "Tương tác yếu giúp chúng dễ bay xa, nhưng yếu tố chính gây ra sự lan truyền là 'chuyển động'.",
+          "isCorrect": false
+        },
+        {
+          "text": "Các phân tử khí có khối lượng không đáng kể.",
+          "rationale": "Các phân tử đều có khối lượng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hiện tượng các chất tự lan truyền vào nhau gọi là khuếch tán. Nguyên nhân của khuếch tán là gì?"
+    },
+    {
+      "question_number": 13,
+      "question": "Nội năng của một vật là:",
+      "answer_options": [
+        {
+          "text": "Tổng động năng và thế năng của vật.",
+          "rationale": "Đây là cơ năng (năng lượng vĩ mô), không phải nội năng (năng lượng vi mô).",
+          "isCorrect": false
+        },
+        {
+          "text": "Tổng động năng và thế năng của các phân tử cấu tạo nên vật.",
+          "rationale": "Theo định nghĩa, nội năng (U) là tổng năng lượng vi mô, bao gồm động năng chuyển động nhiệt và thế năng tương tác giữa các phân tử.",
+          "isCorrect": true
+        },
+        {
+          "text": "Chỉ là tổng động năng của các phân tử cấu tạo nên vật.",
+          "rationale": "Định nghĩa này thiếu thế năng tương tác (trừ trường hợp đặc biệt là khí lí tưởng).",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt lượng mà vật đang chứa.",
+          "rationale": "Nội năng là năng lượng 'chứa' bên trong. Nhiệt lượng là 'dòng' năng lượng trao đổi, không phải thứ chứa bên trong.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nội năng liên quan đến năng lượng ở cấp độ phân tử."
+    },
+    {
+      "question_number": 14,
+      "question": "Có mấy cách để làm thay đổi nội năng của một vật?",
+      "answer_options": [
+        {
+          "text": "Một cách: truyền nhiệt.",
+          "rationale": "Thiếu cách thứ hai là thực hiện công.",
+          "isCorrect": false
+        },
+        {
+          "text": "Một cách: thực hiện công.",
+          "rationale": "Thiếu cách thứ nhất là truyền nhiệt.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hai cách: truyền nhiệt và thực hiện công.",
+          "rationale": "Đây là hai cách cơ bản để làm thay đổi nội năng, được thể hiện trong Định luật I NĐLH.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ba cách: truyền nhiệt, thực hiện công và bức xạ nhiệt.",
+          "rationale": "Bức xạ nhiệt là một hình thức của truyền nhiệt.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy nghĩ đến cách bạn làm nóng bàn tay: xoa hai tay (thực hiện công) hoặc hơ tay trên lửa (truyền nhiệt)."
+    },
+    {
+      "question_number": 15,
+      "question": "Đơn vị của nội năng trong hệ SI là gì?",
+      "answer_options": [
+        {
+          "text": "Joule (J)",
+          "rationale": "Nội năng là một dạng năng lượng, và đơn vị của năng lượng trong hệ SI là Joule (J).",
+          "isCorrect": true
+        },
+        {
+          "text": "Calo (cal)",
+          "rationale": "Calo cũng là đơn vị năng lượng (nhiệt lượng) nhưng không phải là đơn vị chuẩn trong hệ SI.",
+          "isCorrect": false
+        },
+        {
+          "text": "Newton (N)",
+          "rationale": "Newton là đơn vị của lực.",
+          "isCorrect": false
+        },
+        {
+          "text": "K (K)",
+          "rationale": "K là đơn vị của nhiệt độ.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nội năng là một dạng năng lượng. Đơn vị của năng lượng là gì?"
+    },
+    {
+      "question_number": 16,
+      "question": "Định luật I của Nhiệt động lực học được biểu diễn bằng công thức nào?",
+      "answer_options": [
+        {
+          "text": "ΔU = A + Q",
+          "rationale": "Độ biến thiên nội năng (ΔU) bằng tổng công (A) và nhiệt lượng (Q) mà hệ nhận được.",
+          "isCorrect": true
+        },
+        {
+          "text": "ΔU = A - Q",
+          "rationale": "Sai dấu của Q. Nếu hệ nhận nhiệt (Q>0) thì nội năng tăng.",
+          "isCorrect": false
+        },
+        {
+          "text": "ΔU = Q - A",
+          "rationale": "Đây là một quy ước khác (A là công hệ thực hiện), nhưng theo SGK Vật Lí 12 KNTT (Hình 2.4, Bài 2), quy ước A là công hệ nhận vào.",
+          "isCorrect": false
+        },
+        {
+          "text": "A = Q + ΔU",
+          "rationale": "Công thức đã bị biến đổi sai. Phải là A = ΔU - Q.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Định luật này liên hệ độ biến thiên nội năng với công và nhiệt lượng trao đổi."
+    },
+    {
+      "question_number": 17,
+      "question": "Chọn phát biểu ĐÚNG về quy ước dấu trong công thức ΔU = A + Q.",
+      "answer_options": [
+        {
+          "text": "Q > 0 khi hệ truyền nhiệt; A > 0 khi hệ thực hiện công.",
+          "rationale": "Cả hai đều sai. Q > 0 khi hệ nhận nhiệt; A > 0 khi hệ nhận công.",
+          "isCorrect": false
+        },
+        {
+          "text": "Q < 0 khi hệ nhận nhiệt; A < 0 khi hệ nhận công.",
+          "rationale": "Cả hai đều sai. Q < 0 khi hệ truyền nhiệt; A < 0 khi hệ thực hiện công.",
+          "isCorrect": false
+        },
+        {
+          "text": "Q > 0 khi hệ nhận nhiệt; A > 0 khi hệ nhận công.",
+          "rationale": "Đây là quy ước chuẩn. Những gì hệ 'nhận' vào (làm tăng nội năng) đều mang dấu dương.",
+          "isCorrect": true
+        },
+        {
+          "text": "Q < 0 khi hệ truyền nhiệt; A > 0 khi hệ thực hiện công.",
+          "rationale": "A > 0 khi hệ nhận công, không phải thực hiện công.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy nhớ quy ước: 'Nhận vào' mang dấu (+), 'Cho đi' (thực hiện, truyền ra) mang dấu (-)."
+    },
+    {
+      "question_number": 18,
+      "question": "Nội năng của khí lí tưởng phụ thuộc vào thông số nào?",
+      "answer_options": [
+        {
+          "text": "Chỉ phụ thuộc vào nhiệt độ.",
+          "rationale": "Đối với khí lí tưởng, ta bỏ qua thế năng tương tác. Nội năng chỉ còn là tổng động năng của các phân tử, mà động năng này chỉ phụ thuộc vào nhiệt độ.",
+          "isCorrect": true
+        },
+        {
+          "text": "Chỉ phụ thuộc vào thể tích.",
+          "rationale": "Nội năng khí lí tưởng không phụ thuộc thể tích vì ta coi như không có thế năng tương tác.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phụ thuộc vào cả nhiệt độ và thể tích.",
+          "rationale": "Đây là đặc điểm của khí thực (vật chất nói chung). Khí lí tưởng là trường hợp đặc biệt.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phụ thuộc vào cả nhiệt độ, thể tích và áp suất.",
+          "rationale": "Đối với khí lí tưởng, nội năng chỉ phụ thuộc vào nhiệt độ.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Khí lí tưởng là mô hình bỏ qua yếu tố nào trong định nghĩa nội năng?"
+    },
+    {
+      "question_number": 19,
+      "question": "Trường hợp nào sau đây nội năng của vật thay đổi chủ yếu do truyền nhiệt?",
+      "answer_options": [
+        {
+          "text": "Nén khí trong xilanh.",
+          "rationale": "Đây là thay đổi nội năng chủ yếu do thực hiện công (A > 0).",
+          "isCorrect": false
+        },
+        {
+          "text": "Thả một đồng xu vào cốc nước nóng.",
+          "rationale": "Đồng xu nóng lên do nhận nhiệt lượng từ nước nóng. Đây là quá trình truyền nhiệt.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cọ xát hai bàn tay vào nhau.",
+          "rationale": "Hai bàn tay nóng lên do công của lực ma sát. Đây là thực hiện công.",
+          "isCorrect": false
+        },
+        {
+          "text": "Một vật rơi từ trên cao xuống đất.",
+          "rationale": "Khi va chạm đất, nội năng tăng lên do công của lực cản (ma sát, lực cản của đất).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Phân biệt giữa 'truyền nhiệt' (do chênh lệch nhiệt độ) và 'thực hiện công' (do lực tác dụng và dịch chuyển)."
+    },
+    {
+      "question_number": 20,
+      "question": "Trường hợp nào sau đây nội năng của vật thay đổi chủ yếu do thực hiện công?",
+      "answer_options": [
+        {
+          "text": "Đun nước trong ấm.",
+          "rationale": "Nước nóng lên do nhận nhiệt từ bếp. Đây là truyền nhiệt.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phơi một vật ngoài nắng.",
+          "rationale": "Vật nóng lên do nhận nhiệt (bức xạ) từ Mặt Trời. Đây là truyền nhiệt.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nén khí trong một chiếc bơm xe đạp.",
+          "rationale": "Khi ta nén pittông, ta thực hiện công lên khối khí, làm khí nóng lên. Đây là thực hiện công (A > 0).",
+          "isCorrect": true
+        },
+        {
+          "text": "Thả vật vào lò nung.",
+          "rationale": "Vật nóng lên do nhận nhiệt từ lò nung. Đây là truyền nhiệt.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hành động nào liên quan đến việc dùng lực để làm vật nóng lên?"
+    },
+    {
+      "question_number": 21,
+      "question": "Một hệ nhận một công 50 J và toả ra một nhiệt lượng 20 J. Độ biến thiên nội năng của hệ là:",
+      "answer_options": [
+        {
+          "text": "ΔU = 70 J",
+          "rationale": "Hệ nhận công A = +50 J. Hệ toả nhiệt Q = -20 J. ΔU = A + Q = 50 + (-20) = 30 J.",
+          "isCorrect": false
+        },
+        {
+          "text": "ΔU = 30 J",
+          "rationale": "Hệ nhận công A = +50 J. Hệ toả nhiệt (truyền nhiệt) Q = -20 J. Áp dụng ΔU = A + Q, ta có ΔU = 50 + (-20) = 30 J.",
+          "isCorrect": true
+        },
+        {
+          "text": "ΔU = -30 J",
+          "rationale": "Sai dấu. A = +50 J, Q = -20 J. Tổng là +30 J.",
+          "isCorrect": false
+        },
+        {
+          "text": "ΔU = -70 J",
+          "rationale": "Bạn đã nhầm dấu của cả A và Q. A = +50 J, Q = -20 J.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Áp dụng ΔU = A + Q. 'Nhận công' A > 0. 'Toả nhiệt' Q < 0."
+    },
+    {
+      "question_number": 22,
+      "question": "Một khối khí có nội năng tăng 100 J khi nhận một nhiệt lượng 150 J. Công mà khối khí đã nhận (hoặc thực hiện) là bao nhiêu?",
+      "answer_options": [
+        {
+          "text": "Hệ nhận công 50 J.",
+          "rationale": "ΔU = +100 J. Hệ nhận nhiệt Q = +150 J. Ta có ΔU = A + Q. 100 = A + 150. Suy ra A = 100 - 150 = -50 J.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hệ thực hiện công 50 J.",
+          "rationale": "ΔU = +100 J (tăng). Hệ nhận nhiệt Q = +150 J. Áp dụng ΔU = A + Q. Ta có 100 = A + 150. Suy ra A = -50 J. Dấu âm (-) nghĩa là hệ thực hiện công 50 J.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hệ nhận công 250 J.",
+          "rationale": "Bạn đã tính A = ΔU + Q (100 + 150), nhưng công thức là A = ΔU - Q.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hệ thực hiện công 250 J.",
+          "rationale": "Bạn đã tính A = -(ΔU + Q), đây là phép tính sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Áp dụng ΔU = A + Q. 'Nội năng tăng' ΔU > 0. 'Nhận nhiệt' Q > 0. Giải phương trình tìm A và xét dấu của A."
+    },
+    {
+      "question_number": 23,
+      "question": "Một hệ thực hiện một công 80 J trong khi nội năng của hệ giảm 120 J. Nhiệt lượng mà hệ đã nhận (hoặc truyền) là:",
+      "answer_options": [
+        {
+          "text": "Hệ nhận nhiệt 40 J.",
+          "rationale": "ΔU = -120 J. Hệ thực hiện công A = -80 J. Ta có ΔU = A + Q. -120 = -80 + Q. Suy ra Q = -120 - (-80) = -40 J.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hệ truyền nhiệt 40 J.",
+          "rationale": "ΔU = -120 J (giảm). Hệ thực hiện công A = -80 J. Áp dụng ΔU = A + Q. Ta có -120 = -80 + Q. Suy ra Q = -120 + 80 = -40 J. Dấu âm (-) nghĩa là hệ truyền nhiệt (toả nhiệt) 40 J.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hệ nhận nhiệt 200 J.",
+          "rationale": "Bạn đã tính Q = ΔU - A (Q = -120 - (-80) = -40 J). Có thể bạn đã nhầm dấu A.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hệ truyền nhiệt 200 J.",
+          "rationale": "Bạn đã tính Q = -(ΔU + A) = -(-120 + (-80)) = 200 J, đây là phép tính sai.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Áp dụng ΔU = A + Q. 'Thực hiện công' A < 0. 'Nội năng giảm' ΔU < 0. Giải phương trình tìm Q và xét dấu của Q."
+    },
+    {
+      "question_number": 24,
+      "question": "Một vật 500g rơi từ độ cao 20m xuống đất. Lấy g = 10 m/s². Giả sử toàn bộ cơ năng của vật khi rơi chuyển thành nội năng của vật và đất. Độ biến thiên nội năng tổng cộng là:",
+      "answer_options": [
+        {
+          "text": "100 J",
+          "rationale": "Cơ năng ban đầu (thế năng) là Wt = m*g*h = 0.5 kg·10 m/s²·20 m = 100 J. Khi vật dừng lại (W_sau = 0), toàn bộ cơ năng này đã chuyển thành nội năng.",
+          "isCorrect": true
+        },
+        {
+          "text": "1000 J",
+          "rationale": "Bạn có thể đã quên đổi 500g sang 0.5 kg. (500·10·20 = 100000; 5·10·20 = 1000).",
+          "isCorrect": false
+        },
+        {
+          "text": "50 J",
+          "rationale": "Cơ năng ban đầu là Wt = m*g*h = 0.5·10·20 = 100 J.",
+          "isCorrect": false
+        },
+        {
+          "text": "200 J",
+          "rationale": "Cơ năng ban đầu là Wt = m*g*h = 0.5·10·20 = 100 J.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sử dụng định luật bảo toàn năng lượng. Toàn bộ cơ năng ban đầu (thế năng) đã biến thành nội năng."
+    },
+    {
+      "question_number": 25,
+      "question": "Nhiệt độ là đại lượng vật lý đặc trưng cho:",
+      "answer_options": [
+        {
+          "text": "Khối lượng của vật.",
+          "rationale": "Khối lượng đặc trưng cho mức quán tính và lượng vật chất, không phải mức độ nóng-lạnh.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tổng nội năng của vật.",
+          "rationale": "Nội năng phụ thuộc cả vào nhiệt độ, thể tích và khối lượng. Hai vật có thể cùng nhiệt độ nhưng nội năng khác xa nhau (ví dụ 1 cốc nước và 1 hồ nước).",
+          "isCorrect": false
+        },
+        {
+          "text": "Mức độ nóng hay lạnh của vật.",
+          "rationale": "Đây là định nghĩa trực quan và cơ bản nhất của nhiệt độ. Về mặt vi mô, nó liên quan đến động năng trung bình của các phân tử.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nhiệt lượng vật có thể trao đổi.",
+          "rationale": "Nhiệt lượng là năng lượng trao đổi, không phải đại lượng đặc trưng cho trạng thái của vật.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hàng ngày, bạn dùng nhiệt kế để đo cái gì?"
+    },
+    {
+      "question_number": 26,
+      "question": "Khi hai vật có nhiệt độ khác nhau tiếp xúc với nhau, nhiệt năng sẽ tự truyền từ vật có nhiệt độ cao hơn sang vật có nhiệt độ thấp hơn cho đến khi:",
+      "answer_options": [
+        {
+          "text": "Nội năng của hai vật bằng nhau.",
+          "rationale": "Nội năng phụ thuộc vào cả khối lượng và bản chất chất. Chúng có thể có nội năng khác nhau khi cân bằng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt độ của hai vật bằng nhau.",
+          "rationale": "Đây chính là trạng thái cân bằng nhiệt. Khi không còn chênh lệch nhiệt độ, sự truyền nhiệt ròng (net flow) sẽ dừng lại.",
+          "isCorrect": true
+        },
+        {
+          "text": "Vật lạnh hơn cạn kiệt.",
+          "rationale": "Quá trình truyền nhiệt không nhất thiết làm vật cạn kiệt.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vật nóng hơn nguội về 0 °C.",
+          "rationale": "Nhiệt độ cân bằng không nhất thiết phải là 0 °C.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Trạng thái cuối cùng của quá trình truyền nhiệt được gọi là gì?"
+    },
+    {
+      "question_number": 27,
+      "question": "Trong thang nhiệt °Celsius (°C), nhiệt độ của nước đá đang tan (ở áp suất chuẩn) được quy ước là:",
+      "answer_options": [
+        {
+          "text": "0 °C",
+          "rationale": "Đây là mốc 0 được chọn cho thang đo Celsius.",
+          "isCorrect": true
+        },
+        {
+          "text": "100 °C",
+          "rationale": "Đây là mốc nhiệt độ nước sôi trong thang Celsius.",
+          "isCorrect": false
+        },
+        {
+          "text": "273 °C",
+          "rationale": "Đây là giá trị không liên quan trực tiếp đến mốc 0 của thang Celsius.",
+          "isCorrect": false
+        },
+        {
+          "text": "32 °C",
+          "rationale": "Đây là mốc 0 °C nhưng tính theo thang Fahrenheit (32 độ F).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Thang Celsius còn gọi là thang bách phân."
+    },
+    {
+      "question_number": 28,
+      "question": "Trong thang nhiệt độ K (K), mốc 0 K (Độ không tuyệt đối) tương ứng với:",
+      "answer_options": [
+        {
+          "text": "Nhiệt độ nước đá đang tan.",
+          "rationale": "Nước đá tan ở 0 °C, tức là khoảng 273.15 K.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt độ thấp nhất mà các vật có thể đạt tới.",
+          "rationale": "0 K là giới hạn dưới của nhiệt độ, tại đó động năng chuyển động nhiệt của phân tử bằng 0.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nhiệt độ nước sôi.",
+          "rationale": "Nước sôi ở 100 °C, tức là khoảng 373.15 K.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt độ phòng (25 °C).",
+          "rationale": "25 °C tương ứng với 298.15 K.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tên gọi 'tuyệt đối' của thang đo này có ý nghĩa gì?"
+    },
+    {
+      "question_number": 29,
+      "question": "Chọn phát biểu ĐÚNG về nhiệt độ không tuyệt đối (0 K).",
+      "answer_options": [
+        {
+          "text": "0 K tương đương với 0 °C.",
+          "rationale": "0 K tương đương với -273.15 °C.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tại 0 K, các phân tử vật chất ngừng chuyển động nhiệt.",
+          "rationale": "Đây là ý nghĩa vật lý của nhiệt độ 0 K (độ không tuyệt đối).",
+          "isCorrect": true
+        },
+        {
+          "text": "0 K là nhiệt độ của nước đá đang tan.",
+          "rationale": "Nước đá tan ở 0 °C, tức là 273.15 K.",
+          "isCorrect": false
+        },
+        {
+          "text": "Không thể có nhiệt độ thấp hơn 0 °C.",
+          "rationale": "Có thể có nhiệt độ âm theo thang Celsius (ví dụ -10 °C). Không thể có nhiệt độ thấp hơn 0 K.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nhiệt độ là thước đo động năng chuyển động của phân tử."
+    },
+    {
+      "question_number": 30,
+      "question": "Nhiệt độ 500 K tương ứng với bao nhiêu °C? (Dùng công thức làm tròn t(C) = T(K) - 273)",
+      "answer_options": [
+        {
+          "text": "773 °C",
+          "rationale": "Bạn đã cộng 273 (500 + 273) thay vì trừ.",
+          "isCorrect": false
+        },
+        {
+          "text": "227 °C",
+          "rationale": "t(C) = T(K) - 273 = 500 - 273 = 227 °C.",
+          "isCorrect": true
+        },
+        {
+          "text": "500 °C",
+          "rationale": "Hai thang đo có mốc 0 khác nhau.",
+          "isCorrect": false
+        },
+        {
+          "text": "-227 °C",
+          "rationale": "Bạn đã lấy 273 - 500, thay vì 500 - 273.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sử dụng công thức chuyển đổi: t(C) = T(K) - 273."
+    },
+    {
+      "question_number": 31,
+      "question": "Nhiệt độ của cơ thể người là 37 °C. Giá trị này tương ứng với bao nhiêu K? (Dùng công thức làm tròn T(K) = t(C) + 273)",
+      "answer_options": [
+        {
+          "text": "310 K",
+          "rationale": "T(K) = t(C) + 273 = 37 + 273 = 310 K.",
+          "isCorrect": true
+        },
+        {
+          "text": "236 K",
+          "rationale": "Bạn đã trừ 273 (37 - 273) thay vì cộng.",
+          "isCorrect": false
+        },
+        {
+          "text": "37 K",
+          "rationale": "Hai thang đo có mốc 0 khác nhau.",
+          "isCorrect": false
+        },
+        {
+          "text": "-236 K",
+          "rationale": "Bạn đã lấy 37 - 273. Nhiệt độ K không bao giờ âm.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sử dụng công thức chuyển đổi: T(K) = t(C) + 273."
+    },
+    {
+      "question_number": 32,
+      "question": "Một vật nóng lên thêm 50 °C. Độ tăng nhiệt độ này trong thang K là bao nhiêu?",
+      "answer_options": [
+        {
+          "text": "50 K",
+          "rationale": "Độ lớn của 1 °C bằng độ lớn của 1 K. Do đó, độ tăng 50 °C tương ứng với độ tăng 50 K.",
+          "isCorrect": true
+        },
+        {
+          "text": "323 K",
+          "rationale": "Đây là giá trị nhiệt độ (50 + 273), không phải là độ tăng nhiệt độ (ΔT).",
+          "isCorrect": false
+        },
+        {
+          "text": "223 K",
+          "rationale": "Bạn đã lấy 273 - 50, đây là phép tính sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "273 K",
+          "rationale": "Đây là hằng số chuyển đổi, không phải độ tăng nhiệt độ.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Câu hỏi này là một dạng bẫy phổ biến. Hãy phân biệt 'giá trị nhiệt độ' và 'độ biến thiên nhiệt độ'."
+    },
+    {
+      "question_number": 33,
+      "question": "Nhiệt kế (như nhiệt kế rượu, nhiệt kế thuỷ ngân) hoạt động dựa trên nguyên tắc vật lý nào?",
+      "answer_options": [
+        {
+          "text": "Hiện tượng dãn nở vì nhiệt của vật chất.",
+          "rationale": "Khi nhiệt độ thay đổi, chất lỏng (rượu, thuỷ ngân) hoặc kim loại sẽ dãn ra hoặc co lại, dựa vào đó người ta chế tạo nhiệt kế.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hiện tượng thay đổi điện trở theo nhiệt độ.",
+          "rationale": "Đây là nguyên tắc của nhiệt kế điện trở, không phải nhiệt kế chất lỏng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hiện tượng nóng chảy và đông đặc.",
+          "rationale": "Nhiệt kế không dựa trên sự chuyển thể để đo.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hiện tượng truyền nhiệt.",
+          "rationale": "Truyền nhiệt là cách để nhiệt kế đạt cân bằng nhiệt với vật, nhưng nguyên tắc đo là sự dãn nở.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Điều gì xảy ra với cột thuỷ ngân khi bạn kẹp nhiệt kế?"
+    },
+    {
+      "question_number": 34,
+      "question": "Chọn phát biểu SAI.",
+      "answer_options": [
+        {
+          "text": "Nội năng của vật phụ thuộc vào nhiệt độ.",
+          "rationale": "Đúng, nhiệt độ tăng thì động năng phân tử tăng, làm nội năng tăng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt độ của vật là số đo nội năng của vật đó.",
+          "rationale": "Sai. Nhiệt độ liên quan đến động năng trung bình của phân tử. Nội năng là tổng động năng và thế năng, phụ thuộc cả vào số lượng phân tử (khối lượng) và thể tích.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nội năng là một dạng năng lượng, có đơn vị là Joule.",
+          "rationale": "Đúng, nội năng là năng lượng vi mô của hệ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt độ là đại lượng đặc trưng cho mức độ nóng-lạnh, có đơn vị là K hoặc °C.",
+          "rationale": "Đúng, đây là định nghĩa và đơn vị của nhiệt độ.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "So sánh một cốc nước nóng (nhiệt độ cao, nội năng nhỏ) với một hồ nước mát (nhiệt độ thấp, nội năng rất lớn)."
+    },
+    {
+      "question_number": 35,
+      "question": "Nhiệt dung riêng của một chất là:",
+      "answer_options": [
+        {
+          "text": "Nhiệt lượng vật thu vào để tăng nhiệt độ thêm 1 °C.",
+          "rationale": "Đây là định nghĩa của 'nhiệt dung' (C = m*c), không phải 'nhiệt dung riêng'.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt lượng 1 kg chất đó thu vào để tăng nhiệt độ thêm 1 °C (hoặc 1 K).",
+          "rationale": "Đây là định nghĩa chính xác của nhiệt dung riêng (c).",
+          "isCorrect": true
+        },
+        {
+          "text": "Nhiệt lượng 1 kg chất đó thu vào để nóng chảy hoàn toàn.",
+          "rationale": "Đây là nhiệt nóng chảy riêng (λ).",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt lượng 1 kg chất đó thu vào để hoá hơi hoàn toàn.",
+          "rationale": "Đây là nhiệt hoá hơi riêng (L).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Từ 'riêng' trong vật lý thường có nghĩa là 'tính cho một đơn vị khối lượng (1 kg)'."
+    },
+    {
+      "question_number": 36,
+      "question": "Đơn vị của nhiệt dung riêng trong hệ SI là:",
+      "answer_options": [
+        {
+          "text": "J/(kg·K)",
+          "rationale": "Từ công thức c = Q/(m·ΔT), đơn vị là J/(kg·K).",
+          "isCorrect": true
+        },
+        {
+          "text": "J/kg",
+          "rationale": "Đây là đơn vị của nhiệt nóng chảy riêng (λ) hoặc nhiệt hoá hơi riêng (L).",
+          "isCorrect": false
+        },
+        {
+          "text": "J/K",
+          "rationale": "Đây là đơn vị của nhiệt dung (C = m*c).",
+          "isCorrect": false
+        },
+        {
+          "text": "J.K/kg",
+          "rationale": "Sai trật tự phép toán. Phải là J chia cho (kg·K).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Hãy suy ra đơn vị từ công thức Q = m·c·ΔT."
+    },
+    {
+      "question_number": 37,
+      "question": "Công thức tính nhiệt lượng Q mà vật thu vào để tăng nhiệt độ từ t₁ lên t₂ là:",
+      "answer_options": [
+        {
+          "text": "Q = m·c",
+          "rationale": "Thiếu độ tăng nhiệt độ (ΔT).",
+          "isCorrect": false
+        },
+        {
+          "text": "Q = m·c·(t₁ - t₂)",
+          "rationale": "Nếu t₂ > t₁ (thu nhiệt) thì (t₁ - t₂) sẽ âm, dẫn đến Q âm, mâu thuẫn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Q = m·c·(t₂ - t₁)",
+          "rationale": "Công thức này đúng, Q = m·c·ΔT, với ΔT = nhiệt độ sau - nhiệt độ trước.",
+          "isCorrect": true
+        },
+        {
+          "text": "Q = c·(t₂ - t₁)",
+          "rationale": "Thiếu khối lượng (m) của vật.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nhiệt lượng thu vào phụ thuộc vào 3 yếu tố: khối lượng, bản chất chất, và độ tăng nhiệt độ."
+    },
+    {
+      "question_number": 38,
+      "question": "Nói rằng nhiệt dung riêng của nước là 4200 J/(kg·K) có nghĩa là:",
+      "answer_options": [
+        {
+          "text": "Cần 4200 J để làm 1 kg nước nóng lên thêm 1 K.",
+          "rationale": "Đây là ý nghĩa chính xác của nhiệt dung riêng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cần 4200 J để làm 1 kg nước bay hơi.",
+          "rationale": "Đây là khái niệm liên quan đến nhiệt hoá hơi riêng (L), không phải nhiệt dung riêng (c).",
+          "isCorrect": false
+        },
+        {
+          "text": "Cần 4200 J để làm 4200 kg nước nóng lên thêm 1 K.",
+          "rationale": "Nhiệt dung riêng tính cho 1 kg, không phải 4200 kg.",
+          "isCorrect": false
+        },
+        {
+          "text": "1 kg nước luôn chứa 4200 J năng lượng.",
+          "rationale": "Đây là phát biểu sai. Nó liên quan đến nhiệt lượng cần để *thay đổi* nhiệt độ, không phải năng lượng *chứa* bên trong.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Phân tích ý nghĩa của từng đơn vị trong 'J/(kg·K)'."
+    },
+    {
+      "question_number": 39,
+      "question": "Hiện tượng gió biển (ban ngày gió thổi từ biển vào đất liền) xảy ra do:",
+      "answer_options": [
+        {
+          "text": "Nhiệt dung riêng của đất lớn hơn nước, nên đất nóng lên chậm hơn.",
+          "rationale": "Sai, nhiệt dung riêng của đất (khoảng 800) nhỏ hơn nước (khoảng 4200).",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt dung riêng của đất nhỏ hơn nước, nên đất nóng lên nhanh hơn.",
+          "rationale": "Đất (c nhỏ) nóng nhanh, không khí trên đất nóng bay lên, không khí mát từ biển (c lớn, nóng chậm) tràn vào.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nước bay hơi mạnh hơn đất liền.",
+          "rationale": "Sự bay hơi có ảnh hưởng (làm mát nước) nhưng nguyên nhân chính là sự chênh lệch tốc độ nóng lên do nhiệt dung riêng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sóng biển đẩy không khí vào đất liền.",
+          "rationale": "Sóng biển là chuyển động cơ học của nước, không phải nguyên nhân gây ra gió quy mô lớn.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Chất nào có nhiệt dung riêng nhỏ hơn thì sẽ nóng lên nhanh hơn và nguội đi nhanh hơn."
+    },
+    {
+      "question_number": 40,
+      "question": "Chọn phát biểu SAI.",
+      "answer_options": [
+        {
+          "text": "Nhiệt dung riêng (c) là đại lượng đặc trưng cho chất làm vật.",
+          "rationale": "Đúng, mỗi chất (nước, đồng, nhôm) có nhiệt dung riêng khác nhau.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt dung (C) là đại lượng đặc trưng cho vật, bằng C = m·c.",
+          "rationale": "Đúng, nhiệt dung là nhiệt lượng cần để làm cả vật nóng lên 1 K, phụ thuộc cả khối lượng m và chất c.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt dung riêng và nhiệt dung có cùng đơn vị.",
+          "rationale": "Sai. Đơn vị của nhiệt dung riêng (c) là J/(kg·K). Đơn vị của nhiệt dung (C) là J/K.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hai vật làm từ cùng một chất, vật nào có khối lượng lớn hơn thì có nhiệt dung lớn hơn.",
+          "rationale": "Đúng, vì C = m·c, nếu c không đổi, m tăng thì C tăng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Phân biệt 'nhiệt dung' (cho cả vật) và 'nhiệt dung riêng' (cho 1 kg chất)."
+    },
+    {
+      "question_number": 41,
+      "question": "Tính nhiệt lượng cần cung cấp để làm 500g nước tăng từ 20 °C lên 30 °C. Biết c (nước) = 4200 J/(kg·K).",
+      "answer_options": [
+        {
+          "text": "21000 J",
+          "rationale": "Q = m·c·ΔT = 0.5 kg·4200 J/(kg·K)·(30 - 20) K = 0.5·4200·10 = 21000 J.",
+          "isCorrect": true
+        },
+        {
+          "text": "2100 J",
+          "rationale": "Sai số 10 lần. Phép tính là 0.5·4200·10.",
+          "isCorrect": false
+        },
+        {
+          "text": "42000 J",
+          "rationale": "Bạn đã tính cho m = 1 kg (1·4200·10) thay vì m = 0.5 kg.",
+          "isCorrect": false
+        },
+        {
+          "text": "210 J",
+          "rationale": "Bạn đã nhầm lẫn khi tính (ví dụ: 0.5·420·10).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sử dụng Q = m·c·ΔT. Chú ý đổi 500g sang kg."
+    },
+    {
+      "question_number": 42,
+      "question": "Một vật thu nhiệt lượng 8400 J để tăng nhiệt độ thêm 20 K. Biết nhiệt dung riêng của vật là 420 J/(kg·K). Khối lượng của vật là:",
+      "answer_options": [
+        {
+          "text": "1 kg",
+          "rationale": "Từ Q = m·c·ΔT, suy ra m = Q/(c·ΔT) = 8400/(420·20) = 8400/8400 = 1 kg.",
+          "isCorrect": true
+        },
+        {
+          "text": "2 kg",
+          "rationale": "m = 8400/(420·20) = 1 kg.",
+          "isCorrect": false
+        },
+        {
+          "text": "10 kg",
+          "rationale": "m = 8400/(420·20) = 1 kg.",
+          "isCorrect": false
+        },
+        {
+          "text": "0.1 kg",
+          "rationale": "m = 8400/(420·20) = 1 kg.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sử dụng công thức Q = m·c·ΔT và giải để tìm m."
+    },
+    {
+      "question_number": 43,
+      "question": "Cung cấp nhiệt lượng 176 kJ cho 2 kg đồng. Biết nhiệt độ ban đầu của đồng là 20 °C và c (đồng) = 380 J/(kg·K). Nhiệt độ cuối cùng của đồng là:",
+      "answer_options": [
+        {
+          "text": "232.6 °C",
+          "rationale": "Q = m·c·ΔT = 176000 J. ΔT = Q/(m·c) = 176000/(2·380) = 176000/760 = 231.58 K. t_sau = t_đầu + ΔT = 20 + 231.58 = 251.58 °C.",
+          "isCorrect": false
+        },
+        {
+          "text": "251.6 °C",
+          "rationale": "Q = 176000 J. Ta có ΔT = Q/(m·c) = 176000/(2·380) = 176000/760 = 231.58 K. t_sau = t_đầu + ΔT = 20 + 231.58 = 251.58 °C. (Làm tròn là 251.6)",
+          "isCorrect": true
+        },
+        {
+          "text": "231.6 °C",
+          "rationale": "Đây là độ tăng nhiệt độ (ΔT), không phải nhiệt độ cuối cùng (t_sau = t_đầu + ΔT).",
+          "isCorrect": false
+        },
+        {
+          "text": "115.8 °C",
+          "rationale": "Bạn có thể đã tính ΔT = 176000/(1·380) (nhầm m=1kg) hoặc 176000/(2·380·2).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tính ΔT từ Q = m*c*ΔT. Sau đó, tìm t_cuối = t_đầu + ΔT. Chú ý đổi kJ sang J."
+    },
+    {
+      "question_number": 44,
+      "question": "Thả một thỏi nhôm 1kg ở 80 °C vào 1kg nước ở 20 °C. Nhiệt độ cân bằng của hệ là (bỏ qua trao đổi nhiệt với môi trường)? Biết c (nhôm) = 880 J/(kg·K), c (nước) = 4200 J/(kg·K).",
+      "answer_options": [
+        {
+          "text": "50 °C",
+          "rationale": "Q_tỏa = m₁*c₁*(t₁-t_cb) = 1*880*(80-t_cb). Q_thu = m₂*c₂*(t_cb-t₂) = 1*4200*(t_cb-20). 880*(80-t_cb) = 4200*(t_cb-20) → 70400 - 880*t_cb = 4200*t_cb - 84000 → 154400 = 5080*t_cb → t_cb = 30.4 °C.",
+          "isCorrect": false
+        },
+        {
+          "text": "30.4 °C",
+          "rationale": "Áp dụng phương trình cân bằng nhiệt: Q_tỏa_ra = Q_thu_vào. 1·880·(80 - t_cb) = 1·4200·(t_cb - 20). 70400 - 880*t_cb = 4200*t_cb - 84000. 154400 = 5080*t_cb. t_cb = 154400/5080 = 30.39... °C.",
+          "isCorrect": true
+        },
+        {
+          "text": "60 °C",
+          "rationale": "Đây là trung bình cộng nhiệt độ (80+20)/2. Cách tính này chỉ đúng khi nhiệt dung (m*c) của hai vật bằng nhau, nhưng ở đây 880 khác 4200.",
+          "isCorrect": false
+        },
+        {
+          "text": "25.5 °C",
+          "rationale": "Tính toán sai. Q_tỏa = Q_thu. 880*(80-t_cb) = 4200*(t_cb-20).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Áp dụng phương trình cân bằng nhiệt: Q_tỏa = Q_thu. m₁*c₁*(t₁ - t_cb) = m₂*c₂*(t_cb - t₂)."
+    },
+    {
+      "question_number": 45,
+      "question": "Một ấm điện có công suất 1500 W, hiệu suất 90%, dùng để đun nước. Thời gian để đun 2 lít nước từ 25 °C đến 100 °C là bao nhiêu giây? (c_nước = 4200 J/(kg·K), D_nước = 1 kg/lít)",
+      "answer_options": [
+        {
+          "text": "466.7 giây",
+          "rationale": "Q_thu = m*c*ΔT = 2·4200·(100-25) = 630000 J. P_ích = P·H = 1500·0.9 = 1350 W. t = Q_thu/P_ích = 630000/1350 = 466.67 giây.",
+          "isCorrect": true
+        },
+        {
+          "text": "420.0 giây",
+          "rationale": "Đây là thời gian nếu hiệu suất là 100% (t = 630000/1500 = 420 s).",
+          "isCorrect": false
+        },
+        {
+          "text": "518.5 giây",
+          "rationale": "Bạn đã chia cho hiệu suất (t = 420/0.9) thay vì nhân (P_ích = P·H).",
+          "isCorrect": false
+        },
+        {
+          "text": "378.0 giây",
+          "rationale": "Bạn đã nhân thời gian với hiệu suất (420·0.9) thay vì chia (P_ích = P·H).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nhiệt lượng nước cần thu là Q_thu. Công suất thực tế mà nước nhận được là P_ích = P_ấm·Hiệu suất. Thời gian t = Q_thu/P_ích."
+    },
+    {
+      "question_number": 46,
+      "question": "Trong thí nghiệm đo nhiệt dung riêng của nước (Bài 4), dụng cụ nào dùng để đo khối lượng nước?",
+      "answer_options": [
+        {
+          "text": "Nhiệt kế (3)",
+          "rationale": "Nhiệt kế dùng để đo nhiệt độ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Oát kế (2)",
+          "rationale": "Oát kế dùng để đo công suất điện.",
+          "isCorrect": false
+        },
+        {
+          "text": "Biến thế nguồn (1)",
+          "rationale": "Biến thế nguồn dùng để cung cấp điện.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cân điện tử (5)",
+          "rationale": "Cân điện tử (hoặc bình đong) được sử dụng để xác định khối lượng (m) của nước.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Xem lại Hình 4.1 trong SGK và chức năng của từng dụng cụ."
+    },
+    {
+      "question_number": 47,
+      "question": "Nhiệt nóng chảy riêng của một chất là:",
+      "answer_options": [
+        {
+          "text": "Nhiệt lượng cần để 1 kg chất đó tăng nhiệt độ 1 K.",
+          "rationale": "Đây là định nghĩa nhiệt dung riêng (c).",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt lượng cần để 1 kg chất rắn nóng chảy hoàn toàn ở nhiệt độ nóng chảy.",
+          "rationale": "Đây là định nghĩa chính xác của nhiệt nóng chảy riêng (λ).",
+          "isCorrect": true
+        },
+        {
+          "text": "Nhiệt độ mà tại đó chất rắn bắt đầu nóng chảy.",
+          "rationale": "Đây là nhiệt độ nóng chảy, không phải nhiệt nóng chảy riêng (năng lượng).",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt lượng cần để 1 kg chất lỏng hoá hơi.",
+          "rationale": "Đây là nhiệt hoá hơi riêng (L).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nhiệt 'nóng chảy' riêng liên quan đến quá trình chuyển thể rắn sang lỏng."
+    },
+    {
+      "question_number": 48,
+      "question": "Đơn vị của nhiệt nóng chảy riêng (λ) là:",
+      "answer_options": [
+        {
+          "text": "J/(kg·K)",
+          "rationale": "Đây là đơn vị của nhiệt dung riêng (c).",
+          "isCorrect": false
+        },
+        {
+          "text": "J/kg",
+          "rationale": "Từ công thức Q = λ·m, suy ra λ = Q/m, đơn vị là J/kg.",
+          "isCorrect": true
+        },
+        {
+          "text": "J.kg",
+          "rationale": "Sai phép toán, phải là J chia cho kg.",
+          "isCorrect": false
+        },
+        {
+          "text": "J/s",
+          "rationale": "J/s là đơn vị của công suất (Watt).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sử dụng công thức Q = λ·m để suy ra đơn vị."
+    },
+    {
+      "question_number": 49,
+      "question": "Công thức tính nhiệt lượng Q cần cung cấp để làm nóng chảy hoàn toàn m kg chất rắn ở nhiệt độ nóng chảy là:",
+      "answer_options": [
+        {
+          "text": "Q = m·c·ΔT",
+          "rationale": "Công thức này dùng khi nhiệt độ thay đổi, không dùng khi chuyển thể.",
+          "isCorrect": false
+        },
+        {
+          "text": "Q = m·L",
+          "rationale": "L là nhiệt hoá hơi riêng (lỏng sang khí), không phải nóng chảy (rắn sang lỏng).",
+          "isCorrect": false
+        },
+        {
+          "text": "Q = m·λ",
+          "rationale": "Đây là công thức chính xác, λ là nhiệt nóng chảy riêng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Q = L/m",
+          "rationale": "Sai công thức.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nhiệt lượng cho quá trình nóng chảy (rắn → lỏng) được ký hiệu là λ."
+    },
+    {
+      "question_number": 50,
+      "question": "Chọn phát biểu SAI về quá trình nóng chảy của chất rắn kết tinh.",
+      "answer_options": [
+        {
+          "text": "Quá trình nóng chảy xảy ra ở một nhiệt độ xác định gọi là nhiệt độ nóng chảy.",
+          "rationale": "Đúng, chất rắn kết tinh (như nước đá, kim loại) có nhiệt độ nóng chảy xác định.",
+          "isCorrect": false
+        },
+        {
+          "text": "Trong suốt quá trình nóng chảy, nhiệt độ của vật không thay đổi.",
+          "rationale": "Đúng, năng lượng vật thu vào dùng để phá vỡ cấu trúc tinh thể, không làm tăng nhiệt độ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Trong suốt quá trình nóng chảy, nội năng của vật không thay đổi vì nhiệt độ không đổi.",
+          "rationale": "Sai. Mặc dù nhiệt độ không đổi (động năng không đổi), vật vẫn thu nhiệt (Q > 0) để phá vỡ liên kết (tăng thế năng), do đó tổng nội năng (ΔU = Q) vẫn tăng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nhiệt lượng cần cung cấp cho quá trình này gọi là nhiệt nóng chảy, Q = λ·m.",
+          "rationale": "Đúng, đây là công thức tính nhiệt nóng chảy.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nội năng bao gồm cả động năng (phụ thuộc nhiệt độ) và thế năng (phụ thuộc liên kết). Khi nóng chảy, yếu tố nào thay đổi?"
+    },
+    {
+      "question_number": 51,
+      "question": "Đồ thị (Hình 5.1 SGK) mô tả thí nghiệm đo nhiệt nóng chảy của nước đá. Trong giai đoạn đầu, nhiệt độ giữ ở 0 °C, điều này chứng tỏ:",
+      "answer_options": [
+        {
+          "text": "Nhiệt lượng kế bị hỏng.",
+          "rationale": "Nhiệt độ 0 °C là nhiệt độ nóng chảy của nước đá.",
+          "isCorrect": false
+        },
+        {
+          "text": "Năng lượng điện cung cấp (Q = P*t) đang được dùng để làm tan nước đá.",
+          "rationale": "Trong suốt quá trình nóng chảy, nhiệt độ của hệ (nước + đá) giữ ở 0 °C. Năng lượng cung cấp dùng để chuyển thể (tan đá), không tăng nhiệt độ.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nước đá đang tăng nhiệt độ từ âm lên 0 °C.",
+          "rationale": "Nếu vậy thì đồ thị phải dốc lên (nhiệt độ tăng), chứ không nằm ngang.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nguồn điện chưa được bật.",
+          "rationale": "Nếu nguồn chưa bật, công suất P=0, thời gian trôi qua nhưng không có gì xảy ra. Đồ thị cho thấy sau điểm M thì nhiệt độ tăng, chứng tỏ nguồn có bật.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Điều gì xảy ra với nhiệt độ của một khối nước đá đang tan?"
+    },
+    {
+      "question_number": 52,
+      "question": "Trong quá trình nóng chảy của một chất rắn, nội năng của chất:",
+      "answer_options": [
+        {
+          "text": "Tăng.",
+          "rationale": "Chất rắn phải thu nhiệt (Q > 0) để nóng chảy. Theo Định luật I NĐLH (ΔU = A + Q, với A xấp xỉ 0), nội năng của vật tăng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Giảm.",
+          "rationale": "Nóng chảy là quá trình thu nhiệt, làm tăng nội năng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Không đổi.",
+          "rationale": "Mặc dù nhiệt độ không đổi (động năng không đổi) nhưng thế năng tương tác tăng, do đó tổng nội năng tăng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bằng không.",
+          "rationale": "Nội năng của vật không thể bằng không.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Để nóng chảy, vật phải thu nhiệt hay toả nhiệt? Điều này ảnh hưởng thế nào đến ΔU?"
+    },
+    {
+      "question_number": 53,
+      "question": "Tính nhiệt lượng cần cung cấp để làm nóng chảy hoàn toàn 200g nước đá ở 0 °C. Biết λ (nước đá) = 3.34·10⁵ J/kg.",
+      "answer_options": [
+        {
+          "text": "66800 J",
+          "rationale": "Q = λ·m = (3.34·10⁵ J/kg)·0.2 kg = 0.668·10⁵ J = 66800 J.",
+          "isCorrect": true
+        },
+        {
+          "text": "668 J",
+          "rationale": "Bạn đã quên nhân với 10⁵ hoặc sai đơn vị. Phép tính là 0.2·3.34·10⁵.",
+          "isCorrect": false
+        },
+        {
+          "text": "334000 J",
+          "rationale": "Đây là nhiệt lượng cho 1 kg, không phải 0.2 kg (200g).",
+          "isCorrect": false
+        },
+        {
+          "text": "1670 J",
+          "rationale": "Bạn đã chia 3.34·10⁵ cho 200, thay vì nhân với 0.2.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sử dụng Q = λ·m. Chú ý đổi 200g sang kg."
+    },
+    {
+      "question_number": 54,
+      "question": "Cần một nhiệt lượng 9750 J để làm nóng chảy hoàn toàn một thỏi đồng ở nhiệt độ nóng chảy. Biết nhiệt nóng chảy riêng của đồng là 1.8·10⁵ J/kg. Khối lượng thỏi đồng là:",
+      "answer_options": [
+        {
+          "text": "54 g",
+          "rationale": "Từ Q = λ·m, suy ra m = Q/λ = 9750/(1.8·10⁵) = 0.05416 kg = 54.16 g.",
+          "isCorrect": true
+        },
+        {
+          "text": "5.4 g",
+          "rationale": "Sai số 10 lần. m = 9750/180000 = 0.054 kg.",
+          "isCorrect": false
+        },
+        {
+          "text": "18.4 g",
+          "rationale": "Bạn đã chia 1.8·10⁵ cho 9750, thay vì ngược lại.",
+          "isCorrect": false
+        },
+        {
+          "text": "1.755·10⁹ g",
+          "rationale": "Bạn đã nhân Q với λ, thay vì chia.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sử dụng Q = λ·m và giải để tìm m. Chú ý đơn vị g (gram)."
+    },
+    {
+      "question_number": 55,
+      "question": "Một lò nung điện có công suất 500 W. Giả sử toàn bộ nhiệt lượng dùng để làm nóng chảy chì. Thời gian để làm nóng chảy hoàn toàn 100g chì ở nhiệt độ nóng chảy là bao nhiêu giây? Biết λ (chì) = 0.25·10⁵ J/kg.",
+      "answer_options": [
+        {
+          "text": "5 s",
+          "rationale": "Nhiệt lượng cần: Q = λ·m = (0.25·10⁵)·0.1 kg = 2500 J. Nhiệt lượng lò cung cấp: Q = P·t. Vậy t = Q/P = 2500 J/500 W = 5 s.",
+          "isCorrect": true
+        },
+        {
+          "text": "50 s",
+          "rationale": "Bạn có thể đã tính cho m = 1 kg (Q = 25000 J). Q_cần = 0.1·25000 = 2500 J.",
+          "isCorrect": false
+        },
+        {
+          "text": "0.5 s",
+          "rationale": "t = Q/P = (0.1·25000)/500 = 2500/500 = 5 s.",
+          "isCorrect": false
+        },
+        {
+          "text": "2 s",
+          "rationale": "t = Q/P = 2500/500 = 5 s.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tính nhiệt lượng Q cần (Q = λ*m). Sau đó dùng công thức Q = P·t (công suất·thời gian) để tìm t."
+    },
+    {
+      "question_number": 56,
+      "question": "Tính tổng nhiệt lượng cần cung cấp để làm 2 kg nước đá ở -5 °C chuyển hoàn toàn thành nước ở 0 °C. Biết c (nước đá) = 2100 J/(kg·K) và λ (nước đá) = 3.34·10⁵ J/kg.",
+      "answer_options": [
+        {
+          "text": "668000 J",
+          "rationale": "Đây chỉ là nhiệt lượng nóng chảy (Q2 = 2·3.34e5).",
+          "isCorrect": false
+        },
+        {
+          "text": "21000 J",
+          "rationale": "Đây chỉ là nhiệt lượng tăng nhiệt độ (Q1 = 2·2100·(0 - (-5))).",
+          "isCorrect": false
+        },
+        {
+          "text": "689000 J",
+          "rationale": "Q1 (tăng nhiệt) = m*c_đá*ΔT = 2·2100·(0 - (-5)) = 21000 J. Q2 (nóng chảy) = m·λ = 2·3.34·10⁵ = 668000 J. Q_total = Q1 + Q2 = 21000 + 668000 = 689000 J.",
+          "isCorrect": true
+        },
+        {
+          "text": "647000 J",
+          "rationale": "Bạn đã trừ Q1 khỏi Q2 (668000 - 21000) thay vì cộng chúng lại.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Bài toán gồm 2 giai đoạn: (1) Tăng nhiệt độ đá từ -5 lên 0. (2) Làm tan đá ở 0. Tính Q1 và Q2 rồi cộng lại."
+    },
+    {
+      "question_number": 57,
+      "question": "Người ta thả 100g nước đá ở 0 °C vào 400g nước ở 30 °C. Tính nhiệt độ cân bằng của hệ. Bỏ qua trao đổi nhiệt với môi trường. (lambda_đá = 3.34e5 J/kg, c_nước = 4200 J/(kg·K))",
+      "answer_options": [
+        {
+          "text": "0 °C",
+          "rationale": "Nhiệt lượng nước toả ra tối đa (nếu nguội về 0): Q_tỏa = 0.4*4200*(30-0) = 50400 J. Nhiệt lượng đá cần thu để tan hết: Q_thu = 0.1·3.34e5 = 33400 J. Vì Q_tỏa > Q_thu, nên đá tan hết và hệ sẽ có nhiệt độ t_cb > 0.",
+          "isCorrect": false
+        },
+        {
+          "text": "9.9 °C",
+          "rationale": "Q_tỏa = Q_thu_tan + Q_thu_tăng_nhiệt. 0.4·4200·(30 - t_cb) = (0.1·3.34e5) + (0.1·4200·(t_cb - 0)). 50400 - 1680*t_cb = 33400 + 420*t_cb. 17000 = 2100*t_cb. t_cb = 17000/2100 = 8.1 °C.",
+          "isCorrect": false
+        },
+        {
+          "text": "8.1 °C",
+          "rationale": "Nhiệt lượng nước nóng toả ra: Q_tỏa = 0.4·4200·(30 - t_cb). Nhiệt lượng nước đá thu vào (gồm 2 giai đoạn): Q_thu = (0.1·3.34e5) + (0.1·4200·(t_cb - 0)). Cho Q_tỏa = Q_thu: 1680*(30 - t_cb) = 33400 + 420*t_cb. 50400 - 1680*t_cb = 33400 + 420*t_cb. 17000 = 2100*t_cb. t_cb = 8.095... °C.",
+          "isCorrect": true
+        },
+        {
+          "text": "12.5 °C",
+          "rationale": "Bạn có thể đã quên tính nhiệt lượng tan chảy của đá (Q = λ*m).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Kiểm tra xem nước có đủ nhiệt để làm tan hết đá không. Nếu đủ (Q_tỏa > Q_tan), thì áp dụng Q_tỏa = Q_tan + Q_thu_nước."
+    },
+    {
+      "question_number": 58,
+      "question": "Công nghệ đúc đồng (rót đồng lỏng vào khuôn) vận dụng những quá trình chuyển thể nào?",
+      "answer_options": [
+        {
+          "text": "Hoá hơi và Ngưng tụ.",
+          "rationale": "Đúc đồng liên quan đến trạng thái rắn và lỏng, không phải khí.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nóng chảy và Đông đặc.",
+          "rationale": "Đầu tiên, đồng rắn được nung (nóng chảy) thành lỏng. Sau đó, đồng lỏng được rót vào khuôn và nguội đi (đông đặc) thành rắn.",
+          "isCorrect": true
+        },
+        {
+          "text": "Thăng hoa và Ngưng kết.",
+          "rationale": "Đây là quá trình rắn <→ khí, không phải đúc đồng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chỉ nóng chảy.",
+          "rationale": "Quá trình đúc cần cả việc làm đồng lỏng (nóng chảy) và làm đồng nguội lại (đông đặc).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Để đúc, đầu tiên ta cần làm kim loại thành dạng lỏng, sau đó làm nó cứng lại theo hình dạng mong muốn."
+    },
+    {
+      "question_number": 59,
+      "question": "Nhiệt hoá hơi riêng của một chất là:",
+      "answer_options": [
+        {
+          "text": "Nhiệt lượng cần để 1 kg chất lỏng sôi hoàn toàn ở nhiệt độ sôi.",
+          "rationale": "Đây là định nghĩa chính xác của nhiệt hoá hơi riêng (L).",
+          "isCorrect": true
+        },
+        {
+          "text": "Nhiệt lượng cần để 1 kg chất rắn hoá hơi.",
+          "rationale": "Quá trình rắn sang khí là thăng hoa, không phải hoá hơi.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt độ mà tại đó chất lỏng bắt đầu sôi.",
+          "rationale": "Đây là nhiệt độ sôi, không phải nhiệt (năng lượng) hoá hơi riêng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt lượng cần để 1 kg chất lỏng bay hơi ở nhiệt độ bất kỳ.",
+          "rationale": "Định nghĩa chuẩn của L thường được lấy ở nhiệt độ sôi (hoặc một nhiệt độ xác định), vì L có phụ thuộc vào nhiệt độ.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nhiệt 'hoá hơi' riêng liên quan đến quá trình chuyển thể lỏng sang khí."
+    },
+    {
+      "question_number": 60,
+      "question": "Đơn vị của nhiệt hoá hơi riêng (L) là:",
+      "answer_options": [
+        {
+          "text": "J/(kg·K)",
+          "rationale": "Đây là đơn vị của nhiệt dung riêng (c).",
+          "isCorrect": false
+        },
+        {
+          "text": "J/s",
+          "rationale": "Đây là đơn vị của công suất (Watt).",
+          "isCorrect": false
+        },
+        {
+          "text": "J/K",
+          "rationale": "Đây là đơn vị của nhiệt dung (C).",
+          "isCorrect": false
+        },
+        {
+          "text": "J/kg",
+          "rationale": "Từ công thức Q = L·m, suy ra L = Q/m, đơn vị là J/kg.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Sử dụng công thức Q = L·m để suy ra đơn vị."
+    },
+    {
+      "question_number": 61,
+      "question": "Công thức tính nhiệt lượng Q cần cung cấp để m kg chất lỏng hoá hơi hoàn toàn ở nhiệt độ sôi là:",
+      "answer_options": [
+        {
+          "text": "Q = m·L",
+          "rationale": "Đây là công thức chính xác, L là nhiệt hoá hơi riêng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Q = m·c·ΔT",
+          "rationale": "Công thức này dùng khi nhiệt độ thay đổi, không dùng khi chuyển thể (sôi).",
+          "isCorrect": false
+        },
+        {
+          "text": "Q = m·λ",
+          "rationale": "λ là nhiệt nóng chảy riêng (rắn sang lỏng).",
+          "isCorrect": false
+        },
+        {
+          "text": "Q = L/m",
+          "rationale": "Sai công thức.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nhiệt lượng cho quá trình hoá hơi (lỏng → khí) được ký hiệu là L."
+    },
+    {
+      "question_number": 62,
+      "question": "Chọn phát biểu SAI.",
+      "answer_options": [
+        {
+          "text": "Sự bay hơi xảy ra ở bất kỳ nhiệt độ nào của chất lỏng.",
+          "rationale": "Đúng, vũng nước cạn đi ngay cả khi trời mát.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự sôi xảy ra ở một nhiệt độ xác định (nhiệt độ sôi) ứng với áp suất cho trước.",
+          "rationale": "Đúng, nước sôi ở 100 °C (tại áp suất 1 atm).",
+          "isCorrect": false
+        },
+        {
+          "text": "Sự bay hơi chỉ xảy ra ở bề mặt, còn sự sôi chỉ xảy ra ở đáy bình.",
+          "rationale": "Sai. Sự sôi xảy ra trong toàn bộ khối chất lỏng (cả bên trong và trên bề mặt), không chỉ ở đáy bình.",
+          "isCorrect": true
+        },
+        {
+          "text": "Quá trình hoá hơi (cả bay hơi và sôi) đều là quá trình thu nhiệt.",
+          "rationale": "Đúng, vật cần năng lượng để phá vỡ liên kết lỏng thành khí (ví dụ: khi ra mồ hôi, nước bay hơi làm ta mát đi, tức là lấy nhiệt của cơ thể).",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Quan sát một ấm nước sôi, bạn thấy bọt khí xuất hiện ở đâu?"
+    },
+    {
+      "question_number": 63,
+      "question": "Trong quá trình nước đang sôi ở 100 °C, nhận định nào sau đây là đúng?",
+      "answer_options": [
+        {
+          "text": "Nước không nhận thêm nhiệt lượng nữa.",
+          "rationale": "Nước vẫn đang nhận nhiệt lượng từ bếp, nếu ngừng nhận nhiệt (tắt bếp) nước sẽ ngừng sôi.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt độ của nước tiếp tục tăng.",
+          "rationale": "Trong quá trình chuyển thể (sôi), nhiệt độ của chất không đổi.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nội năng của nước không đổi vì nhiệt độ không đổi.",
+          "rationale": "Sai. Nội năng vẫn tăng do nước thu nhiệt (Q > 0) để tăng thế năng tương tác khi chuyển từ lỏng sang khí.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nhiệt lượng nhận vào được dùng để hoá hơi (chuyển thể).",
+          "rationale": "Toàn bộ nhiệt lượng (Q = L*m) nhận vào trong lúc sôi được dùng để phá vỡ liên kết lỏng, chuyển nước thành hơi.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Nhiệt lượng cung cấp cho ấm nước sôi đi đâu khi nhiệt độ không tăng nữa?"
+    },
+    {
+      "question_number": 64,
+      "question": "Khi nước đang sôi ở 100 °C, nội năng của nước:",
+      "answer_options": [
+        {
+          "text": "Tăng.",
+          "rationale": "Nước phải thu nhiệt (Q > 0) để sôi. Theo Định luật I NĐLH, ΔU = Q + A (A là công khí thực hiện, A<0, nhưng Q > |A|), do đó nội năng vẫn tăng.",
+          "isCorrect": true
+        },
+        {
+          "text": "Giảm.",
+          "rationale": "Sôi là quá trình thu nhiệt, làm tăng nội năng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Không đổi vì nhiệt độ không đổi.",
+          "rationale": "Nhiệt độ không đổi chỉ có nghĩa là động năng trung bình không đổi. Nhưng nội năng còn bao gồm thế năng tương tác, và thế năng này tăng mạnh khi chuyển sang thể khí.",
+          "isCorrect": false
+        },
+        {
+          "text": "Giảm vì nước bay hơi mất.",
+          "rationale": "Nếu xét toàn bộ hệ (lượng nước còn lại + lượng hơi bay ra), tổng nội năng của hệ tăng do nhận nhiệt từ bếp.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Khi sôi, nước thu nhiệt (Q > 0) hay toả nhiệt (Q < 0)?"
+    },
+    {
+      "question_number": 65,
+      "question": "Nhiệt hoá hơi riêng của nước ở 50 °C so với ở 100 °C thì:",
+      "answer_options": [
+        {
+          "text": "Lớn hơn.",
+          "rationale": "Theo SGK (Bài 6), nhiệt hoá hơi riêng của một chất tăng khi nhiệt độ giảm (L nước ở 100°C là 2.26e6 J/kg, ở 50°C là 2.39e6 J/kg).",
+          "isCorrect": true
+        },
+        {
+          "text": "Nhỏ hơn.",
+          "rationale": "Cần nhiều năng lượng hơn để 'bứt' phân tử đi ở nhiệt độ thấp hơn.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bằng nhau.",
+          "rationale": "Nhiệt hoá hơi riêng (L) có phụ thuộc vào nhiệt độ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bằng 0.",
+          "rationale": "Nước vẫn bay hơi (hoá hơi) ở 50 °C nên L khác 0.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xem lại ví dụ về sự phụ thuộc của L(nước) vào nhiệt độ trong SGK Bài 6."
+    },
+    {
+      "question_number": 66,
+      "question": "Tính nhiệt lượng cần cung cấp để làm 2 kg nước ở 100 °C hoá hơi hoàn toàn. Biết L (nước) = 2.26·10⁶ J/kg.",
+      "answer_options": [
+        {
+          "text": "4.52·10⁶ J",
+          "rationale": "Q = L·m = (2.26·10⁶ J/kg)·2 kg = 4.52·10⁶ J.",
+          "isCorrect": true
+        },
+        {
+          "text": "2.26·10⁶ J",
+          "rationale": "Đây là nhiệt lượng cho 1 kg, không phải 2 kg.",
+          "isCorrect": false
+        },
+        {
+          "text": "1.13·10⁶ J",
+          "rationale": "Bạn đã chia L cho 2 (tức m=0.5kg) thay vì nhân 2.",
+          "isCorrect": false
+        },
+        {
+          "text": "4.52·10⁵ J",
+          "rationale": "Sai số 10 lần. Phép tính là (2.26·2)·10⁶.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Sử dụng công thức Q = L·m."
+    },
+    {
+      "question_number": 67,
+      "question": "Một bếp điện có công suất 2000 W được dùng để làm hoá hơi nước ở 100 °C. Trong 5 phút, lượng nước hoá hơi được là bao nhiêu? Giả sử hiệu suất là 100%. (L(nước) = 2.26·10⁶ J/kg)",
+      "answer_options": [
+        {
+          "text": "0.265 kg",
+          "rationale": "Năng lượng bếp cung cấp: Q = P·t = 2000 W·(5·60 s) = 600000 J. Năng lượng này dùng để hoá hơi: Q = L·m. Vậy m = Q/L = 600000/(2.26·10⁶) = 0.265 kg.",
+          "isCorrect": true
+        },
+        {
+          "text": "2.65 kg",
+          "rationale": "Sai số 10 lần. m = 600000/2260000.",
+          "isCorrect": false
+        },
+        {
+          "text": "0.0044 kg",
+          "rationale": "Bạn đã tính Q = 2000·5 giây (thay vì 5 phút). Q = 10000 J. m = 10000/2.26e6 = 0.0044 kg.",
+          "isCorrect": false
+        },
+        {
+          "text": "3.76 kg",
+          "rationale": "Bạn đã chia L cho Q (2.26e6/600000) thay vì Q cho L.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tính tổng nhiệt lượng Q mà bếp cung cấp (Q = P·t). Sau đó dùng Q = L·m để tìm m. Chú ý đổi phút sang giây."
+    },
+    {
+      "question_number": 68,
+      "question": "Tính nhiệt lượng (theo kJ) toả ra khi 100g hơi nước ở 100 °C ngưng tụ hoàn toàn thành nước ở 100 °C. (L(nước) = 2.26·10⁶ J/kg)",
+      "answer_options": [
+        {
+          "text": "226 kJ",
+          "rationale": "Q_tỏa = L·m = (2.26·10⁶ J/kg)·0.1 kg = 0.226·10⁶ J = 226000 J = 226 kJ.",
+          "isCorrect": true
+        },
+        {
+          "text": "22.6 kJ",
+          "rationale": "Sai số 10 lần. Phép tính là (2.26·0.1)·10⁶ J.",
+          "isCorrect": false
+        },
+        {
+          "text": "2260 kJ",
+          "rationale": "Đây là nhiệt lượng cho 1 kg, không phải 0.1 kg (100g).",
+          "isCorrect": false
+        },
+        {
+          "text": "2.26 kJ",
+          "rationale": "Sai số 100 lần.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nhiệt ngưng tụ có độ lớn bằng nhiệt hoá hơi. Dùng Q = L·m và chú ý đổi đơn vị."
+    },
+    {
+      "question_number": 69,
+      "question": "Tính tổng nhiệt lượng (kJ) cần cung cấp để 0.5 kg nước ở 20 °C hoá hơi hoàn toàn ở 100 °C. Biết c(nước) = 4200 J/(kg·K) và L(nước) = 2.26·10⁶ J/kg.",
+      "answer_options": [
+        {
+          "text": "168 kJ",
+          "rationale": "Đây chỉ là nhiệt lượng Q1 (tăng nhiệt độ). Q1 = 0.5·4200·(100 - 20) = 168000 J = 168 kJ.",
+          "isCorrect": false
+        },
+        {
+          "text": "1130 kJ",
+          "rationale": "Đây chỉ là nhiệt lượng Q2 (hoá hơi). Q2 = 0.5·2.26·10⁶ = 1130000 J = 1130 kJ.",
+          "isCorrect": false
+        },
+        {
+          "text": "1298 kJ",
+          "rationale": "Q_total = Q1 + Q2. Q1 = 0.5·4200·80 = 168000 J. Q2 = 0.5·2.26e6 = 1130000 J. Q_total = 168000 + 1130000 = 1298000 J = 1298 kJ.",
+          "isCorrect": true
+        },
+        {
+          "text": "962 kJ",
+          "rationale": "Bạn đã trừ Q2 cho Q1 (1130 - 168) thay vì cộng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Bài toán gồm 2 giai đoạn: (1) Tăng nhiệt độ nước từ 20 lên 100. (2) Hoá hơi nước ở 100. Tính Q1 và Q2 rồi cộng lại."
+    },
+    {
+      "question_number": 70,
+      "question": "Tính tổng nhiệt lượng (kJ) cần cung cấp để 1 kg nước đá ở -10 °C chuyển hoàn toàn thành nước ở 30 °C. (c_đá = 2100 J/(kg·K), lambda_đá = 3.34e5 J/kg, c_nước = 4200 J/(kg·K))",
+      "answer_options": [
+        {
+          "text": "334 kJ",
+          "rationale": "Đây chỉ là nhiệt lượng tan chảy (Q2).",
+          "isCorrect": false
+        },
+        {
+          "text": "355 kJ",
+          "rationale": "Đây là nhiệt lượng Q1 + Q2 (để thành nước ở 0 °C), thiếu Q3 (nóng lên 30 °C).",
+          "isCorrect": false
+        },
+        {
+          "text": "126 kJ",
+          "rationale": "Đây chỉ là nhiệt lượng Q3 (nước nóng lên từ 0 lên 30).",
+          "isCorrect": false
+        },
+        {
+          "text": "481 kJ",
+          "rationale": "Q1 (đá -10 → 0) = 1·2100·(0 - (-10)) = 21000 J. Q2 (đá 0 → nước 0) = 1·3.34e5 = 334000 J. Q3 (nước 0 → 30) = 1·4200·(30 - 0) = 126000 J. Q_total = Q1 + Q2 + Q3 = 21000 + 334000 + 126000 = 481000 J = 481 kJ.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Bài toán gồm 3 giai đoạn: (1) Tăng nhiệt độ đá. (2) Nóng chảy đá. (3) Tăng nhiệt độ nước. Tính Q1, Q2, Q3 và cộng chúng lại."
+    }
+  ]
+}

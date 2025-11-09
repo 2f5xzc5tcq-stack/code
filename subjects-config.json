@@ -1,0 +1,52 @@
+{
+  "subjects": [
+    {
+      "id": "history",
+      "name": "Lịch sử",
+      "file": "lichsu.json",
+      "title": "Trắc nghiệm Lịch sử",
+      "description": "Lịch sử Liên hợp quốc & ASEAN - Chọn đáp án để xem kết quả và lời giải thích chi tiết.",
+      "icon": "book",
+      "color": "blue",
+      "enabled": true,
+      "locked": true,
+      "note": "Đã thi xong"
+    },
+    {
+      "id": "biology",
+      "name": "Sinh học",
+      "file": "sinh.json",
+      "title": "Trắc nghiệm Sinh học",
+      "description": "Sinh học 12 - Chọn đáp án để xem kết quả và lời giải thích chi tiết.",
+      "icon": "flask",
+      "color": "green",
+      "enabled": true,
+      "locked": false,
+      "note": ""
+    },
+    {
+      "id": "chemistry",
+      "name": "Hóa học",
+      "file": "hoa.json",
+      "title": "Trắc nghiệm Hóa học",
+      "description": "Hóa học 12 - Chọn đáp án để xem kết quả và lời giải thích chi tiết.",
+      "icon": "sparkles",
+      "color": "purple",
+      "enabled": true,
+      "locked": true,
+      "note": "Đã thi xong"
+    },
+    {
+      "id": "physics",
+      "name": "Vật lý",
+      "file": "vatly.json",
+      "title": "Trắc nghiệm Vật lý",
+      "description": "Vật lý 12 - Chọn đáp án để xem kết quả và lời giải thích chi tiết.",
+      "icon": "lightning",
+      "color": "orange",
+      "enabled": true,
+      "locked": false,
+      "note": ""
+    }
+  ]
+}

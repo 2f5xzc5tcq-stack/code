@@ -22,7 +22,7 @@
       "color": "green",
       "enabled": true,
       "locked": true,
-      "note": ""
+      "note": "Đã thi xong"
     },
     {
       "id": "chemistry",
@@ -46,8 +46,9 @@
       "color": "orange",
       "enabled": true,
       "locked": true,
-      "note": ""
+      "note": "Đã thi xong"
     }
   ]
 }
+
 

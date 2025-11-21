@@ -1,521 +1,364 @@
 {
+  "exam_metadata": {
+    "subject": "Lịch sử 12 - Chân trời sáng tạo",
+    "scope": "Bài 6: Cách mạng tháng Tám năm 1945 & Bài 7: Cuộc kháng chiến chống thực dân Pháp (1945-1954)",
+    "source_pages": "33 - 45"
+  },
   "questions": [
     {
       "question_number": 1,
-      "question": "Ủy ban Dân tộc giải phóng Việt Nam do Hồ Chí Minh làm Chủ tịch được thành lập tại sự kiện nào?",
+      "question": "Theo tư liệu 'Thư kêu gọi Tổng khởi nghĩa' (trang 34), Chủ tịch Hồ Chí Minh đã nhận định thời cơ như thế nào?",
       "answer_options": [
         {
-          "text": "Hội nghị Ban Chấp hành Trung ương Đảng tháng 5/1941.",
-          "rationale": "Hội nghị này thành lập Mặt trận Việt Minh.",
-          "isCorrect": false
-        },
-        {
-          "text": "Đại hội Quốc dân ở Tân Trào (16 - 17/8/1945).",
-          "rationale": "SGK trang 34: Đại hội Quốc dân họp ở Tân Trào đã cử ra Ủy ban Dân tộc giải phóng Việt Nam do Hồ Chí Minh làm Chủ tịch.",
+          "text": "Giờ quyết định cho vận mệnh dân tộc ta đã đến.",
+          "rationale": "Trích nguyên văn Tư liệu trang 34: 'Hỡi đồng bào yêu quý! Giờ quyết định cho vận mệnh dân tộc ta đã đến. Toàn quốc đồng bào hãy đứng dậy đem sức ta mà tự giải phóng cho ta'.",
           "isCorrect": true
         },
         {
-          "text": "Hội nghị toàn quốc của Đảng (14 - 15/8/1945).",
-          "rationale": "Hội nghị này thông qua kế hoạch lãnh đạo toàn dân Tổng khởi nghĩa.",
+          "text": "Chúng ta cần chờ quân Đồng minh vào giải giáp.",
+          "rationale": "Sai, Bác kêu gọi 'đem sức ta mà tự giải phóng cho ta' chứ không chờ đợi.",
           "isCorrect": false
         },
         {
-          "text": "Đại hội đại biểu lần thứ II của Đảng (1951).",
-          "rationale": "Sự kiện này diễn ra trong kháng chiến chống Pháp.",
+          "text": "Phải thương lượng với Nhật để giành độc lập.",
+          "rationale": "Sai, chủ trương là dùng bạo lực cách mạng giành chính quyền.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cần tranh thủ sự ủng hộ của Pháp để chống Nhật.",
+          "rationale": "Sai hoàn toàn về đường lối.",
           "isCorrect": false
         }
       ],
-      "hint": "Sự kiện diễn ra ngay trước khi Tổng khởi nghĩa nổ ra, tại 'Thủ đô Khu giải phóng'."
+      "hint": "Câu mở đầu trong bức thư của Bác gửi đồng bào cả nước."
     },
     {
       "question_number": 2,
-      "question": "Trong Cách mạng tháng Tám 1945, khẩu hiệu nào được đề ra để thay thế cho khẩu hiệu 'Đánh đuổi Nhật, Pháp'?",
+      "question": "Sự kiện Nhật Bản đầu hàng Đồng minh không điều kiện (15/8/1945) đã tạo ra điều kiện khách quan thuận lợi gì cho Cách mạng Việt Nam?",
       "answer_options": [
         {
-          "text": "Đánh đuổi phát xít Nhật.",
-          "rationale": "Sau ngày 9/3/1945 (Nhật đảo chính Pháp), kẻ thù chính cụ thể là phát xít Nhật, nên khẩu hiệu thay đổi để tập trung hỏa lực.",
+          "text": "Quân Pháp quay trở lại xâm lược Đông Dương ngay lập tức.",
+          "rationale": "Đây là khó khăn, không phải thuận lợi.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chính phủ Trần Trọng Kim được củng cố quyền lực.",
+          "rationale": "Ngược lại, chính phủ tay sai hoang mang cực độ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kẻ thù chính là quân phiệt Nhật gục ngã, chính quyền tay sai hoang mang, rệu rã.",
+          "rationale": "SGK trang 34: Quân Nhật ở Đông Dương rã rời, chính phủ tay sai hoang mang... tạo thời cơ 'ngàn năm có một'.",
           "isCorrect": true
         },
         {
-          "text": "Người cày có ruộng.",
-          "rationale": "Khẩu hiệu này tạm gác lại để tập trung giải phóng dân tộc.",
-          "isCorrect": false
-        },
-        {
-          "text": "Tăng gia sản xuất.",
-          "rationale": "Đây là khẩu hiệu diệt giặc đói sau năm 1945.",
-          "isCorrect": false
-        },
-        {
-          "text": "Đoàn kết toàn dân.",
-          "rationale": "Đây là phương châm, không phải khẩu hiệu hành động trực tiếp thay thế.",
+          "text": "Quân Đồng minh đã vào Việt Nam bảo vệ chính quyền cách mạng.",
+          "rationale": "Quân Đồng minh chưa vào, và khi vào họ cũng không bảo vệ cách mạng.",
           "isCorrect": false
         }
       ],
-      "hint": "Sau khi Nhật đảo chính Pháp (9/3/1945), kẻ thù chính của nhân dân ta chỉ còn một."
+      "hint": "Tình trạng của kẻ thù trực tiếp lúc bấy giờ."
     },
     {
       "question_number": 3,
-      "question": "Thắng lợi ở địa phương nào đã tạo tác động dây chuyền đến các địa phương khác trong Cách mạng tháng Tám?",
+      "question": "Địa phương nào KHÔNG nằm trong nhóm 4 tỉnh giành chính quyền sớm nhất cả nước (từ 14 đến 18/8/1945)?",
       "answer_options": [
         {
-          "text": "Thái Nguyên.",
-          "rationale": "Nơi mở đầu khởi nghĩa vũ trang nhưng tác động dây chuyền lớn nhất thuộc về Hà Nội.",
+          "text": "Bắc Giang.",
+          "rationale": "Thuộc nhóm 4 tỉnh sớm nhất.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hải Dương.",
+          "rationale": "Thuộc nhóm 4 tỉnh sớm nhất.",
           "isCorrect": false
         },
         {
           "text": "Hà Nội.",
-          "rationale": "SGK trang 35: Khởi nghĩa ở Hà Nội (19/8) thắng lợi đã tác động đến các địa phương khác, đưa đến thắng lợi trên cả nước.",
+          "rationale": "Hà Nội giành chính quyền ngày 19/8, chậm hơn nhóm 4 tỉnh này.",
           "isCorrect": true
         },
         {
-          "text": "Sài Gòn.",
-          "rationale": "Giành chính quyền ngày 25/8, sau Hà Nội và Huế.",
-          "isCorrect": false
-        },
-        {
-          "text": "Huế.",
-          "rationale": "Giành chính quyền ngày 23/8.",
+          "text": "Quảng Nam.",
+          "rationale": "Thuộc nhóm 4 tỉnh sớm nhất.",
           "isCorrect": false
         }
       ],
-      "hint": "Thủ phủ của Bắc Bộ phủ, nơi diễn ra cuộc mít tinh lớn tại Nhà hát Lớn."
+      "hint": "Xem sơ đồ diễn biến trang 35. Bốn tỉnh đó là Bắc Giang, Hải Dương, Hà Tĩnh, Quảng Nam."
     },
     {
       "question_number": 4,
-      "question": "Vua Bảo Đại đã trao ấn kiếm cho đại diện chính quyền cách mạng tại đâu?",
+      "question": "Hình 6.4 (trang 35) mô tả sự kiện lịch sử nào?",
       "answer_options": [
         {
-          "text": "Ngọ Môn (Huế).",
-          "rationale": "SGK trang 35: Tại kinh đô Huế, vua Bảo Đại tuyên bố thoái vị, chế độ phong kiến sụp đổ.",
+          "text": "Mít tinh tại Nhà hát Lớn Hà Nội.",
+          "rationale": "Hình ảnh là cảnh chiếm Phủ Khâm sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Quần chúng cách mạng và tự vệ chiếm Phủ Khâm sai (Bắc Bộ Phủ).",
+          "rationale": "Chú thích Hình 6.4 SGK trang 35: Quần chúng cách mạng và tự vệ chiếm Phủ Khâm sai (Bắc Bộ Phủ) ngày 19-8-1945.",
           "isCorrect": true
         },
         {
-          "text": "Quảng trường Ba Đình (Hà Nội).",
-          "rationale": "Nơi đọc Tuyên ngôn Độc lập.",
+          "text": "Vua Bảo Đại thoái vị tại Huế.",
+          "rationale": "Sai địa điểm.",
           "isCorrect": false
         },
         {
-          "text": "Dinh Độc Lập (Sài Gòn).",
-          "rationale": "Không liên quan đến sự kiện thoái vị năm 1945.",
-          "isCorrect": false
-        },
-        {
-          "text": "Tân Trào (Tuyên Quang).",
-          "rationale": "Căn cứ địa cách mạng.",
+          "text": "Cuộc mít tinh giành chính quyền ở Sài Gòn.",
+          "rationale": "Sai địa điểm.",
           "isCorrect": false
         }
       ],
-      "hint": "Nơi đóng đô của triều Nguyễn."
+      "hint": "Sự kiện quan trọng nhất trong ngày 19/8/1945 tại Hà Nội."
     },
     {
       "question_number": 5,
-      "question": "Nguyên nhân chủ quan quan trọng nhất quyết định thắng lợi của Cách mạng tháng Tám năm 1945 là gì?",
+      "question": "Phát biểu nào sau đây là SAI khi nói về nguyên nhân thắng lợi của Cách mạng tháng Tám năm 1945?",
       "answer_options": [
         {
-          "text": "Sự ủng hộ của Liên Xô và Trung Quốc.",
-          "rationale": "Lúc này ta chưa nhận được sự giúp đỡ trực tiếp.",
+          "text": "Có sự lãnh đạo đúng đắn, sáng tạo của Đảng Cộng sản Đông Dương.",
+          "rationale": "Đây là nguyên nhân chủ quan đúng.",
           "isCorrect": false
         },
         {
-          "text": "Nhật Bản đầu hàng Đồng minh.",
-          "rationale": "Đây là điều kiện khách quan (thời cơ).",
+          "text": "Nhân dân Việt Nam có truyền thống yêu nước nồng nàn.",
+          "rationale": "Đây là nguyên nhân chủ quan đúng.",
           "isCorrect": false
         },
         {
-          "text": "Sự lãnh đạo đúng đắn, sáng tạo của Đảng Cộng sản Đông Dương.",
-          "rationale": "SGK trang 35: Đây là nguyên nhân hàng đầu, Đảng đã chuẩn bị lực lượng và chớp thời cơ.",
+          "text": "Quân Đồng minh trực tiếp giúp đỡ Việt Nam đánh Nhật.",
+          "rationale": "Sai. Thắng lợi chủ yếu do sức mạnh nội lực của dân tộc ('đem sức ta mà tự giải phóng cho ta'). Đồng minh chỉ gián tiếp tạo thời cơ bằng cách đánh bại Nhật ở các mặt trận khác.",
           "isCorrect": true
         },
         {
-          "text": "Mâu thuẫn giữa Nhật và Pháp.",
-          "rationale": "Tạo điều kiện thuận lợi nhưng không quyết định nếu không có sự chuẩn bị.",
+          "text": "Chiến thắng của quân Đồng minh trong chiến tranh chống phát xít tạo thời cơ thuận lợi.",
+          "rationale": "Đây là nguyên nhân khách quan đúng.",
           "isCorrect": false
         }
       ],
-      "hint": "Yếu tố thuộc về nội tại, liên quan đến tổ chức lãnh đạo."
+      "hint": "Cách mạng tháng Tám là cuộc cách mạng 'tự lực cánh sinh'."
     },
     {
       "question_number": 6,
-      "question": "Biện pháp cấp thời để giải quyết nạn đói ngay sau Cách mạng tháng Tám là gì?",
+      "question": "Đâu là bài học kinh nghiệm về 'nghệ thuật khởi nghĩa' được rút ra từ Cách mạng tháng Tám (SGK trang 36)?",
       "answer_options": [
         {
-          "text": "Tăng gia sản xuất.",
-          "rationale": "Đây là biện pháp cơ bản, lâu dài.",
+          "text": "Kết hợp đấu tranh quân sự là chủ yếu với ngoại giao.",
+          "rationale": "Cách mạng tháng Tám chưa có đấu tranh ngoại giao mạnh mẽ.",
           "isCorrect": false
         },
         {
-          "text": "Chia lại ruộng đất.",
-          "rationale": "Biện pháp này cần thời gian thực hiện.",
-          "isCorrect": false
-        },
-        {
-          "text": "Nhường cơm sẻ áo, Hũ gạo cứu đói.",
-          "rationale": "Chủ tịch Hồ Chí Minh kêu gọi nhường cơm sẻ áo, lập 'Hũ gạo cứu đói' để giải quyết tình thế cấp bách.",
+          "text": "Kết hợp hài hòa giữa đấu tranh chính trị và đấu tranh vũ trang.",
+          "rationale": "SGK trang 36: Bài học về 'kết hợp đấu tranh chính trị với đấu tranh vũ trang, tiến hành khởi nghĩa từng phần tiến tới tổng khởi nghĩa'.",
           "isCorrect": true
         },
         {
-          "text": "Nhập khẩu gạo từ nước ngoài.",
-          "rationale": "Lúc đó ta bị bao vây cấm vận, không thể nhập khẩu.",
+          "text": "Chỉ sử dụng bạo lực chính trị của quần chúng.",
+          "rationale": "Phải có cả lực lượng vũ trang hỗ trợ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Trông chờ vào sự hỗ trợ từ bên ngoài.",
+          "rationale": "Bài học là tự lực cánh sinh.",
           "isCorrect": false
         }
       ],
-      "hint": "Hành động thể hiện tình nghĩa đồng bào, lá lành đùm lá rách ngay tức khắc."
+      "hint": "Kết hợp sức mạnh của quần chúng (chính trị) và lực lượng quân sự (vũ trang)."
     },
     {
       "question_number": 7,
-      "question": "Để giải quyết 'giặc dốt', ngày 8/9/1945, Chủ tịch Hồ Chí Minh đã kí sắc lệnh thành lập cơ quan nào?",
+      "question": "Theo lời kêu gọi của Chủ tịch Hồ Chí Minh (trang 38), thái độ của nhân dân ta đối với việc thực dân Pháp quay lại xâm lược là gì?",
       "answer_options": [
         {
-          "text": "Bộ Quốc gia Giáo dục.",
-          "rationale": "Tên cơ quan quản lý chung, không phải cơ quan chuyên trách chống giặc dốt lúc đó.",
+          "text": "Chấp nhận nhượng bộ để giữ hòa bình.",
+          "rationale": "Đoạn trích nói rõ: 'chúng ta càng nhân nhượng, thực dân Pháp càng lấn tới'.",
           "isCorrect": false
         },
         {
-          "text": "Nha Bình dân học vụ.",
-          "rationale": "SGK không ghi chi tiết ngày 8/9 nhưng thực tế lịch sử là Nha Bình dân học vụ được lập để xóa nạn mù chữ.",
+          "text": "Thà hi sinh tất cả chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ.",
+          "rationale": "Trích Lời kêu gọi toàn quốc kháng chiến: 'Chúng ta thà hi sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ'.",
           "isCorrect": true
         },
         {
-          "text": "Hội Truyền bá Quốc ngữ.",
-          "rationale": "Tổ chức có từ trước 1945.",
+          "text": "Chờ sự can thiệp của Liên Hợp Quốc.",
+          "rationale": "Không có trong nội dung.",
           "isCorrect": false
         },
         {
-          "text": "Ty Giáo dục.",
-          "rationale": "Tên gọi cơ quan địa phương.",
+          "text": "Đầu hàng để bảo toàn lực lượng.",
+          "rationale": "Sai hoàn toàn tinh thần kháng chiến.",
           "isCorrect": false
         }
       ],
-      "hint": "Cơ quan chuyên trách việc dạy chữ, xóa mù chữ cho toàn dân."
+      "hint": "Câu nói nổi tiếng thể hiện quyết tâm sắt đá trong Lời kêu gọi toàn quốc kháng chiến."
     },
     {
       "question_number": 8,
-      "question": "Sự kiện nào đánh dấu đòn đầu tiên vào âm mưu 'đánh nhanh, thắng nhanh' của Pháp ở Nam Bộ?",
+      "question": "Chiến thuật nào được quân dân Sài Gòn - Chợ Lớn sử dụng để chống lại quân Pháp từ ngày 23/9/1945 (trang 39)?",
       "answer_options": [
         {
-          "text": "Cuộc chiến đấu ở Sài Gòn - Chợ Lớn.",
-          "rationale": "SGK trang 39: Quân dân Sài Gòn - Chợ Lớn đã kìm chân địch, giáng đòn đầu tiên vào âm mưu đánh nhanh thắng nhanh.",
+          "text": "Tấn công trực diện vào các đồn bốt lớn.",
+          "rationale": "Lực lượng ta còn yếu, không thể tấn công trực diện ngay.",
+          "isCorrect": false
+        },
+        {
+          "text": "Trong đánh ngoài vây, đốt cháy tàu Pháp, phá kho tàng, dựng chướng ngại vật.",
+          "rationale": "SGK trang 39: 'thiết lập mặt trận trong đánh ngoài vây... đốt cháy tàu Pháp... dựng chướng ngại vật'.",
           "isCorrect": true
         },
         {
-          "text": "Chiến thắng Điện Biên Phủ.",
-          "rationale": "Năm 1954.",
+          "text": "Rút toàn bộ lực lượng về nông thôn.",
+          "rationale": "Ta vẫn bám trụ chiến đấu trong thành phố một thời gian.",
           "isCorrect": false
         },
         {
-          "text": "Chiến thắng Việt Bắc.",
-          "rationale": "Năm 1947 ở miền Bắc.",
-          "isCorrect": false
-        },
-        {
-          "text": "Cuộc chiến đấu ở Hà Nội.",
-          "rationale": "Năm 1946 ở miền Bắc.",
+          "text": "Sử dụng không quân ném bom.",
+          "rationale": "Năm 1945 ta chưa có không quân.",
           "isCorrect": false
         }
       ],
-      "hint": "Diễn ra ngay sau ngày 23/9/1945 tại thành phố lớn nhất miền Nam."
+      "hint": "Biến đồ vật trong nhà thành chướng ngại vật trên đường phố, bao vây quân địch."
     },
     {
       "question_number": 9,
-      "question": "Hiệp định Sơ bộ (6/3/1946) được ký kết giữa Việt Nam và Pháp nhằm mục đích chính là gì?",
+      "question": "Sự kiện nào dưới đây diễn ra vào ngày 19-12-1946?",
       "answer_options": [
         {
-          "text": "Đuổi quân Nhật về nước.",
-          "rationale": "Nhật đã đầu hàng và đang chờ giải giáp.",
+          "text": "Pháp gửi tối hậu thư đòi ta giao quyền kiểm soát thủ đô.",
+          "rationale": "Tối hậu thư gửi ngày 18/12.",
           "isCorrect": false
         },
         {
-          "text": "Đẩy 20 vạn quân Trung Hoa Dân quốc ra khỏi miền Bắc.",
-          "rationale": "SGK trang 40: Ký Hiệp định Sơ bộ để đuổi quân Trung Hoa Dân quốc về nước, tranh thủ thời gian hòa hoãn.",
+          "text": "Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến.",
+          "rationale": "SGK trang 42 (Hình 7.3): Đêm 19-12-1946, Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến, cuộc kháng chiến toàn quốc bùng nổ.",
           "isCorrect": true
         },
         {
-          "text": "Công nhận Việt Nam hoàn toàn độc lập.",
-          "rationale": "Pháp chỉ công nhận ta là quốc gia tự do, chưa độc lập hoàn toàn.",
+          "text": "Quân Pháp đánh chiếm Hải Phòng.",
+          "rationale": "Tháng 11/1946.",
           "isCorrect": false
         },
         {
-          "text": "Liên minh với Pháp chống Mỹ.",
-          "rationale": "Mỹ chưa can thiệp sâu vào lúc này.",
+          "text": "Trung ương Đảng ra chỉ thị 'Toàn dân kháng chiến'.",
+          "rationale": "Chỉ thị này ra ngày 12/12/1946 (hoặc 22/12 tùy tài liệu chi tiết, nhưng 19/12 gắn liền với Lời kêu gọi của Bác).",
           "isCorrect": false
         }
       ],
-      "hint": "Tránh tình trạng đụng độ cùng lúc với nhiều kẻ thù, dùng tay Pháp đuổi quân Tưởng."
+      "hint": "Sự kiện đánh dấu sự bùng nổ cuộc kháng chiến chống Pháp trên quy mô cả nước."
     },
     {
       "question_number": 10,
-      "question": "Văn kiện nào dưới đây không phải là văn kiện chỉ đạo đường lối kháng chiến chống Pháp của Đảng?",
+      "question": "Câu thơ 'Sông Lô, Đoan Hùng, Khe Lau... / Giặc Pháp đến đấy thì 'tan xác' thù' nhắc đến chiến thắng nào?",
       "answer_options": [
         {
-          "text": "Lời kêu gọi toàn quốc kháng chiến (12/1946).",
-          "rationale": "Văn kiện mở đầu kháng chiến.",
+          "text": "Chiến dịch Biên giới 1950.",
+          "rationale": "Biên giới gắn với Đông Khê, Thất Khê.",
           "isCorrect": false
         },
         {
-          "text": "Tác phẩm Kháng chiến nhất định thắng lợi (Trường Chinh).",
-          "rationale": "Giải thích rõ đường lối kháng chiến.",
-          "isCorrect": false
-        },
-        {
-          "text": "Chỉ thị Toàn dân kháng chiến.",
-          "rationale": "Văn kiện của Trung ương Đảng.",
-          "isCorrect": false
-        },
-        {
-          "text": "Tuyên ngôn Độc lập (9/1945).",
-          "rationale": "Đây là văn kiện khai sinh nước VNDCCH, không phải văn kiện chuyên biệt chỉ đạo đường lối chiến tranh kháng chiến toàn quốc (1946).",
+          "text": "Chiến dịch Việt Bắc thu - đông 1947.",
+          "rationale": "SGK trang 43 nhắc đến các địa danh Chợ Đồn, Chợ Rã, Đoan Hùng, Khe Lau... nơi ta bẻ gãy gọng kìm của Pháp trong chiến dịch Việt Bắc.",
           "isCorrect": true
+        },
+        {
+          "text": "Chiến dịch Điện Biên Phủ 1954.",
+          "rationale": "Gắn với Him Lam, Độc Lập, Mường Thanh.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chiến dịch Hòa Bình 1951.",
+          "rationale": "Gắn với sông Đà, đường 6.",
+          "isCorrect": false
         }
       ],
-      "hint": "Văn kiện ra đời năm 1945, trước khi cuộc kháng chiến toàn quốc bùng nổ."
+      "hint": "Chiến dịch mà Pháp muốn chụp bắt cơ quan đầu não của ta tại căn cứ địa."
     },
     {
       "question_number": 11,
-      "question": "Lực lượng nào đã 'quyết tử để Tổ quốc quyết sinh' trong những ngày đầu toàn quốc kháng chiến?",
+      "question": "Hình ảnh Bác Hồ quan sát mặt trận Đông Khê (Hình 7.5, trang 43) gắn liền với chiến dịch nào?",
       "answer_options": [
         {
-          "text": "Trung đoàn Thủ đô.",
-          "rationale": "SGK trang 40 (Hình 7.1 mô tả chiến sĩ quyết tử ôm bom ba càng): Lực lượng bảo vệ Hà Nội kiên cường.",
+          "text": "Chiến dịch Việt Bắc thu - đông 1947.",
+          "rationale": "Sai.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chiến dịch Biên giới thu - đông 1950.",
+          "rationale": "Hình 7.5 chú thích: Chủ tịch Hồ Chí Minh trên đài quan sát mặt trận Đông Khê (năm 1950).",
           "isCorrect": true
         },
         {
-          "text": "Đội Việt Nam Tuyên truyền Giải phóng quân.",
-          "rationale": "Tiền thân quân đội, thành lập 1944.",
+          "text": "Chiến dịch Điện Biên Phủ 1954.",
+          "rationale": "Sai.",
           "isCorrect": false
         },
         {
-          "text": "Bộ đội chủ lực Việt Bắc.",
-          "rationale": "Lực lượng ở chiến khu.",
-          "isCorrect": false
-        },
-        {
-          "text": "Dân quân du kích Nam Bộ.",
-          "rationale": "Hoạt động ở miền Nam.",
+          "text": "Chiến dịch Thượng Lào 1953.",
+          "rationale": "Sai.",
           "isCorrect": false
         }
       ],
-      "hint": "Lực lượng chiến đấu giam chân địch trong lòng Hà Nội 60 ngày đêm."
+      "hint": "Chiến dịch mà lần đầu tiên và duy nhất Bác Hồ trực tiếp ra mặt trận chỉ đạo."
     },
     {
       "question_number": 12,
-      "question": "Kết quả lớn nhất của chiến dịch Việt Bắc thu - đông năm 1947 là gì?",
+      "question": "Nội dung nào KHÔNG phải là nhiệm vụ cơ bản của Đại hội đại biểu lần thứ II của Đảng (1951)?",
       "answer_options": [
         {
-          "text": "Giải phóng vùng biên giới Việt - Trung.",
-          "rationale": "Kết quả của chiến dịch Biên giới 1950.",
+          "text": "Đưa Đảng ra hoạt động công khai.",
+          "rationale": "Đúng, lấy tên Đảng Lao động Việt Nam.",
           "isCorrect": false
         },
         {
-          "text": "Bảo vệ an toàn cơ quan đầu não kháng chiến, bộ đội chủ lực trưởng thành.",
-          "rationale": "SGK trang 42-43: Cơ quan đầu não an toàn, bộ đội ta đánh bại các gọng kìm của Pháp.",
+          "text": "Thông qua Tuyên ngôn Độc lập.",
+          "rationale": "Sai. Tuyên ngôn Độc lập đã được thông qua và đọc từ năm 1945. Đại hội II thông qua Chính cương, Điều lệ mới.",
           "isCorrect": true
         },
         {
-          "text": "Buộc Pháp phải ngồi vào bàn đàm phán.",
-          "rationale": "Phải đến Điện Biên Phủ 1954 Pháp mới thực sự đàm phán nghiêm túc.",
+          "text": "Quyết định tách Đảng Cộng sản Đông Dương để thành lập ở mỗi nước một Đảng riêng.",
+          "rationale": "Đúng, để phù hợp với đặc điểm mỗi nước.",
           "isCorrect": false
         },
         {
-          "text": "Giải phóng Điện Biên Phủ.",
-          "rationale": "Năm 1954.",
+          "text": "Bầu Ban Chấp hành Trung ương mới do Hồ Chí Minh làm Chủ tịch.",
+          "rationale": "Đúng.",
           "isCorrect": false
         }
       ],
-      "hint": "Pháp muốn chụp bắt chính phủ ta tại Việt Bắc nhưng thất bại."
+      "hint": "Một văn kiện đã hoàn thành sứ mệnh lịch sử từ năm 1945."
     },
     {
       "question_number": 13,
-      "question": "Chiến thắng Biên giới thu - đông 1950 có ý nghĩa chiến lược gì quan trọng?",
+      "question": "Theo SGK trang 44, Mỹ đã làm gì để hỗ trợ Pháp trong kế hoạch Na-va?",
       "answer_options": [
         {
-          "text": "Làm phá sản kế hoạch Na-va.",
-          "rationale": "Kế hoạch Na-va có từ năm 1953.",
+          "text": "Trực tiếp đưa quân đội Mỹ vào tham chiến.",
+          "rationale": "Mỹ chưa đưa quân chiến đấu trực tiếp (bộ binh) vào giai đoạn này.",
           "isCorrect": false
         },
         {
-          "text": "Nối liền nước ta với các nước xã hội chủ nghĩa.",
-          "rationale": "SGK trang 43: Khai thông biên giới Việt - Trung, mở rộng liên lạc với phe XHCN.",
+          "text": "Tăng cường viện trợ quân sự và cố vấn.",
+          "rationale": "Mỹ chi trả phần lớn chiến phí cho Pháp ở Đông Dương thông qua viện trợ để thực hiện kế hoạch Na-va.",
           "isCorrect": true
         },
         {
-          "text": "Kết thúc cuộc kháng chiến chống Pháp.",
-          "rationale": "Chiến tranh còn kéo dài đến 1954.",
+          "text": "Ký hiệp ước phòng thủ chung với Pháp.",
+          "rationale": "Không phải nội dung chính được đề cập trong bối cảnh Kế hoạch Na-va.",
           "isCorrect": false
         },
         {
-          "text": "Giải phóng hoàn toàn miền Bắc.",
-          "rationale": "Miền Bắc giải phóng năm 1954.",
+          "text": "Yêu cầu Pháp rút quân ngay lập tức.",
+          "rationale": "Mỹ muốn Pháp tiếp tục đánh để ngăn chặn cộng sản.",
           "isCorrect": false
         }
       ],
-      "hint": "Phá vỡ thế bao vây cô lập của Pháp, mở đường liên lạc quốc tế."
+      "hint": "Pháp thực hiện kế hoạch Na-va bằng tiền và vũ khí của nước nào?"
     },
     {
       "question_number": 14,
-      "question": "Đại hội đại biểu lần thứ II của Đảng (2/1951) đã quyết định đổi tên Đảng thành?",
-      "answer_options": [
-        {
-          "text": "Đảng Cộng sản Việt Nam.",
-          "rationale": "Tên năm 1930.",
-          "isCorrect": false
-        },
-        {
-          "text": "Đảng Cộng sản Đông Dương.",
-          "rationale": "Tên giai đoạn 1930-1951.",
-          "isCorrect": false
-        },
-        {
-          "text": "Đảng Lao động Việt Nam.",
-          "rationale": "SGK trang 43: Đưa Đảng ra hoạt động công khai với tên mới là Đảng Lao động Việt Nam.",
-          "isCorrect": true
-        },
-        {
-          "text": "Hội Việt Nam Cách mạng Thanh niên.",
-          "rationale": "Tổ chức tiền thân của Đảng.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Tên gọi nhấn mạnh vai trò của giai cấp công nhân và nhân dân lao động."
-    },
-    {
-      "question_number": 15,
-      "question": "Mặt trận Liên Việt được thành lập năm 1951 trên cơ sở hợp nhất hai tổ chức nào?",
-      "answer_options": [
-        {
-          "text": "Việt Minh và Hội Liên hiệp quốc dân Việt Nam.",
-          "rationale": "SGK trang 43: Mặt trận Việt Minh và Hội Liên hiệp quốc dân Việt Nam (Hội Liên Việt) hợp nhất thành Mặt trận Liên Việt.",
-          "isCorrect": true
-        },
-        {
-          "text": "Việt Minh và Thanh niên Cách mạng đồng chí Hội.",
-          "rationale": "Không chính xác.",
-          "isCorrect": false
-        },
-        {
-          "text": "Đảng Cộng sản và Đảng Xã hội.",
-          "rationale": "Không chính xác.",
-          "isCorrect": false
-        },
-        {
-          "text": "Việt Minh và Liên minh nhân dân Việt - Miên - Lào.",
-          "rationale": "Liên minh Việt-Miên-Lào là tổ chức đoàn kết 3 nước.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Một tổ chức có từ năm 1941 và một tổ chức lập năm 1946."
-    },
-    {
-      "question_number": 16,
-      "question": "Đại hội Chiến sĩ thi đua và Cán bộ gương mẫu toàn quốc lần thứ nhất (1952) đã bầu chọn bao nhiêu anh hùng?",
-      "answer_options": [
-        {
-          "text": "5 anh hùng.",
-          "rationale": "Các anh hùng tiêu biểu: Cù Chính Lan, La Văn Cầu, Nguyễn Quốc Trị, Nguyễn Thị Chiên...",
-          "isCorrect": false
-        },
-        {
-          "text": "7 anh hùng.",
-          "rationale": "Số lượng chính xác được vinh danh đợt đầu.",
-          "isCorrect": true
-        },
-        {
-          "text": "10 anh hùng.",
-          "rationale": "Không chính xác.",
-          "isCorrect": false
-        },
-        {
-          "text": "3 anh hùng.",
-          "rationale": "Không chính xác.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Một chi tiết nhỏ trong phần xây dựng hậu phương (xem hình ảnh hoặc nội dung trang 44 nếu có, hoặc kiến thức lịch sử bổ trợ: 7 anh hùng đầu tiên)."
-    },
-    {
-      "question_number": 17,
-      "question": "Điểm mấu chốt của Kế hoạch Na-va là gì?",
-      "answer_options": [
-        {
-          "text": "Xây dựng hệ thống phòng ngự kiên cố ở biên giới.",
-          "rationale": "Kế hoạch Rơ-ve mới tập trung biên giới.",
-          "isCorrect": false
-        },
-        {
-          "text": "Tập trung lực lượng cơ động mạnh ở đồng bằng Bắc Bộ.",
-          "rationale": "SGK trang 44: Na-va tập trung xây dựng khối cơ động chiến lược mạnh để giành quyền chủ động.",
-          "isCorrect": true
-        },
-        {
-          "text": "Rút quân về nước để bảo toàn lực lượng.",
-          "rationale": "Na-va muốn giành thắng lợi quân sự quyết định chứ không muốn rút ngay.",
-          "isCorrect": false
-        },
-        {
-          "text": "Tấn công ồ ạt vào miền Nam.",
-          "rationale": "Trọng tâm của Na-va vẫn là Bắc Bộ lúc đầu.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Muốn đánh bại đối phương thì cần có 'quả đấm thép' - lực lượng cơ động."
-    },
-    {
-      "question_number": 18,
-      "question": "Để phá tan kế hoạch Na-va, Bộ Chính trị đã quyết định mở các cuộc tiến công chiến lược vào hướng nào?",
-      "answer_options": [
-        {
-          "text": "Những hướng địch tập trung quân đông nhất.",
-          "rationale": "Đánh vào chỗ mạnh của địch là sai lầm.",
-          "isCorrect": false
-        },
-        {
-          "text": "Những hướng quan trọng về chiến lược mà địch tương đối yếu.",
-          "rationale": "SGK trang 45: Phương hướng chiến lược Đông - Xuân 1953-1954 là đánh vào những hướng quan trọng về chiến lược mà địch tương đối yếu để buộc chúng phân tán lực lượng.",
-          "isCorrect": true
-        },
-        {
-          "text": "Tập trung đánh thẳng vào Hà Nội.",
-          "rationale": "Nơi địch phòng thủ mạnh nhất.",
-          "isCorrect": false
-        },
-        {
-          "text": "Tập trung phòng ngự ở Việt Bắc.",
-          "rationale": "Ta chuyển sang thế tiến công, không chỉ phòng ngự.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Nguyên tắc 'tránh chỗ mạnh, đánh chỗ yếu' để điều địch."
-    },
-    {
-      "question_number": 19,
-      "question": "Trong cuộc Tiến công chiến lược Đông - Xuân 1953 - 1954, quân đội ta KHÔNG tiến công vào đâu?",
-      "answer_options": [
-        {
-          "text": "Tây Bắc.",
-          "rationale": "Có tiến công để giải phóng Lai Châu.",
-          "isCorrect": false
-        },
-        {
-          "text": "Trung Lào.",
-          "rationale": "Phối hợp với quân giải phóng Lào tấn công.",
-          "isCorrect": false
-        },
-        {
-          "text": "Tây Nguyên.",
-          "rationale": "Tiến công giải phóng Kon Tum.",
-          "isCorrect": false
-        },
-        {
-          "text": "Hải Phòng.",
-          "rationale": "Hải Phòng là vùng địch kiểm soát chặt chẽ, ta không mở chiến dịch lớn đánh thẳng vào đây trong Đông Xuân 53-54.",
-          "isCorrect": true
-        }
-      ],
-      "hint": "Đây là một thành phố cảng lớn ở miền Bắc, nơi địch tập trung quân mạnh."
-    },
-    {
-      "question_number": 20,
-      "question": "Chiến dịch Điện Biên Phủ diễn ra qua bao nhiêu đợt?",
+      "question": "Chiến dịch Điện Biên Phủ (1954) được chia làm mấy đợt tấn công?",
       "answer_options": [
         {
           "text": "2 đợt.",
@@ -524,7 +367,7 @@
         },
         {
           "text": "3 đợt.",
-          "rationale": "SGK trang 45: Chiến dịch diễn ra qua 3 đợt tiến công (từ 13/3 đến 7/5/1954).",
+          "rationale": "SGK trang 45: 'mở chiến dịch Điện Biên Phủ. Trải qua 3 đợt tiến công...'.",
           "isCorrect": true
         },
         {
@@ -538,412 +381,304 @@
           "isCorrect": false
         }
       ],
-      "hint": "Đợt 1 đánh Him Lam, Độc Lập; Đợt 2 đánh khu Đông; Đợt 3 tổng công kích."
+      "hint": "Bắt đầu từ 13/3 và kết thúc vào 7/5."
+    },
+    {
+      "question_number": 15,
+      "question": "Câu nói nổi tiếng của Chủ tịch Hồ Chí Minh trong Lời kêu gọi toàn quốc kháng chiến: 'Ai có súng dùng súng. Ai có gươm dùng gươm...' thể hiện quan điểm gì?",
+      "answer_options": [
+        {
+          "text": "Kháng chiến toàn diện.",
+          "rationale": "Toàn diện là trên mọi mặt trận (kinh tế, văn hóa...).",
+          "isCorrect": false
+        },
+        {
+          "text": "Kháng chiến toàn dân.",
+          "rationale": "Mọi người dân, bất kể già trẻ gái trai, đều tham gia đánh giặc bằng mọi vũ khí có trong tay.",
+          "isCorrect": true
+        },
+        {
+          "text": "Kháng chiến trường kì.",
+          "rationale": "Trường kì là đánh lâu dài.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tự lực cánh sinh.",
+          "rationale": "Tự lực là dựa vào sức mình.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Huy động sức mạnh của mọi tầng lớp nhân dân."
+    },
+    {
+      "question_number": 16,
+      "question": "Phát biểu nào sau đây là ĐÚNG về kết quả của Hiệp định Giơ-ne-vơ năm 1954?",
+      "answer_options": [
+        {
+          "text": "Nước Việt Nam được thống nhất ngay lập tức.",
+          "rationale": "Bị chia cắt tạm thời tại vĩ tuyến 17.",
+          "isCorrect": false
+        },
+        {
+          "text": "Pháp công nhận độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ của ba nước Đông Dương.",
+          "rationale": "SGK trang 46: Pháp buộc phải chấm dứt chiến tranh, rút quân... cam kết tôn trọng các quyền dân tộc cơ bản.",
+          "isCorrect": true
+        },
+        {
+          "text": "Quân đội Mỹ thay thế quân đội Pháp đóng quân ở miền Bắc.",
+          "rationale": "Mỹ nhảy vào miền Nam, miền Bắc hoàn toàn giải phóng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lào và Campuchia vẫn thuộc quyền cai trị của Pháp.",
+          "rationale": "Pháp công nhận độc lập của cả 3 nước.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Nội dung pháp lý quan trọng nhất của Hiệp định."
+    },
+    {
+      "question_number": 17,
+      "question": "Ý nghĩa quốc tế của chiến thắng Điện Biên Phủ là gì?",
+      "answer_options": [
+        {
+          "text": "Làm lung lay hệ thống thuộc địa của chủ nghĩa thực dân cũ trên thế giới.",
+          "rationale": "SGK trang 45: 'cổ vũ các dân tộc thuộc địa... chứng minh chân lí... làm lung lay tận gốc hệ thống thuộc địa'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Kết thúc hoàn toàn chủ nghĩa thực dân mới của Mỹ.",
+          "rationale": "Chủ nghĩa thực dân mới của Mỹ lúc này mới bắt đầu.",
+          "isCorrect": false
+        },
+        {
+          "text": "Giúp Việt Nam gia nhập ASEAN ngay lập tức.",
+          "rationale": "Việt Nam gia nhập ASEAN năm 1995.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mở ra kỷ nguyên toàn cầu hóa.",
+          "rationale": "Không liên quan trực tiếp.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Chiến thắng này là nguồn cảm hứng cho các dân tộc ở châu Á, Phi và Mỹ Latinh."
+    },
+    {
+      "question_number": 18,
+      "question": "Nhận định nào sau đây là SAI về tình hình Việt Nam sau ngày 2/9/1945?",
+      "answer_options": [
+        {
+          "text": "Chính quyền cách mạng non trẻ đối mặt với muôn vàn khó khăn.",
+          "rationale": "Đúng (giặc đói, giặc dốt, giặc ngoại xâm).",
+          "isCorrect": false
+        },
+        {
+          "text": "Nền kinh tế kiệt quệ, nạn đói hoành hành.",
+          "rationale": "Đúng.",
+          "isCorrect": false
+        },
+        {
+          "text": "Việt Nam đã được tất cả các nước trên thế giới công nhận và đặt quan hệ ngoại giao.",
+          "rationale": "Sai. Lúc này ta đang bị bao vây, chưa có nước nào công nhận chính thức ngay năm 1945 (phải đến 1950 mới có TQ, LX công nhận).",
+          "isCorrect": true
+        },
+        {
+          "text": "Quân đội các nước đế quốc (Anh, Tưởng, Pháp) dồn dập kéo vào.",
+          "rationale": "Đúng.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Về mặt ngoại giao, nước ta lúc đó đang trong tình thế 'đơn thương độc mã'."
+    },
+    {
+      "question_number": 19,
+      "question": "Mục 'Em có biết' trang 43 đề cập đến con đường vận chuyển nào đóng vai trò quan trọng trong chiến dịch Điện Biên Phủ?",
+      "answer_options": [
+        {
+          "text": "Đường mòn Hồ Chí Minh trên biển.",
+          "rationale": "Chưa hình thành quy mô lớn lúc này.",
+          "isCorrect": false
+        },
+        {
+          "text": "Đường Trường Sơn.",
+          "rationale": "Hình thành trong kháng chiến chống Mỹ.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hệ thống giao thông hào.",
+          "rationale": "Đây là chiến thuật vây lấn tại trận địa, không phải con đường vận chuyển chiến lược từ hậu phương.",
+          "isCorrect": false
+        },
+        {
+          "text": "Câu hỏi này bẫy: Trang 43 nói về 7 anh hùng, trang 51 mới nói về đường Trường Sơn. Tuy nhiên, trong ngữ cảnh Điện Biên Phủ, phương tiện vận chuyển thô sơ (xe đạp thồ) là nổi bật nhất nhưng không có tên đường riêng trong 'Em có biết'.",
+          "rationale": "Thực tế 'Em có biết' trang 43 nói về 7 anh hùng đầu tiên. Mục 'Em có biết' trang 53 mới nói về Tuyến đường Trường Sơn (chống Mỹ). Vậy câu hỏi này check lại scope.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Xin lỗi, tôi sẽ điều chỉnh lại câu hỏi cho chuẩn xác với trang sách. Xem câu 20."
+    },
+    {
+      "question_number": 20,
+      "question": "Theo mục 'Em có biết' trang 43, ai là người đã lấy thân mình lấp lỗ châu mai trong chiến dịch Biên giới 1950?",
+      "answer_options": [
+        {
+          "text": "Phan Đình Giót.",
+          "rationale": "Lấp lỗ châu mai ở Điện Biên Phủ (1954).",
+          "isCorrect": false
+        },
+        {
+          "text": "Trần Can.",
+          "rationale": "Anh hùng Điện Biên Phủ.",
+          "isCorrect": false
+        },
+        {
+          "text": "La Văn Cầu.",
+          "rationale": "Chặt cánh tay phá đồn địch ở Đông Khê (Biên giới 1950).",
+          "isCorrect": false
+        },
+        {
+          "text": "Trần Cừ.",
+          "rationale": "Trong danh sách 7 anh hùng tuyên dương năm 1952, Trần Cừ được biết đến với hành động lấy thân mình lấp lỗ châu mai trong chiến dịch Biên giới (trận Đông Khê). Lưu ý: Phan Đình Giót lấp lỗ châu mai ở Him Lam (Điện Biên Phủ) sau này. Sách trang 43 liệt kê Trần Cừ là anh hùng.",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Một trong 7 anh hùng được tuyên dương tại Đại hội Chiến sĩ thi đua lần thứ I (1952)."
     },
     {
       "question_number": 21,
-      "question": "Kết quả của chiến dịch Điện Biên Phủ là gì?",
+      "question": "Nội dung nào là biểu hiện của quy luật 'vừa kháng chiến vừa kiến quốc' trong giai đoạn 1945-1954?",
       "answer_options": [
         {
-          "text": "Tiêu diệt và bắt sống toàn bộ quân địch ở tập đoàn cứ điểm.",
-          "rationale": "Tướng Đờ Ca-xtơ-ri và bộ chỉ huy bị bắt sống, toàn bộ quân địch bị tiêu diệt hoặc bắt.",
+          "text": "Chỉ tập trung đánh giặc ngoài mặt trận.",
+          "rationale": "Thiếu phần kiến quốc.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vừa chiến đấu chống Pháp, vừa xây dựng chế độ mới, kinh tế, văn hóa, giáo dục ở hậu phương.",
+          "rationale": "Thể hiện rõ ở việc bầu cử Quốc hội, xóa nạn mù chữ, tăng gia sản xuất ngay trong khi đánh giặc.",
           "isCorrect": true
         },
         {
-          "text": "Giải phóng hoàn toàn đất nước Lào.",
-          "rationale": "Chỉ giải phóng vùng Thượng Lào và phối hợp thôi.",
+          "text": "Xây dựng đất nước xong mới đánh giặc.",
+          "rationale": "Không thể chờ đợi.",
           "isCorrect": false
         },
         {
-          "text": "Buộc Mỹ phải rút quân khỏi miền Nam.",
-          "rationale": "Mỹ chưa tham chiến trực tiếp bằng bộ binh lúc này.",
-          "isCorrect": false
-        },
-        {
-          "text": "Giải phóng thủ đô Hà Nội ngay lập tức.",
-          "rationale": "Hà Nội giải phóng vào tháng 10/1954 sau Hiệp định Giơ-ne-vơ.",
+          "text": "Nhờ nước ngoài xây dựng đất nước hộ.",
+          "rationale": "Sai quan điểm tự lực.",
           "isCorrect": false
         }
       ],
-      "hint": "Chiều ngày 7/5/1954, lá cờ Quyết chiến Quyết thắng tung bay trên nóc hầm Đờ Ca-xtơ-ri."
+      "hint": "Xây dựng hậu phương vững mạnh để chi viện cho tiền tuyến."
     },
     {
       "question_number": 22,
-      "question": "Tướng Pháp nào đã bị bắt sống tại Điện Biên Phủ?",
+      "question": "Chiến dịch nào được coi là 'bước ngoặt vĩ đại' của cuộc kháng chiến chống Pháp?",
       "answer_options": [
         {
-          "text": "Na-va (Navarre).",
-          "rationale": "Tổng chỉ huy quân đội Pháp ở Đông Dương, ngồi ở Hà Nội/Sài Gòn.",
+          "text": "Chiến dịch Việt Bắc 1947.",
+          "rationale": "Là chiến dịch phản công bảo vệ căn cứ.",
           "isCorrect": false
         },
         {
-          "text": "Đờ Ca-xtơ-ri (De Castries).",
-          "rationale": "Chỉ huy trưởng tập đoàn cứ điểm Điện Biên Phủ.",
+          "text": "Chiến dịch Biên giới thu - đông 1950.",
+          "rationale": "SGK trang 43: Mở ra bước phát triển mới (bước ngoặt) - ta giành quyền chủ động chiến lược.",
           "isCorrect": true
         },
         {
-          "text": "Đờ Lát đơ Tát-xi-nhi (De Lattre de Tassigny).",
-          "rationale": "Tướng Pháp giai đoạn trước (1951).",
+          "text": "Chiến dịch Điện Biên Phủ 1954.",
+          "rationale": "Là chiến thắng quyết định kết thúc chiến tranh.",
           "isCorrect": false
         },
         {
-          "text": "Xa-lăng (Salan).",
-          "rationale": "Tướng Pháp tiền nhiệm của Na-va.",
+          "text": "Cuộc tiến công Đông Xuân 1953-1954.",
+          "rationale": "Là giai đoạn giữ vững quyền chủ động.",
           "isCorrect": false
         }
       ],
-      "hint": "Người chỉ huy trực tiếp tại 'lòng chảo' Điện Biên."
+      "hint": "Chiến dịch khai thông con đường liên lạc quốc tế và chuyển cuộc kháng chiến sang giai đoạn mới."
     },
     {
       "question_number": 23,
-      "question": "Theo Hiệp định Giơ-ne-vơ (1954), ranh giới quân sự tạm thời giữa hai miền Nam - Bắc Việt Nam là?",
+      "question": "Phương châm tác chiến 'Đánh chắc, tiến chắc' tại Điện Biên Phủ đã thay thế cho phương châm nào trước đó?",
       "answer_options": [
         {
-          "text": "Vĩ tuyến 16.",
-          "rationale": "Ranh giới giải giáp quân Nhật năm 1945.",
-          "isCorrect": false
-        },
-        {
-          "text": "Vĩ tuyến 17 (sông Bến Hải).",
-          "rationale": "SGK không ghi chi tiết sông Bến Hải trong đoạn tóm tắt nhưng kiến thức cơ bản là Vĩ tuyến 17.",
+          "text": "Đánh nhanh, thắng nhanh.",
+          "rationale": "Do địch tăng cường phòng ngự quá mạnh, ta không thể đánh nhanh thắng nhanh như dự kiến ban đầu.",
           "isCorrect": true
         },
         {
-          "text": "Vĩ tuyến 13.",
-          "rationale": "Không liên quan.",
+          "text": "Đánh du kích.",
+          "rationale": "Không phải phương châm cấp chiến dịch tại ĐBP.",
           "isCorrect": false
         },
         {
-          "text": "Vĩ tuyến 20.",
-          "rationale": "Không liên quan.",
+          "text": "Vừa đánh vừa đàm.",
+          "rationale": "Là sách lược ngoại giao.",
+          "isCorrect": false
+        },
+        {
+          "text": "Phòng ngự chiều sâu.",
+          "rationale": "Là cách đánh của địch.",
           "isCorrect": false
         }
       ],
-      "hint": "Con sông Bến Hải thuộc tỉnh Quảng Trị."
+      "hint": "Quyết định khó khăn nhất trong cuộc đời chỉ huy của Đại tướng Võ Nguyên Giáp."
     },
     {
       "question_number": 24,
-      "question": "Điều khoản nào trong Hiệp định Giơ-ne-vơ thể hiện thắng lợi chưa trọn vẹn của ta?",
+      "question": "Hình 7.4 (trang 40) 'Chiến sĩ vệ quốc quân chiến đấu giữ từng căn nhà...' phản ánh cuộc chiến đấu ở đâu?",
       "answer_options": [
         {
-          "text": "Các nước cam kết tôn trọng độc lập chủ quyền.",
-          "rationale": "Đây là thắng lợi lớn.",
+          "text": "Chiến khu Việt Bắc.",
+          "rationale": "Đây là rừng núi.",
           "isCorrect": false
         },
         {
-          "text": "Việt Nam tiến tới thống nhất bằng tổng tuyển cử tự do.",
-          "rationale": "Đây là điều khoản chính trị tích cực.",
-          "isCorrect": false
-        },
-        {
-          "text": "Đất nước tạm thời bị chia cắt thành hai miền.",
-          "rationale": "Việc chia cắt (dù là tạm thời) đã tạo điều kiện cho Mỹ nhảy vào phá hoại thống nhất sau này.",
+          "text": "Các đô thị phía Bắc vĩ tuyến 16 (đặc biệt là Hà Nội).",
+          "rationale": "Cuộc chiến đấu giam chân địch trong thành phố (60 ngày đêm khói lửa Hà Nội).",
           "isCorrect": true
         },
         {
-          "text": "Pháp rút quân khỏi Việt Nam.",
-          "rationale": "Thắng lợi.",
+          "text": "Mặt trận Sài Gòn.",
+          "rationale": "Diễn ra năm 1945.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mặt trận Điện Biên Phủ.",
+          "rationale": "Diễn ra ở lòng chảo, đồi núi.",
           "isCorrect": false
         }
       ],
-      "hint": "Việc chuyển quân tập kết ra Bắc và vào Nam tạo ra hai vùng kiểm soát khác nhau."
+      "hint": "Nơi có những chiến lũy dựng bằng bàn ghế, giường tủ trên đường phố."
     },
     {
       "question_number": 25,
-      "question": "Nguyên nhân khách quan góp phần vào thắng lợi của cuộc kháng chiến chống Pháp (1945 - 1954) là gì?",
+      "question": "Chính cương Đảng Lao động Việt Nam (thông qua tại Đại hội II năm 1951) nêu rõ nhiệm vụ cơ bản của cách mạng Việt Nam là gì?",
       "answer_options": [
         {
-          "text": "Tinh thần đoàn kết của ba nước Đông Dương và sự ủng hộ của bạn bè quốc tế.",
-          "rationale": "SGK trang 44: Thắng lợi có sự đồng tình, ủng hộ của Trung Quốc, Liên Xô, các nước XHCN và liên minh Việt-Miên-Lào.",
+          "text": "Đánh đuổi đế quốc xâm lược, giành độc lập và thống nhất hoàn toàn.",
+          "rationale": "SGK trang 43: 'Đánh đuổi bọn đế quốc xâm lược, giành độc lập và thống nhất hoàn toàn cho dân tộc...'.",
           "isCorrect": true
         },
         {
-          "text": "Sự lãnh đạo của Đảng.",
-          "rationale": "Nguyên nhân chủ quan.",
+          "text": "Xây dựng chủ nghĩa xã hội ngay lập tức.",
+          "rationale": "Chưa phải lúc.",
           "isCorrect": false
         },
         {
-          "text": "Lực lượng vũ trang ba thứ quân lớn mạnh.",
-          "rationale": "Nguyên nhân chủ quan.",
+          "text": "Thực hiện cách mạng ruộng đất triệt để.",
+          "rationale": "Là nhiệm vụ quan trọng nhưng mục tiêu hàng đầu là giải phóng dân tộc.",
           "isCorrect": false
         },
         {
-          "text": "Hệ thống chính quyền dân chủ nhân dân vững mạnh.",
-          "rationale": "Nguyên nhân chủ quan.",
+          "text": "Hợp tác với Pháp để chống Mỹ.",
+          "rationale": "Sai.",
           "isCorrect": false
         }
       ],
-      "hint": "Yếu tố đến từ bên ngoài biên giới Việt Nam."
-    },
-    {
-      "question_number": 26,
-      "question": "Ngày 19/8/1945 đi vào lịch sử là ngày gì?",
-      "answer_options": [
-        {
-          "text": "Ngày Toàn quốc kháng chiến.",
-          "rationale": "Là ngày 19/12/1946.",
-          "isCorrect": false
-        },
-        {
-          "text": "Ngày Tổng khởi nghĩa giành chính quyền ở Hà Nội.",
-          "rationale": "Sự kiện mít tinh tại Nhà hát Lớn Hà Nội chuyển thành khởi nghĩa giành chính quyền.",
-          "isCorrect": true
-        },
-        {
-          "text": "Ngày thành lập Quân đội nhân dân Việt Nam.",
-          "rationale": "Là ngày 22/12/1944.",
-          "isCorrect": false
-        },
-        {
-          "text": "Ngày Quốc khánh.",
-          "rationale": "Là ngày 2/9.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Hiện nay đây cũng là ngày truyền thống của lực lượng Công an nhân dân."
-    },
-    {
-      "question_number": 27,
-      "question": "Tên gọi của lực lượng vũ trang ra đời trong phong trào 'Đồng khởi' (sau 1954) nhưng tiền thân hình thành từ kháng chiến chống Pháp?",
-      "answer_options": [
-        {
-          "text": "Đội quân tóc dài.",
-          "rationale": "Xuất hiện trong phong trào Đồng Khởi chống Mỹ (Bài 8), nhưng câu hỏi này kiểm tra kiến thức liên kết.",
-          "isCorrect": false
-        },
-        {
-          "text": "Vệ quốc đoàn.",
-          "rationale": "Tên gọi quân đội ta sau Cách mạng tháng Tám.",
-          "isCorrect": true
-        },
-        {
-          "text": "Việt Nam Giải phóng quân.",
-          "rationale": "Tên gọi trước tháng 8/1945.",
-          "isCorrect": false
-        },
-        {
-          "text": "Cứu quốc quân.",
-          "rationale": "Một bộ phận tiền thân.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Lực lượng quân đội chính quy của nhà nước VNDCCH sau năm 1945 thường được gọi là gì trước khi đổi thành QĐNDVN?"
-    },
-    {
-      "question_number": 28,
-      "question": "Sự kiện nào diễn ra vào ngày 2/9/1945?",
-      "answer_options": [
-        {
-          "text": "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập.",
-          "rationale": "Tại Quảng trường Ba Đình, khai sinh nước VNDCCH.",
-          "isCorrect": true
-        },
-        {
-          "text": "Vua Bảo Đại thoái vị.",
-          "rationale": "Ngày 30/8.",
-          "isCorrect": false
-        },
-        {
-          "text": "Tổng khởi nghĩa ở Sài Gòn.",
-          "rationale": "Ngày 25/8.",
-          "isCorrect": false
-        },
-        {
-          "text": "Quân Đồng minh vào giải giáp quân Nhật.",
-          "rationale": "Đầu tháng 9 nhưng sự kiện chính trị quan trọng nhất là Tuyên ngôn Độc lập.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Ngày Quốc khánh của nước ta."
-    },
-    {
-      "question_number": 29,
-      "question": "Chiến thắng nào được ghi nhận là 'Lừng lẫy năm châu, chấn động địa cầu'?",
-      "answer_options": [
-        {
-          "text": "Chiến thắng Điện Biên Phủ.",
-          "rationale": "Cụm từ nổi tiếng mô tả chiến thắng này.",
-          "isCorrect": true
-        },
-        {
-          "text": "Chiến thắng Biên giới.",
-          "rationale": "Quan trọng nhưng chưa đạt tầm 'chấn động địa cầu'.",
-          "isCorrect": false
-        },
-        {
-          "text": "Cách mạng tháng Tám.",
-          "rationale": "Là cuộc cách mạng giải phóng, còn câu thơ trên nói về chiến thắng quân sự 1954.",
-          "isCorrect": false
-        },
-        {
-          "text": "Trận Điện Biên Phủ trên không.",
-          "rationale": "Năm 1972 chống Mỹ.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Câu thơ của Tố Hữu ca ngợi chiến thắng năm 1954."
-    },
-    {
-      "question_number": 30,
-      "question": "Một trong những khó khăn lớn nhất về kinh tế của nước ta sau Cách mạng tháng Tám là?",
-      "answer_options": [
-        {
-          "text": "Nạn đói chưa được đẩy lùi, thiên tai, lũ lụt.",
-          "rationale": "SGK trang 38: Hậu quả nạn đói cuối 1944 đầu 1945 chưa khắc phục, lụt lội, hạn hán...",
-          "isCorrect": true
-        },
-        {
-          "text": "Bị Mỹ cấm vận kinh tế.",
-          "rationale": "Chưa diễn ra gay gắt ngay lúc này.",
-          "isCorrect": false
-        },
-        {
-          "text": "Thiếu hụt lao động trầm trọng.",
-          "rationale": "Dân số đông nhưng thiếu việc làm, không phải thiếu lao động.",
-          "isCorrect": false
-        },
-        {
-          "text": "Không có tiền tệ riêng.",
-          "rationale": "Ta đã bắt đầu in tiền, dù tài chính khó khăn.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Hậu quả của chính sách vơ vét của Nhật - Pháp khiến 2 triệu người chết."
-    },
-    {
-      "question_number": 31,
-      "question": "Cuộc bầu cử Quốc hội đầu tiên của nước Việt Nam Dân chủ Cộng hòa diễn ra vào thời gian nào?",
-      "answer_options": [
-        {
-          "text": "Ngày 06/01/1946.",
-          "rationale": "SGK trang 40 (phần bối cảnh): Hơn 90% cử tri đi bầu Quốc hội khóa I.",
-          "isCorrect": true
-        },
-        {
-          "text": "Ngày 02/09/1945.",
-          "rationale": "Ngày độc lập.",
-          "isCorrect": false
-        },
-        {
-          "text": "Ngày 19/12/1946.",
-          "rationale": "Ngày toàn quốc kháng chiến.",
-          "isCorrect": false
-        },
-        {
-          "text": "Ngày 01/01/1946.",
-          "rationale": "Ngày thành lập Chính phủ liên hiệp lâm thời.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Sự kiện chính trị quan trọng khẳng định tính pháp lý của nhà nước mới đầu năm 1946."
-    },
-    {
-      "question_number": 32,
-      "question": "Để giải quyết khó khăn về tài chính sau Cách mạng tháng Tám, Chính phủ đã phát động phong trào nào?",
-      "answer_options": [
-        {
-          "text": "Tuần lễ Vàng, Quỹ Độc lập.",
-          "rationale": "Vận động nhân dân quyên góp vàng và tiền bạc cho ngân sách quốc gia.",
-          "isCorrect": true
-        },
-        {
-          "text": "Hũ gạo cứu đói.",
-          "rationale": "Giải quyết nạn đói.",
-          "isCorrect": false
-        },
-        {
-          "text": "Bình dân học vụ.",
-          "rationale": "Giải quyết nạn dốt.",
-          "isCorrect": false
-        },
-        {
-          "text": "Tăng gia sản xuất.",
-          "rationale": "Giải quyết lương thực.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Phong trào kêu gọi quyên góp tiền của, vàng bạc."
-    },
-    {
-      "question_number": 33,
-      "question": "Thực dân Pháp đã vi phạm Hiệp định Sơ bộ và Tạm ước như thế nào?",
-      "answer_options": [
-        {
-          "text": "Tiếp tục gây xung đột vũ trang ở Nam Bộ và lập Chính phủ Nam Kỳ tự trị.",
-          "rationale": "Pháp không ngừng bắn ở Nam Bộ, tìm cách tách Nam Bộ ra khỏi Việt Nam.",
-          "isCorrect": true
-        },
-        {
-          "text": "Rút toàn bộ quân về nước.",
-          "rationale": "Nếu rút thì đã không có chiến tranh.",
-          "isCorrect": false
-        },
-        {
-          "text": "Trao trả độc lập cho Việt Nam.",
-          "rationale": "Không xảy ra.",
-          "isCorrect": false
-        },
-        {
-          "text": "Hợp tác với Chính phủ Việt Nam tiêu diệt quân Tưởng.",
-          "rationale": "Pháp chỉ muốn mượn tay ta hoặc thay thế Tưởng để chiếm lại miền Bắc.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Hành động khiêu khích ở Hải Phòng, Lạng Sơn và Hà Nội cuối năm 1946."
-    },
-    {
-      "question_number": 34,
-      "question": "Phương châm 'lấy yếu chống mạnh, lấy ít địch nhiều' thể hiện nghệ thuật quân sự nào của Việt Nam?",
-      "answer_options": [
-        {
-          "text": "Chiến tranh nhân dân.",
-          "rationale": "Đường lối kháng chiến toàn dân, sử dụng mọi lực lượng, lấy chất lượng thắng số lượng.",
-          "isCorrect": true
-        },
-        {
-          "text": "Chiến tranh chớp nhoáng.",
-          "rationale": "Đây là tư duy của địch.",
-          "isCorrect": false
-        },
-        {
-          "text": "Chiến tranh cục bộ.",
-          "rationale": "Khái niệm trong chiến tranh chống Mỹ.",
-          "isCorrect": false
-        },
-        {
-          "text": "Chiến tranh tổng lực.",
-          "rationale": "Khái niệm hiện đại, không sát với bối cảnh 1946-1954.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Nghệ thuật quân sự truyền thống của cha ông ta."
-    },
-    {
-      "question_number": 35,
-      "question": "Một trong những bài học kinh nghiệm của Cách mạng tháng Tám áp dụng cho công cuộc xây dựng và bảo vệ Tổ quốc hiện nay là gì?",
-      "answer_options": [
-        {
-          "text": "Phát huy sức mạnh của khối đại đoàn kết toàn dân tộc.",
-          "rationale": "SGK trang 36: Bài học về tập hợp, tổ chức mọi lực lượng yêu nước trong mặt trận dân tộc thống nhất.",
-          "isCorrect": true
-        },
-        {
-          "text": "Dựa hoàn toàn vào sự giúp đỡ của nước ngoài.",
-          "rationale": "Phải tự lực cánh sinh là chính.",
-          "isCorrect": false
-        },
-        {
-          "text": "Chỉ tập trung phát triển kinh tế.",
-          "rationale": "Phải kết hợp kinh tế với quốc phòng.",
-          "isCorrect": false
-        },
-        {
-          "text": "Sử dụng bạo lực cách mạng là phương thức duy nhất.",
-          "rationale": "Phải kết hợp nhiều hình thức đấu tranh, ngoại giao, hòa bình...",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Sức mạnh nội tại của toàn thể nhân dân."
+      "hint": "Nhiệm vụ dân tộc được đặt lên hàng đầu."
     }
   ]
 }

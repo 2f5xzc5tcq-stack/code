@@ -5,12 +5,12 @@
       "name": "Lịch sử",
       "file": "lichsu.json",
       "title": "Trắc nghiệm Lịch sử",
-      "description": "Lịch sử Liên hợp quốc & ASEAN - Chọn đáp án để xem kết quả và lời giải thích chi tiết.",
+      "description": "Ôn tập Lịch Sử Bài 6 - 7",
       "icon": "book",
       "color": "blue",
       "enabled": true,
-      "locked": true,
-      "note": "Tạm khóa"
+      "locked": false,
+      "note": ""
     },
     {
       "id": "biology",
@@ -50,6 +50,7 @@
     }
   ]
 }
+
 
 
 

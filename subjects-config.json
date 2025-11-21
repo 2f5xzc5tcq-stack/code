@@ -10,7 +10,7 @@
       "color": "blue",
       "enabled": true,
       "locked": true,
-      "note": "Đã thi xong"
+      "note": "Tạm khóa"
     },
     {
       "id": "biology",
@@ -22,7 +22,7 @@
       "color": "green",
       "enabled": true,
       "locked": true,
-      "note": "Đã thi xong"
+      "note": "Tạm khóa"
     },
     {
       "id": "chemistry",
@@ -34,7 +34,7 @@
       "color": "purple",
       "enabled": true,
       "locked": true,
-      "note": "Đã thi xong"
+      "note": "Tạm khóa"
     },
     {
       "id": "physics",
@@ -46,9 +46,10 @@
       "color": "orange",
       "enabled": true,
       "locked": true,
-      "note": "Đã thi xong"
+      "note": "Tạm khóa"
     }
   ]
 }
+
 
 

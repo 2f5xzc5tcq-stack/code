@@ -21,7 +21,7 @@
       "icon": "flask",
       "color": "green",
       "enabled": true,
-      "locked": false,
+      "locked": true,
       "note": ""
     },
     {
@@ -45,8 +45,9 @@
       "icon": "lightning",
       "color": "orange",
       "enabled": true,
-      "locked": false,
+      "locked": true,
       "note": ""
     }
   ]
 }
+

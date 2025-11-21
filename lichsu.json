@@ -493,7 +493,7 @@
     },
     {
       "question_number": 19,
-      "question": "Mục 'Em có biết' trang 43 đề cập đến con đường vận chuyển nào đóng vai trò quan trọng trong chiến dịch Điện Biên Phủ?",
+      "question": "Con đường vận chuyển nào đóng vai trò quan trọng trong chiến dịch Điện Biên Phủ?",
       "answer_options": [
         {
           "text": "Đường mòn Hồ Chí Minh trên biển.",
@@ -516,11 +516,11 @@
           "isCorrect": false
         }
       ],
-      "hint": "Xin lỗi, tôi sẽ điều chỉnh lại câu hỏi cho chuẩn xác với trang sách. Xem câu 20."
+      "hint": ""
     },
     {
       "question_number": 20,
-      "question": "Theo mục 'Em có biết' trang 43, ai là người đã lấy thân mình lấp lỗ châu mai trong chiến dịch Biên giới 1950?",
+      "question": "Ai là người đã lấy thân mình lấp lỗ châu mai trong chiến dịch Biên giới 1950?",
       "answer_options": [
         {
           "text": "Phan Đình Giót.",
@@ -682,3 +682,4 @@
     }
   ]
 }
+

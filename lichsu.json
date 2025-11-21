@@ -492,32 +492,32 @@
       "hint": "Về mặt ngoại giao, nước ta lúc đó đang trong tình thế 'đơn thương độc mã'."
     },
     {
-      "question_number": 19,
-      "question": "Con đường vận chuyển nào đóng vai trò quan trọng trong chiến dịch Điện Biên Phủ?",
-      "answer_options": [
-        {
-          "text": "Đường mòn Hồ Chí Minh trên biển.",
-          "rationale": "Chưa hình thành quy mô lớn lúc này.",
-          "isCorrect": false
-        },
-        {
-          "text": "Đường Trường Sơn.",
-          "rationale": "Hình thành trong kháng chiến chống Mỹ.",
-          "isCorrect": false
-        },
-        {
-          "text": "Hệ thống giao thông hào.",
-          "rationale": "Đây là chiến thuật vây lấn tại trận địa, không phải con đường vận chuyển chiến lược từ hậu phương.",
-          "isCorrect": false
-        },
-        {
-          "text": "Câu hỏi này bẫy: Trang 43 nói về 7 anh hùng, trang 51 mới nói về đường Trường Sơn. Tuy nhiên, trong ngữ cảnh Điện Biên Phủ, phương tiện vận chuyển thô sơ (xe đạp thồ) là nổi bật nhất nhưng không có tên đường riêng trong 'Em có biết'.",
-          "rationale": "Thực tế 'Em có biết' trang 43 nói về 7 anh hùng đầu tiên. Mục 'Em có biết' trang 53 mới nói về Tuyến đường Trường Sơn (chống Mỹ). Vậy câu hỏi này check lại scope.",
-          "isCorrect": false
-        }
-      ],
-      "hint": ""
-    },
+        "question_number": 19,
+        "question": "Để thực hiện kế hoạch Na-va (1953), thực dân Pháp đã tập trung xây dựng lực lượng nào để hòng giành lại thế chủ động?",
+        "answer_options": [
+          {
+            "text": "Lực lượng phòng ngự biên giới.",
+            "rationale": "Đây là tư duy cũ của kế hoạch Rơ-ve.",
+            "isCorrect": false
+          },
+          {
+            "text": "Khối cơ động chiến lược mạnh.",
+            "rationale": "SGK trang 44: Na-va hi vọng giành thắng lợi bằng cách 'xin Mỹ tăng viện trợ quân sự, tăng thêm quân ngụy, tập trung xây dựng khối cơ động chiến lược mạnh'.",
+            "isCorrect": true
+          },
+          {
+            "text": "Hệ thống đồn bốt dày đặc ở nông thôn.",
+            "rationale": "Na-va tập trung quân cơ động chứ không phân tán quá mức vào đồn bốt tĩnh.",
+            "isCorrect": false
+          },
+          {
+            "text": "Lực lượng không quân chiến lược.",
+            "rationale": "Pháp phụ thuộc vào Mỹ về không quân, nhưng trọng tâm xây dựng của Na-va là các binh đoàn cơ động.",
+            "isCorrect": false
+          }
+        ],
+        "hint": "Muốn 'đánh nhanh' và 'chủ động', Pháp cần một lực lượng có khả năng di chuyển linh hoạt và mạnh mẽ (quả đấm thép)."
+    }
     {
       "question_number": 20,
       "question": "Ai là người đã lấy thân mình lấp lỗ châu mai trong chiến dịch Biên giới 1950?",
@@ -682,4 +682,5 @@
     }
   ]
 }
+
 
